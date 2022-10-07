@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30138%2Fiiif%2Fcanvas%2F3%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30138%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/3bd8d9d6-0da2-414a-81b7-f490b73f78c1/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:24:49.453190+00:00",
+      "modified": "2022-10-07T01:24:49.453202+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (Stern\u2019s translation, slightly modified):",
+          "value": "<ol>\n<li>. . . One thing I have asked</li>\n<li>of the Lord, that will I seek after (Ps. 24:7). Do not turn away the oppressed shamefaced.</li>\n<li>I desire you to advise me on what I propose to do\u2014namely</li>\n<li>to eat the amount which you have prescribed, but to diminish it daily</li>\n<li>by about a dirham, according to what seems to you beneficial, and</li>\n<li>stop with this at a level which you order to me; since my entire aim</li>\n<li>in this matter is to get near to Him with all my force (or: spirit). Do not neglect me</li>\n<li>regarding what you can do in this matter, for the sake of God, since I have seen in</li>\n<li>the book of al-Fawwal that if the stomach is refined. . .</li>\n<li>the blood, there rises from it a fine steam which becomes what is called</li>\n<li>spirit, and according to the purity of this spirit and the degree of clarity in its organs,</li>\n<li>the faculties of the soul arise from it, and it [the soul] is prepared to receive its influences.</li>\n<li>Prescribe to me what I should cook if occasion sometimes arises: something</li>\n<li>which agrees with this aim, but is not expensive. Judge me leniently</li>\n<li>for these words, according to my ignorance. May your peace increase, amen selah.</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/30138/iiif/canvas/3/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30138/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/604/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
