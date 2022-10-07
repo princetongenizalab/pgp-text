@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fb2522dfe-2af3-4deb-b834-d7ac1c413360%2Fmanifest%2Fcanvas%2Fa1dc2b84-084d-4b3f-a42c-051726cec25f&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2598%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/37b80496-b556-498f-b039-ba2fce3fbeaa/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:15:36.876774+00:00",
+      "modified": "2022-10-07T01:15:36.876788+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (address in Arabic, in the midst of Psalm 98):",
+          "value": "<ol>\n<li>\u064a\u0635\u0644 \u0627\u0644\u0649 \u0645\u0635\u0631 \u064a\u0633\u0644\u0645 \u0627\u0644\u0649 \u0627\u0644\u0634\u064a\u062e \u0627\u0644\u062d\u0632\u0627\u0646 \u0627\u0644\u0634\u064a\u062d \u0627\u0628\u0648</li>\n<li>\u0627\u0628\u0648 \u0633\u0647\u0644 \u0645\u0646 \u0639\u0646\u062f \u0648\u0644\u062f\u0647 \u0644\u0627 \u0639\u062f\u0645 \u0628\u0642\u0627\u0647</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/b2522dfe-2af3-4deb-b834-d7ac1c413360/manifest/canvas/a1dc2b84-084d-4b3f-a42c-051726cec25f",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2598/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
