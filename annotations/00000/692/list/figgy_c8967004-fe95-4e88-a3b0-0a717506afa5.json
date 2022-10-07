@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F9fd10d99-df47-4f38-b5f5-63d93183a42b%2Fmanifest%2Fcanvas%2Fc8967004-fe95-4e88-a3b0-0a717506afa5&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F692%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d40fb3db-18f2-4ae8-ba27-2a8094bcd309/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:41:59.798799+00:00",
+      "modified": "2022-10-07T00:41:59.798812+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05d7\u05d1\u05e8 \u05d2\u05d3\u05d5\u05dc \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4 \u05e8\u05d1'\u05e0 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05d9'\u05e8 \u05d5\u05d0\u05d3\u05d4 \u05d9\u05e9\u05d5\u05e2\u05d4 \u05d1\u05e8 \u05e9\u05de\u05d5\u05d0\u05dc \u05e0'\u05e0 \u05e0\u05e1\u05d9\u05dd \u05d6\"\u05dc</li>\n<li>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d5\u05ea\u05d0\u05d9\u05d3\u05d4 \u05e9\u05dc\u05d5\u05dd \u05e8\u05d1</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/9fd10d99-df47-4f38-b5f5-63d93183a42b/manifest/canvas/c8967004-fe95-4e88-a3b0-0a717506afa5",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/692/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
