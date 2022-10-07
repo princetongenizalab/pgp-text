@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F3d5a5629-3cf3-481b-901e-e30807b787db%2Fmanifest%2Fcanvas%2F79af6546-4cd8-42b9-952f-30c6652e53ab&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F754%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/a2c0e7f0-611f-4360-b210-ddc4f758f2c1/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:16:02.864725+00:00",
+      "modified": "2022-10-07T01:16:02.864744+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "ENA 4009, f. 2 ed. Friedman, Jewish Marriage, vol. 2, p. 344 (Doc. # 40), N.T. 03-21-89 (p) Ketubba (marriage contract) betweem Judah b. Amram and the daughter of Samuel Gaon. Jerusalem, late 10th century.",
+          "value": "<ol>\n<li>[... \u05e9]\u05d8\u05e8 \u05e4\u05e8\u05e0\u05d4 \u05d4\u05d3\u05d4 \u05d3\u05e2\u05d1\u05d3 \u05de\u05e8 \u05d9\u05d4\u05d5\u05d3[\u05d4 ...]</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/3d5a5629-3cf3-481b-901e-e30807b787db/manifest/canvas/79af6546-4cd8-42b9-952f-30c6652e53ab",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/754/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
