@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-MISC-00025-00006%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1374%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b3924e74-5ed2-4b2e-a973-6d3d4204de02/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:35:53.889776+00:00",
+      "modified": "2022-10-07T00:35:53.889794+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "TS Misc. Box 25, f. 6d+TS A 26.136c, ed. Friedman, Jewish Polygyny, pp.155-161,N.H. 4-05-88, (P).Responsum regarding Polygyny. Only the relevant passages in thisresponsum are brought in this work.",
+          "value": "<ol>\n<li>\u05d5\u05e9\u05e9\u05d0\u05dc\u05ea\u05dd</li>\n<li>\u05d0\u05d9\u05e9 \u05e9\u05d9\u05e9 \u05dc\u05d5 \u05d0\u05e9\u05d4 \u05d5\u05dc\u05d0 \u05d9\u05d5\u05db\u05dc</li>\n<li>\u05dc\u05d1\u05e2\u05d5\u05dc \u05d5\u05d0\u05de\u05e8 \u05dc\u05d0\u05e9\u05ea\u05d5 \u05d0\u05dc\u05da</li>\n<li>\u05d5\u05d0\u05d1\u05d3\u05d5\u05e7 \u05d0\u05ea \u05e2\u05e6\u05de\u05d9 \u05d5\u05d0\u05e9\u05d0 \u05d0\u05e9\u05d4</li>\n<li>\u05d0\u05d7\u05e8\u05ea \u05d5\u05d0\u05d9\u05e0\u05d4 \u05e8\u05d5\u05e6\u05d4 \u05dc\u05e7\u05d1\u05dc</li>\n<li>\u05e6\u05e8\u05d4 \u05db\u05d5\u05e4\u05d9\u05df \u05db\u05d5\u05e4\u05d9\u05df \u05d0\u05d5\u05ea\u05d5</li>\n<li>\u05d5\u05d9\u05ea\u05df \u05db\u05ea\u05d5\u05d1\u05d4 \u05d5\u05d9\u05d5\u05e6\u05d9\u05d0 \u05e9\u05d4\u05dc\u05db\u05d4</li>\n<li>\u05db\u05e8 \u05d0\u05de\u05d9 \u05d3\u05d0\u05de' \u05db\u05dc \u05d4\u05e0\u05d5\u05e9\u05d0</li>\n<li>\u05d0\u05e9\u05d4 \u05e2\u05dc \u05d0\u05e9\u05ea\u05d5</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00025-00006/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1374/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/27/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
