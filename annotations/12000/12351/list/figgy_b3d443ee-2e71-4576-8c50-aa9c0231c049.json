@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F324daec3-5ea9-4f37-be1d-02327272927d%2Fmanifest%2Fcanvas%2Fb3d443ee-2e71-4576-8c50-aa9c0231c049&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12351%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b1017c62-a345-4f7c-8e9c-e7495c509d61/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:00:47.010255+00:00",
+      "modified": "2022-10-07T01:00:47.010269+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto margin:",
+          "value": "<ol>\n<li>\u05d9\u05e7\u05d1\u05dc\u05d5 \u05d9\u05d3\u05d9\u05d4 \u05d5\u05d9\u05db\u05d3\u05de\u05d5\u05d4 \u05d1\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>. . . \u05dc\u05d2\u05de[\u05d9]\u05e2 \u05de\u05df</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/324daec3-5ea9-4f37-be1d-02327272927d/manifest/canvas/b3d443ee-2e71-4576-8c50-aa9c0231c049",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12351/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/4/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
