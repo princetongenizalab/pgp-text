@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F423da3af-4f73-4855-b18c-42101c5bb22f%2Fmanifest%2Fcanvas%2F4ef5956c-87db-4e9b-856c-8c79fd8f0934&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F766%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/4c069788-d04e-4be5-b502-340e80a0108f/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:49:55.086547+00:00",
+      "modified": "2022-10-07T00:49:55.086563+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05dc\u05d9\u05e7\u05e8 \u05db\u05d1 \u05d2\u05d3' \u05e7\u05d3 \u05de\u05e8\u05d5\u05e8 \u05d7\u05e1\u05d3 \u05d4\u05d6\u05e7\u05df \u05d1\u05df \u05db\u05d1 \u05d2\u05d3 \u05e7\u05d3 \u05de\u05e8 \u05d5\u05e8 \u05e1\u05d4\u05dc</li>\n<li>\u05d4\u05e9\u05e8 \u05d4\u05d0\u05d3\u05d9\u05e8 \u05d9\u05e9\u05de\u05e8\u05d5 \u05e6\u05d5\u05e8\u05d9\u05e0\u05d5 \u05e0\u05e6\u05d7 \u05e0\u05d5\u05d7\u05d5 \u05e2\u05d3\u05df \u05d9\u05e9\u05e2</li>\n<li>\u05d9\u05d5\u05d7\u05e9</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/423da3af-4f73-4855-b18c-42101c5bb22f/manifest/canvas/4ef5956c-87db-4e9b-856c-8c79fd8f0934",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/766/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
