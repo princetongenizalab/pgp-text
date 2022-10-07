@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F773d04e9-11c9-49ed-b85b-35ff077cf1c6%2Fmanifest%2Fcanvas%2F36b513c0-48f4-4db5-8937-30747c4eae42&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4741%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/7c75f74f-2ce8-4504-b36b-c580375daf8a/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:45:39.415688+00:00",
+      "modified": "2022-10-07T01:45:39.415700+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05d4\u05d3\u05e8\u05ea \u05db\u05d2\u05e7 \u05de\u05e8\u05e0\u05b9 \u05d5\u05e8\u05d1\u05b9 \u05e1\u05e2\u05d3\u05d9\u05d4 \u05d4\u05d6\u05e7\u05df \u05d4\u05e0\u05b9 \u05d9\u05e9\u05b9 \u05d0\u05dc\u05d4\u05d9\u05e0\u05d5 \u05d1\u05e8 \u05db\u05d2\u05e7 \u05de\u05e8\u05e0\u05b9</li>\n<li>\u05d5\u05e8\u05d1\u05e0\u05b9 \u05d0\u05d1\u05e8\u05d4\u05dd \u05d4\u05d6\u05e7\u05df \u05d4\u05e0\u05db\u05d1\u05d3 \u05d4\u05d7\u05e1\u05d9\u05d3 \u05d1\u05e2\u05d5\u05d3\u05d5 \u05e8\u05b9\u05d9\u05b9\u05ea\u05b9</li>\n</ol>\n<p>\u05e2\u05d1\u05d3\u05d4\u05d0 \u05e4\u05e8\u05d7\u05d9\u05d4</p>\n<p>\u05d1\u05d9\u05e8 \u05d9\u05d5\u05e1\u05e3 \u05d6\u05dc\u05d4'\u05d4</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/773d04e9-11c9-49ed-b85b-35ff077cf1c6/manifest/canvas/36b513c0-48f4-4db5-8937-30747c4eae42",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4741/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
