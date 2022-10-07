@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Ff5bb81cc-718d-4b64-8332-07151b9cd9a0%2Fmanifest%2Fcanvas%2Fa479ce0d-6d6c-4943-b225-4b9b8c3acce1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F763%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/26c0f531-f472-4f25-8b00-1ec341e1a599/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:06:49.015620+00:00",
+      "modified": "2022-10-07T02:06:49.015637+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "ENA 4010, f. 34 ed. Gil, Palestine, Pt. 2, pp.237-238 (Doc. #131), C.B. 02-18-88 (p) Fragment of a letter by Solomon b. Judah written in his own hand.(Gil) 1041",
+          "value": "<p>....</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f5bb81cc-718d-4b64-8332-07151b9cd9a0/manifest/canvas/a479ce0d-6d6c-4943-b225-4b9b8c3acce1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/763/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
