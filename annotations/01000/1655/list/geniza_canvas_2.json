@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1655%2Fiiif%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1655%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/e3caa163-5d4a-4b70-91d9-f65ded02f32c/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:21:03.086339+00:00",
+      "modified": "2022-10-07T01:21:03.086354+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Right margin illegible. Much of verso also illegible.\nVerso:",
+          "value": "<ol>\n<li>[\u05d0\u05dc\u05d9\u05e0\u05d0 [ ] \u05d1\u05e2\u05d3 \u05d0\u05e0\u05e6[\u05e8\u05d0\u05e3</li>\n<li>] \u05d9\u05d8\u05dc\u05e2\u05d4 \u05d0\u05dc\u05d9 \u05e8\u05d0[</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/1655/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1655/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
