@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Fd%2Fcanvas%2Fms-heb-d-66-54%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2547%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/cf3ed6ed-1aa7-4bc1-bf43-090f4692ac3a/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:03:40.566529+00:00",
+      "modified": "2022-10-07T01:03:40.566542+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso\ntop margin. Address.",
+          "value": "<p>\u05e1\u05d9\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d9 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d9\u05d5\u05e1\u05e3</p>\n<p>\u05d1\u05df \u05e2\u05dc\u05d9 \u05e0\u05e0 \u05e4\u05d0\u05e1\u05d9</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-54/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2547/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 4
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/742a2176-0f12-4fa7-94ee-5288ac7772ff/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:03:40.574878+00:00",
+      "modified": "2022-10-07T01:03:40.574891+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "straight lines at 180 degrees to main text. Address.",
+          "value": "<p>\u05e1\u05d9\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d9 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d9\u05d5\u05e1\u05e3 \u05de\u05df \u05d0\u05dc\u05db\u05dc\u05d0\u05d1\u05d9 \u05d1\u05df \u05d4\u05e8\u05d5\u05df \u05e0\u05e0 \u05d0\u05dc\u05db\u05d4\u05df</p>\n<p>\u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05d1\u05df \u05e2\u05dc\u05d9 \u05e0\u05e0 \u05e4\u05d0\u05e1\u05d9</p>\n<p>\u05e0\u05e2\u05de\u05d0\u05d4 \u05d0\u05dc\u05db\u05d4\u05df</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-54/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2547/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 5
+    }
+  ]
+}
