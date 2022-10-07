@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00015-00063%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4628%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/36671c61-794f-432a-80b5-bb760439e249/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:21:20.032939+00:00",
+      "modified": "2022-10-07T01:21:20.032952+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "(verso trials of the pen ?)",
+          "value": "<p>\u05e9\u05c1\u05dc\u05d5\u05dd \u05e9\u05c1\u05dc\u05d5\u05dd \u05dc\u05e8\u05d7\u05d5\u05e7</p>\n<p>\u05d5\u05dc\u05e7\u05e8\u05d5\u05d1 \u05d0\u05de\u05e8 \u05d4\u05e9\u05c1\u05dd</p>\n<p>\u05e9\u05c1\u05dc\u05d5\u05dd \u05e9\u05c1\u05dc\u05d5\u05dd \u05e9\u05c1\u05dc\u05d5\u05dd \u05e9\u05c1\u05dc\u05d5\u05dd \u05dc\u05e8\u05d7\u05d5\u05e7 \u05d5\u05dc\u05e7\u05e8\u05d5[\u05d1</p>\n<p>\u05d0\u05de\u05e8 .........(\u05d0\u05d5\u05ea\u05d9\u05d5\u05ea \u05e2\u05e8\u05d1\u05d9\u05d5\u05ea)</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00063/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4628/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
