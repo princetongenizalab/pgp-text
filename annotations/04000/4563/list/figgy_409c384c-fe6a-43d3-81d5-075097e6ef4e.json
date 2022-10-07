@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fdddec90c-b1ad-495d-a5af-26d8cf6e17b8%2Fmanifest%2Fcanvas%2F409c384c-fe6a-43d3-81d5-075097e6ef4e&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4563%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/a5ed237d-ce71-4081-880e-5aea6421f9e0/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:27:27.665621+00:00",
+      "modified": "2022-10-07T01:27:27.665635+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>.....]</li>\n<li>...].\u05d9\u05e3 [</li>\n<li>...\u05e8]\u05d5\u05de\u05d9 \u05d1' [</li>\n<li>...].\u05d9\u05df \u05d0\u05dc\u05db\u05d4\u05df \u05d3' [</li>\n<li>...]\u05de\u05d9 \u05d0' \u05d1[</li>\n<li>\u05d0\u05dc]\u05e7\u05e6\u05d0\u05e2\u05d9 \u05d3' \u05d0\u05dc[</li>\n<li>].\u05d4 \u05d1 \u05d9\u05d4[</li>\n<li>]...\u05e0\u05d9 \u05d3' \u05d0\u05dc[</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/dddec90c-b1ad-495d-a5af-26d8cf6e17b8/manifest/canvas/409c384c-fe6a-43d3-81d5-075097e6ef4e",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4563/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
