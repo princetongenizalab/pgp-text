@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~1230~119529%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9061%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c1508348-dafa-4617-abad-b655ca72ea43/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:49:26.785533+00:00",
+      "modified": "2022-10-07T00:49:26.785548+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>[\u0627\ufe91]\u0648 \u0633\u0639\u064a\u062f \u0628\u0646\u0627\u0644\u0634\u064a\u062e \u0639\u0628\u062f\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0627\ufeb3\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[... \u062f\u0645\u064a\u0627\u0637]\ufef2 \u0627\u0644\u0627\u0633\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[\u05e9\u05d5\u05dc\u05d9\u05d9\u05dd]</p>\n<p>[\u05e9]\u05dc\u05d5\u05dd \u05dc\u05da \u05de\u05db\u05dc [...]</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~1230~119529/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9061/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
