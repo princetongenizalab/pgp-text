@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00010-00010%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2771%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b9c74804-55ad-4197-9120-bf3e65c6ac7f/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:08:41.779983+00:00",
+      "modified": "2022-10-07T02:08:41.779995+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso. Address.",
+          "value": "<ol>\n<li>\u062d\u0636\u0631\u0629 \u0645\u0648[\u0644\u0627\u064a] \u0627\u0644\u0634\u064a\u062e \u0627\u0644\u0627\u062c\u0644 \u0627\u0628\u0648 \u0633\u0639\u062f \u0647\u0628\u0629 \u0627\u0644\u0644\u0647 \u0628\u0646 \u064a\u0627\u0641\u062a</li>\n<li>\u05e8\u05d0\u05e9 \u05d4\u05e7\u05d4\u05dc[\u05d5\u05ea?] \u0627\u062f\u0627\u0645 \u0627\u0644\u0644\u0647 \u0639\u0644\u0627\u0647\u0627 \u0648\u0631\u0641\u0639\u062a\u0647\u0627</li>\n</ol>\n<ol>\n<li>\u0648\u0644\u064a\u0647\u0627 \u0648\u0634\u0627\u0643\u0631 \u062a\u0641\u0636\u0644\u0647\u0627 \u0627\u0628\u0631\u0647\u064a\u0645 \u0628\u0646 \u0627\u0633\u062d\u0642</li>\n<li>\u0627\u0644\u062d\u0633\u0646\u064a \u062c\u0639\u0644 \u0641\u062f\u0627\u0647\u0627 \u0627\u0644\u0642\u0627\u0647\u0631\u0629 \u0627\u0644\u0645\u062d\u0631\u0648\u0633\u0629 \u0627\u0646 \u0634\u0627\u0621 [\u0627\u0644\u0644\u0647.</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00010-00010/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2771/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/106/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
