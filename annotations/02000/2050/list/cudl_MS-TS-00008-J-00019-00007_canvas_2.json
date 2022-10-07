@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00019-00007%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2050%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/06d40c67-2105-4628-b049-de033a65009f/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:05:16.911464+00:00",
+      "modified": "2022-10-07T01:05:16.911479+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "page b",
+          "value": "<p>\u064a\u0635\u0644 \u0647\u0630\u0627 \u0627\u0644\u0643\u062a\u0627\u0628 \u0627\ufefb\u0633\u0643\u0646\u062f\u0631\u064a\u0647 \u0627\ufefb\u0633\u0627\u0643\u0641\u0629 \u062f\u0643\u0627\u0646 \u0645\u0646 \u0635\u062f\u064a\u0642\u0647 \u05e2\u05de\u05e8\u05dd \u05d1\u05e8 \u05e0\u05ea\u05df</p>\n<p>\u0627\u0633\u0645\u0627\u0639\u064a\u0644 \u0628\u0646 \u0627\u0644\u062a\u0648\u0646\u064a \u0627\u0644\u0639\u0637\u0627\u0631 \u0627\u0644\u064a\u0647\u0648\u062f\u0649</p>\n<p>\u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0639\u0632\u0665</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00007/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2050/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
