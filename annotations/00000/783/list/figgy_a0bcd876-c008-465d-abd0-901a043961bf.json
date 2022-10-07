@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F14d2b01b-713b-4db6-b6fe-5eea78e1c3cb%2Fmanifest%2Fcanvas%2Fa0bcd876-c008-465d-abd0-901a043961bf&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F783%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/0146378a-b207-460e-bc6f-fec8784d73b5/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:06:05.753483+00:00",
+      "modified": "2022-10-07T01:06:05.753504+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Please see ENA 4020 44+45 ENA 4020, f. 45 ed. Mann, Jews, vol. 2, pp. 91-92, Doc. # 17. 02-15-90, Edited in comparison with manuscript. Y.S. Letter from the two congregations of Alexandria to David Ha-Levi b. Isaac, requesting 33 \u2153 dinars for the ransom of a prisoner. 1030-1 (p)\nAddress (verso)",
+          "value": "<ol>\n<li>. . . . . . . \u05de\u05de\u05e0\u05d5 \u05e9\u05ea\u05d9 \u05d4\u05e7\u05d4\u05dc\u05d5\u05ea \u05d0\u05e9\u05e8 \u05d1\u05d0\u05db\u05e1\u05e0\u05d3\u05e8\u05d9\u05d4</li>\n<li>. . . . . . . \u05e9\u05e8\u05d5\u05d9\u05d5\u05ea \u05d5\u05de\u05ea\u05e4\u05dc\u05dc\u05d5\u05ea \u05e2\u05dc \u05d7\u05d9\u05d9 \u05d0\u05d3\u05d9\u05e8\u05e0\u05d5 \u05d0\u05e9[\u05e8]</li>\n<li>. . . . . . . \u05d9\u05d0\u05e8\u05d9\u05db\u05d5\u05df \u05d9\u05de\u05d9\u05d5 \u05d5\u05d9\u05e2\u05d8\u05d4\u05d5 \u05d1\u05e9\u05dc\u05d5\u05de\u05d9\u05d5 \u05e2\u05d5\u05e9\u05d4</li>\n<li>. . . . . . . \u05e9\u05dc\u05d5\u05dd \u05d1\u05de\u05e8\u05d5\u05de\u05d9\u05d5 \u05e0\u05e6\u05d7 \u05d9\u05d9\u05d9 \u05d1\u05e8\u05d9\u05ea \u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/14d2b01b-713b-4db6-b6fe-5eea78e1c3cb/manifest/canvas/a0bcd876-c008-465d-abd0-901a043961bf",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/783/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
