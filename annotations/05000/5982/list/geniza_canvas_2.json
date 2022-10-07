@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5982%2Fiiif%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5982%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d7444c95-3ba4-494d-9616-1c0f53e0160c/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:07:53.303784+00:00",
+      "modified": "2022-10-07T01:07:53.303796+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Notes to verso:",
+          "value": "<ol>\n<li>\u05d2\u05d9\u05dc: \u05d1\u05d0\u05dc\u05e0\u05d0\u05d9\u05d1</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5982/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5982/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 5
+    }
+  ]
+}
