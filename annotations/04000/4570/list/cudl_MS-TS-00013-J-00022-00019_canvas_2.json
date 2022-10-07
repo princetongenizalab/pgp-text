@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00022-00019%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4570%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/8d2e413c-7c01-4a37-b6dc-ab910a31bfe7/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:07:51.240112+00:00",
+      "modified": "2022-10-07T02:07:51.240129+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d0\u05d1\u05dc\u05e4\u05e6\u05dc</li>\n<li>4</li>\n<li>\u05d0\u05d1\u05dc\u05e8\u05e6\u05d0</li>\n<li>2</li>\n<li>\u05e1\u05de\u05d9\u05e8?</li>\n<li>2</li>\n<li>\u05e6\u05dc\u05e7\u05d4?</li>\n<li>1/8+? \u00bd 7</li>\n<li>...........</li>\n<li>2</li>\n<li>\u05d0\u05d1\u05d5 .....</li>\n<li>1/8+ \u00bc</li>\n<li>\u05e4\u05e6\u05d0\u05d9\u05dc</li>\n<li>\u00bc +?10</li>\n<li>\u05d0\u05d1\u05d5 \u05d1\u05d5 .....</li>\n<li>? \u00bd</li>\n<li>\u00bc +1/8</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00022-00019/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4570/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
