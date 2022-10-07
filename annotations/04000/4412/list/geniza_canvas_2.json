@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4412%2Fiiif%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4412%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/8b0443fb-bbee-4be7-a4db-6144c126b8df/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:02:17.786076+00:00",
+      "modified": "2022-10-07T02:02:17.786091+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "\u00a0\nb (verso)",
+          "value": "<ol>\n<li>] \u0648\u062c\u0648\u0647 \u0648\u0627\ufefb \u0633\u0628\u0627\u0628 \u0643\u0644\u0647\u0627 [ ] \u0627\u0644\u062e\u0645\u0633 [ ] \u062c\u0645\u0639\u0647\u0627</li>\n<li>]\u0647 \u0642\u0644\u064a\u0644\u0647\u0627 \u0648\ufefb \u0643\u062b\u064a\u0631\u0647\u0627 \u062d\u0642 \u0648\ufefb \u0637\u0644\u0628 \u0648\u0643\u062a\u0628 \u062e\u0637\u0647 \u0645\u0633\u062a\u0647\u0644 \u0631\u0628\u064a\u0639 \u0627\ufefb \u062e\u0631</li>\n</ol>\n<p>\u0633\u0646\u0647 \u0627\u062b\u0646\u064a\u0646 \u0648 \u0639\u0634\u0631\u064a\u0646 \u0648 \u0627\u0631\u0628\u0639\u0645\u0627\u0626\u0647</p>\n<ol>\n<li>]\u05e7 \u05e0\u05e8 \u05d1\u05e8 \u05d7\u05d2\u05d9 \u05e0\u05e2 //\u05d5\u05e7\u05d0\u05dc// \u05d0\u05e0\u05d0 \u05e7\u05d3 \u05e0\u05e7\u05dc\u05ea \u05d4\u05d3\u05d4</li>\n<li>] \u05d5\u05d2\u05e2\u05dc\u05ea\u05d4\u05d0 \u05dc\u05e8 \u05d7\u05d5\u05e1\u05d9\u05df \u05d1\u05e8 \u05d4\u05dc\u05dc \u05d4\u05d9 \u05dc\u05d4 \u05d3\u05d5\u05e0\u05d9</li>\n<li>] \u05e9\u05de\u05d5\u05d0\u05dc \u05d4\u05db\u05d4\u05df \u05e8\u05d0\u05e9 \u05d4\u05e7\u05d4\u05dc \u05d1\u05e8\u05d1\u05d9 \u05d0\u05d1\u05d8\u05dc\u05d9\u05d5\u05df</li>\n<li>\u05d9]\u05e6\u05d7\u05e7</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4412/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4412/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
