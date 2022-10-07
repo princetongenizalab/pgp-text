@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Ffae4e63a-b556-480c-b8bb-0f64b8a9187d%2Fmanifest%2Fcanvas%2Fad0e5591-58b8-4cfa-944e-98e4fee8b74b&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12286%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c80a31e1-1b25-4eef-b3a0-887757bf0a1c/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:35:59.219123+00:00",
+      "modified": "2022-10-07T01:35:59.219140+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, in addition to a full page of piyyut:",
+          "value": "<ol>\n<li>\u05d0\u05dc\u05d2\u05de\u05e2\u05d4 (?) \u05d9\u05d5\u05dd \u05d0\u05dc\u05d0\u05d7\u05d3 \u05d0\u05dc\u05e1\u05d0\u05d1\u05e2 \u05e2\u05e9\u05e8 \u05d9\u05d5\u05dd \u05de\u05df \u05e9\u05d4\u05e8 \u05e9\u05d1\u05d8</li>\n<li>] . \u05ea\u05e8\u05e7\u05ea \u05d3\u05d0\u05e8 \u05d0\u05d1\u05df \u05e7\u05e8\u05d9 \u05d2\u05d0\u05e0\u05d1 \u05d3\u05d0\u05e8 \u05d0[</li>\n<li>] . \u05d1 . . \u05ea \u05dc\u05d9\u05dc\u05d4 \u05d0\u05dc\u05d0\u05d7\u05d3 \u05dc\u05d9\u05dc\u05d4 \u05d0\u05dc\u05e6\u05e8\u05d0 . [</li>\n<li>] . . . . \u05e9\u05d3\u05d9\u05d3\u05d4 \u05e2\u05e6\u05d9\u05de\u05d4 \u05d5\u05e1\u05dc\u05de\u05ea [</li>\n<li>] . . . . . . . \u05ea\u05d1\u05e0\u05d4 \u05d1\u05d7\u05d9\u05d9 \u05d9\u05e9\u05e8\u05d0\u05dc [</li>\n<li>[\u05de\u05de]\u05dc\u05d5\u05db\u05d4 \u05e9\u05dc\u05de\u05d4 \u05d1\u05e8\u05d1\u05d9 \u05d0\u05dc\u05d9\u05d4 . [</li>\n<li>] . \u05d0 . . \u05ea \u05d0\u05e7\u05e6\u05d3 (?) \u05de\u05e0\u05da (?) \u05db\u05de . [</li>\n<li>] \u05d0\u05dc\u05d3\u05d0 . \u05d5\u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/fae4e63a-b556-480c-b8bb-0f64b8a9187d/manifest/canvas/ad0e5591-58b8-4cfa-944e-98e4fee8b74b",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12286/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/4/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
