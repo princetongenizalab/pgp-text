@@ -1,0 +1,78 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F49ae2aa6-5a23-42cf-88c2-acb67fe765a6%2Fmanifest%2Fcanvas%2F15348e4f-67dd-475d-93bb-7323141a8054&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F834%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/fc308a73-a995-4eec-8fa9-7032fb2410bb/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:52:41.430488+00:00",
+      "modified": "2022-10-07T01:52:41.430507+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d1\u05e9\u05de\u05da \u05e8\u05d7\u05de\u05e0\u05d0</li>\n<li>\u05e9\u05dc\u05d5\u05dd \u05d5\u05d9\u05e9\u05d5\u05e2\u05d4 \u05dc\u05d1\u05e8\u05da [...</li>\n<li>\u05ea\u05de\u05d9\u05d3 \u05d5\u05d1\u05e8\u05d7\u05de\u05d9\u05dd \u05dc\u05d4\u05d5.[...</li>\n<li>\u05d5\u05d4\u05e0\u05d1\u05d5\u05df \u05d4\u05e2\u05e0\u05d9\u05d5 \u05d5\u05e9\u05e4\u05dc \u05e8\u05d5\u05d7 [...</li>\n<li>\u05d0\u05d5\u05e8\u05d9\u05d0\u05df \u05d0\u05e9\u05e8 \u05e9\u05de\u05e2\u05d5 [\u05d4\u05d5\u05dc\u05da \u05d1\u05db\u05dc \u05d4\u05de\u05d3\u05d9\u05e0\u05d5\u05ea ...</li>\n<li>\u05d4\u05d6]\u05e7\u05df \u05d4\u05e0\u05db\u05d1\u05d3 \u05d6\u05e7\u05df \u05d4\u05ea[...</li>\n<li>(\u05d4\u05d4\u05de\u05e9\u05da \u05e7\u05e8\u05d5\u05e2)</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/49ae2aa6-5a23-42cf-88c2-acb67fe765a6/manifest/canvas/15348e4f-67dd-475d-93bb-7323141a8054",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/834/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/80/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1ed0fb48-2625-4218-979d-6633f80f5743/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:52:41.442504+00:00",
+      "modified": "2022-10-07T01:52:41.442517+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margins",
+          "value": "<ol>\n<li>[\u05d0\u05df \u05d9\u05d3\u05db\u05dc \u05d0\u05dc\u05d9 \u05e1]\u05d9\u05d3\u05e0\u05d0 \u05d0\u05dc\u05e0\u05e9\u05d9\u05d0 \u05d5\u05d9\u05e2\u05e8\u05e4\u05d4</li>\n<li>[...........\u05d0\u05dc\u05d1]\u05d0\u05e8\u05d9 \u05d1\u05de\u05d0 \u05e7\u05d3 \u05e4\u05e2\u05dc\u05d4 \u05de\u05e2</li>\n<li>[............\u05d0\u05e0]\u05e4\u05d0\u05d3 \u05de\u05e7\u05d3\u05dd \u05d0\u05dc\u05d9</li>\n<li>[\u05d0\u05dc\u05d2\u05de\u05d0\u05e2\u05d4...........]\u05de\u05d0 \u05d9\u05ea\u05db\u05dc\u05d5</li>\n<li>[\u05e2\u05df....................]\u05dc</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/49ae2aa6-5a23-42cf-88c2-acb67fe765a6/manifest/canvas/15348e4f-67dd-475d-93bb-7323141a8054",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/834/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/80/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
