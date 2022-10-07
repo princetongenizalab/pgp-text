@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F7509c4b8-e17f-49f8-b4b0-15d24cc88e1f%2Fmanifest%2Fcanvas%2F847c7f50-8414-4a15-8304-01e21cc99242&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4559%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/8044606a-581c-46cc-af5e-90ff44fdc100/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:04:06.704122+00:00",
+      "modified": "2022-10-07T01:04:06.704141+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>...] \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05df [</li>\n<li>]\u05e0\u05d7\u05d5\u05dd \u05e6\u05d3\u05e7\u05d4 \u05d9\u05d7...[</li>\n<li>] ... \u05d7\u05e1\u05d9\u05df \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05d0..[</li>\n<li>\u05de]\u05e0\u05e6\u05d5\u05e8 \u05ea\u05de\u05d9\u05dd \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1[</li>\n<li>]\u05d4\u05dc\u05d0\u05dc \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e4\u05e6\u05dc \u05d0\u05d1\u05e8\u05d4\u05dd .[</li>\n<li>]\u05d4\u05e8\u05d5\u05df \u05d1\u05d5\u05e6\u05d9\u05e8 \u05db\u05dc\u05e3 \u05d6\u05d9\u05d0[\u05ea?</li>\n<li>.].\u05d5\u05df \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05df \u05d0\u05dc\u05d8\u05d1\u05d9\u05d1</li>\n<li>...]. \u05d0\u05d1\u05d5 ....</li>\n<li>......]...</li>\n<li>......] .....[</li>\n<li>......]...[</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/7509c4b8-e17f-49f8-b4b0-15d24cc88e1f/manifest/canvas/847c7f50-8414-4a15-8304-01e21cc99242",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4559/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
