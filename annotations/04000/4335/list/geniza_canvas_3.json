@@ -1,0 +1,43 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4335%2Fiiif%2Fcanvas%2F3%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4335%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/98b2ac78-dfe3-4d80-b2e2-f871d183caed/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:34:16.166654+00:00",
+      "modified": "2022-10-07T01:34:16.166666+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, right margin, straight lines at 90 degrees to main text",
+          "value": "<p>\u05e7\u05d3\u05e8\u05ea\u05d5 \u05d0\u05d2\u05d9 \u05d0\u05dc\u05d9 \u05de\u05e6\u05e8 \u05d5\u05d0\u05dc\u05d0\u05df</p>\n<p>\u05db\u05d0\u05df \u05d2\u05d9\u05ea\u05d5 \u05d0\u05dc\u05d9 \u05db\u05d3\u05de\u05ea\u05da \u05d5\u05e9\u05dc\u05d5\u05dd</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4335/iiif/canvas/3/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4335/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
