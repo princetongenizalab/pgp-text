@@ -1,0 +1,79 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4451%2Fiiif%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4451%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/1582f0a8-7299-4e16-9018-ba08f7e9f93b/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:30:22.252111+00:00",
+      "modified": "2022-10-07T01:30:22.252124+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso (left)",
+          "value": "<ol>\n<li>\u0645\u0646 \u0634\u0627\u0644\u0648\u0645\u0648 \u0631\u0627\u0633 \u0627\u0644\u0645\u062b\u064a\u0628\u0629 \u0628\u0646 \u064a\u0647\u0648\u062f\u0627 \u0628\u0627\u0644\u0641\u0633\u0637\u0627\u0637</li>\n<li>\u0627\u0646 \u0634\u0627\u0621 \u0627\u0644\u0644\u0647</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4451/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4451/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/9eb60ed4-7d84-4ec2-b8c2-f84b41ad49aa/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:30:22.265593+00:00",
+      "modified": "2022-10-07T01:30:22.265607+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "further down (in the hand of Sahlan b. Abraham)",
+          "value": "<ol>\n<li>\u05d0\u05dc\u05e1\u05dc\u05d8\u05d0\u05df \u05d9\u05d8\u05dc\u05d1\u05d4\u05d0 \u05de\u05df \u05ea\u05e8\u05db\u05d4 \u05d0\u05dc\u05e9\u05e8\u05d9\u05e3 \u05d1\u05df \u05d0\u05dc\u05ea\u05e0\u05d2 \u05db\u05d6</li>\n<li>\u05d9\u05ea\u05e0\u05d5 \u05e8\u05e9\u05d5\u05ea \u05dc\u05e8 \u05e9\u05dc\u05de\u05d4 \u05d1\u05df \u05e1\u05e2\u05d3\u05d9\u05d4 \u05e9\u05d9\u05d5\u05e6\u05d9\u05d0 \u05d4\u05d6\u05d4\u05d5\u05d1\u05d9\u05dd \u05d4\u05dc\u05dc\u05d5</li>\n<li>\u05de\u05db\u05dc\u05dc \u05de\u05d4 \u05e9\u05d9\u05e9 \u05d0\u05e6\u05dc\u05d5 \u05dc\u05d9\u05d5\u05e8\u05e9\u05d9 \u05de\u05e9\u05d4 \u05d1\u05df \u05d2\u05dc\u05d9\u05d1</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4451/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4451/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 4
+    }
+  ]
+}
