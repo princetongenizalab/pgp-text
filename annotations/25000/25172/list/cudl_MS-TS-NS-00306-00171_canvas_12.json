@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-00306-00171%2Fcanvas%2F12&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F25172%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/f2303b51-b50b-4bb4-b210-d65c8ebf00a0/",
+      "type": "Annotation",
+      "created": "2022-10-08T21:12:37.500393+00:00",
+      "modified": "2022-10-08T21:12:37.500409+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Fol. 8r",
+          "value": "<ol>\n<li>\u0648\u0627\u0644 . . . . \u0628\u0645\u0627 \u062c\u062f\u062f</li>\n<li>\u0627\u0644\u0644\u0647 \u062a\u0639\u0627\u0644\u0649 \u062d\u0645\u062f\u0627</li>\n<li>\u0627\u0644\u0645\u0633\u062a\u062f\u064a\u0645 \u0644\u0627\u062d\u0633\u0646</li>\n<li>\u0639\u0637\u0627\u064a\u0627\u0647 \u0648\u0633\u0627\u0644\u062a\u0647</li>\n<li>\u0627\u0646 \u064a\u062f\u064a\u0645 \u0646\u0639\u0645\u0627\u0647</li>\n<li>\u0648\u064a\u0647\u0646\u064a\u0647 \u0628\u0645\u0627 \u0645\u0646\u062d\u0647</li>\n<li>\u0627\u0646 \u0634\u0627 \u0627\u0644\u0644\u0647</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00306-00171/canvas/12",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/25172/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:179.4329376220703,90.0488052368164,2090.8602752685547,3203.5237045288086",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
