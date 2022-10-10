@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~20820~108449%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F28353%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d14d2db5-5999-409d-8170-33eb1eac315f/",
+      "type": "Annotation",
+      "created": "2022-10-10T17:42:30.701425+00:00",
+      "modified": "2022-10-10T17:42:30.701439+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto:",
+          "value": "<ol>\n<li>\u05e2\u05dc \u05e9\u05de\u05da</li>\n<li>\u05d5[\u05e6\u05dc\u05ea] \u05db\u05ea\u05d1\u05da \u05d9\u05d0 \u05e9\u05d9\u05db\u05d9 \u05d5\u05e1\u05d9\u05d3\u05d9 . . . . . . . . [</li>\n<li>\u05de . . \u05d0 \u05e2\u05dc\u05d9 \u05de\u05d0 \u05e1\u05e8\u05e8\u05ea \u05d1\u05d4 \u05de\u05df \u05e0 . \u05d0\u05dd \u05d7\u05d0\u05dc\u05da \u05d5[</li>\n<li>\u05d4\u05d5 \u05d0\u05dc\u05d5\u05e7\u05ea \u05d0\u05dc\u05d3\u05d9 \u05e0\u05e7\u05d4\u05ea \u05de\u05e0\u05d4(?) \u05de\u05df \u05de\u05e8\u05e5 \u05db\u05d0\u05df \u05d0\u05d5\u05dc . [. . . \u05d1\u05e8\u05d5\u05da</li>\n<li>\u05d2\u05d5\u05de\u05dc \u05dc\u05d7\u05d9\u05d9\u05d1\u05d9\u05dd \u05d8\u05d5\u05d1\u05d5\u05ea . . . . . . . . . . . . . . . . . . . . [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~20820~108449/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/28353/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:277.8113708496094,786.6665649414062,3582.9212951660156,2189.0753784179688",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/58d8cb13-1ae8-4e3e-8578-0f57c766ffac/",
+      "type": "Annotation",
+      "created": "2022-10-10T17:44:49.071536+00:00",
+      "modified": "2022-10-10T17:44:49.071552+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin:",
+          "value": "<ol>\n<li>\u05d0\u05dc\u05d1\u05e8\u05d0\u05d4(?) [</li>\n<li>\u05d0\u05dc\u05d3\u05d9 \u05d7\u05e6\u05dc . [</li>\n<li>\u05de\u05d0 \u05ea\u05e2\u05d5\u05d3 . [</li>\n<li>\u05d5\u05dc\u05d4\u05d3\u05d0 \u05ea\u05e8 . [</li>\n<li>\u05dc\u05da \u05d0\u05e0\u05d9 \u05d1\u05e2\u05ea</li>\n<li>\u05d5\u05de\u05d0 \u05d1\u05d0\u05e2\u05ea</li>\n<li>\u05e9\u05d9 \u05e2\u05dc\u05d9 \u05d0\u05dc . [</li>\n<li>\u05d0\u05dc\u05e6\u05d7\u05d9\u05d7 . . .</li>\n<li>\u05e4\u05dc\u05d0 . . . . \u05dc\u05d9</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~20820~108449/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/28353/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3685.939208984375,172.60415649414062,1343.715087890625,2742.9505310058594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
