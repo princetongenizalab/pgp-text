@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fcc044b7a-00be-4689-88ba-8dccf73ba172%2Fmanifest%2Fcanvas%2Ffa4a2ee3-c47e-4df7-ada8-c4d560898a6b&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F11852%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/f0d1fa3e-0539-4dc2-83ab-bce84843a895/",
+      "type": "Annotation",
+      "created": "2022-10-11T15:19:43.442185+00:00",
+      "modified": "2022-10-11T15:19:43.442198+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>\u05d5\u05db\u05d3\u05dc\u05da [</li>\n<li>\u05d2\u05de\u05d9\u05e2 \u05d1\u05d0 [</li>\n<li>\u05d5\u05e1\u05d0\u05dc \u05d1\u05d4 \u05e2\u05e0\u05d9 [</li>\n<li>\u05e2\u05dc\u05d9 \u05e7\u05dc\u05d5\u05d1\u05d4\u05dd [</li>\n<li>\u05e2\u05e0\u05d9 \u05d5\u05d0\u05e1\u05dc [</li>\n<li>\u05de\u05df \u05e2\u05e0\u05d3 \u05d0\u05d7\u05de\u05d3 [</li>\n<li>\u05e7\u05d6\u05d0\u05d6 \u05d9\u05e4\u05e2\u05dc \u05dc\u05e2\u05dc[</li>\n<li>\u05d5\u05d0\u05e1\u05dc\u05d4 \u05d0\u05df \u05d9\u05e7\u05d1\u05dc . [. . . . . . . . . . . . \u05d0\u05d1\u05d5</li>\n<li>\u05e0\u05e6\u05e8 \u05d5\u05d0\u05d1\u05d5 \u05d0\u05dc\u05e8\u05e6\u05d9 [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/cc044b7a-00be-4689-88ba-8dccf73ba172/manifest/canvas/fa4a2ee3-c47e-4df7-ada8-c4d560898a6b",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11852/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1217.524658203125,2970.46875,1960.009521484375,3128.43310546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
