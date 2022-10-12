@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-I-00006-00002%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F19002%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c3939256-ab01-4321-a656-a605042bf43a/",
+      "type": "Annotation",
+      "created": "2022-10-12T01:12:38.376009+00:00",
+      "modified": "2022-10-12T01:12:38.376023+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>\u0633\u0644\u0642 \u0643\u0632\u0628\u0631\u0629 \u0643\u0631\u0627\u062b \u0632\u064a\u062a \u0637\u064a\u0628 \u0632\u0639\u0641\u0631\u0627\u0646</p>\n</li>\n<li>\n<p>\u062d\u0637\u0628 \u062c\u0628\u0646 \u0641\u0648\u0644 \u0627\u062e\u0636\u0631 \u0642\u0641\u0629 \u0645\u0646 \u0627\u0644\u0637\u0627\u062d\u0648\u0646</p>\n</li>\n<li>\n<p>\u062f\u062c\u0627\u062c\u0629 \u0633\u0645\u064a\u0646\u0629</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-I-00006-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19002/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:201.14390563964844,98.53253173828125,2684.5059967041016,1689.7319946289062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/937/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
