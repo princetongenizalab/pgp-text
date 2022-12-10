@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00038-00001%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7722%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c43d0b6f-3e38-48b0-a956-aefd2d7b22ae/",
+      "type": "Annotation",
+      "created": "2022-12-10T18:32:49.204286+00:00",
+      "modified": "2022-12-10T18:32:49.204302+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>] \u05d4\u05de\u05d2\u05d3\u05d5\u05dc \u05d4[</li>\n<li>\u05d4\u05d7\u05db\u05de\u05d9\u05dd \u05e8\u05d0\u05e9 \u05d9\u05e9\u05d9\u05d1\u05ea\u05d4 \u05e9\u05dc\u05ea\u05d5\u05e8\u05d4 \u05d4 . . \u05de . . . . . . [</li>\n<li>\u05d0\u05df \u05de\u05d5\u05d2\u05d1 \u05ea\u05e1\u05d8\u05d9\u05e8\u05d4\u05d0 \u05d0\u05df \u05dc\u05e9\u05d9\u05da \u05d9\u05d5\u05e1\u05e3 \u05d1\u05df \u05d0\u05dc\u05e1\u05dc\u05de\u05e0\u05ea\u05d9 \u05e1\u05d8</li>\n<li>\u05d7\u05e6\u05e8 \u05d0\u05dc\u05d9 \u05e2\u05e0\u05d3 \u05d0\u05dc\u05de\u05e2\u05dc\u05dd \u05e4\u05e8\u05d2 \u05d0\u05dc\u05dc\u05d4 \u05d4\u05d9\u05d1 \u05d5\u05ea\u05e9\u05db\u05d9 \u05dc\u05d4 \u05de\u05df</li>\n<li>\u05d7\u05d0\u05dc \u05d6\u05d5\u05d2\u05ea\u05d4 \u05d1\u05d0\u05e0\u05d4\u05d0 \u05e2\u05dc\u05d9 \u05d2\u05d9\u05e8 \u05d0\u05dc\u05d8\u05e8\u05d9\u05e7 \u05d5\u05e7\u05d0\u05dc \u05d0\u05e0\u05d4\u05d0 \u05e2\u05d1\u05e8\u05ea</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00038-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7722/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:118.83361053466797,120.41400909423828,4563.484260559082,2118.4294967651367",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
