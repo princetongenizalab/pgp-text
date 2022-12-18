@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-IV-00046-00003%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F31698%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/207fc988-6390-4686-9567-a35b73cc5c2a/",
+      "type": "Annotation",
+      "created": "2022-12-18T20:08:04.366278+00:00",
+      "modified": "2022-12-18T20:08:04.366292+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>] \u05e2\u05df \u05d0\u05dc\u05e1\u05e4\u05e8 \u05d5\u05d0\u05df [</li>\n<li>\u05d5\u05d0\u05e0\u05e7\u05d8\u05e2 \u05d2\u05de\u05d9\u05e2 \u05de\u05e2 \u05db\u05e0\u05ea [</li>\n<li>\u05e1\u05d5\u05d0\u05da \u05d5\u05de\u05d0 \u05db\u05e0\u05ea \u05de\u05e2\u05ea\u05e7\u05d3 \u05d0\u05e0[\u05da</li>\n<li>\u05d5\u05e7\u05d3 \u05db\u05d0\u05df \u05e1\u05d1\u05d9\u05dc\u05da \u05ea\u05d1\u05e1\u05d8 \u05e2\u05d3\u05e8[</li>\n<li>\u05d0\u05e8\u05d3\u05ea \u05dc\u05d4\u05dd \u05d0\u05dc\u05db\u05d9\u05e8 \u05d5\u05dc\u05dd \u05d9\u05e8\u05d9[</li>\n<li>\u05d0\u05dc\u05d9\u05d4\u05dd \u05d1\u05dc\u05e4\u05d8\u05d4 \u05d5\u05d0\u05d7\u05d3\u05d4 \u05e4\u05d9 [</li>\n<li>\u05e7\u05e6\u05d3 \u05e0\u05d7\u05d5\u05d4 \u05d5\u05d0\u05dc\u05d5\u05db\u05d0\u05dc\u05d4 \u05d0\u05dc\u05d3\u05d9 [</li>\n<li>]\u05e7\u05d1\u05e5 \u05dc\u05d4\u05dd \u05ea\u05dc\u05ea\u05d9\u05df \u05d3\u05d9\u05e0\u05d0\u05e8 \u05e7 . [</li>\n<li>] \u05e2\u05d3\u05e8\u05d4\u05dd \u05de\u05d1\u05e1[\u05d5\u05d8</li>\n<li>\u05de\u05d5]\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d0[</li>\n<li>] \u05dc \u05d0\u05dc\u05d9 \u05d3\u05d0\u05e8\u05d4 [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IV-00046-00003/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/31698/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:257.530517578125,368.030517578125,1938.83984375,2929.27734375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/89fdc79d-2013-4a03-84ea-5128dffaee57/",
+      "type": "Annotation",
+      "created": "2022-12-18T20:08:45.300668+00:00",
+      "modified": "2022-12-18T20:08:45.300682+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin:",
+          "value": "<ol>\n<li>\u05d5\u05d0\u05e0\u05ea \u05ea\u05e2\u05dc\u05dd \u05d0\u05e0\u05d9 \u05de\u05d0 \u05ea\u05d2\u05d9\u05d9[\u05e8\u05ea(?). . .&nbsp;</li>\n<li>\u05e2\u05dc\u05d9\u05da \u05d9\u05d5\u05dd \u05e7\u05d8 \u05d5\u05dc\u05d0 \u05d0\u05ea\u05d2\u05d9\u05d9[\u05e8(?) . . .</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IV-00046-00003/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/31698/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2162.1640625,856.0064697265625,449.71484375,1473.9791259765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
