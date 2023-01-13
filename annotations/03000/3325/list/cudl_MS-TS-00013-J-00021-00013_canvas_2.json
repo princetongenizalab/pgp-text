@@ -7,32 +7,31 @@
       "id": "https://geniza.princeton.edu/annotations/86c73f7b-09ff-4885-8d0c-8d6346382f46/",
       "type": "Annotation",
       "created": "2022-10-07T00:51:02.000161+00:00",
-      "modified": "2022-10-07T00:51:02.000173+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso: address, right column.",
-          "value": "<ol>\n<li>\u064a\u0635\u0644 \u0647\u0630\u0647 \u0627\u0644\u0627\u062d\u0631\u0641 \u0645\u0646\u064a\u0629 \u0642\u0627\u0626\u062f</li>\n<li>\u062f\u0643\u0627\u0646 \u0627\u0644\u062d\u0631\u064a\u0631\u064a \u0628\u0647\u0627</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2023-01-13T06:52:37.155018+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/757/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00021-00013/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3325/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/3325/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:1130.261962890625,983.39697265625,3038.742290039062,1103.762451171875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/757/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address:",
+          "value": "<ol>\n<li>\u064a\u0635\u0644 \u0647\u0630\u0647 \u0627\u0644\u0627\u062d\u0631\u0641 \u0645\u0646\u064a\u0629 \u0642\u0627\u0626\u062f</li>\n<li>\u062f\u0643\u0627\u0646 \u0627\u0644\u062d\u0631\u064a\u0631\u064a \u0628\u0647\u0627</li>\n<li>\u0645\u0646 \u0639\u0628\u062f\u0647 \u0648\u0644\u062f\u0647</li>\n<li>\u064a\u0642\u064a\u0647 \u0627\u0644\u0627\u0633\u0648\u0627</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
