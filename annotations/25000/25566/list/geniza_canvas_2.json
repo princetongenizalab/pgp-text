@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F25566%2Fiiif%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F25566%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/fcb436a3-fcfa-463d-af03-ea73464fc50c/",
+      "type": "Annotation",
+      "created": "2023-01-16T01:15:29.096283+00:00",
+      "modified": "2023-01-16T01:15:29.096299+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/25566/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/25566/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:244.30020141601562,83.64336395263672,398.9388122558594,379.20984649658203",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>\u0627\u0644\u0634\u064a\u062e \u0627\u0644\u0627\u062c\u0644&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\u064a\u062f\u0641\u0639 \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u0648 \u0627\u0644\u062d\u0633\u0646 \u0644\u0645\u0648\u0635\u0644\u0647\u0627</li>\n<li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u0627\u0644\u0634\u064a\u062e \u0627\u0644\u0627\u062c\u0644 \u0627\u0628\u0648 \u0627\u0644\u062d\u0633\u0646 \u064a\u062f\u0641\u0639 \u0644\u0645\u0648\u0635\u0644\u0647\u0627</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
