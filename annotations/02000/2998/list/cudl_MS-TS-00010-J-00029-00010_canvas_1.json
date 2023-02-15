@@ -174,6 +174,40 @@
         "transcribing"
       ],
       "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/eb95c05d-cd09-49cd-b8a1-d4e4da6a5e9e/",
+      "type": "Annotation",
+      "created": "2023-02-15T18:15:09.304674+00:00",
+      "modified": "2023-02-15T18:15:09.304689+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00029-00010/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2998/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2583.923095703125,567.3056640625,1748.206298828125,450.41119384765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto - top margin",
+          "value": "<ol>\n<li>\n<p>\u05d1\u05d0\u05e7\u05d9</p>\n</li>\n<li>\n<p>\u05d9\u05d5 \u05d3\u05d9\u05e0</p>\n</li>\n<li>\n<p>\u05de\u05df \u05d0\u05dc\u05e2\u05d3\u05dc</p>\n</li>\n<li>\n<p>\u05d1\u05d0\u05dc\u05de\u05d5\u05e0\u05d4</p>\n</li>\n<li>\n<p>\u05d5\u05d9\u05d3\u05e4\u05e2 \u05dc\u05d9</p>\n</li>\n<li>\n<p>\u05e2\u05d9\u05d0\u05e9</p>\n</li>\n<li>\n<p>\u05d3\u05d9\u05e0\u05e8\u05d9\u05df</p>\n</li>\n<li>\n<p>&hellip;</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
     }
   ]
 }
