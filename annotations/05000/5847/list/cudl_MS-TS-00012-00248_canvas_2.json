@@ -104,6 +104,40 @@
         "transcribing"
       ],
       "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/c562a712-39c3-43c6-84fa-b00899031382/",
+      "type": "Annotation",
+      "created": "2023-02-19T23:41:36.868964+00:00",
+      "modified": "2023-02-19T23:44:51.953828+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/25/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00248/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5847/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:400.4217834472656,6379.205078125,4159.356536865234,715.74267578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Address",
+          "value": "<p>\u0644\u0645\u0648\u0644\u0627\u064a \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u064a \u064a\u062d\u064a\u0649 \u0646\u0647\u0631\u0627\u064a \u0628\u0646 \u0646\u0633\u064a\u0645 \u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647 \u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u0648\u062a\u0627\u064a\u064a\u062f\u0647 \u0648\u0633\u0639\u0627\u062f\u062a\u0647 \u0648\u0633\u0644\u0627\u0645\u062a\u0647 \u0648\u0646\u0639\u0645\u062a\u0647 \u0645\u0646 \u0634\u0627\u0643\u0631 \u062a\u0641\u0636\u0644\u0647 \u064a\u0648\u0634\u0639 \u0628\u0646 \u0646\u0627\u062a\u0627\u0646</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 4
     }
   ]
 }
