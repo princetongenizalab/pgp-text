@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F021f184f-d4c6-4f1c-b908-d6b24b6238fd%2Fmanifest%2Fcanvas%2F91e45ec7-3ca4-47b4-8ed0-e949fdfb39e1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12146%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/1d33ae16-39e7-4c3d-840f-257d3d370aac/",
+      "type": "Annotation",
+      "created": "2023-02-20T00:47:58.810184+00:00",
+      "modified": "2023-02-20T00:47:58.810198+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/021f184f-d4c6-4f1c-b908-d6b24b6238fd/manifest/canvas/91e45ec7-3ca4-47b4-8ed0-e949fdfb39e1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12146/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1868.8135986328125,1651.462890625,2838.8153076171875,2372.835205078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>. . . . .</li>\n<li>\u05d2\u05d4\u05ea\u05da \u05d5\u05de\u05de\u05dc\u05d5\u05da \u05d0\u05dc\u05de\u05dc\u05da \u05d2\u05d0 [</li>\n<li>\u05dc \u05d0\u05dc\u05e3 \u05d3\u05d9\u05e0\u05d0\u05e8 \u05e2\u05dc\u05d9 \u05d0\u05dc\u05d5\u05e4\u05d0 \u05d0\u05dc\u05d3\u05d9\u05df \u05d5\u05d0\u05dc\u05d3\u05d9\u05d5\u05d0\u05df</li>\n<li>\u05d5\u05d0\u05dc\u05d2\u05de\u05d9\u05e2 \u05d0\u05dc\u05de\u05ea\u05d0\u05d2\u05e8 \u05d5\u05d0\u05dc\u05d1\u05dc\u05d3 \u05de\u05d2\u05dc\u05d5\u05e7\u05d4</li>\n<li>\u05d5\u05d0\u05dc\u05e6\u05e8\u05e3 \u05de\u05d1\u05e5(?) \u05e8\u05d2\u05e2 \u05de\u05d0 \u05d1\u05e7\u05d9 \u05e2\u05e0\u05d3</li>\n<li>\u05d7\u05d3 \u05d3\u05d9\u05e0\u05d0\u05e8 \u05d5\u05e1\u05ea\u05db\u05e8\u05d0\u05d2 \u05d1\u05e7\u05d9\u05d4 \u05d0\u05dc\u05d2\u05d5\u05d0\u05dc\u05d9</li>\n<li>\u05d5\u05d0\u05dc\u05e1\u05e2\u05d0\u05dc\u05d9\u05da \u05e4\u05d9 \u05d7\u05d9\u05e8\u05d4 \u05d0\u05e2\u05dc\u05de\u05ea \u05de\u05d5\u05dc\u05d0</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
