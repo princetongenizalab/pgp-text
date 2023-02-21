@@ -7,7 +7,7 @@
       "id": "https://geniza.princeton.edu/annotations/46f0011f-7e51-4a30-9849-15068f868573/",
       "type": "Annotation",
       "created": "2023-02-21T04:38:25.903646+00:00",
-      "modified": "2023-02-21T04:40:02.926228+00:00",
+      "modified": "2023-02-21T04:40:15.633197+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/953/",
       "target": {
         "source": {
@@ -19,7 +19,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:1866.2550048828125,2830.36669921875,1739.3939208984375,2627.62890625",
+          "value": "xywh=pixel:2095.541015625,3688.622314453125,1510.10791015625,1769.373291015625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -70,6 +70,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/857c7cd1-26b6-4c7d-a44a-0a706581e222/",
+      "type": "Annotation",
+      "created": "2023-02-21T04:40:43.515311+00:00",
+      "modified": "2023-02-21T04:40:43.515324+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f100d741-4c7f-43ce-b109-9d1b20a6aed1/manifest/canvas/8682fefd-5c5c-4cac-b80c-d7f07c23a607",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11164/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1839.16845703125,3210.6943359375,1834.98046875,496.73388671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, bottom margin:",
+          "value": "<ol>\n<li>\u05d0\u05df \u05db\u05d0\u05df \u05d9\u05d2\u05d9 \u05de\u05df \u05db\u05dc \u05d1\u05d3 \u05e4\u05d0\u05e0\u05d9 \u05de\u05e2\u05d4 [</li>\n<li>\u05d0\u05e7\u05e2\u05d3(?) \u05dc\u05d9 \u05de\u05e2\u05d4 \u05e4\u05dc\u05d0 \u05ea\u05d4\u05de\u05dc\u05d9 \u05d0[</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
     }
   ]
 }
