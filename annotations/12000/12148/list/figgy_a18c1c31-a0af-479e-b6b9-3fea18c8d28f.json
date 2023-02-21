@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fc77e70b4-36de-4d79-8b4a-f6f6681ed5a0%2Fmanifest%2Fcanvas%2Fa18c1c31-a0af-479e-b6b9-3fea18c8d28f&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12148%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/9d1d64ff-1694-4bf2-9a2e-ee3eeb67f600/",
+      "type": "Annotation",
+      "created": "2023-02-21T04:17:36.958993+00:00",
+      "modified": "2023-02-21T04:17:36.959006+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/c77e70b4-36de-4d79-8b4a-f6f6681ed5a0/manifest/canvas/a18c1c31-a0af-479e-b6b9-3fea18c8d28f",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12148/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2931.82275390625,2096.042236328125,2838.556640625,1065.670166015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address:",
+          "value": "<ol>\n<li>\u05de]\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d9 \u05d0\u05dc\u05e4\u05e6\u05d9\u05dc</li>\n<li>\u05d0\u05d1\u05df \u05d0\u05dc\u05d0\u05de\u05e9\u05d0\u05d8\u05d9</li>\n<li>\u05de\u05df \u05d0\u05db\u05d5\u05d4 \u05d5\u05de\u05d7\u05d1\u05d4 \u05d5\u05e9\u05d0\u05db[\u05e8</li>\n<li>\u05ea\u05e4\u05e6\u05dc\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05d1\u05df \u05e1\u05d0\u05dc\u05dd</li>\n<li>\u05d0\u05dc\u05d5\u05d0 . [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
