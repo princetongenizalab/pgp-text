@@ -37,6 +37,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/6f1f9cdc-1f86-4b07-80c9-88e77f24e790/",
+      "type": "Annotation",
+      "created": "2023-02-23T22:21:06.622904+00:00",
+      "modified": "2023-02-23T22:21:58.321026+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e5186488-ed92-48ab-ab25-8ccf344cde7d/manifest/canvas/b5573f38-55d5-4969-8036-2bb49c4dca47",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2600/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2010.3896484375,2016.175537109375,3963.310546875,491.735107421875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso - address",
+          "value": "<ol>\n<li>\n<p>\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05e8\u05d1\u05e0\u05d0 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\u05e2&nbsp; &nbsp; &nbsp; &nbsp;\u05de\u05d7\u05d1\u05d4 \u05e0\u05ea\u05df \u05d1\u05df \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05ea\u05df \u05e0\u05e2</p>\n</li>\n<li>\n<p>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05de \u05e2\u05d6\u05d4</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
     }
   ]
 }
