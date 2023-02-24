@@ -7,23 +7,14 @@
       "id": "https://geniza.princeton.edu/annotations/5717cf48-75f1-4359-bcdd-101474afe9c0/",
       "type": "Annotation",
       "created": "2022-10-07T01:50:00.931368+00:00",
-      "modified": "2022-10-07T01:50:00.931389+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso",
-          "value": "<p>\u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05d7\u05e6\u05e8\u05d4 \u05d0\u05dc\u05de\u05e9\u05de\u05d9\u05e2 \u05d0\u05dc\u05de\u05dc\u05de\u05d3 \u05d0\u05dc\u05d9 \u05de\u05e0\u05d9\u05d4</p>\n<p>\u05d6\u05e4\u05ea\u05d0 \u05de\u05df \u05d0\u05e9\u05de\u05d5\u05dd \u05de\u05df \u05d5\u05dc\u05d3\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d1\u05d4\u05d0</p>\n<p>\u05dc\u05d0 \u05e2\u05d3\u05de\u05d4</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2023-02-24T06:06:10.122908+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/b49b3c7d-59bf-459c-b2e7-adddc42bd150/manifest/canvas/8d9ec8c1-d2cf-438d-98e9-ce9c0d6cb9d4",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2675/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2675/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +23,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05d7\u05e6\u05e8\u05d4 \u05d0\u05dc\u05de\u05e9\u05de\u05d9\u05e2 \u05d0\u05dc\u05de\u05dc\u05de\u05d3 \u05d0\u05dc\u05d9 \u05de\u05e0\u05d9\u05d4</li>\n<li>\u05d6\u05e4\u05ea\u05d0 \u05de\u05df \u05d0\u05e9\u05de\u05d5\u05dd \u05de\u05df \u05d5\u05dc\u05d3\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d1\u05d4\u05d0</li>\n<li>\u05dc\u05d0 \u05e2\u05d3\u05de\u05d4</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
