@@ -4,6 +4,74 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/e31f853f-5081-4219-bbbd-152e49c99026/",
+      "type": "Annotation",
+      "created": "2023-03-03T04:36:09.771812+00:00",
+      "modified": "2023-03-03T04:38:01.502054+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-VII-00153/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2766/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:643.4146728515625,376.43426513671875,3524.6536865234375,561.3536987304688",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso - bottom margin - address",
+          "value": "<ol>\n<li>\n<p>\u05dc\u05e1\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d5\u05e1\u05e3 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d1\u05df [ ] \u05de\u05df \u05d0\u05d1\u05e8\u05d4\u05d9\u05dd \u05d1\u05df \u05e4\u05e8\u05d0\u05d7 \u05e0\u05e0 \u05d0\u05e1\u05db\u05e0\u05d3\u05e8\u05d0\u05e0\u05d9</p>\n</li>\n<li>\n<p>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05db\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d5\u05ea\u05d0\u05d9\u05d9\u05d3\u05d4 \u05d5\u05e1\u05dc\u05d0\u05de\u05ea\u05d4</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/cc27c85a-02be-4fb4-b14f-85ee1b05d12f/",
+      "type": "Annotation",
+      "created": "2023-03-03T04:37:27.171668+00:00",
+      "modified": "2023-03-03T04:37:27.171682+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-VII-00153/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2766/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3565.79248046875,1072.336669921875,669.52099609375,2031.5986328125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso - left margin",
+          "value": "<ol>\n<li>\n<p>\u05d5\u05e6\u05dc\u05ea \u05de\u05df \u05d1\u05d5\u05e6\u05d9\u05e8 \u05d9\u05d5\u05dd \u05d0\u05dc\u05d4 \u05dc\u05d9 \u05d1\u05e7\u05d9\u05df \u05de\u05df \u05d0\u05d3\u05e8</p>\n</li>\n<li>\n<p>\u05db\u05e8\u05d2\u05ea \u05d4 \u05de\u05df \u05d0\u05d3\u05e8 [ ]</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/fe603fad-5ebb-433b-8733-5ae61ef41707/",
       "type": "Annotation",
       "created": "2022-10-07T00:45:56.433133+00:00",
