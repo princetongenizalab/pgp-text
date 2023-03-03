@@ -71,6 +71,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/6e973ead-9e87-40b1-95bc-589bf4de647e/",
+      "type": "Annotation",
+      "created": "2023-03-03T21:51:09.743688+00:00",
+      "modified": "2023-03-03T21:51:09.743706+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00026-00013/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3735/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:544.1865234375,740.0779418945312,2605.26318359375,670.5935668945312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso - bottom margin - address",
+          "value": "<ol>\n<li>\n<p>] \u0627\u0628\u064a \u064a\u062d\u064a\u06cc \u0646\u0647\u0631\u0627\u064a \u0627\u0628\u0646 \u0646\u0633\u064a\u0645</p>\n</li>\n<li>\n<p>] \u0645\u0646 \u0631\u062d\u0645\u064a\u0645 \u0628\u0646 \u0639\u0645\u0631\u0627\u0646</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
     }
   ]
 }
