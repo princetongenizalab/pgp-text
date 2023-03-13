@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-IIIA-00010%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6982%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/65782da3-e273-4aaa-b76a-afdfdecdb3a2/",
+      "type": "Annotation",
+      "created": "2023-03-13T03:00:29.532934+00:00",
+      "modified": "2023-03-13T03:00:29.532947+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IIIA-00010/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6982/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:268.2225646972656,108.71642303466797,4204.383392333984,6629.592170715332",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>] \u05d3\u05e0\u05d9\u05d0\u05dc \u05d4\u05e9\u05e8 \u05d4\u05e0\u05db\u05d1\u05d3 \u05d1\u05d9\u05e8 \u05d0\u05d3\u05d5\u05e0\u05d9\u05dd \u05d4\u05e9\u05e8 \u05d4\u05e0\u05db\u05d1\u05d3 \u05d9\u05d3\u05d9\u05e2 \u05d1\u05df \u05d0\u05dc\u05e7\u05e6\u05d0\u05e2\u05d9</li>\n<li>\u062a\u0635\u0644 \u0647\u0630\u0647 \u0627\u0644\u0627\u062d\u0631\u0641 \u0627\u0644\u0649 \u0645\u062d\u0631\u0648\u0633\u0629 [\u0645\u0635\u0631(\u061f) . . .]\u0631\u0629 \u064a\u0633\u0644\u0645 \u0644\u0644\u0634\u064a\u062e \u0628\u0648 \u0627\u0644\u0637\u0627\u0647\u0631 \u0627\u0628\u0646 \u0627\u0644\u0642\u0636\u0627\u0639\u064a \u0648\u0641\u0642\u0647 \u0627\u0644\u0644\u062a \u062a\u0639\u0627\u0644\u0649 \u0627\u0644\u0635\u064a\u0631\u0641\u064a</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
