@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:57:33.744480+00:00",
       "modified": "2022-10-07T00:57:33.744502+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/272/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~41022~103301/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5222/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +32,24 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/7b9dd6de-3f27-447f-bd2e-54ad93fb3f03/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:57:33.755533+00:00",
+      "modified": "2023-03-22T17:44:43.889446+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/272/",
       "target": {
         "source": {
           "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~41022~103301/canvas/c1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5222/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5222/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,12 +58,20 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/272/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto margin:",
+          "value": "<ol>\n<li>\u05e4\u05d9 \u05d4\u05d3\u05d4 \u05d0\u05dc \u05d0\u05dc\u05ea\u05d5\u05d1\u05d4 \u05d5\u05ea\u05d2\u05ea\u05d4\u05d3</li>\n<li>\u05e4\u05d9 \u05d3\u05dc\u05da \u05d7\u05ea\u05d9 \u05ea\u05ea\u05dd \u05d0\u05dc\u05de\u05e6\u05d5\u05d4</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 1
+      "schema:position": 2
     }
   ]
 }
