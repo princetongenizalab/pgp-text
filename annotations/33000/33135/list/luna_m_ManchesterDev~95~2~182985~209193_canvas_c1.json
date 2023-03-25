@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~182985~209193%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F33135%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/974bdbb5-6ef2-425f-b6ef-1d1204d2f1e2/",
+      "type": "Annotation",
+      "created": "2023-03-25T11:03:44.576151+00:00",
+      "modified": "2023-03-25T11:04:22.994005+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/955/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~182985~209193/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/33135/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1283.1640625,283.43505859375,3629.9609375,3224.43310546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li><span lang=\"ar\">\u062e\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u062f\u0645\u0629</span></li>\n<li><span lang=\"ar\">\u0639\u0628\u062f \u0627\u0644\u063a\u0646\u064a \u0628\u0645 \u0645\u062d\u0645\u062f \u0627\u0644\u0643\u0627\u062a\u0628 \u0628\u062f\u064a\u0648\u0627\u0646\u064a</span></li>\n<li><span lang=\"ar\">\u0627\u0644\u0627\u0646\u0634\u0627 \u0648\u0627\u0644\u0645\u0643\u0627\u062a\u0628\u0627\u062a \u0627\u0633\u0639\u062f\u064a\u0646 //\u0641\u064a// \u0645\u0635\u0631 //\u0641\u064a// \u0634\u0647\u0648\u0631 \u0633\u0646\u0629&nbsp;</span></li>\n<li><span lang=\"ar\">\u0627\u0631\u0628\u0639 [[\u0648\u062b\u0645\u0627]]\u0648\u062b\u0645\u0627\u0646\u064a\u0646 \u0648\u062e\u0645\u0633 \u0645\u0627\u0626\u0629</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
