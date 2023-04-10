@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~182490~208967%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F32978%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/6799b1f3-bdb4-41cf-b327-215fd919eb9d/",
+      "type": "Annotation",
+      "created": "2023-04-10T11:45:15.417538+00:00",
+      "modified": "2023-04-10T11:45:15.417551+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~182490~208967/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/32978/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:882.7886352539062,919.2466430664062,2862.5292358398438,3146.7643432617188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li><span lang=\"ar\">\u0627\u0644\u0648\u0635\u0640..</span></li>\n<li><span lang=\"ar\">\u0646\u0641\u0633\u0647 \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0645 \u0627\u0633\u062d\u0627\u0642 //\u0628\u064a\u0628\u0633// \u0627\u062c\u0631\u062a \u0627\u0644\u0645\u0646\u0632\u0644</span></li>\n<li><span lang=\"ar\">\u062d\u0627\u0646\u0648\u062a \u0628\u062d\u0627\u0631\u062a \u0627\u0644\u064a\u0647\u0648\u062f \u062a\u0639\u0644\u0642 \u0627\u0644\u0648\u0627\u0636\u0639</span></li>\n<li><span lang=\"ar\">\u0627\u0633\u0645\u0627\u0621 \u0648\u062e\u062a\u0645\u0647 \u0641\u064a\u0647 \u0630\u0644\u0643 \u0639\u0646</span></li>\n<li><span lang=\"ar\">\u0634\u0647\u0631 \u062c\u0645\u0627\u062f \u0627\u062e\u0631 \u0633\u0646\u0629 \u0661\u0662\u0664\u0665 \u062e\u0645\u0633\u0629 \u0648\u0627\u0631\u0628\u0639\u064a\u0646</span></li>\n<li><span lang=\"ar\">\u0662\u0664\u0660</span></li>\n<li><span lang=\"ar\">\u0639\u0646 \u0627\u0644\u0646\u0635\u0641</span></li>\n<li><span lang=\"ar\">\u0666\u0660</span></li>\n<li><span lang=\"ar\">\u0648\u0627\u0644\u0627\u0633\u0645(\u061f) \u0648\u0627\u0644\u062d\u0631\u0645(\u061f)...\u0641\u064a\u0647</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
