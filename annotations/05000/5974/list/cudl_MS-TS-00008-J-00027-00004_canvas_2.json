@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00027-00004%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5974%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ba696ea7-7de4-44a7-ba7c-06d53d24e7f8/",
+      "type": "Annotation",
+      "created": "2023-04-11T18:18:18.817883+00:00",
+      "modified": "2023-04-11T18:18:18.817898+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00027-00004/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5974/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:118.14693450927734,773.2775268554688,3888.1238174438477,410.06939697265625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>\n<p>[ &nbsp; &nbsp; &nbsp; &nbsp; ] \u05dc\u05d0\u05db\u05d9 \u05d5\u05e1\u05d9\u05d3\u05d9 \u05d0\u05d1\u05d9 \u05d9\u05d7\u05d9\u05d0 \u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05de\u05df \u05e6\u05d0\u05dc\u05d7 \u05d1\u05df \u05d1\u05d4\u05dc\u05d5\u05dc \u05e9\u05dc\u05d5\u05dd \u05e8\u05d1</p>\n</li>\n<li>\n<p>[ ] \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\u05e2 [ \u064a\u062f\u0641\u0639 \u0628\u0627\u0644\u0641\u0633\u0637\u0627\u0637 \u0627\u0646 \u0634\u0627\u0621 \u0627\u0644\u0644\u0647</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
