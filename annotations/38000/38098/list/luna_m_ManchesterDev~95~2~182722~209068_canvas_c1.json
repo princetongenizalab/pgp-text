@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~182722~209068%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F38098%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/2a5eef9e-2313-44b0-b6d7-9af466c41439/",
+      "type": "Annotation",
+      "created": "2023-04-15T23:32:42.259713+00:00",
+      "modified": "2023-04-15T23:32:42.259728+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~182722~209068/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/38098/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1584.0362548828125,259.140625,2520.4168701171875,3509.20703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "\u064crecto",
+          "value": "<ol>\n<li><span lang=\"ar\">\u0648\u0635\u0644\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0640</span></li>\n<li><span lang=\"ar\">\u0645\u0646 \u0639\u0627\u0628\u062f(\u061f) \u062d\u0645\u0632\u0629(\u061f) \u062d\u0643\u0631 \u0627\u0644\u0637\u0627\u062d\u0648\u0646\u0629&nbsp;</span></li>\n<li><span lang=\"ar\">\u0628\u062d\u0627\u0631\u0629 \u0627\u0644\u064a\u0647\u0648\u062f \u062a\u0639\u0644\u0642 \u0648\u0627\u0641\u0642</span></li>\n<li><span lang=\"ar\">\u0639\u0628\u062f \u0627\u0644\u0642\u0627\u062f\u0631 \u0627\u0644\u0633\u0645\u0627\u0643</span></li>\n<li><span lang=\"ar\">\u0648\u0630\u0627\u0644\u0643 \u0639\u0646 \u0661\u0662\u0666\u0667 \u0633\u0646\u0629</span></li>\n<li><span lang=\"ar\">\u0662\u0667</span></li>\n<li><span lang=\"ar\">\u0641\u0642\u0637 \u0644\u0633\u0628\u0639\u0629 \u0648\u0639\u0634\u0631\u064a\u0646 \u0642\u0631\u0634</span></li>\n<li><span lang=\"ar\">\u0648\u0627\u0644\u0627\u062b\u0645 \u0648\u0627\u0644\u062e\u062a\u0645 \u062d\u062c\u0629 \u0641\u064a\u0647</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/56f0da09-18dd-4275-9234-e0e0eda8c971/",
+      "type": "Annotation",
+      "created": "2023-04-15T23:33:28.763349+00:00",
+      "modified": "2023-04-15T23:33:28.763362+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~182722~209068/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/38098/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:4145.59716796875,300.77423095703125,707.08544921875,1816.6947631835938",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin",
+          "value": "<p>\u0642\u0628\u0636 \u0627\u0644\u062c\u0631\u0645\u0629 \u0647\u0630\u0647 \u0627\u0644\u0646\u0627\u0638\u0631\u0629</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
