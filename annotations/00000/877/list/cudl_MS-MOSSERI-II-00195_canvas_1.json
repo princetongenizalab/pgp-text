@@ -7,7 +7,22 @@
       "id": "https://geniza.princeton.edu/annotations/c017b905-3982-4961-8dab-4f8667ce525b/",
       "type": "Annotation",
       "created": "2022-10-07T00:34:13.133468+00:00",
-      "modified": "2022-10-07T00:34:13.133490+00:00",
+      "modified": "2023-04-27T15:39:27.396232+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/292/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00195/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:40.42,552.2694091796875,3372.270185546875,5226.360590820313",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,27 +32,45 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00195/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/877/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/292/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/988b1617-ddc2-4fef-badf-c17ad0fad799/",
+      "type": "Annotation",
+      "created": "2023-04-27T15:36:40.419216+00:00",
+      "modified": "2023-04-27T15:36:40.419230+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/292/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00195/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3480.333984375,321.4336853027344,423.0498046875,4581.598052978516",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin:",
+          "value": "<ol>\n<li>\u05d5\u05ea\u05d2\u05d9 \u05ea\u05d0\u05db\u05d3 \u05de\u05e0\u05d0\u05e1\u05d2\u05d4\u05d0 \u05de\u05df \u05d3\u05d0\u05e8 \u05d0\u05dc\u05e7\u05d5\u05d0\u05e1 \u05d5\u05e6\u05d8\u05dc\u05d4\u05d0 \u05d5\u05e6\u05d9\u05e0\u05d9\u05ea\u05d4\u05d0 \u05de\u05df \u05d0\u05dc\u05de\u05e2\u05dc\u05de\u05d4</li>\n<li>\u05d5\u05ea\u05d8\u05dc\u05e2 \u05d0\u05dc\u05e7\u05d0\u05d4\u05e8\u05d4 \u05dc\u05d1\u05d9\u05ea\u05d9 \u05e6\u05d1\u05d8 \u05d1\u05df \u05d0\u05d9\u05d5\u05d1 \u05d5\u05dc\u05d0 \u05ea\u05ea\u05d0\u05db\u05e8 \u05e2\u05df \u05d7\u05d5\u05d0\u05d9\u05d2\u05d4\u05d0 \u05e2\u05d0\u05d2\u05dc\u05d0</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
     }
   ]
 }
