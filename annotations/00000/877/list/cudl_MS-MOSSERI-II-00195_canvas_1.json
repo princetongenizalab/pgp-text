@@ -71,6 +71,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/12cf82e3-0a3a-4328-89df-1dcc8ee79a0a/",
+      "type": "Annotation",
+      "created": "2023-04-27T15:40:04.177906+00:00",
+      "modified": "2023-04-27T15:40:04.177920+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/292/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00195/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:292.62408447265625,253.47015380859375,3167.9589233398438,291.89971923828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, upper margin:",
+          "value": "<ol>\n<li>\u05d5\u05d1\u05d7\u05e7 \u05d0\u05dc\u05ea\u05d5\u05e8\u05d9\u05d4 \u05d5\u05d0\u05dc\u05d3\u05d9\u05df \u05d5\u05d0\u05dc\u05e7\u05d1\u05dc\u05d4</li>\n<li>\u05dc\u05d0 \u05ea\u05db\u05dc\u05d9\u05e0\u05d9 \u05de\u05df \u05d6\u05d5\u05d2\u05ea\u05d9 \u05de\u05d4\u05d2\u05d4 \u05e7\u05dc\u05d1\u05d9 \u05d7\u05d1\u05d9\u05d1\u05ea\u05d9</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
     }
   ]
 }
