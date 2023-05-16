@@ -172,7 +172,7 @@
       "id": "https://geniza.princeton.edu/annotations/3f0a43ea-030d-42f6-b719-eb04d24348fa/",
       "type": "Annotation",
       "created": "2023-05-16T18:53:39.486045+00:00",
-      "modified": "2023-05-16T18:53:39.486061+00:00",
+      "modified": "2023-05-16T18:58:52.941626+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/943/",
       "target": {
         "source": {
@@ -184,7 +184,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:994.4000854492188,1583.9775390625,4712.710754394531,272.0496826171875",
+          "value": "xywh=pixel:1003.3351440429688,1583.9775390625,4703.775695800781,165.599609375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -200,6 +200,39 @@
         "transcribing"
       ],
       "schema:position": 6
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/773c1d11-4d1f-4385-9d8b-a1f7a3dcd945/",
+      "type": "Annotation",
+      "created": "2023-05-16T18:58:37.253384+00:00",
+      "modified": "2023-05-16T18:59:24.064059+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/943/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00060/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7372/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:801.6912841796875,1735.174072265625,4889.4942626953125,244.8531494140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>[..]\u05d5\u05d1\u05d9\u05dd \u05d8\u05d5\u05d1\u05d9\u05dd \u05e9\u05e7\u05d5\u05dc\u05d9\u05dd \u05d4\u05e0\u05e7\u05e8\u05d0\u05d9\u05dd \u05de\u05e2\u05d6\u05d9\u05d4 \u05d5\u05d4\u05dd \u05e2\u05dc\u05d9 \u05d1\u05d4\u05dc\u05d5\u05d0\u05d4 \u05d5\u05d1\u05d7\u05d5\u05d1 \u05d5\u05d1\u05db\u05dc \u05d7\u05d6\u05e7\u05d5[\u05ea..]</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 7
     }
   ]
 }
