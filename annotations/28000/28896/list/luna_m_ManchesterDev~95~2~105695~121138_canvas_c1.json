@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~105695~121138%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F28896%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/315d9263-2839-4626-a9fd-91238dd68dae/",
+      "type": "Annotation",
+      "created": "2023-05-21T23:14:30.516734+00:00",
+      "modified": "2023-05-21T23:14:30.516749+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~105695~121138/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/28896/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:46.65329360961914,8.506555557250977,3656.182888031006,4035.040075302124",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d7\u05e6\u05e8\u05d0 \u05d0\u05dc\u05d9 \u05de\u05d5\u05e9\u05d1 \u05d1\u05d9\u05ea \u05d3\u05d9\u05df [</li>\n<li>\u05d2\u05d0\u05d5\u05df \u05d9\u05e2\u05e7\u05d1 \u05d9\u05d4\u05d9 \u05e9\u05de\u05d5 \u05dc\u05e2\u05d5\u05dc\u05dd [</li>\n<li>\u05d9\u05d4\u05d5\u05d3\u05d4 \u05e0\u05e2 \u05d5\u05de \u05e9\u05dc\u05de\u05d4 \u05d4\u05db\u05d4\u05df [</li>\n<li>\u05d7\u05e6\u05e8\u05d0 \u05e2\u05e0\u05d3 \u05db\u05e8\u05d9\u05de\u05d4 \u05e8 \u05d6\u05db\u05d0\u05d9 [</li>\n<li>\u05e1\u05ea \u05d0\u05dc\u05d0\u05d4\u05dc \u05d0\u05dc\u05d0\u05d1\u05e0\u05d4 \u05d0\u05dc\u05e2\u05d0\u05ea\u05e7[\u05d4</li>\n<li>\u05d1\u05d4\u05d0 \u05d1\u05d0\u05d5\u05db\u05d3 \u05e9\u05e8\u05d5\u05d8 \u05d0\u05dc\u05e7\u05e0\u05d9[\u05e0\u05d5\u05ea(?)</li>\n<li>\u05e7\u05d3 \u05d5\u05d4\u05d1\u05ea //\u05d0\u05db\u05d9\u05d4\u05d0 \u05e8 \u05d6\u05db\u05d0\u05d9 . . .// \u05d0\u05e8\u05d1\u05e2 [\u05d0\u05de\u05d5\u05ea \u05e7\u05e8\u05e7\u05e2</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
