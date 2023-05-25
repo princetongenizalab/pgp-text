@@ -7,7 +7,7 @@
       "id": "https://geniza.princeton.edu/annotations/c1508348-dafa-4617-abad-b655ca72ea43/",
       "type": "Annotation",
       "created": "2022-10-07T00:49:26.785533+00:00",
-      "modified": "2022-10-07T00:49:26.785548+00:00",
+      "modified": "2023-05-25T00:55:35.697107+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -19,7 +19,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:93.4126968383789,40.17,5203.087303161621,1845.0681591796874",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -27,9 +27,43 @@
         {
           "type": "TextualBody",
           "label": "Verso",
-          "value": "<p>[\u0627\ufe91]\u0648 \u0633\u0639\u064a\u062f \u0628\u0646\u0627\u0644\u0634\u064a\u062e \u0639\u0628\u062f\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0627\ufeb3\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[... \u062f\u0645\u064a\u0627\u0637]\ufef2 \u0627\u0644\u0627\u0633\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[\u05e9\u05d5\u05dc\u05d9\u05d9\u05dd]</p>\n<p>[\u05e9]\u05dc\u05d5\u05dd \u05dc\u05da \u05de\u05db\u05dc [...]</p>",
+          "value": "<p>[\u0627\ufe91]\u0648 \u0633\u0639\u064a\u062f \u0628\u0646\u0627\u0644\u0634\u064a\u062e \u0639\u0628\u062f\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0627\ufeb3\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[... \u062f\u0645\u064a\u0627\u0637]\ufef2 \u0627\u0644\u0627\u0633\u0631\u0627\u0626\u064a\u0644\u064a</p>",
           "format": "text/html",
           "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/438af7b7-77e9-420d-8e41-d1ae67664221/",
+      "type": "Annotation",
+      "created": "2023-05-25T00:55:25.935527+00:00",
+      "modified": "2023-05-25T00:55:25.935541+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~1230~119529/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9061/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:236.88214111328125,1323.1033935546875,825.0902709960938,1650.7442626953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin",
+          "value": "<p>[\u05e9]\u05dc\u05d5\u05dd \u05dc\u05da \u05de\u05db\u05dc [...]</p>",
+          "format": "text/html"
         }
       ],
       "motivation": [
