@@ -36,6 +36,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/326d9843-3e11-4ba6-9763-fd6fc7363f7e/",
+      "type": "Annotation",
+      "created": "2023-06-05T20:50:49.870044+00:00",
+      "modified": "2023-06-05T20:50:49.870057+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/920/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/30973/iiif/textblock/909/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30973/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:728.4887084960938,0,111.51129150390625,623.6104717254639",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Right margin",
+          "value": "<ol>\n<li>\n<p>. . . . . . . . . . . \u0648\u0633\u0644\u0627\u0645 . . . \u0648\u0639\u0644\u0627 \u0635\u063a\u0627\u0631\u0647</p>\n</li>\n<li>\n<p>\u0633\u0644\u0627\u0645 \u0639\u0644\u0627 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0628\u0646 \u062e\u0627\u0644\u062a\u064a \u0648\u0635\u063a\u0627\u0631\u0647 \u0648\u0633\u0644\u0627\u0645</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
     }
   ]
 }
