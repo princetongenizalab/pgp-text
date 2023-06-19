@@ -1,17 +1,17 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F604%2Fiiif%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F604%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-22-43%2F1.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F604%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "id": "https://geniza.princeton.edu/annotations/e919034f-ef7f-4834-afaa-26adcdff44b2/",
+      "id": "https://geniza.princeton.edu/annotations/8f24a3e3-6147-43e7-898c-679b87613adf/",
       "type": "Annotation",
-      "created": "2022-10-07T00:53:29.941503+00:00",
-      "modified": "2022-10-07T00:53:29.941524+00:00",
+      "created": "2023-06-19T18:09:35.132381+00:00",
+      "modified": "2023-06-19T18:09:35.132394+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/604/iiif/canvas/1/",
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-22-43/1.json",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/604/iiif/manifest/"
@@ -19,7 +19,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:335.18487548828125,1275.9283447265625,2053.6173706054688,2045.9832763671875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -27,8 +27,7 @@
         {
           "type": "TextualBody",
           "value": "<ol>\n<li>\u05e9\u05d4\u05d3\u05ea \u05d0\u05e0\u05d0 \u05d5\u05d1\u05d5\u05e1\u05e8\u05d5\u05e8 \u05d1\u05df \u05d0\u05dc\u05e6\u05d1\u05d0\u05d2</li>\n<li>\u05d5\u05e4\u05e6\u05d0\u05d9\u05dc \u05d0\u05dc\u05d7\u05d6\u05d0\u05df \u05de\u05e2\u05d0\u05dc\u05d9 \u05d1\u05df</li>\n<li>\u05d0\u05dc\u05d0\u05e8\u05d1\u05dc\u05d9 \u05e2\u05dc\u05d9 \u05e1\u05ea \u05e8\u05d9\u05d0\u05e5</li>\n<li>\u05d0\u05dc\u05e0\u05d0\u05d9\u05d7\u05d4 \u05d5\u05d0\u05e9\u05d4\u05d3\u05ea\u05e0\u05d0 \u05e2\u05dc\u05d9</li>\n<li>[[\u05e0\u05e4\u05e9]] \u05d5\u05e4\u05e1\u05d4\u05d0 \u05d0\u05e0\u05d4\u05d0 \u05e7\u05d3</li>\n<li>\u05d5\u05d4\u05d1\u05d4 \u05de\u05df //\u05d3\u05d0\u05e8\u05d4\u05d0// \u05d3\u05d0\u05ea\u05d4(!) \u05d6 \u05e7\u05e8\u05d0\u05e8\u05d9\u05d8</li>\n<li>\u05dc\u05e7\u05e8\u05d0\u05d9\u05d9\u05df \u05ea\u05de\u05df: \u05d5\u05dc\u05dc\u05e8\u05d1\u05d0\u05e0\u05d9\u05df \u05d6&lt;</li>\n<li>\u05e4\u05d9 \u05d0\u05dc\u05e2\u05e9\u05e8 \u05d0\u05dc\u05d0\u05d5\u05e1\u05d8 \u05e9\u05d4\u05e8</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
+          "format": "text/html"
         }
       ],
       "motivation": [
