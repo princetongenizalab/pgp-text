@@ -7,23 +7,14 @@
       "id": "https://geniza.princeton.edu/annotations/72cae52b-1273-405b-81ef-93008f98f7e9/",
       "type": "Annotation",
       "created": "2022-10-07T01:14:07.144396+00:00",
-      "modified": "2022-10-07T01:14:07.144413+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso",
-          "value": "<ol>\n<li>[ \u05d0\u05e4\u05e8\u05d9\u05dd \u05d4\u05d7\u05d1\u05e8 \u05d1\u05e1\u05d2] \u05d1\u05d9\u05e8 \u05e9\u05de\u05e8\u05d9\u05d4 \u05d4\u05de\u05dc\u05de\u05d3 \u05d0\u05d4\u05d1\u05d5 \u05e9\u05dc\u05de\u05d4</li>\n<li>[ \u05d4]\u05e2\u05d6\u05ea\u05d9 \u05ea\u05e0\u05e6\u05d1\u05d4 \u05d1\u05d9\u05e8 \u05e6\u05de\u05d7 \u05e0\u05e0</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2023-06-21T07:14:57.526427+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/2b596cd7-9ac7-4023-88c6-8a869784292c/manifest/canvas/105a1681-11cd-4ea8-88f9-42c0cf2f2ff1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/819/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/819/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +23,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>[ \u05d0\u05e4\u05e8\u05d9\u05dd \u05d4\u05d7\u05d1\u05e8 \u05d1\u05e1\u05d2] \u05d1\u05d9\u05e8 \u05e9\u05de\u05e8\u05d9\u05d4 \u05d4\u05de\u05dc\u05de\u05d3&nbsp; &nbsp; &nbsp; &nbsp;\u05d0\u05d4\u05d1\u05d5 \u05e9\u05dc\u05de\u05d4</li>\n<li>[ \u05d4]\u05e2\u05d6\u05ea\u05d9 \u05ea\u05e0\u05e6\u05d1\u05d4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05d1\u05d9\u05e8 \u05e6\u05de\u05d7 \u05e0\u05e0</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
