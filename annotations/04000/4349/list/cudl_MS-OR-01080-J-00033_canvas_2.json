@@ -7,23 +7,14 @@
       "id": "https://geniza.princeton.edu/annotations/65b37c9e-8ae7-46aa-a921-3fa0c8c152d5/",
       "type": "Annotation",
       "created": "2022-10-07T01:25:08.515692+00:00",
-      "modified": "2022-10-07T01:25:08.515704+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso\nArabic:",
-          "value": "<ol>\n<li>. . \u05d0\u05dc\u05de\u05d7\u05dc\u05d0 \u05d0\u05dc\u05e1\u05d0\u05de\u05d9 \u05d0\u05dc\u05d0\u05d7\u05dc\u05d0 \u05d0\u05dc. . . \u05de\u05d5\u05e1\u05d0</li>\n<li>. . .\u05e8 \u05d0\u05dc\u05d2\u05e7\u05de\u05d0 \u05d0\u05d3\u05d0\u05dd . . . .</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2023-06-30T18:22:54.220340+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/750/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00033/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4349/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4349/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +23,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/750/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (address in Arabic)",
+          "value": "<ol>\n<li>\u062d\u0636\u0631\u0629 \u0627\u0644\u0645\u062c\u0644\u0633 \u0627\u0644\u0633\u0627\u0645\u064a \u0627\u0644\u0627\u062c\u0644\u064a \u0627\u0644\u0633\u064a\u062f\u064a \u0645\u0648\u0633\u0649</li>\n<li>\u0634\u0645\u0633 \u0627\u0644\u062d\u0643\u0645\u0627 \u0627\u062f\u0627\u0645 \u0627\u0644\u0644\u0647 \u0639\u0632\u0647</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
