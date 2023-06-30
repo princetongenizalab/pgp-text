@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Fd%2Fcanvas%2Fms-heb-d-76-58%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2572%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c89ed186-6cbb-4a68-a95a-cbfbe4763ce4/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:25:32.056532+00:00",
+      "modified": "2023-06-30T18:46:23.328075+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-76-58/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2572/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso. Address.",
+          "value": "<p>\u05d7\u05e6\u05e8\u05d4 \u05de\u05d5\u05dc\u05d0\u05d9 [\u05d0\u05dc\u05d7]\u05d1\u05e8 \u05e8 \u05e2\u05dc\u05d9 \u05d1[\u05d9\u05e8] \u05e2\u05d1\u05d3\u05d4 \u05de\u05e0[\u05e9\u05d4] \u05d1\u05d9\u05e8 \u05de[. . . .</p>\n<p>\u05de\u05d1\u05d5\u05e8\u05da \u05d1\u05d9\u05e8 [. . . . . . . . . . . . . . . . . . . . . . . . . . .</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
