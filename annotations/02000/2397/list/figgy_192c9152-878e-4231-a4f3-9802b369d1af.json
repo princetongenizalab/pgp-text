@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/8cebad53-0db3-4fad-8a4f-4b68189bf09e/",
+      "type": "Annotation",
+      "created": "2023-07-11T18:03:00.125725+00:00",
+      "modified": "2023-07-11T18:03:00.125739+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/91/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/5fdaf29c-7701-4470-b2ef-5e4e2e9e6ebc/manifest/canvas/192c9152-878e-4231-a4f3-9802b369d1af",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2397/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1094.081298828125,1365.4813232421875,1085.60009765625,339.25",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso,\u00a0Judeo-Arabic archival note at top of page",
+          "value": "<p>The deed (al-she\u1e6dar) about the oath of \u02bfAziza, the widow of the dyer.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/40189521-b87c-48ba-8817-1ff4aba79023/",
       "type": "Annotation",
       "created": "2022-10-07T01:37:26.020922+00:00",
       "modified": "2022-12-02T18:08:17.589448+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/5fdaf29c-7701-4470-b2ef-5e4e2e9e6ebc/manifest/canvas/192c9152-878e-4231-a4f3-9802b369d1af",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2397/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +66,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1a27d944-8f32-4c49-a4a0-ba560daed3fb/",
+      "type": "Annotation",
+      "created": "2023-07-11T18:03:53.146372+00:00",
+      "modified": "2023-07-11T18:03:53.146388+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/91/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/5fdaf29c-7701-4470-b2ef-5e4e2e9e6ebc/manifest/canvas/192c9152-878e-4231-a4f3-9802b369d1af",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2397/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2397/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:1246.7437744140625,3019.3251953125,1755.6187744140625,695.46240234375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, Arabic script in middle of page",
+          "value": "<p>A deed through which the wife of Ab\u016b al-Khayr son of the midwife became entitled to her ketubah after taking an oath. She swore</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     }
