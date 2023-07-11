@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4288%2Fiiif%2Ftextblock%2F32031%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4288%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ac6a177c-4ed1-4cd5-905e-0015f75bb7ad/",
+      "type": "Annotation",
+      "created": "2023-07-11T17:45:53.836062+00:00",
+      "modified": "2023-07-11T17:46:09.321223+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/990/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4288/iiif/textblock/32031/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4288/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:20.174673080444336,25.676856994628906,805.1528415679932,583.2314682006836",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<p>Right:</p>\n<ol>\n<li>\n<p>(To) my lord the excellent elder, Ab\u016b al-\u1e24asan Sur\u016br&nbsp;</p>\n</li>\n<li>\n<p>b. \u1e24ayyim,&nbsp;</p>\n</li>\n<li>\n<p>known as Sabra,&nbsp;</p>\n</li>\n<li>\n<p>may God prolong his life and make lasting his honor&nbsp;</p>\n</li>\n<li>\n<p>and protection.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p>Left:&nbsp;</p>\n<ol>\n<li>\n<p>(From) he who is grateful for his favor, Sahl [b.]&nbsp;</p>\n</li>\n<li>\n<p>Mevasser, may he rest in peace. Great Salvation!</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
