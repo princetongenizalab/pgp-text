@@ -7,23 +7,14 @@
       "id": "https://geniza.princeton.edu/annotations/c25ce031-0bf8-46d4-b0f0-fb97ab49a485/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:34.951035+00:00",
-      "modified": "2022-10-07T01:24:34.951046+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "page b",
-          "value": "<ol>\n<li>\u05d5....\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05dd :}enil a fo stnanmer{</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2023-07-11T21:39:20.038802+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/85/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00019-00019/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1528/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1528/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +23,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/85/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>\u05d5....\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05dd :(remnants of a line)</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
