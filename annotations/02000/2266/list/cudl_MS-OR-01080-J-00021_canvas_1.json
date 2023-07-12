@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:56:02.562325+00:00",
       "modified": "2022-10-07T00:56:02.562345+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00021/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2266/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/c993234c-e09e-4d16-bdff-69db05a6a0e9/",
+      "type": "Annotation",
+      "created": "2023-07-12T17:55:29.311228+00:00",
+      "modified": "2023-07-12T17:55:29.311244+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/993/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00021/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2266/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2266/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:272.2890625,326.74688720703125,4099.8955078125,3251.9096069335938",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>I am writing to you, my daughter, from Jerusalem, may God keep it, on the 27th of Rajab. I wish to tell you, my daughter, what I think about your affairs. Fire is in my heart because of you; God is between me and that one who harmed and made you an orphan while I am alive. You, my daughter, must look for alms from strangers because of the deeds of your mother. I ask God, the exalted, not to forgive her that she destroyed you in order to satisfy her cupidity. He will punish her for what she has done to you.&nbsp;</p>\n<p>Know, my daughter, that I have given a solemn oath not to send you anything as long as I am uncertain about your status and do not know how to act in regard with you. God knows that I have no worry or distress except you. Otherwise, I am completely satisfied with my health and my affairs; my clothes do not hold me for happiness and good luck. Had I sought only worldly gain, then I could regard myself today as a great success, for I have become the administrator of the estates of the Sultan here in Palestine, for an ample salary and fine income. Your maternal aunt has seen me, and her husband too, and also Abu 'l-Fa\u1e0dl. The police are at my disposal, command and prohibition are in my hand, and I am a sultan. God has made me happier than I had been before; so the good fortune has been mine and the misfortune has come to your mother, and praise be to God.&nbsp;</p>\n<p>Now, my daughter, I do not know with whom you are, with the Jews, who are the stock of your father, or with the stock of your mother, the Muslims. But this I wish you to know: even if they wanted to sell you to me, who are my own daughter, I would buy you and rescue you from their hands, except one other thing which I cannot do.&nbsp;</p>\n<p>After Pentecost I am leaving for the lands of the R\u016bm (Byzantium) to visit my native country and my family. Let me know before what your intentions are so that I can decide what to do with you, if God will.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
