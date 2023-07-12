@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:45:14.157361+00:00",
       "modified": "2022-10-07T01:45:14.157381+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00018-00028/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2020/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,42 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/fa517dda-ffc7-47d7-b561-6aa14af82502/",
+      "type": "Annotation",
+      "created": "2023-07-12T01:31:46.985904+00:00",
+      "modified": "2023-07-12T01:31:46.985918+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00018-00028/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2020/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2020/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:191.04537963867188,1438.3492431640625,4190.602569580078,1611.2401123046875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>[...] I turn to you and ask you that you kindly assist me with anything that God provides so that I might remain in Har-El, the noble place. I ask God the ex(alted) to increase your well-being and add to it and multiply among our people the likes of you. May He favor us with your long life. May God cover you with the cover of His wings and save you from all evil and distress and may you merit to see the goodness of the Lord and to visit his sanctuary. The Lord grants strength to His people and blesses His people with peace. I am [l]ooking forward to what my master sends me. I ask God to reward you and grant that we see your face in this place in a state of well-being and good [h]ealth. Amen.</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
