@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00010-00016%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1849%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/9daf3c88-34ca-4510-a414-d5ab3207c92d/",
+      "type": "Annotation",
+      "created": "2023-07-12T14:05:59.740395+00:00",
+      "modified": "2023-07-12T14:05:59.740416+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/412/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00010-00016/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1849/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:132.1361541748047,255.1431884765625,1449.9600372314453,3957.8309326171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>(1) In Y(our name), O M(erciful),</p>\n<p>(2-3) May God, the exalted, help you and not deprive us from seeing your face.</p>\n<p>(4-11) Regarding Ab\u016b al-Khayr telling you that Ab\u016b Is\u1e25\u0101q talked with the wife of your uncle, it was only that they said: &ldquo;By God! You are not good enough for us for you are relatives of Muslims and because of this you deserve to be put under the ban.&rdquo;</p>\n<p>(12-18) He answered: &ldquo;By God! We have no Muslim among us at all! The one who deserves to be put under the ban is he who casts evil among people and corrupts the state of intimacy with their partners. Such a person (ought to be) placed under the ban ...&nbsp;</p>\n<p>(19) It did not end well. Do not let it trouble you.Regarding the one who ridiculed him, inquire for me in whose possession it is (?). May God settle what is between the children (for the best). May God settle [</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
