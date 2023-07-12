@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-OR-01080-J-00276%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8938%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d045cd45-cc59-4eae-b75c-4c9358ce8f29/",
+      "type": "Annotation",
+      "created": "2023-07-12T00:24:43.942969+00:00",
+      "modified": "2023-07-12T00:24:43.942985+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/412/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00276/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8938/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:338.3999328613281,1288.7998046875,3909.599578857422,928.7998046875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address written in Arabic script (except al-Kohen)",
+          "value": "<p>My lord, the elder, Ab\u016b al-\u1e24asan \u02bfAl\u012b [al-]Kohen b. Ya\u1e25y\u0101 al-firn\u0101s, may God prolong his life and make lasting his honor, strength, happiness and humble his enemies.&nbsp;</p>\n<p>He who is grateful for his favor, Is\u1e25\u0101q b. \u02bfImr\u0101n.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
