@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F38399%2Fiiif%2Ftextblock%2F38612%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F38399%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/556a7289-c066-49a1-91dd-e67ef0f1da8d/",
+      "type": "Annotation",
+      "created": "2023-07-12T14:36:21.713370+00:00",
+      "modified": "2023-07-12T14:36:21.713385+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/412/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/38399/iiif/textblock/38612/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/38399/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1.8260867595672607,10.956521034240723,829.0434200763702,606.2608251571655",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>(1-5) (reveal) his secret. For if you disobey his command, you will arouse his anger and if you reveal his secret, you will not be safe from his unfaithfulness. The ninth and the tenth: the more you exalt him, the more he will honor you.12</p>\n<p>(6-9) Know dear daughter that you will not attain all of these (qualities) until you prefer his desire over your desire and his pleasure over your anger regarding what you like or dislike. May God improve His favor to you.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
