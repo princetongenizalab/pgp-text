@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F05ffd244-0a66-40ef-be32-01cc21f402b5%2Fmanifest%2Fcanvas%2Fd8f52e0b-0a99-4afd-b262-482d6c32398d&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6943%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/162d09cb-44cd-43b6-afe9-31e5ff423980/",
+      "type": "Annotation",
+      "created": "2023-07-12T00:29:07.445937+00:00",
+      "modified": "2023-07-12T00:29:07.445952+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/412/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/05ffd244-0a66-40ef-be32-01cc21f402b5/manifest/canvas/d8f52e0b-0a99-4afd-b262-482d6c32398d",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6943/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:887.7749633789062,1136.9749755859375,2858.0123901367188,2390.7623291015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>&nbsp;I left on Sunday eve as they told me &ldquo;leave and save yourself.&rdquo; The more we speak (to you, the more) he speaks of denouncing to the government in regards to my lord. Your slave will not give him anything because he has no need of me. Your slave has nothing but the aid of God and our lord. May your peace increase and never decrease.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
