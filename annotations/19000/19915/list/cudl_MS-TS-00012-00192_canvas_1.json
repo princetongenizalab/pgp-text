@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00012-00192%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F19915%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/3ad27db7-918c-43f5-8b29-3c9fa64a2aed/",
+      "type": "Annotation",
+      "created": "2023-07-13T23:27:18.066048+00:00",
+      "modified": "2023-07-13T23:27:18.066061+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00192/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19915/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:368.0807189941406,1624.4234619140625,3475.3431091308594,3566.3001708984375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>May God grant long life to your excellency, my prop and support, the elder \"the Trusted\" (al-Thiqa) \"the Trustworthy\" (al-Am\u012bn), and perpetuate your honor. The one who esteems you, your slave Moses, greets you and expresses distress that you are so far away and asks you kindly to assist the bearer of this letter, lsaac al-Dar\u02bfi (of Dra\u02bf, a town in Morocco), for he is an acquaintance of mine. Ask the \u1e25aver (may his) R(ock) p(rotect him) to charge the community with his care, so that he gets the money for his poll tax in your town. He has to pay two poll taxes, one for himself and one for his son. If possible, your excellency, let him pay it in your town, Minyat Zifta. So do it, because he is a newcomer and thus far has not paid anything. He is on his way to Damietta on a matter important for me. On his way back, action should be taken for him according to your means. May your welfare increase, as well as the welfare of the \u1e25aver and his son and the welfare of her son, (may his) R(ock) p(rotect him).</p>\n<p>Moses b. Maimon, (may) the m(emory of) the r(ighteous be) b(lessed)&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
