@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00025-00284%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8597%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/9135e996-7c52-45b8-982b-12c5ebad82f0/",
+      "type": "Annotation",
+      "created": "2023-07-16T15:38:24.044698+00:00",
+      "modified": "2023-07-16T15:38:24.044712+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/995/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00284/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8597/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:283.2300720214844,569.39453125,2629.2579650878906,11388.35546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>(Verso, lines 9 - 24:)</p>\n<p>This building is delimited by four borders : Firstly, to the south, the street, in which it is situated and on which the doorway to the upper rooms and the doorway of one of its two stables open. Secondly, to the north, the small house known as the property of Ibn Hibat Allah al-Halab\u012b Thirdly, to the east, the house known as \"the house of the Jewess\". Fourthly, to the west, the large compound described above in this document which consists of the (aforement ionedt)wo houses in Fust\u0101t of Egypt, in the R\u0101ya quarter, in the Fortress of the Candles, known as the Fortress of the R\u016bm.</p>\n<p>This sale does not include the roof of the apartment whose door adjoins the door of the kitchen of the newly repaired apartment which belongs to the upper floors of the large house. For that roof and the room below that apartment and the room below the latter room do not belong to this house and are not affected by this sale. However, the apartment registered as separate with its lower and upper sections belongs to the large house and is included in this sale.</p>\n<p>The ground rent for the large house and the two smaller buildings (one of which is in the M\u012bkh\u0101l Lane, adjacent to the secret door of the house, and the other adjoining its doorway) amounts to one-eighth (of a dinar) and three quarters of a qir\u0101t. The payment incumbent upon the buyer is in proportion to his share in the property.</p>\n<p>&nbsp;</p>\n<p>(Margin:)</p>\n<p>The price 220</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
