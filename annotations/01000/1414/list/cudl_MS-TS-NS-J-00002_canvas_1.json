@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:49:01.683159+00:00",
       "modified": "2022-10-07T01:49:01.683176+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/32/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1414/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/21168a5b-4d4a-4dba-96ee-5e09e3012c5b/",
+      "type": "Annotation",
+      "created": "2023-07-17T23:40:53.764877+00:00",
+      "modified": "2023-07-17T23:40:53.764892+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/32/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00002/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1414/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1414/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:214.62075805664062,265.8958435058594,2591.1275329589844,4449.307769775391",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/32/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>In the second decade of the month of Adar, in the year 1555 of the era of the documents, in the town of Little Dam\u012bra, which is situated on the Nile river, there appeared before us the elder Abu \u02bel-Fakhr, son of Abu \u02bel-Faraj, m(ay he rest in) E(den). The symbolic purchase was made from him in the proper form &hellip; to the effect that he would in no way interfere with the expenditure made by the public chest for the hiring of riding beasts for our lord, the prince Joshia, which were hired for his travel to Ashm\u016bm and al Ma\u1e25alla. In case Abu \u02bel-Fakhr interferes with the proposed expenditure, he has to pay a penalty to the public chest. He hereby renounced his claim in connection with the reading of the Esther scroll by his son Ibrah\u012bm, after Umm Abu \u02bel-Sur\u016br and her daughter had paid forty silver dirhems to the public chest, stipulating that the community should spend the money for any purpose connected with the synagogue, as agreed upon by the community. These forty dirhems were paid by Umm Abu \u02bel-Sur\u016br and her daughter, the wife of Ben Umm \u02beAmid, for the privilege of reading the Esther scroll by the aforementioned Ibrah\u012bm, son of Abu \u02bel-Fakhr. We wrote this down and signed it and everything is hereby ratified, confirmed and valid.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
