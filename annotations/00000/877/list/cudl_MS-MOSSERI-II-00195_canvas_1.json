@@ -42,7 +42,7 @@
       "id": "https://geniza.princeton.edu/annotations/7ff3035c-74b2-459a-bb8e-8359ab9ac0d5/",
       "type": "Annotation",
       "created": "2023-07-17T17:57:05.578522+00:00",
-      "modified": "2023-07-17T17:57:05.578537+00:00",
+      "modified": "2023-07-17T18:00:09.050080+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/292/",
       "target": {
         "source": {
@@ -54,7 +54,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:378.9375,334.7281188964844,3107.287353515625,4673.562408447266",
+          "value": "xywh=pixel:378.9375,583.7000732421875,3074.061279296875,4424.5904541015625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -110,7 +110,7 @@
       "id": "https://geniza.princeton.edu/annotations/236f6e05-2114-4224-a198-3cbd81e6cd43/",
       "type": "Annotation",
       "created": "2023-07-17T17:57:45.367164+00:00",
-      "modified": "2023-07-17T17:59:58.138748+00:00",
+      "modified": "2023-07-17T18:01:03.495813+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/292/",
       "target": {
         "source": {
@@ -129,7 +129,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Recto, margin",
+          "label": "Recto, right margin",
           "value": "<p>She should come and take her embroidery frames from the house of the Qaww\u0101s and her bucket and tray from the woman teacher and come up to Cairo to my house, in the Roofed Passage Ibn Ayy\u016bb. She should hurry and not leave her things,</p>",
           "format": "text/html"
         }
@@ -171,6 +171,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/8412e568-76e9-44bd-aba2-aa174e7a2787/",
+      "type": "Annotation",
+      "created": "2023-07-17T18:00:57.591857+00:00",
+      "modified": "2023-07-17T18:01:16.062042+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/292/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00195/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:520.7642822265625,309.0177001953125,1895.3084716796875,363.95416259765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, upper margin",
+          "value": "<p>By the Torah, the Religion, and the Oral Tradition, send me my wife, the lifeblood of my heart, my beloved.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 3
     }
