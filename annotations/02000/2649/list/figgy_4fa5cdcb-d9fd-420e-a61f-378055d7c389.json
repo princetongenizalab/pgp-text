@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/bb37ba78-2d72-4948-be70-e5c7df6b8a6f/",
+      "type": "Annotation",
+      "created": "2023-07-17T15:18:20.707329+00:00",
+      "modified": "2023-07-17T15:18:20.707344+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/986/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e970db6a-fbf1-48b2-a883-000b694050b0/manifest/canvas/4fa5cdcb-d9fd-420e-a61f-378055d7c389",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2649/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1789.5438232421875,1009.268798828125,2900.5875244140625,1882.837646484375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>[... We wrote] and signed, so that it may serve as a deed attesting to right and as evidence</p>\n</li>\n<li>\n<p>[..... the twe]ntieth of Kislev, year one thousand, four</p>\n</li>\n<li>\n<p>[hundred &hellip; of the e]ra of documents, in Fustat, Egypt</p>\n</li>\n<li>\n<p>[... the jurisdictio]n of our lord Maslia\u1e25 ha-Kohen, the Head of</p>\n</li>\n<li>\n<p>[the a]c[ademy of the] P[ri]de [of Jacob, may his name be perpetuated foreve]r, established forever as the moon \u0327 Strong, firm, and valid.</p>\n</li>\n<li>\n<p>And he produced a silver ring and delivered it to m[aster] [So]lom [on], father of the girl, in the capacity of</p>\n</li>\n<li>\n<p>a deposit and nothing else, so that the legal state of qiddushin (betrothal) be not effected thereby, whatsoever. We wrote (it) as a deed of right&nbsp;</p>\n</li>\n<li>\n<p>and as evidence. Nathan ha-Kohen b. R. Solomon ha-Kohen r(est in) E(den) a&nbsp;</p>\n</li>\n<li>\n<p>Pinhas b. Eleazar r(est in) E(den). Nathan b. R. Samuel the Fellow (his) m(emory) b(e a blessing)</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/04c81262-ceec-4df0-8d1e-0cc0e68a25be/",
       "type": "Annotation",
       "created": "2022-10-07T01:31:32.345867+00:00",
       "modified": "2022-10-07T01:31:32.345881+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/191/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e970db6a-fbf1-48b2-a883-000b694050b0/manifest/canvas/4fa5cdcb-d9fd-420e-a61f-378055d7c389",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2649/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/e970db6a-fbf1-48b2-a883-000b694050b0/manifest/canvas/4fa5cdcb-d9fd-420e-a61f-378055d7c389",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2649/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/191/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
