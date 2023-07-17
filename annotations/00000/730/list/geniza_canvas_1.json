@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:40:02.958092+00:00",
       "modified": "2022-10-07T00:40:02.958110+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/94/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/730/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/730/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/8f0a900b-f0f0-43ba-978d-32c44f281ea1/",
+      "type": "Annotation",
+      "created": "2023-07-17T18:35:56.085257+00:00",
+      "modified": "2023-07-17T18:35:56.085273+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/246/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/730/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/730/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/730/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:5.250000476837158,10.500000953674316,828.1875605583191,578.8125600814819",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/94/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>\n<p>In (Your) N(ame).</p>\n</li>\n<li>\n<p>This is what we ask your excellency, our master, the prominent Rav, may God make your exalted position permanent</p>\n</li>\n<li>\n<p>and your leadership solid. Please let us have your legal opinion about what has to be done in the following matter.</p>\n</li>\n<li>\n<p>A long time ago, female captives, among them little girls, arrived here.</p>\n</li>\n<li>\n<p>A woman took a little girl into her house in order to bring her up, doing this as a pious work. That woman had</p>\n</li>\n<li>\n<p>three virgin girls and two boys, grown up bachelors. She brought the girl up,</p>\n</li>\n<li>\n<p>who stayed with her five or four years until she came of age.</p>\n</li>\n<li>\n<p>[One of the two boys] of that woman asked for her hand. They consulted the local judge, (may) G(od) k(eep him), whether this marriage was permissible. He said:</p>\n</li>\n<li>\n<p>\"It is.\" They arranged the marriage and gave her as outfit whatever God had blessed them with.</p>\n</li>\n<li>\n<p>[However, after the marria]ge she did not stay with her husband longer than four</p>\n</li>\n<li>\n<p>[weeks and re]turned to the house of the woman, in which she had been brought up.</p>\n</li>\n<li>\n<p>[...] and said: I shall not stay with this man one single hour</p>\n</li>\n<li>\n<p>[The elders and the jud]ge, (may) G(od) k(eep him) urged her all the time to reconsider the matter, but she said:</p>\n</li>\n<li>\n<p>[...]. They exercised on her all kinds of pressure and talked to her in different</p>\n</li>\n<li>\n<p>[ways, but she said: \"I shall not stay with this] man even if he pours gold over my head.\"&nbsp;</p>\n</li>\n<li>\n<p>[...]. Then the woman's children drove her out of the house.</p>\n</li>\n<li>\n<p>[...] she did not agree, but [...].&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
