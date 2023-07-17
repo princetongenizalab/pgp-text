@@ -104,6 +104,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/ecd43c45-cd56-4ed2-b3a7-6c0df3fc4f7e/",
+      "type": "Annotation",
+      "created": "2023-07-17T15:30:07.063846+00:00",
+      "modified": "2023-07-17T15:30:07.063862+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/893/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00026-00019/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/17210/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2559.1328125,1118.6312255859375,617.35791015625,3276.7452392578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "<ol>\n<li>\n<p>The only thing which the maidservant wants is</p>\n</li>\n<li>\n<p>that her husband cease to go up the mountain</p>\n</li>\n<li>\n<p>and that he may show mercy towards the little ones.</p>\n</li>\n<li>\n<p>If he wishes to devote himself to God,</p>\n</li>\n<li>\n<p>he may do so in the synagogue,</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
