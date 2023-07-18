@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F26454%2Fiiif%2Ftextblock%2F29509%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F26454%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b8988ea8-e653-4b27-bf89-ed8b6b443ac1/",
+      "type": "Annotation",
+      "created": "2023-07-18T23:51:32.036865+00:00",
+      "modified": "2023-07-18T23:51:32.036878+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/26454/iiif/textblock/29509/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/26454/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:92.27603912353516,63.314453125,419.33333587646484,293.3333435058594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>[Calligraphic Arabic heading]&nbsp;</p>\n<p>To Abraham the Elder of the Community, (may) G(od) b(e your succor) and provide as [your] successor a good son, living [and strong]. Your slave brings to your noble knowledge [that the letter-bearer is] from a good family. He is deserving [...]. He cannot face asking t[he community]. He requests, therefore, that his matter [...s]o that he does not experience shame from anyone. As you know, the highest and noblest form of charity is credited to the one who bestows charity upon someone anonymously, rather than that he take. As Solomon the (king), p(eace be) u(pon him) said in the proverb: \"A gift in secret [s]ub[dues] anger\" (Proverbs 21:14).&nbsp; We prefer this kind of charity for the distresse(d) on these High Holidays. May God the ex(alted) give you from His full treasury, and may all who [open wid]e their hands in giving be blessed. \"It will be to your merit as an act of righteousness (charity),\" etc. (Deuteronomy 24:13).</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
