@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-OR-01080-J-00031%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8853%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/43a8904a-05ad-4ce3-9b48-08001a850e32/",
+      "type": "Annotation",
+      "created": "2023-07-19T00:00:30.205142+00:00",
+      "modified": "2023-07-19T00:00:30.205157+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00031/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8853/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:473.053955078125,649.555908203125,1997.864501953125,4168.877197265625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>\"For the Lord will be your trust; He will keep your feet from being caught\"(Proverbs 3:26).&nbsp;</p>\n<p>\"The Lord will guard you from all harm; He will guard your life\" (Psalm 121:7).&nbsp;</p>\n<p>&nbsp;</p>\n<p>O my master, may God sustain your might and strength and not depose you from our high rank. I am from the land of Persia and I live in the synagogue. I had enough to live on (lit., \"to cover myself with\"), but I lost it, and I remain without a pittance. I came to this city empty-handed, intending that I would support myself by serving the people, but I fell sick with smallpox. Now I cannot function and I possess nothing. So I have written this petition to your excellency my master, hoping you would help me out with something. I am singling you out with this request and no one else because of your renown and repute (for generosity). May God never terminate your position. By my brother, I have never uncovered myself and would not have had to had not necessity brought this about. I am looking forward to the favor of God the exalted and to the favor of my master. May God never put my master in need or humble him. O master, do not turn me away disappointed but do for me as you do with others and \"let not the downtrodden turn away disappointed,\" etc. (Psalm 74:21). May the welfare of our lord increase forever, Amen.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
