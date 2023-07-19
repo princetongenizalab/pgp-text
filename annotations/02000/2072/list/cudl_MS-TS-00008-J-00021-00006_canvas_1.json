@@ -175,6 +175,40 @@
         "transcribing"
       ],
       "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/b5f8a42d-31cc-41c0-8ec8-d373459f548a/",
+      "type": "Annotation",
+      "created": "2023-07-19T14:20:21.915752+00:00",
+      "modified": "2023-07-19T14:20:21.915766+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00021-00006/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2072/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:348.5100402832031,305.7409973144531,3812.299530029297,341.3999938964844",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, above",
+          "value": "<p>May your welfare increase like the multitude of the locusts. Isaac, your admirer, asks that your welfare increase.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
     }
   ]
 }
