@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:58:42.708892+00:00",
       "modified": "2022-10-07T00:58:42.708913+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/437/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00048/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2277/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/fe5e4a40-5acf-4c14-90b1-41943ba3149f/",
+      "type": "Annotation",
+      "created": "2023-07-19T18:32:44.245490+00:00",
+      "modified": "2023-07-19T18:32:44.245504+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00048/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2277/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2277/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:370.6436767578125,938.5654296875,2833.6307373046875,3252.099609375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/437/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>Rosh ha-Seder</li>\n<li>Our beloved and eminent ma(ster) and t(eacher) Aaron the cantor the precious one,</li>\n<li>may our Rock protect you and increase your welfare and blessings forever.</li>\n<li>Our hearts are unto [you and] our yearning for you is great.</li>\n<li>Our entreaties (to God) are on your behalf, may the Omni(present) fulfill them and apportion to you</li>\n<li>good things and save you from all snares, through His kindness.</li>\n<li>The bearer of this note is Shabbat. He is one of the blind</li>\n<li>and receives his share with them. He told us that they cheat him by</li>\n<li>taking from (New) Cairo. He [reque]sts that I write to you to look into</li>\n<li>his matter with them. May you, blessed be God,</li>\n<li>do in this (matter) as you are granted abundance from heaven.</li>\n<li>May your welfare and blessings inc[rease] forever.&nbsp;</li>\n<li>Perfect covenant.</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
