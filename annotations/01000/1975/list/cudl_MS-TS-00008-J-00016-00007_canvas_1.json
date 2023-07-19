@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/608cd174-6b52-4dfa-ad51-e98de86d5445/",
+      "type": "Annotation",
+      "created": "2023-07-19T13:52:20.506306+00:00",
+      "modified": "2023-07-19T13:52:20.506322+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00016-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1975/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:171.0711669921875,1080.3997802734375,2382.2479248046875,3610.2799072265625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>By the religion of the Jews, on account of great hunger and fasting a veil has come across my eyes and a blot over my heart such that I do not know what I am writing. Forgive me and do not [...] me that I cut short your honorific titles, for you are abo[v]e all need for such description. May God not cut you off (from support). I trust in God and in you to give me sustenance and to act kindly and with charity. And peace. By the religion of God's unity, I have benefited only from a nightly loaf, half of which I eat at night [an]d half for lunch. May God never lead you to bad times, amen sela.&nbsp;</p>\n<p>&nbsp;</p>\n<p>If you have a Jewish celebration including ritual slaughter for distribution do not forget a piece of meat or something else as charity for me, because I am a foreigner and know nobody. Whatever you do for me, God will produce for you in return.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/bc5cfa30-6bbc-4039-939c-f084fc23bfa4/",
       "type": "Annotation",
       "created": "2022-10-07T01:22:55.385636+00:00",
       "modified": "2022-10-07T01:22:55.385648+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00016-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1975/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00016-00007/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1975/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
