@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00389%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8780%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/6b1d683f-3598-453d-be62-e290defebc91/",
+      "type": "Annotation",
+      "created": "2023-07-20T23:22:34.787313+00:00",
+      "modified": "2023-07-20T23:22:34.787327+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00389/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8780/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:290.6312255859375,189.79998779296875,3096.1124267578125,2651.2686157226562",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>Truth</p>\n<p>I kiss the ground before and inform my master [...] the honored Dignitary, the wise and discerning, physicia[n], C[rown] of the Sages and Physicians, may God bless you and protect you and give you long life and lengthen your days with goodness and your [y]ears with pleasantness, and give you a son living and strong. I inform you that your slave is experiencing adversity on account of sickness and dearth and lack of income, as well as nakedness. Your slave req[uests] that you give charity to your slave [and that] you collect for me a pesiqa of charity, from you and from the congrega[tion] that prays at your house. May God open up for us and you His good treasury and His full and wide hand. Do not turn your slave away disappointed. May you be charitable toward your slave [at a]ll times. And peace.</p>\n<p>Truth&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
