@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fec0dad4d-4a2a-45ef-ba80-ecd1fe41e14f%2Fmanifest%2Fcanvas%2F5cb585fe-cdfe-447f-84dc-f90db3001f70&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6721%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/e99152cb-0830-4704-9e9d-2b99976154b7/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:34:55.654977+00:00",
+      "modified": "2023-07-20T16:34:55.654993+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/32/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/ec0dad4d-4a2a-45ef-ba80-ecd1fe41e14f/manifest/canvas/5cb585fe-cdfe-447f-84dc-f90db3001f70",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6721/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1215.157958984375,2025.26318359375,3185.684326171875,1116.631591796875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>Would that I could listen to you again while&nbsp;I was teaching you the Bible and quested you in its knowledge by heart and I cry out 'let me see your face, let me hear your voice.' &nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

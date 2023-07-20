@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fec0dad4d-4a2a-45ef-ba80-ecd1fe41e14f%2Fmanifest%2Fcanvas%2F065d8e47-1a71-4c23-a297-8f473bf61657&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6721%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b51f60a4-36cd-4e8e-baa0-1f054c9334f1/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:34:07.260160+00:00",
+      "modified": "2023-07-20T16:34:07.260185+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/32/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/ec0dad4d-4a2a-45ef-ba80-ecd1fe41e14f/manifest/canvas/065d8e47-1a71-4c23-a297-8f473bf61657",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6721/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:481.6842346191406,4915.36865234375,3251.3684997558594,613.052734375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>When I remember your wisdom, your Torah knowledge,</li>\n<li>your loving kindness, and the gracefulness of your diction, I say</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
