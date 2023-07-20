@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00032%2Fcanvas%2F6&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8178%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d392591c-a768-4eb0-ab5a-227d86b0736f/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:15:08.355769+00:00",
+      "modified": "2023-07-20T16:15:08.355789+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/6",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1915.105224609375,474.6842041015625,1424.052734375,1014.842041015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>Price of 11 d. In silver</p>\n<ol>\n<li>&nbsp;</li>\n<li>\n<p>Exchange rate 31&frac14;</p>\n</li>\n<li>\n<p>343&frac12; &frac14;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
