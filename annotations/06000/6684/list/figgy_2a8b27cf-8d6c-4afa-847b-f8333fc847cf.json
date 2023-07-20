@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:03:08.557728+00:00",
       "modified": "2022-10-07T01:03:08.557748+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/35/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/094614e0-5521-482f-b6d2-c2cb79b84a2c/manifest/canvas/2a8b27cf-8d6c-4afa-847b-f8333fc847cf",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6684/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/776ee9d7-eb08-4420-8daa-556798cdf5cf/",
+      "type": "Annotation",
+      "created": "2023-07-20T15:24:57.101765+00:00",
+      "modified": "2023-07-20T15:24:57.101778+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/094614e0-5521-482f-b6d2-c2cb79b84a2c/manifest/canvas/2a8b27cf-8d6c-4afa-847b-f8333fc847cf",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/6684/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/6684/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:1458.7750244140625,1518.143798828125,3112.6190185546875,4834.312744140625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/35/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>Your slave Ya\u02bfq\u016bb&nbsp;</p>\n<p>b. Abu\u02bel-Yumn&nbsp;</p>\n<p>ln (your name, O Mercifu)l</p>\n<p>\"Happy is he who is thoughtful of the wretched; in bad times may the Lord keep him (from harm)\" (Psalm 41:2).&nbsp;</p>\n<p>God the ex(alted) knows the state the slave of your excellency the nagid, may your rule be established forever, is in. I inform your highness about my situation, my poverty and indigence, my desolation and illness. I ask you kindly, may God perpetuate your strength, to help me during this noble holiday with something with which I may celebrate. Your slave, were he no[t] confined to the house, unable to go out on account of the poll tax and had he not been sick for eight months, would have been able to earn a living. Help would free me from complaining. You are suited to do this. May the holy one, blessed be He, double your reward and be your succor and grant you a (good) e[nd] and hope. And may your excellency's welfare increase and not diminish. And so may it be His will.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
