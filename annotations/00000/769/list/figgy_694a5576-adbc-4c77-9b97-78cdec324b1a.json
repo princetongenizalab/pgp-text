@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:08:10.723764+00:00",
       "modified": "2022-10-07T01:08:10.723783+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/621197ac-274b-4bde-a21d-f1322e3b8407/manifest/canvas/694a5576-adbc-4c77-9b97-78cdec324b1a",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/769/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/7184eda3-577e-4820-b547-aed9958e53e1/",
+      "type": "Annotation",
+      "created": "2023-07-20T23:07:37.164943+00:00",
+      "modified": "2023-07-20T23:07:37.164959+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/621197ac-274b-4bde-a21d-f1322e3b8407/manifest/canvas/694a5576-adbc-4c77-9b97-78cdec324b1a",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/769/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/769/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:245.9562530517578,3511.237548828125,2841.218795776367,3036.287841796875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>In your name, O Merciful&nbsp;</p>\n<p>&nbsp;</p>\n<p>My lord the parnas, may God support you, shall [r]eceive from the elder Abu\u02bel Ri\u1e0d\u0101 Solomon b. Mevorakh, may God watch over him forever, 60 waraq dirhems and pay them to the divorc&eacute;e of Abu\u02bel-Baq\u0101\u02be Samuel, telling her that this is child support for her daughter for two full months. He should direct her to desist from saying improper things about him and to have all her close and distant relatives stop interfering. She should be informed that the amount he is allocating her each month is more than what she should be given by law. She should be informed what that amount is and henceforth no one should protest. It is firmly established that each month my lord the parnas shall receive the prescribed amount and deliver it to her, if God wills. Salvation.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
