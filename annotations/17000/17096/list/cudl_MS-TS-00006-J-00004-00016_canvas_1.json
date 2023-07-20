@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00006-J-00004-00016%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F17096%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/12d1f653-7c07-4819-9fbb-86ed291e2f49/",
+      "type": "Annotation",
+      "created": "2023-07-20T23:10:16.653662+00:00",
+      "modified": "2023-07-20T23:10:16.653680+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00006-J-00004-00016/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/17096/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:236.35311889648438,329.0406188964844,2382.0687561035156,2488.6593322753906",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p>The slave Solomon the teacher&nbsp;</p>\n<p>informs the master, the teacher, the elder Abu\u02bel-\u02bfIzz, (may your) Ro(ck) pr(otect&nbsp;</p>\n<p>you), that it has been a 1ong time since I received anything. By Jewish law, I need to receive the pledges of that week (jum\u02bfa) in cash or as a credit toward my account with your brother \"the Illustrious Scholar\" Abu\u02beI-Muna, (may) his Ro(ck) pr(otect him), against what I owe him. I won't ask for anything else from you again until the end of next month, Shevat. I am owed the same amount by Ibn al-Dihq\u0101n. I have no more patience over this delay, etc. I am in straits, warding off my worst instincts, knowing as I do about my situation. Please be beneficent with that which God has given to you or accredit my account with your brother for what I owe him. May your welfare increase and not diminish. N(e\u1e63a\u1e25) s(ela).</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
