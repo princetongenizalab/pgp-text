@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00032%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8178%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/e59c8e8d-e000-46d0-82c5-5f5473ae51b1/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:08:50.044021+00:00",
+      "modified": "2023-07-20T16:08:50.044037+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1856.01416015625,238.52239990234375,1579.8779296875,1944.0134887695312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Debit, Thursday 23 Mu\u1e25arram</p>\n</li>\n<li>\n<p>Note to Abu \u02bel-Khayr 20 d.</p>\n</li>\n<li>\n<p>Dr., a purse to Abraham 5 \u2159 d. 1 q.&nbsp;</p>\n</li>\n<li>\n<p>Dr., a purse to al-An\u1e63sar\u012b 3d. exactly</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/51fcd002-535a-48e7-9135-5b1278d22901/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:09:22.924459+00:00",
+      "modified": "2023-07-20T16:09:22.924474+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1854.56884765625,2178.6201171875,1601.196044921875,571.85546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Cr. on the same day 400 dirh. Exactly</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/35dccc82-678b-4eaa-90ab-a980540a65d0/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:09:35.942859+00:00",
+      "modified": "2023-07-20T16:09:35.942873+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1892.692626953125,2796.22412109375,1532.5732421875,762.474365234375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Friday, 24 Mu\u1e25arram</p>\n</li>\n<li>\n<p>300 dirh.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
+    }
+  ]
+}
