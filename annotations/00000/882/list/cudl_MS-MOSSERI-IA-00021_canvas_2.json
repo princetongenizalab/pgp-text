@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/0c14ed70-f737-46bb-9cd5-43caa6e2b908/",
+      "type": "Annotation",
+      "created": "2023-07-20T23:32:42.751024+00:00",
+      "modified": "2023-07-20T23:32:42.751040+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IA-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/882/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:268.040283203125,676.067626953125,1431.672607421875,278.3807373046875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<p>To his honor the pious Kohen R. Phineas&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/deb64055-1bb2-4499-a1d8-2d73fd356336/",
       "type": "Annotation",
       "created": "2022-10-07T01:25:14.903818+00:00",
       "modified": "2022-10-07T01:25:14.903831+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/31/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IA-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/882/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IA-00021/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/882/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/31/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
