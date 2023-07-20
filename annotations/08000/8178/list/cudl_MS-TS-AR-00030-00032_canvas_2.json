@@ -1,0 +1,73 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00032%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8178%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c5efde36-096d-480e-ae6f-1dbe4a0a9780/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:12:02.324577+00:00",
+      "modified": "2023-07-20T16:12:02.324592+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:282.14910888671875,312.8785400390625,1483.2981567382812,2861.7982177734375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Th\u0101bit debit, a purse to Is\u1e25\u0101q</p>\n</li>\n<li>\n<p>11 \u215b d. &frac12; q.</p>\n</li>\n<li>\n<p>Dr. note to Is\u1e25\u0101q</p>\n</li>\n</ol>\n<p>12 \u2154 &frac12; q.</p>\n<ol>\n<li>\n<p>Dr. ((to Ibrah\u012bm)) a purse</p>\n</li>\n<li>\n<p>To Ibrah\u012bm 11 d. Exactly</p>\n</li>\n<li>\n<p>Dr. a purse to Ibrah\u012bm 8. d. Exactly</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/788cd51a-c120-4d53-9ec5-66dc965ff1eb/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:12:14.245105+00:00",
+      "modified": "2023-07-20T16:12:14.245124+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:282.14910888671875,3214.983642578125,1491.3595581054688,919.000244140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Total 42 &frac12; \u2153</p>\n</li>\n<li>\n<p>Credit, 600 dirh. Less &frac12; &frac14;&nbsp;</p>\n</li>\n<li>\n<p>Wednesday, 22 Mu\u1e25arram</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}

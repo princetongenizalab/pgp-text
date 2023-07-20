@@ -1,0 +1,73 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00032%2Fcanvas%2F5&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8178%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/3ea1c391-f8b3-45e2-9d10-97d8382d73ed/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:14:20.805682+00:00",
+      "modified": "2023-07-20T16:14:20.805696+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/5",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1900.0985107421875,291.07891845703125,1552.4210205078125,3978.0787963867188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Sunday, I9 Muharram</p>\n</li>\n<li>\n<p>Ab\u016b Ya\u1e25y\u0101 credit, a purse of 11 d. exactly</p>\n</li>\n<li>\n<p>From Ibrah\u012bm</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n\n\n<p>&nbsp;</p>\n<ol>\n<li>\n<p>Monday, 20 Mu\u1e25arram</p>\n</li>\n<li>\n<p>Ab\u016b Ya\u1e25y\u0101 ((loose)) from</p>\n</li>\n<li>\n<p>Ish\u0101q in the House of Ex-</p>\n</li>\n<li>\n<p>change 11 \u215b d. &frac12; q.</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n\n\n<p>&nbsp;</p>\n<ol>\n<li>\n<p>Wednesday, 22 Mu\u1e25arram</p>\n</li>\n<li>\n<p>Ab\u016b Ya\u1e25y\u0101&nbsp; cr. from Abu \u02bel</p>\n</li>\n<li>\n<p>Khayr by note 20 d. Exactly</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/b96c1a16-122d-489a-aaa7-25e041ad69ba/",
+      "type": "Annotation",
+      "created": "2023-07-20T16:14:36.062002+00:00",
+      "modified": "2023-07-20T16:14:51.031216+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/911/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00032/canvas/5",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8178/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:388.105224609375,363.8486633300781,1439.2235107421875,1358.3682556152344",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Barh\u016bn cr. from Ben Manasseh</p>\n</li>\n<li>\n<p>10 &frac12; &frac14; d.</p>\n</li>\n</ol>\n<ol>\n<li>\n<p>Total in gold</p>\n</li>\n<li>\n<p>54 (in Arabic characters:)</p>\n</li>\n</ol>\n<p>Less \u215b&nbsp;</p>\n<p>(the rest of the page is cut away)</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
