@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-OR-01081-J-00027%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2285%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/87483cc6-d7cf-485d-838d-305a0b77673f/",
+      "type": "Annotation",
+      "created": "2023-07-20T15:55:36.788369+00:00",
+      "modified": "2023-07-20T15:55:36.788387+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/52/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00027/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2285/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:251.41812133789062,5253.19873046875,2988.6407165527344,1005.4375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<p>To my lord, the Sheikh Ab\u016b l-Afr\u0101h&nbsp;</p>\n<p>-May God preserve his honoured position-&nbsp;</p>\n<p>From his grateful</p>\n<p>Abraham, son of Jacob</p>\n<p>\u02bfArus son of Joseph, m(ay he rest in) E(den)&nbsp;</p>\n<p>m(ay) h(is soul dwell) i(n bliss)</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

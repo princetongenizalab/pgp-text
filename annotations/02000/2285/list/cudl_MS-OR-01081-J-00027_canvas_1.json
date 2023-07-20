@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:27:40.063502+00:00",
       "modified": "2022-10-07T00:27:40.063523+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/52/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00027/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2285/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/f37f4b95-090f-4aa9-b3d9-17722cf3f8d6/",
+      "type": "Annotation",
+      "created": "2023-07-20T15:55:10.311593+00:00",
+      "modified": "2023-07-20T15:55:10.311608+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/52/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00027/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2285/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2285/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:266.91107177734375,424.3172302246094,3147.5017700195312,6890.476715087891",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/52/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>I am writing this letter- -may God prolong the life of my lord, the&nbsp;</p>\n</li>\n<li>\n<p>Sheikh and. make permanent his honoured position, his- success and happiness&nbsp;</p>\n</li>\n<li>\n<p>being in good health, may God unite us&nbsp;</p>\n</li>\n<li>\n<p>in the best of circumstances. What I have tell you&nbsp;</p>\n</li>\n<li>\n<p>about the news of the war. is that an Andalusian&nbsp;</p>\n</li>\n<li>\n<p>ship set sail from al-Mahdiyya, the enemy&nbsp;</p>\n</li>\n<li>\n<p>fought it, but the night separated them and it&nbsp;</p>\n</li>\n<li>\n<p>returned safely to Sfax. Then, when&nbsp;</p>\n</li>\n<li>\n<p>a second ship set sail, the enemy rammed it&nbsp;</p>\n</li>\n<li>\n<p>and took everything which was in it, merchandise and&nbsp;</p>\n</li>\n<li>\n<p>people, and left the ship turned upside down.&nbsp;</p>\n</li>\n<li>\n<p>Eleven men returned...&nbsp;</p>\n</li>\n<li>\n<p>About this . . .&nbsp;</p>\n</li>\n<li>\n<p>The Maghribis (were very angry), that the enemy was able to carry away&nbsp;</p>\n</li>\n<li>\n<p>even their cargo...&nbsp;</p>\n</li>\n<li>\n<p>This is what I have to announce you. Please let me know&nbsp;</p>\n</li>\n<li>\n<p>the price of khaz\u0101sh (a kind of silk).</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
