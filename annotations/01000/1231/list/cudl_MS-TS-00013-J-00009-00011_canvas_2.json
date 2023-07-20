@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/4640f31a-b973-4280-9446-118fe684e81f/",
+      "type": "Annotation",
+      "created": "2023-07-20T15:39:10.057282+00:00",
+      "modified": "2023-07-20T15:39:10.057296+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00009-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1231/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:649.3828125,308.9296875,2843.4140625,4331.3203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>Concerning Reuben against whom there is a bi[ill of debt&hellip;,] and he lacks the means to pay and does not have that with which to support himself or his family to the extent that, were he able, he would swear to his fellow litigant with a solemn oath that he has nothing and is without means. And some of the food and furnishings are not designated for him but for others. And his opposing party is oppressing him and summons him to a gentile (i.e., Muslim) court. If he admits it, he (the creditor) may become violent and have him arrested. And he does not heed the ruling of Jewish law. If he denies it, the q\u0101\u1e0d\u012b may require of him an oath, and he is afraid of the (heavenly) punishment. May you instruct us: if the violating opposing party transgresses and summons him to a gentile court, is he allowed to swear that he does not owe him anything in this case and be virtuous or not? And being well aware of the situation of the debtor and knowing the truth of his destitution, may the judge send after the violent opposing party and tell him, &ldquo;if you summon him to a gentile court, you will no longer have any claim on him and you will be obligated such and such by Jewish law&rdquo;? May our lord instruct us and may he be granted a double reward by heaven.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/c33e7ffc-8ff9-4d78-896d-57100bba0ca4/",
       "type": "Annotation",
       "created": "2022-10-07T00:41:26.848845+00:00",
       "modified": "2022-10-07T00:41:26.848861+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/757/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00009-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1231/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00009-00011/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1231/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/757/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
