@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-ADD-03420%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F36492%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ad02fd52-2ea0-4cde-b1b2-c7bb70114af3/",
+      "type": "Annotation",
+      "created": "2023-07-27T18:28:57.085078+00:00",
+      "modified": "2023-07-27T18:28:57.085097+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/349/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03420/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/36492/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:660.8873901367188,283.2374572753906,3108.8682250976562,4430.642913818359",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>On the same day, Mr. \u02bfUlla ha-Levi, son of Joseph, presented Mr. David, son of the late judge Ya'ir, to the court, and the latter witnessed for the former that he was in the synagogue on Wednesday, the tenth of this month, when Kar\u012bma, the daughter of &lsquo;Amm\u0101r, known as Wuhsha, the broker, appeared in the synagogue and said to him and to Moses, the melamm\u0113d (teacher), and to Ma'\u0101l\u012b, ha-Kohen, the brother of the sexton: I want to see the dayy\u0101n (judge), for I was informed that he summoned me. Now, for what reason did he do this to me? One of those present answered her: Because \u02bfUlla ha-Levi appealed against you to the President of the Court, wherefore he sent after you, asking you to appear with him (\u02bfUlla) before the Court, but you refrained from appearing with him in the Court, and thus you deserved a public notification and warning. Said she&mdash;and I heard it&mdash;: 'What do I owe to Mr. \u02bfUlla that he should make such a claim against me? All that is due to him from me is five q\u012br\u0101\u1e6ds. For five q\u012br\u0101\u1e6ds he makes such a fuss.' At the same time, also Ma'\u0101l\u012b ha-Kohen, the brother of the sexton, was present, and made the same deposition as the aforementioned David.</p>\n<p>We have written down what has been said before us, and have signed, so that it may serve as a document conveying rights and as a proof.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
