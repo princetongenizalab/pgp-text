@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-IV-00056-00001%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F26817%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/5ed25aae-1331-4f1e-9b8c-4c29afac6e40/",
+      "type": "Annotation",
+      "created": "2023-07-27T19:28:02.387863+00:00",
+      "modified": "2023-07-27T19:28:02.387876+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/294/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IV-00056-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/26817/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:788.078125,238.9656219482422,2282.88427734375,1840.5436553955078",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>(May) the prayer of God and His blessings, His ever-growing benefactions, His greetings and call of Peace (be) upon our lord and master, the Im\u0101m al-\u1e24\u0101fi\u1e93 li-d\u012bn All\u0101h, the Commander of the Faithful.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
