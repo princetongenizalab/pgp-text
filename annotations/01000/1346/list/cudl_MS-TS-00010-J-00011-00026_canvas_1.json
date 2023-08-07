@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00011-00026%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1346%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/188ab648-9486-4fff-814c-7313c6c3e6d3/",
+      "type": "Annotation",
+      "created": "2023-08-07T22:23:08.722235+00:00",
+      "modified": "2023-08-07T22:23:08.722249+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00011-00026/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1346/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:380.9168395996094,1313.50634765625,4203.220367431641,4584.13720703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>In Thy Name, (oh Merciful)!</p>\n</li>\n<li>\n<p>&nbsp;Record of the expenditures made in the estate of the Synagogue in the year 429&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;by \u1e24usayn b. Da\u02be\u016bd b. Shekhany\u0101&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;and Jacob b. Bishr al-Arjaw\u0101n\u012b&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;for the work at the h\u0113kh\u0101l of the synagogue: Gypsum, 2 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Paid to the guardian of the Estate for improvements of the darb, 4 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;For polishing the pillars, 4 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;15,150 bricks including their handling,</p>\n</li>\n<li>\n<p>&nbsp;&nbsp;used in order to build, for 2 2/3 weighed dinars,&nbsp;</p>\n</li>\n<li>\n<p>(10-11) the pipe and two walls of the new compound.</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>&nbsp;28 loads of black clay, 20 dir.</p>\n</li>\n<li>\n<p>&nbsp;24 qin\u1e6d\u0101rs lime, inclusive of transportation, tax, weighing,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;ashes, slaking, water for slaking, 3 1&frasl;4.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;All this, for building the pipe and whitewashing the interior of the new compound.</p>\n</li>\n<li>\n<p>&nbsp;&nbsp;Two \u1e25imls oakum, 3;&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;16 loads of yellow clay;&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;19 masons;</p>\n</li>\n<li>\n<p>&nbsp;. . . . the compound . . .</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
