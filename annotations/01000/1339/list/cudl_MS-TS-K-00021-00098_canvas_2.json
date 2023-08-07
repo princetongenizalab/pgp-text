@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/19788fdf-9564-472c-919d-8a4f5e5ab25b/",
+      "type": "Annotation",
+      "created": "2023-08-07T15:07:58.564760+00:00",
+      "modified": "2023-08-07T15:08:20.873677+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00021-00098/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:288.5625,295.77655029296875,4061.51708984375,5691.894836425781",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>(1-2) 3 dir. a month, for 6 1&frasl;2 months, 19 1&frasl;2 dir. Empty 5 1&frasl;2 months.&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>D\u0101r al-Barq\u012b, (rented) for 1 rub\u0101\u02bf\u012b a month, for 8 months</p>\n</li>\n<li>\n<p>2 dinars. Empty 4 months.</p>\n</li>\n<li>\n<p>D\u0101r al-Azraq, and the apartments and shops:&nbsp;</p>\n</li>\n<li>\n<p>Paid to Mu\u1e25sin, 8 dir. a month, for 7 months,&nbsp;</p>\n</li>\n<li>\n<p>56 dir. The rest of the rent is still owed by the tenant.&nbsp;</p>\n</li>\n<li>\n<p>The room of al-\u1e62ayrafi, for 3 dir. a month, for an entire year,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;36 dir. The large room, for 6 dir. A month,&nbsp;</p>\n</li>\n<li>\n<p>for 9 months, 54 dir. The rest is still owed by the tenant.&nbsp;</p>\n</li>\n<li>\n<p>(11-12) The small room, for 3 dir. a month, for 7 1&frasl;2 months, 22 1&frasl;2 dir. Empty 4 1&frasl;2 months.&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>The apartment, for 1 1/2 months, 4 dir. Empty the rest of the year.&nbsp;</p>\n</li>\n<li>\n<p>The storeroom of \u1e24\u0101m\u016bd, for 4 dir. a month, for an entire year,&nbsp;</p>\n</li>\n<li>\n<p>48 dir.&nbsp;</p>\n</li>\n<li>\n<p>The shop of al-Magh\u0101zil\u012b, together with the small storeroom, for 5 dir. a month,</p>\n</li>\n<li>\n<p>for an entire year, 60 dir.&nbsp;</p>\n</li>\n<li>\n<p>The shop of al-Ask\u0101f, for 4 dir. a month,&nbsp;</p>\n</li>\n<li>\n<p>for an entire year, 48 dir.&nbsp;</p>\n</li>\n<li>\n<p>D\u0101r b. \u1e24asan al-\u1e62abb\u0101gh . ...&nbsp;</p>\n</li>\n<li>\n<p>&hellip;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/2f810cea-cc91-4960-8d4e-d3838da8c1c3/",
       "type": "Annotation",
       "created": "2022-10-07T02:03:22.163804+00:00",
       "modified": "2022-10-07T02:03:22.163816+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00021-00098/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00021-00098/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

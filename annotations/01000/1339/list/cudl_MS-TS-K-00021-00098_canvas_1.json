@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T02:03:22.158562+00:00",
       "modified": "2022-10-07T02:03:22.158577+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00021-00098/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/e244f1eb-7180-4c6e-9aaf-08418567ea4b/",
+      "type": "Annotation",
+      "created": "2023-08-07T15:07:39.961122+00:00",
+      "modified": "2023-08-07T15:07:39.961135+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00021-00098/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1339/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:220.82655334472656,363.2953186035156,3939.2608489990234,5613.268646240234",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>(1-2) .... From &hellip; D\u0101r al- ....&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>Masons, the wages ....</p>\n</li>\n<li>\n<p>(4-5) 12 helpers for . . . . , 3 dir. Water, 7 dir.&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(6-7) Paid for black clay, inclusive of two baskets, 8 1&frasl;4 dir. Paid for two fir trees, and the five&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>&hellip; 2 1/2 dinars.&nbsp;</p>\n</li>\n<li>\n<p>Paid for .... by Joseph, 19&nbsp;</p>\n</li>\n<li>\n<p>dir. Wages of the sawyers that sawed wood, new&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;and old, 19 1&frasl;2 dir. Nails,&nbsp;</p>\n</li>\n<li>\n<p>5 dir. Work of a carpenter in assembling the ma\u1e93alla, wages,</p>\n</li>\n<li>\n<p>(13-14) 25 dir. Paid for platforms for the clothes of the synagogue, 5 1/2 dir. Cleaning of the pipe of D\u0101r al-\u1e24aff\u0101r, 8 dir. For work</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(15-16) (at the construction) of the drain pipe of D\u0101r Qu\u1e6day\u1e6d and its outlet at the Nile, 18 dir. Spent in the darb of the room of the mother of Sh\u0101rin, the resting-place&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(called) al-Qaylayn, two branches, 4 dir. Reeds, 11 dir.&nbsp;</p>\n</li>\n<li>\n<p>Nails, 2 1/2 dir. Palm branches, 2 dir. Their transportation,&nbsp;</p>\n</li>\n<li>\n<p>1 dir. A gutter, 9 dir. Spent for removal</p>\n</li>\n<li>\n<p>of garbage from the room of b. al-\u1e24all\u0101\u02be and from the qa\u1e63r of al-Muk\u0101r\u012b, 5 dir.&nbsp;</p>\n</li>\n<li>\n<p>Candlesticks, by al-Shaykh, 9 3&frasl;4. A pair of</p>\n</li>\n<li>\n<p>big doors and a single, exquisite one, 24 dir.&nbsp;</p>\n</li>\n<li>\n<p>. . . . wood, used in the apartments . &hellip;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
