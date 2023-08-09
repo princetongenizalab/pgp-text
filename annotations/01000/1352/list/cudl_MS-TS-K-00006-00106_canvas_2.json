@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:09:22.161459+00:00",
       "modified": "2022-10-07T01:09:22.161480+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00106/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/f4903ddc-678e-44d4-8f1a-bd9fc20477a7/",
+      "type": "Annotation",
+      "created": "2023-08-09T16:05:35.677778+00:00",
+      "modified": "2023-08-09T16:05:35.677791+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00106/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:250.31541442871094,534.4572143554688,1867.217544555664,2712.8777465820312",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>Darb al-Jawz\u0101n\u012b, the room of . .&nbsp;</p>\n</li>\n<li>\n<p>Beneath it, the apartment of Na\u1e63r b. S\u0101lim&nbsp;</p>\n</li>\n<li>\n<p>the dyer, 18 dir.&nbsp;</p>\n</li>\n<li>\n<p>Darb Quzm\u0101n,&nbsp;</p>\n</li>\n<li>\n<p>apartment of Ibr\u0101h\u012bm al-F\u0101kh\u016br\u012b, 13 dir.&nbsp;</p>\n</li>\n<li>\n<p>Total, 703 dir.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/9869fbc3-5487-419a-bde1-7cb46cdf08cc/",
+      "type": "Annotation",
+      "created": "2023-08-09T16:05:59.263915+00:00",
+      "modified": "2023-08-09T16:05:59.263927+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00106/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:202.14422607421875,267.35205078125,2119.2539672851562,3162.5791015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Al-z\u0101wiya al-sharq\u012bya:&nbsp;</p>\n</li>\n<li>\n<p>The shop, the apartment of Ab\u016b\u02bel-Hij\u0101.&nbsp;</p>\n</li>\n<li>\n<p>(3-4) The new shops in&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>suwayqat Maryam, 24 dir.&nbsp;</p>\n</li>\n<li>\n<p>The new shops whose reconstruction was initiated by</p>\n</li>\n<li>\n<p>the beadle of the community, Na\u02bf\u012bm b. Benjamin,&nbsp;</p>\n</li>\n<li>\n<p>in the suwayqa of the synagogue, to begin with :</p>\n</li>\n<li>\n<p>The two shops, the apartment of Niss\u012bm al-Kohen,&nbsp;</p>\n</li>\n<li>\n<p>(10-11) 25 dir., namely the southern one and the one opposite it,&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>the second one, the lodging of several Maghrib\u012bs for part of the year, 9 dir.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/4b351466-045e-4621-a764-fde9eb30dc10/",
       "type": "Annotation",
       "created": "2022-10-07T01:09:22.177508+00:00",
       "modified": "2022-10-07T01:09:22.177524+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00106/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00106/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1352/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
