@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:01:10.895536+00:00",
       "modified": "2022-10-07T01:01:10.895556+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00292/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1425/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/590d09a1-8220-4c6a-af03-ecab490c882c/",
+      "type": "Annotation",
+      "created": "2023-08-09T20:24:01.742287+00:00",
+      "modified": "2023-08-09T20:24:01.742299+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00292/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1425/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1425/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:352.92645263671875,152.45338439941406,2571.2210083007812,5092.584701538086",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>. . . .&nbsp; of blessed memory, for Av, Elul, Tishri, Marheshwan,</p>\n</li>\n<li>\n<p>&nbsp;&hellip; nightwatch, and 2 dir. due for Nayr\u016bz, and for nightwatch. Collected from the debt&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;of 2 q\u012br\u0101\u1e6ds for \u1e25ikr for D\u0101r al-Yat\u012bma, and 5 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;For the month of Teveth of the year 1431,7 and (also for) the month of Teveth, 24,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;of the year 1431 . . . dir. The debt for Nisan of the year 1431&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;... of which we released the lessee, and 5 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;.... in Ma\u1e63\u0101\u1e63a for \u02bf\u012bd al-kab\u012br, and 14&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;.... dir., to complete the dinar (received) from the lessee. Also collected,&nbsp;</p>\n</li>\n<li>\n<p>(9-10) 1 q\u012br\u0101\u1e6d and I dir. for nightwatch [and 2 dinars due for Iyyar and Siwan of the current (year?), less 5 dinars for clothes and 2 dinars.]</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>&nbsp;....16 dir., of which I dir. for nightwatch&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;.... and 1&frasl;3+ 1&frasl;4 for \u1e25ikr, 4 dir., 24, 13 dir. and the month of&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;....dir. For \u02bf\u012bd al-kab\u012b, 1&frasl;3+ 1&frasl;4 for \u1e25ikr&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;.... q\u012br\u0101\u1e6d and 1dir. for nightwatch. 16 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;20 3&frasl;4 dinars owed by the wife of ....</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
