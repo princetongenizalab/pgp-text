@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:17:17.439414+00:00",
       "modified": "2022-10-07T01:17:17.439431+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/d2852c50-adff-4901-8ccd-e9a11c10e6f5/",
+      "type": "Annotation",
+      "created": "2023-08-09T20:37:00.722613+00:00",
+      "modified": "2023-08-09T20:37:00.722625+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00022/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:388.106201171875,249.49685668945312,2273.193603515625,2652.059051513672",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>The darb opposite the synagogue, the shop . . . .</p>\n</li>\n<li>\n<p>The shop in the corridor facing the synagogue,&nbsp;</p>\n</li>\n<li>\n<p>the apartment of al-Shaykh Joseph b., 40 dir.&nbsp;</p>\n</li>\n<li>\n<p>The store east of the synagogue, the apartment of \u02bfAbb\u0101s b.&nbsp;</p>\n</li>\n<li>\n<p>36 dir.&nbsp;</p>\n</li>\n<li>\n<p>The majlis, the makhda, And the mashraqa in the compound&nbsp;</p>\n</li>\n<li>\n<p>known as the waqf of \u02bfAbd&nbsp;</p>\n</li>\n<li>\n<p>al-R\u016b\u1e25m\u0101n (!) b. al-Naff\u0101kh, the apartment of \u02bfAbd al-&nbsp;</p>\n</li>\n<li>\n<p>Razz\u0101g, 30 dir.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

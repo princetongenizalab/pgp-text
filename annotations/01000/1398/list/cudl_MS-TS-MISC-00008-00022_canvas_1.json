@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/102ffd47-4719-43ef-a01f-844c5e94808a/",
+      "type": "Annotation",
+      "created": "2023-08-09T20:37:29.998299+00:00",
+      "modified": "2023-08-09T20:37:29.998314+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00022/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:234.64010620117188,200.8494873046875,2278.610137939453,3216.0423583984375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>49&nbsp;</p>\n</li>\n<li>\n<p>10/24 in the shop being the apartment of&nbsp;</p>\n</li>\n<li>\n<p>Ab\u016b \u02bfAl\u012b&nbsp; Kohen, 40 dir.&nbsp;</p>\n</li>\n<li>\n<p>Darb al-Qalj\u0101\u02bf\u012b,&nbsp;</p>\n</li>\n<li>\n<p>the room which is the apartment of S\u016bs\u0101n, 30 dir.&nbsp;</p>\n</li>\n<li>\n<p>The qays\u0101riyya of al-\u1e62aq\u012bl:</p>\n</li>\n<li>\n<p>The \"shop of the weaving, the apartment of our Lord and Master,&nbsp;</p>\n</li>\n<li>\n<p>30 (dir.), of it 16&nbsp;</p>\n</li>\n<li>\n<p>and \u2153 (for) the apartment opposite Shaykh al-\u1e24esed;&nbsp;</p>\n</li>\n<li>\n<p>opposite it, the shop which is the apartment of H\u0101r\u016bn b. Ma\u02bfsa.&nbsp;</p>\n</li>\n<li>\n<p>During the year it was collected . . 24.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/32db72f9-2fe9-47db-a6ca-7a0a406b073e/",
       "type": "Annotation",
       "created": "2022-10-07T01:17:17.444079+00:00",
       "modified": "2022-10-07T01:17:17.444092+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00022/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00022/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1398/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
