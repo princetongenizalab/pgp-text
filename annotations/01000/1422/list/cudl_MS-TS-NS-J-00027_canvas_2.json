@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:19:26.750597+00:00",
       "modified": "2022-10-07T01:19:26.750613+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00027/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1422/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,42 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/b9171400-191e-4129-a6e0-62c0d4a01e09/",
+      "type": "Annotation",
+      "created": "2023-08-09T16:14:19.041299+00:00",
+      "modified": "2023-08-09T16:14:19.041313+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00027/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1422/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1422/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:3138.71240234375,2201.1748046875,713.343505859375,2119.64990234375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>The Am\u012br \u1e24i\u1e63n al-Dawla b. Sayt al-Dawla, for two murattabs,</p>\n</li>\n<li>\n<p>seven waybas of wheat. Still due to him, eight&nbsp;</p>\n</li>\n<li>\n<p>waybas of wheat, whose cost&nbsp;</p>\n</li>\n<li>\n<p>of 75 dir. he transfered to the (debit of) the q\u014ddesh.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
