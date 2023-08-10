@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:47:12.857739+00:00",
       "modified": "2022-10-07T00:47:12.857761+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/1487/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1487/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/302293ec-8475-465a-8e9a-bcfafcb05d3f/",
+      "type": "Annotation",
+      "created": "2023-08-10T01:00:44.537277+00:00",
+      "modified": "2023-08-10T01:00:44.537289+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/1487/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1487/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1487/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:10.500000953674316,7.875000476837158,822.9375600814819,581.4375605583191",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>Also, from ....&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Dir. His sister's room, 5 dir. Umayna ...</p>\n</li>\n<li>\n<p>12 dir. The shop of al-Magh\u0101zil\u012b....&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The qa\u1e63r of \u1e24\u0101m\u016bd, 4dir. From D\u0101r al-....</p>\n</li>\n<li>\n<p>&nbsp;2 dir. Mu\u1e25sin's room, 8 dir. D\u0101r....</p>\n</li>\n<li>\n<p>&nbsp;3 dir. From D\u0101r al-Haff\u0101r, the room of al- ....&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;dir. B. Sulaym\u0101n's room, 6dir. The room of b. . . ..&nbsp;</p>\n</li>\n<li>\n<p>2 3&frasl;4 dir. The khu\u1e63\u1e63 of Rayyisa's mother . ...</p>\n</li>\n<li>\n<p>&nbsp;2 dir . The khu\u1e63\u1e63 of Da\u02be\u016bd, 2 dir. . ...&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The small khu\u1e63\u1e63 and the two rooms of al-\u1e62aydal\u0101n\u012b, and the khu\u1e63\u1e63 . ...&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;94 dir.&nbsp;</p>\n</li>\n<li>\n<p>And that is three(?)&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Also, collected by me for the month Rab\u012b\u02bf al- . . . .</p>\n</li>\n<li>\n<p>&nbsp;9 dir. His sister's room, 5 dir. Umayna . . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;4 dir. The shop of al - Katt\u0101n\u012b , 3 dir . . . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;10 dir . The qa\u1e63r of \u1e24\u0101m\u016bd , 4 dir . D\u0101r al - . . . .</p>\n</li>\n<li>\n<p>&nbsp;Mu\u1e25sin's room, 8 dir. D\u0101r al-Barq\u012b, 5 . . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;From D\u0101r al-\u1e24aff\u0101r, the room of al- \u02bfAkk\u0101w\u012b ....</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
