@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/e76e86ea-2796-4a7b-8d54-5a8282b4a706/",
+      "type": "Annotation",
+      "created": "2023-08-10T18:21:29.705707+00:00",
+      "modified": "2023-08-10T18:21:29.705730+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00487/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1673/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:387.129638671875,207.7281036376953,5259.298095703125,2757.1185760498047",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>(1-2) . . . the second one . . . the document proper . ... the year. . .of the documents, corresponding to Safar of the year 579 of the Arab calendar, and ending on the last of Nisan of the year 1495 of the documents,&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>&nbsp;corresponding to the last of Mu\u1e25arram of the year 580, a lease that is sound, complete, definitive, binding on al-\u02bfAniyim and on whoever would appear&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;in their name. (This we leased) to the said al-Shaykh Abu\u02bel-Mak\u0101rim, and to his heirs after him, from now on. We, the Court, and those who sign together with Us at the bottom, enact that al-Shaykh</p>\n</li>\n<li>\n<p>(5-6) Abu\u02bel-Mak\u0101rim, as named above, from now on, may use the whole al-Burj, as mentioned above in the document proper, including all its premises and appurtenances, during the above-mentioned period, any extant use, as tenants of his kind do, in accordance with the permission given him in the two deeds of lease&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>&nbsp;that are written in the document proper. We, the Court, and those who signed together with Us, at the bottom, completely confirm all of it to him. This happened in&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;the middle ten days of the month of Teveth of the year 1493 of the documents, in Fustat of Egypt, which is situated on the Nile River,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;under the authority of our Lord and Gaon, Sar Sh\u0101l\u014dm ha-Levi G\u0101\u02be\u014dn, may his name last for ever. All this is valid, firm, and sound.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Samuel ha-Levi b. R. Saadya, of blessed memory. Elazar b. R. Michael, of blessed memory.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Pera\u1e25y\u0101 b. R. Joseph ha-Lev. Abraham b. Ye\u1e25iyy\u0101 al-Levi, of blessed memory . . . .</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/ca69a220-5111-4923-a442-ac2e3e223611/",
       "type": "Annotation",
       "created": "2022-10-07T01:37:30.941439+00:00",
       "modified": "2022-10-07T01:37:30.941454+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00487/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1673/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00487/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1673/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
