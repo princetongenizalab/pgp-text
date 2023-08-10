@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-MISC-00008-00086%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1401%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/0cd4eb11-8183-45c6-a309-7d26159820a5/",
+      "type": "Annotation",
+      "created": "2023-08-10T01:15:06.181969+00:00",
+      "modified": "2023-08-10T01:15:06.181982+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00086/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1401/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:184.1843719482422,247.37657165527344,3076.962356567383,3943.7122955322266",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "B",
+          "value": "<ol>\n<li>\n<p>2 dir. The lease of the store&hellip; The store of the baker, 6 dir.</p>\n</li>\n<li>\n<p>&nbsp;The room of al-\u1e6cirr\u012bq, 15 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The mustaraqa, 5 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The room of al-\u1e6cirr\u012bq, 15 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Kh\u012b\u1e6d, 5 dir. The baker, 6.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The mustaraqa, 5dir. The store, 3 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The store of the gate, 8 1&frasl;2. The mustaraqa,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;5 dir., to deduct: 1&frasl;2 + 1/8.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The store of the baker, 6 dir. The store of</p>\n</li>\n<li>\n<p>&nbsp;Azhar, for 3 months, 16 1/2&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Mu\u02bfallim, 29 1/2. The water carrier, for</p>\n</li>\n<li>\n<p>&nbsp;4 months, 36 dir.,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;to the end of the year [4]50. The mustaraqa,</p>\n</li>\n<li>\n<p>&nbsp;5 dir. The room of al-Jawhar\u012b&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;15 dir. The baker, for 2 months,</p>\n</li>\n<li>\n<p>&nbsp;12 dir. The mustaraqa, empty,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;5 dir.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
