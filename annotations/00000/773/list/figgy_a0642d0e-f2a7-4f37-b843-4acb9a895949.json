@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/9afd12f6-230f-482e-98c6-8830e50f8dc3/",
+      "type": "Annotation",
+      "created": "2023-08-13T22:37:49.691675+00:00",
+      "modified": "2023-08-13T22:37:49.691689+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3054.635986328125,3210.49462890625,1422.155517578125,1830.9189453125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column I",
+          "value": "<ol>\n<li>\n<p>&nbsp;207;&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;1465, coinciding with Dh\u016b\u02bel-\u1e25ijja&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;[5]49, 78.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;He mentioned that his share&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;as court attendant, 8 dir., must be deducted from it.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;To his credit, for the \u1e25ikr of 1&frasl;8 of D\u0101r Hiba al-Abz\u0101r\u012b,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;for two years, namely the years [5]49 and[5]50, in&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;waraq, 20 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;To his credit, for \u1e25ikr for three years, namely the years [5]51, 5[52], and [5]53,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;owed to him by them, 30 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;58.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/5d9ae53b-15f5-432f-88ad-0bb2ba59a2a7/",
       "type": "Annotation",
       "created": "2022-10-07T00:42:36.244377+00:00",
       "modified": "2022-10-07T00:42:36.244392+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +66,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/ed99b24d-ab4d-4878-99eb-4129478d3d49/",
+      "type": "Annotation",
+      "created": "2023-08-13T22:38:34.938629+00:00",
+      "modified": "2023-08-13T22:38:34.938645+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:4050.996337890625,5058.4453125,681.272216796875,493.92236328125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column I (margin)",
+          "value": "<p>&nbsp;This (debt) they acquitted.</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     },
@@ -44,6 +111,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:42:36.259934+00:00",
       "modified": "2022-10-07T00:42:36.259949+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -53,25 +135,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/8d9c6366-6730-4d75-8f23-2ca8219f49ac/",
+      "type": "Annotation",
+      "created": "2023-08-13T22:39:15.420980+00:00",
+      "modified": "2023-08-13T22:39:15.420995+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:1487.710205078125,3201.978759765625,1405.123779296875,2188.586669921875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column II",
+          "value": "<ol>\n<li>\n<p>Still owed by him, 10 dinars . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;months, beginning Elul, ending . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;month for 10 dinars ....&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;on the last of Av, 20 dinars .. . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Marheshwan, 10 dinars . ...&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;due from him at once, without any delay . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;a purchase that is complete and solemn, with an instrument that is proper. . . .</p>\n</li>\n<li>\n<p>&nbsp;These 50 dinars agreed upon .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;al-Barak\u0101t are the same 50 dinars . . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;\u1e24iyy\u0101 b. R Isaac, of blessed memory . . . .</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 3
     },
@@ -80,6 +180,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:42:36.275906+00:00",
       "modified": "2022-10-07T00:42:36.275920+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -89,22 +204,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/62aa570f-2baa-40d5-904b-e4eee8a20ecf/manifest/canvas/a0642d0e-f2a7-4f37-b843-4acb9a895949",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/773/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
