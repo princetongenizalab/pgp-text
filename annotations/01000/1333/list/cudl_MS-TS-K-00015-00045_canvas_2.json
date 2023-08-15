@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/b6da69e2-4a74-46c9-b91b-7e7e19447243/",
+      "type": "Annotation",
+      "created": "2023-08-15T16:33:33.180811+00:00",
+      "modified": "2023-08-15T16:33:33.180824+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00045/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1333/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:218.25592041015625,182.56668090820312,3452.1625366210938,5166.501678466797",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>&nbsp;. . . 4. The rent&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;.... a carpenter, 4 1/4 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;....3/4, the wages of a helper&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;. . the meal of the carpenter, 3&frasl;4 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;...3&frasl;4.. Paid for two baskets, 1 1&frasl;2 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Paid for .... 1&frasl;4. The wages of a helper, 2 dir. Paid for . ...&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;&frac12; dir. Friday: The meal of the mason, 3&frasl;4. The wages of&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;a helper, 2 dir. The amount paid, and the amount (paid) to Muslim,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;half a dinar and 16 1/2 dir. Tuesday, the last of Elul,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The meal of the carpenter, 3/4. The wages of the sawyers, 1 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;waraq. They owe 7 1&frasl;2 dir. The repair of a lock for Umayna, 1&frasl;4.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Repair of the door of the apartment of Mukht\u0101r, &frac12; dir. Paid for bricks, the second time,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;18 1/2 dir. The wages of the makers of cesspools&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;who made the pipe of D\u0101r al-\u1e24aff\u0101r, 4 1/2 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The meal of the carpenter, 3&frasl;4. Paid for nails, 1 dir. and . . . .&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Repair of the door of D\u0101r al-\u1e24aff\u0101r, the staircase to the roof, and the door of&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;al-\u02bfAkk\u0101wi. The wages of the carpenter, 1 dir. Paid for nails,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;3&frasl;4. Paid for 4 stairs, 1 &frac12; dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Total, 100 dir.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/0fe14bf3-2b6d-472a-9669-8c0f0119fef7/",
       "type": "Annotation",
       "created": "2022-10-07T00:31:37.008234+00:00",
       "modified": "2022-10-07T00:31:37.008249+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00045/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1333/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00045/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1333/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
