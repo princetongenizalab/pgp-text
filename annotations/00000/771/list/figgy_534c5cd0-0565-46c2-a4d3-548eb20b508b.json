@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:19:44.800932+00:00",
       "modified": "2022-10-07T01:19:44.800950+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/a640af16-8100-43ff-9269-ca9a18d19f67/manifest/canvas/534c5cd0-0565-46c2-a4d3-548eb20b508b",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/771/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/6d5ce3cf-16ab-42a6-8d98-80ccb6ede49e/",
+      "type": "Annotation",
+      "created": "2023-08-16T16:46:16.005963+00:00",
+      "modified": "2023-08-16T16:46:16.005979+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/a640af16-8100-43ff-9269-ca9a18d19f67/manifest/canvas/534c5cd0-0565-46c2-a4d3-548eb20b508b",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/771/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/771/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:989.3397827148438,4879.8515625,2259.4382934570312,1310.20703125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>The collectors of the Estate of the Jerusalemites shall pay to the children&nbsp;</p>\n</li>\n<li>\n<p>of Hiba, the brother of Ab\u016b (I)s\u1e25aq al-Muk\u0101r\u012b, 9 1/2 dir.</p>\n</li>\n<li>\n<p>from their share in the Estate of the Jerusalemites&nbsp;</p>\n</li>\n<li>\n<p>for the year 1474. Greetings.&nbsp;</p>\n</li>\n<li>\n<p>Samuel b. R. Saadya ha-Levi, of blessed memory.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
