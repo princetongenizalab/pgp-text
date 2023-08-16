@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T02:08:24.158985+00:00",
       "modified": "2022-10-07T02:08:24.159002+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00320-00027/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1466/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1725efdc-3600-4990-8e80-dff452d9d5b8/",
+      "type": "Annotation",
+      "created": "2023-08-16T16:51:50.270588+00:00",
+      "modified": "2023-08-16T16:51:50.270600+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00320-00027/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1466/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1466/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:155.51251220703125,99.68750762939453,1878.1126098632812,1036.750114440918",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>The collectors of the Estate of the Jerusalemites shall pay to Ab\u016b Man\u1e63\u016br&nbsp;</p>\n</li>\n<li>\n<p>the son of Nathan b. Ezekiel al-Dimashq\u012b's aunt's husband,&nbsp;</p>\n</li>\n<li>\n<p>9 1&frasl;2 dir. from their share in the Estate&nbsp;</p>\n</li>\n<li>\n<p>of the Jerusalemites in the year 1477. Greetings.</p>\n</li>\n<li>\n<p>Samuel b. R. Saadya ha-Levi, of blessed memory.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
