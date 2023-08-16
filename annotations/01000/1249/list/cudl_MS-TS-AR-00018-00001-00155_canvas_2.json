@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:42:32.391223+00:00",
       "modified": "2022-10-07T00:42:32.391243+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/2c8bd232-283e-4950-a108-bf942bb44938/",
+      "type": "Annotation",
+      "created": "2023-08-16T15:01:46.509948+00:00",
+      "modified": "2023-08-16T15:01:46.509961+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:322.23748779296875,315.1937255859375,2173.0374145507812,3106.6998291015625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "a",
+          "value": "<ol>\n<li>\n<p>For the building operations:&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r al-Sukkar\u012b, by Mufa\u1e0d\u1e0dal al-\u1e6c\u012bb\u012b, 49</p>\n</li>\n<li>\n<p>&nbsp;The compound which is above the bath house of Qir\u0101\u02bfa, the judge being present, 154.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r Am\u012bn al-Dawla Sulaym\u0101n, paid by himself, 120.</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r Ya\u1e25y\u0101 al-Zajj\u0101j, paid by al-R\u0101v, 81.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The funduq between the two synagogues, removal of garbage, 3 1/2&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r Mahra , paid by (A)b\u016b Man\u1e63\u016br al-Kohen , 4 1/2.&nbsp;</p>\n</li>\n<li>\n<p>(8 )D\u0101r Shirkat al-Shaykh Ab\u016b\u02bel-Ri\u1e0d\u0101, 19 &frac12;.</p>\n</li>\n<li>\n<p>&nbsp;Paid by Ma\u1e25f\u016b\u1e93, removal of garbage from the Synagogue of the Palestinians,&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;three times, and for gypsum, 7 1&frasl;2.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The Synagogue of the Babylonians, removal of garbage, 3 &frac12;.</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r al-Q\u0101bis\u012b, paid by Ab\u016b\u02bel-\u1e24asan, the bee-keeper, 25.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;Delegates to the Sul\u1e6d\u0101n in the matter of emptying D\u0101r Tuj\u012bb, 6 1&frasl;2.</p>\n</li>\n<li>\n<p>&nbsp;Emptying D\u0101r al-Mu\u02beaddib and the blocking up of its door, 13 1&frasl;2-</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r al-Ghazl, paid by Ab\u016b Na\u1e63r b. Mukht\u0101r al-Kohen, 21 1&frasl;2.</p>\n</li>\n<li>\n<p>&nbsp;A plank put in D\u0101r al-N\u0113zer, 15.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r Shirkat S\u0101lim al-Musta\u02bfmil, paid by himself for installing&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;a prop and cleaning the pipe, 75.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r al-N\u0101qa, the judge being present, 55 &frac12;.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;The apartment of Mu\u02bfammar al-\u1e62ayraf\u012b, 15.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;D\u0101r al-Khall, paid by Ab\u016b Sa\u02bfd b. Shaml\u0101\u1e63, 90.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     },
@@ -44,6 +77,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:42:32.404562+00:00",
       "modified": "2022-10-07T00:42:32.404577+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -53,22 +101,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -80,6 +112,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:42:32.417292+00:00",
       "modified": "2022-10-07T00:42:32.417307+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -89,22 +136,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00018-00001-00155/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1249/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
