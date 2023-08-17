@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:20:04.682001+00:00",
       "modified": "2022-10-07T01:20:04.682019+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00010/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2249/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/dfcffce0-5880-4a51-8177-894fc72b4000/",
+      "type": "Annotation",
+      "created": "2023-08-17T16:02:57.076667+00:00",
+      "modified": "2023-08-17T16:02:57.076682+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00010/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2249/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2249/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:190.76560974121094,677.546875,3203.546646118164,1657.6875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto:",
+          "value": "<ol>\n<li>\n<p>Al-Shaykh Ab\u016b\u02bel-Fa\u1e0dl al-Parn\u0101s b. R. Aaron ha-Levi, of blessed memory, rented from al-Shaykh&nbsp;</p>\n</li>\n<li>\n<p>Ab\u016b\u02bel-Bay\u0101n al-J\u0101b\u012b b. Elazar ha-Levi, of blessed memory, the \u1e6dabaqa that is in Tuj\u012bb, in D\u0101r&nbsp;</p>\n</li>\n<li>\n<p>al-Zajj\u0101j, in the Silsila lane,which is the apartment of Mak\u0101rim (and) b. Sahl\u0101n. This he rented for 5&nbsp;</p>\n</li>\n<li>\n<p>dir. a month for a period of six full and consecutive months,&nbsp;</p>\n</li>\n<li>\n<p>(5-6) beginning Monday, 23 of the month of Elul 1491. A complete and solemn acquisition was executed, from each of the two (parties), with an instrument that is proper&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>to acquire with, with the formula \"from now on\".</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
