@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-60%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F613%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/f1250ad9-4905-4713-963e-129b3e46291e/",
+      "type": "Annotation",
+      "created": "2023-08-17T15:05:22.787848+00:00",
+      "modified": "2023-08-17T15:05:22.787863+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-60/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/613/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:209.12498474121094,191.19998168945312,3274.299819946289,1212.9248962402344",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "d:",
+          "value": "<ol>\n<li>\n<p>&nbsp;Still owed by him, 347 1&frasl;4 dir.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;To his credit, of it, wages for the collection for the three months, 70, and&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;wages for the collection for the previous two months, 40 dir. Still owed&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;by him after all this, 237 1&frasl;4 dir.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
