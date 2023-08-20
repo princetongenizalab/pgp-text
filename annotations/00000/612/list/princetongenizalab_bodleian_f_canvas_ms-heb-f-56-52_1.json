@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-52%2F1.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F612%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/1015003e-426f-4860-9d5c-6a5008b98f35/",
+      "type": "Annotation",
+      "created": "2023-08-20T02:48:38.368904+00:00",
+      "modified": "2023-08-20T02:48:38.368919+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-52/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/612/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:396.5093688964844,159.8828125,3293.5858459472656,1886.6170654296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>Friday, 17 Siwan 1493, in D\u0101r al-Zayt: Clay, 2. Gypsum, 2 1&frasl;2 1&frasl;3.</p>\n</li>\n<li>\n<p>A jar and a buckle, 1&frasl;2 1/3. Food, 1 1/2. A ladder, &frac14; \u2153. Removal of garbage, 9 3/4.&nbsp;</p>\n</li>\n<li>\n<p>Mawh\u016bb and an apprentice, 7. Helpers, 5. The overseer,1 1/2. Total, 30 &frac14; \u2153.&nbsp;</p>\n</li>\n<li>\n<p>Collection for clothes for the year&nbsp;</p>\n</li>\n<li>\n<p>1497</p>\n</li>\n<li>\n<p>Paid to al-Shayk al-M\u0113v\u012bn&hellip;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
