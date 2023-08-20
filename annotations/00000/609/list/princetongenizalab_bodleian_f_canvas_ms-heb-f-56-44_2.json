@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-44%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F609%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/cc125d86-a67c-47e5-8249-f4709d7c8138/",
+      "type": "Annotation",
+      "created": "2023-08-20T02:41:16.179187+00:00",
+      "modified": "2023-08-20T02:41:16.179213+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-44/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/609/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:228.96200561523438,2412.2783203125,2853.8480529785156,1668.15185546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, part two",
+          "value": "<ol>\n<li>\n<p>Collected from Ab\u016b (I)s\u1e25aq al-\u02bfAdan\u012b, 100 dir.&nbsp;</p>\n</li>\n<li>\n<p>waraq, of Egyptian tender, for the rent of his apartment in the \u1e6dabaqa of the upper part of&nbsp;</p>\n</li>\n<li>\n<p>the compound which is opposite the Synagogue of the Babylonians,&nbsp;</p>\n</li>\n<li>\n<p>known as (the compound) of al-Shaykh Ab\u016b Na\u1e63r b. al-Shaykh Ab\u016b\u02bel-Mun\u0101,&nbsp;</p>\n</li>\n<li>\n<p>of blessed memory, for one lunar year of 12 months,&nbsp;</p>\n</li>\n<li>\n<p>beginning on the first of the month of Adar II 1497,</p>\n</li>\n<li>\n<p>corresponding to Dh\u016b\u02bel-\u1e25ijja of the year 581.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
