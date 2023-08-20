@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:45:49.563138+00:00",
       "modified": "2022-10-07T00:45:49.563158+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00084/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1348/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/ce976e05-0466-455a-93e0-66551130ec89/",
+      "type": "Annotation",
+      "created": "2023-08-20T02:29:47.570705+00:00",
+      "modified": "2023-08-20T02:29:47.570718+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00084/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1348/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1348/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:227.6015625,297.6328125,3198.09375,2503.6171875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>In Thy Name, oh Merciful! The list of (the sums) collected during the week of the end of Rab\u012b\u02bf :&nbsp;</p>\n</li>\n<li>\n<p>Sunday: \u1e24usayn, 1+2. From b. \u1e24arb, 1.&nbsp;</p>\n</li>\n<li>\n<p>Due from \u02bfAli, 3. Unemployed, Tuesday 2. Unemployed on Monday, 2.&nbsp;</p>\n</li>\n<li>\n<p>Monday, 3. Wednesday, 2. Friday . . . .&nbsp;</p>\n</li>\n<li>\n<p>Tuesday, 3. Thursday, 3. A\u1e25mad on Sunday, 2.&nbsp;</p>\n</li>\n<li>\n<p>Wednesday, 2. Friday, 3. Monday, 2.&nbsp;</p>\n</li>\n<li>\n<p>Thursday, 2. The (glass)foundry, Sunday and Tuesday, 2.&nbsp;</p>\n</li>\n<li>\n<p>Friday, 4. One unemployed, on Monday, 2. Wednesday, 3.</p>\n</li>\n<li>\n<p>\u1e24amd\u016bn, Wednesday, and the six, 2. Two on Thursday, 2.&nbsp;</p>\n</li>\n<li>\n<p>Two, and on Thursday. Wednesday, 2. Friday, 5.&nbsp;</p>\n</li>\n<li>\n<p>Abraham, Friday, for Thursday, 6.&nbsp;</p>\n</li>\n<li>\n<p>Muslim, 4. Three on Friday, 5. Al-\u02bfUmar, 6. Mushrif, 5.&nbsp;</p>\n</li>\n<li>\n<p>Sunday, \u02bfAli, 2. \u1e24usayn, b. \u1e24arb A\u1e25mad, Sunday, 2.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
