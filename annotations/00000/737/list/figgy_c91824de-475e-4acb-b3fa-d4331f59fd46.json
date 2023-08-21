@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/e4a28755-c774-4242-807a-e760a59639e0/",
+      "type": "Annotation",
+      "created": "2023-08-21T15:48:57.949206+00:00",
+      "modified": "2023-08-21T15:48:57.949220+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/33037b4c-2d08-4f73-af00-75b2ebba4dec/manifest/canvas/c91824de-475e-4acb-b3fa-d4331f59fd46",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/737/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:717.599853515625,2261.99951171875,2768.99951171875,3619.19970703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>&hellip;.Rent for the pillar for Rab\u012b\u02bf al-\u0100khir, 5.</p>\n</li>\n<li>\n<p>&hellip;. D\u0101r Shirkat al-N\u0101d\u012bv, 46.&nbsp;</p>\n</li>\n<li>\n<p>Wages of a mason and a helper who worked at D\u0101r \u02bfAbla during the rest&nbsp;</p>\n</li>\n<li>\n<p>of the day, on the 13th, Friday, following that day: A mason,&nbsp;</p>\n</li>\n<li>\n<p>5. A helper . . . . A meal, 11/2 . The courtyard, 1. Transportation of bricks, 1/2,</p>\n</li>\n<li>\n<p>and his donkey, 1&frasl;2. Gypsum for the staircase, &frac34;.</p>\n</li>\n<li>\n<p>Transportation of the books, 6 dir. \u1e24ikr of the share&nbsp;</p>\n</li>\n<li>\n<p>in the funduq and the duwayra adjacent to it, for the year [56]5&nbsp;</p>\n</li>\n<li>\n<p>. .. 10 dir. A helper, two times, 3</p>\n</li>\n<li>\n<p>. ... Oakum, 2. Transportation of the (holy) books, 2 1/4 dir.&nbsp;</p>\n</li>\n<li>\n<p>. . . . A helper of the fastener (?) and a helper in D\u0101r al-Zayt, and the meals of the two</p>\n</li>\n<li>\n<p>. . N\u0101sh\u016bsh, and a carpenter, 2 1/2. A helper, for two days, 2 dir.</p>\n</li>\n<li>\n<p>the deed of D\u0101r al-Jaz\u012bra, 2 dir.&nbsp;</p>\n</li>\n<li>\n<p>&hellip;. 224 dir.</p>\n</li>\n<li>\n<p>Nightwatch for D\u0101r b. \u1e6cib\u0101n, for 5 months, ending on \u1e62afar of the year [56]5</p>\n</li>\n<li>\n<p>.... in Shirkat b. ....</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/baa56e27-3366-4812-b525-5f957e756568/",
       "type": "Annotation",
       "created": "2022-10-07T01:22:01.286669+00:00",
       "modified": "2022-10-07T01:22:01.286682+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/33037b4c-2d08-4f73-af00-75b2ebba4dec/manifest/canvas/c91824de-475e-4acb-b3fa-d4331f59fd46",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/737/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/33037b4c-2d08-4f73-af00-75b2ebba4dec/manifest/canvas/c91824de-475e-4acb-b3fa-d4331f59fd46",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/737/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
