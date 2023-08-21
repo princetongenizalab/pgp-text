@@ -4,10 +4,59 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/f9326d35-2b66-4ad6-94fd-ed5a219386d4/",
+      "type": "Annotation",
+      "created": "2023-08-21T14:54:17.787686+00:00",
+      "modified": "2023-08-21T14:54:17.787700+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00015-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1932/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:448.0125732421875,2722.537841796875,3078.6505126953125,1815.025146484375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>(1-3) And please, if the Creator should enable that Gentleman to get back my loss,&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n<li>\n<p>so spend some of it to pay a scribe and (for) paper to write the whole of&nbsp;</p>\n</li>\n<li>\n<p>Your Honor's noble composition on the whole Mishn\u0101, which I requested to be in the first place.</p>\n</li>\n<li>\n<p>Thereafter one should complete it, with Heaven's help, the pay being (taken) from&nbsp;</p>\n</li>\n<li>\n<p>my money. But if nothing of my loss is refunded, let Your Honor copy what I mentioned and let&nbsp;</p>\n</li>\n<li>\n<p>the wages be paid from (the sum) about which you asked me. Greetings. And if there remains anything from my</p>\n</li>\n<li>\n<p>money after what is owed to the scribe is paid, please send it to me ....</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/921c52f8-14c2-4531-a587-cdc78259b85f/",
       "type": "Annotation",
       "created": "2022-10-07T01:00:20.060642+00:00",
       "modified": "2022-10-07T01:00:20.060656+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/47/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00015-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1932/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +66,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00015-00017/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1932/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/47/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
