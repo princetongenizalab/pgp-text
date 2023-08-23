@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-129%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F608%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c06f5705-e82e-4ea6-ad39-a024c67687d4/",
+      "type": "Annotation",
+      "created": "2023-08-23T15:36:38.072773+00:00",
+      "modified": "2023-08-23T15:36:38.072789+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-129/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/608/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:280.4765625,554.7202758789062,3247.295166015625,4032.6293334960938",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>the daughter of Fa\u1e0dl al-Kohen, the son (?) of al-Shaykh Ab\u016b&nbsp;</p>\n</li>\n<li>\n<p>l-Karam b. Sa\u02bfd\u0101n, from his mother, by a will&nbsp;</p>\n</li>\n<li>\n<p>in which it is granted that if anything is left&nbsp;</p>\n</li>\n<li>\n<p>from the rent after its repairs,&nbsp;</p>\n</li>\n<li>\n<p>2 dir. of it will be paid to her sister&nbsp;</p>\n</li>\n<li>\n<p>Sutayt, the wife of Hiba b. Ab\u016b Gh\u0101lib&nbsp;</p>\n</li>\n<li>\n<p>al-\u1e62\u0101\u02beigh, every month, as long as&nbsp;</p>\n</li>\n<li>\n<p>she lives, and the remainder of it will be spent&nbsp;</p>\n</li>\n<li>\n<p>either on medicines for the sick or on&nbsp;</p>\n</li>\n<li>\n<p>shrouds for the dead, or on the j\u0101liya of a scholar,&nbsp;</p>\n</li>\n<li>\n<p>and on nothing else. These are the text of the will,&nbsp;</p>\n</li>\n<li>\n<p>(12-13) the witnesses of it, the two judges that presided over them during the validation, word by word.&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
