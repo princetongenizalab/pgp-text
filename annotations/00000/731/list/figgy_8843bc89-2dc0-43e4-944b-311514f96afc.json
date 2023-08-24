@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:29:48.067874+00:00",
       "modified": "2022-10-07T00:29:48.067896+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/0122c692-5b8c-4301-afda-1e522610a59c/manifest/canvas/8843bc89-2dc0-43e4-944b-311514f96afc",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/731/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/794487c4-e471-458f-895a-701ef35fad01/",
+      "type": "Annotation",
+      "created": "2023-08-24T16:58:26.176625+00:00",
+      "modified": "2023-08-24T16:58:26.176637+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/0122c692-5b8c-4301-afda-1e522610a59c/manifest/canvas/8843bc89-2dc0-43e4-944b-311514f96afc",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/731/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/731/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:347.73126220703125,1653.84375,3986.1876831054688,4545.9501953125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>dirhem. Paid for 7 bundles of twigs, 14 dir. Paid for a bundle&nbsp;</p>\n</li>\n<li>\n<p>of ropes, 5 dir. Paid for 6 bundles of palm branches, 3/4 dinar.&nbsp;</p>\n</li>\n<li>\n<p>For sawing the wood for the b\u0101dhanj, 2 3/4 dir. Plus, work of the mason&nbsp;</p>\n</li>\n<li>\n<p>(4-5) for one day in the qa\u1e63r of \u1e24\u0101m\u016bd, his wages, including the wages of the helper, 6 1&frasl;2 dir. Paid for twigs, &frac14; + 1&frasl;8 dinar. Plus, 2 plasterers at&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(6-7) the q\u0101\u02bfa of Ab\u016b\u02bel-Faraj and others, and 3 helpers, 15 1&frasl;2 dir. A water carrier, for 4 1&frasl;4 dir. A mason at the wall of the bath house,</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(8-10) and a helper, 6 1&frasl;2 dir. Wages of a helper who sifted the earth, 2 1&frasl;2 dir. Wages for the work done with the earth that is in the qa\u1e63r of \u1e24\u0101m\u016bd, 2 1&frasl;2 dir. Transportation of the earth after having weighed it, (paid) to the Christian, 4 dir. Paid for straw&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n<li>\n<p>.... Ab\u016b\u02bel-Faraj, 1 1&frasl;2 dir. Two bundles of ropes, plus another bundle,&nbsp;</p>\n</li>\n<li>\n<p>.... 10 1&frasl;2 dir. For work at the gutter, 2 days, at&nbsp;</p>\n</li>\n<li>\n<p>.... Paid for nails, 1 dir. Sawing&nbsp;</p>\n</li>\n<li>\n<p>.... reeds, 1/3 dinar&nbsp;</p>\n</li>\n<li>\n<p>&hellip;. Clothes (?) for the room</p>\n</li>\n<li>\n<p>&hellip;. and \u2154 &hellip;.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
