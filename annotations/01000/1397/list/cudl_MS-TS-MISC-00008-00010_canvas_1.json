@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:13:24.776248+00:00",
       "modified": "2022-10-07T01:13:24.776267+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00010/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1397/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/838c9538-67db-4f96-8928-94220bd7e436/",
+      "type": "Annotation",
+      "created": "2023-08-24T17:31:19.031954+00:00",
+      "modified": "2023-08-24T17:31:19.031980+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00008-00010/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1397/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1397/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:431.9906311035156,388.0593566894531,3419.3155212402344,2028.1593933105469",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>dinars &hellip;. that I collected for the month of \u1e62afar of that year&nbsp;</p>\n</li>\n<li>\n<p>from D\u0101r b. \u1e24asan al-\u1e62abb\u0101gh: The room of Sahl\u0101n, 9 dir.&nbsp;</p>\n</li>\n<li>\n<p>The room of Wa\u1e25ish, 5 1&frasl;2 dir. The q\u0101\u02bfa of Umayna,&nbsp;</p>\n</li>\n<li>\n<p>4 dir. From al-Jamal, who lives in D\u0101r&nbsp;</p>\n</li>\n<li>\n<p>Qu\u1e6day\u1e6d, .... From the shop of al-Magh\u0101zil\u012b, 4&nbsp;</p>\n</li>\n<li>\n<p>dir. From the shop of al-Katt\u0101n\u012b, 1 dir., and he spent 2 dir. From the qa\u1e63r of \u1e24\u0101m\u016bd,&nbsp;</p>\n</li>\n<li>\n<p>4 dir. From D\u0101r al-Azraq: The room of Mu\u1e25sin, 8&hellip;.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
