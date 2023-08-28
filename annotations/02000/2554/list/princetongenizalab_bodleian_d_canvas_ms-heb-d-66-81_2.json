@@ -4,40 +4,6 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "id": "https://geniza.princeton.edu/annotations/ae18773a-54db-4abc-8f6f-2aacc525f6a9/",
-      "type": "Annotation",
-      "created": "2023-08-25T15:19:48.254927+00:00",
-      "modified": "2023-08-25T15:19:48.254942+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1001/",
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-81/2.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2554/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:513.47412109375,136.6832275390625,3428.375,849.7847900390625",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso (Address)",
-          "value": "<p>[To] my master Ab\u016b l-Faraj Yeshu\u02bfa b. Isma\u02bf\u012bl, may God prolong his life, perpetuate his glory, support, prosperity and safety. Thanking him, Ibrah\u012bm b. Fara\u1e25 the Alexandrian.&nbsp;&nbsp;&nbsp;</p>",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
       "id": "https://geniza.princeton.edu/annotations/082a60ea-a86d-4d62-b4ef-2bf43b8af167/",
       "type": "Annotation",
       "created": "2023-08-25T15:39:50.521707+00:00",
@@ -68,6 +34,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/0e804214-34f7-4248-9594-b3a05b7c33e5/",
+      "type": "Annotation",
+      "created": "2023-08-28T15:52:13.626716+00:00",
+      "modified": "2023-08-28T15:52:13.626729+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1004/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-81/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2554/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:321.7178039550781,370.84381103515625,3662.860565185547,1805.6179504394531",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (address)",
+          "value": "<p>[To] my master Ab\u016b l-Faraj Yeshu\u02bfa b. Isma\u02bf\u012bl, may God prolong his life, perpetuate his glory, support, prosperity and safety. Thanking him, Ibrah\u012bm b. Fara\u1e25 the Alexandrian.&nbsp;&nbsp;&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     },
