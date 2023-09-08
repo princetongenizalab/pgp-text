@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F6c392ad6-cfd0-49d5-bb47-44384601a614%2Fmanifest%2Fcanvas%2Fb247319e-22ca-45b7-acec-37c8dea52afa&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6914%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/9a3f6738-c8de-43f8-8e0d-ad3795cf80f9/",
+      "type": "Annotation",
+      "created": "2023-09-08T14:51:11.872876+00:00",
+      "modified": "2023-09-08T14:51:11.872891+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1006/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/6c392ad6-cfd0-49d5-bb47-44384601a614/manifest/canvas/b247319e-22ca-45b7-acec-37c8dea52afa",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6914/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:343.9231872558594,1414.494384765625,3596.5040588378906,4095.305908203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>my departure would correct them I complied with your&nbsp;</p>\n</li>\n<li>\n<p>order, and I departed with my eight year</p>\n</li>\n<li>\n<p>old daughter. He lodged me among the gentiles, and he went in with his father&nbsp;</p>\n</li>\n<li>\n<p>to spend the sabbath in Cairo, I passed two years this way&nbsp;</p>\n</li>\n<li>\n<p>without his father (brother?) returning. They travelled for twenty days&hellip;&nbsp;</p>\n</li>\n<li>\n<p>[...] &hellip; I contracted pleurisy, and I was left cast off</p>\n</li>\n<li>\n<p>[... in the neighbourho]od of the gentiles. We- I and the girls- had nothing&nbsp;</p>\n</li>\n<li>\n<p>[...] no drink&hellip; I had to turn to the gentiles in my neighbourhood&nbsp;</p>\n</li>\n<li>\n<p>[...said&hellip;] your endorsement and we (I) shall take your due from him and you will be rid (?)&nbsp;</p>\n</li>\n<li>\n<p>[...] her, he did not give you anything to drink</p>\n</li>\n<li>\n<p>[...] says nothing remains for her to die. And she expired&nbsp;</p>\n</li>\n<li>\n<p>[...] from me. He (it) makes my mind bitter. I asked him&nbsp;</p>\n</li>\n<li>\n<p>[...] from Fustat (Cairo), what he did. He stayed there&nbsp;</p>\n</li>\n<li>\n<p>[...] from the intensity of the illness and bereavement&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/bdc7a8a8-2963-4776-96fb-23bf9fb30ba4/",
+      "type": "Annotation",
+      "created": "2023-09-08T14:52:08.034642+00:00",
+      "modified": "2023-09-08T14:52:08.034655+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1006/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/6c392ad6-cfd0-49d5-bb47-44384601a614/manifest/canvas/b247319e-22ca-45b7-acec-37c8dea52afa",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6914/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:357.2056884765625,4073.11962890625,590.401611328125,1378.876953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin",
+          "value": "<ol>\n<li>\n<p>[...] go in to stay over &hellip;&nbsp;</p>\n</li>\n<li>\n<p>[...] sought the protection of God and&hellip;&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
