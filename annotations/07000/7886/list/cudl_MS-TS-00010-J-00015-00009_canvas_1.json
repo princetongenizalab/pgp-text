@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00015-00009%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7886%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/2552b81e-9a22-4c30-848c-bd5019791942/",
+      "type": "Annotation",
+      "created": "2023-09-08T14:37:14.580050+00:00",
+      "modified": "2023-09-08T14:37:14.580063+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1006/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00015-00009/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7886/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:223.96463012695312,990.4091186523438,4001.550994873047,2968.8367309570312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>&nbsp;</p>\n<ol>\n<li>\n<p>I inform you, master of the house, may God always give you happiness, strengthen your well-being,&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>cure your sorrows, destroy your enemies and those who are envious&nbsp; of you, and bestow upon you in both worlds&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>your desire, how much I miss you and pray to&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>God that He reunite us for good and in health and grant you that&nbsp; which will make you independent&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>of others. Do not ask what I went through on the journey, with riding on the beast. Wherever&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>I alighted, I was sick. Undoubtedly, your father was angry with me in the middle of al-Masasa.</p>\n</li>\n<li>\n<p>&nbsp;Not everything that was said need be repeated. Do not ask what I went through with the wife of&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>your father. The elder Abu l-Sur[ur] was exceptionally kind. All of them&nbsp;&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;do good with me. May God have mercy on all who do His deeds.&nbsp; My people spoke of my brother's advice,</p>\n</li>\n<li>\n<p>&nbsp;\"Divorce him, and I will provide whatever you need.\" Now were I to divorce you ...&nbsp;&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
