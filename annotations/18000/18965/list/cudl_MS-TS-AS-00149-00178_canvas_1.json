@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00149-00178%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F18965%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/0ac29bf0-6ff3-4e68-b4da-3dcf83724ddf/",
+      "type": "Annotation",
+      "created": "2023-09-16T09:52:54.912641+00:00",
+      "modified": "2023-09-16T09:52:54.912655+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1013/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00149-00178/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18965/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:199.0655975341797,206.61936950683594,1625.1638946533203,3374.834732055664",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>1&ndash;7. (Introductory phrases in Hebrew addressing the legal expert.)&nbsp;</p>\n<p>8. [Reuben] engaged/betrothed Shimon's daughter.&nbsp;</p>\n<p>9. Reuben [demanded] to see Shimon's daughter,</p>\n<p>10. [and] Reuben [said to] him: 'I shall marry your daughter&nbsp;</p>\n<p>11. only after seeing her with my eyes, so that I enter (the marriage?) &nbsp;with&nbsp;</p>\n<p>12. complete [confidence (?)]. And Shimon told him: &lsquo;if&nbsp;</p>\n<p>13. [&hellip; some] one wants to see other people's daughters, he should&nbsp;</p>\n<p>14. [first bring them] into his jurisdiction [= marry them] and examine&nbsp;(them then) with his own eyes.&rsquo; Would our Rabbi instruct us&nbsp;</p>\n<p>15. [&hellip;] if Reuben's words are true&nbsp;</p>\n<p>16. and valid (?) [&hellip;or] if Shimon's words are &hellip;.&nbsp;</p>\n<p>17. and Reuben(?) shall stipulate(?) </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
