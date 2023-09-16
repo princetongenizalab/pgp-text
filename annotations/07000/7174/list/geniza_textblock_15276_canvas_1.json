@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7174%2Fiiif%2Ftextblock%2F15276%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7174%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d034ecd5-8f1c-4780-b3dc-0a259f9f2b2c/",
+      "type": "Annotation",
+      "created": "2023-09-16T09:11:50.182038+00:00",
+      "modified": "2023-09-16T09:11:50.182052+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1012/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/7174/iiif/textblock/15276/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7174/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:85.78794860839844,57.515628814697266,590.0022735595703,542.270076751709",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>[Concerning Reube]n [who holds Simeo]n['s IOU for the sum of 500 dirhems] payable in instalments of twenty dirhems per month, some of which has become due. Reuben demanded payment of what is due from Simeon. And Simeon claimed to be destitute and then swore by the Torah of the living God that he has no possessions and cannot pay it. What is his obligation afterwards? And if Reuben goes after this court session to a gentile court to harass his fellow litigant and intends to cause him damage and harm or defame him, what is incumbent upon him? May our lord instruct us and may he be granted a double reward by heaven. Amen.&nbsp;</p>\n<p>Answer: It is forbidden for Reuben to harass Simeon in a gentile court. Reuben must return to him whatever damages he causes him in the gentile court not required by Jewish law. Written by Abraham son of R. Moses, (may the) m(emory of the) p(ious be a) b(lessing).&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
