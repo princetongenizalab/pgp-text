@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:58:51.693766+00:00",
       "modified": "2022-10-07T01:58:51.693782+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00052-00247/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4590/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/639d55ac-9ef8-4819-9d13-a1fe4ed846e9/",
+      "type": "Annotation",
+      "created": "2023-09-21T17:08:50.249050+00:00",
+      "modified": "2023-09-21T17:08:50.249064+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00052-00247/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4590/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4590/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:3292.2998046875,411.5374755859375,2860.6875,2439.1124267578125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right side:",
+          "value": "<ol>\n<li>\n<p>Record, as dictated by al-Shaykh Sayyid al-Ahl b. al- ....&nbsp;</p>\n</li>\n<li>\n<p>of expenditures made by him on the account of the plantation at Damm\u016bh during the year 1494, corresponding&nbsp;</p>\n</li>\n<li>\n<p>to the year 578 of the Arabic calendar, namely,&nbsp;</p>\n</li>\n<li>\n<p>to begin with: Paid to the (man) nicknamed Turk\u012b, 10. Nails, 18. The blind, 3.&nbsp;</p>\n</li>\n<li>\n<p>Ab\u016b Kalb\u016b\u1e63 al-Kufayr, a gift, 3. A shovel, 3. B. Judayr, 5. Clay, 1.&nbsp;</p>\n</li>\n<li>\n<p>Supply of lime 7. For work at the wall of the plantation, al-Barr\u0101n\u012b, 27. A carpenter, 1 3/4.&nbsp;</p>\n</li>\n<li>\n<p>The beadles, 6. Supply of palm branches, 18. Palm branches for the blind, 4. Stones, 13 1/4.&nbsp;</p>\n</li>\n<li>\n<p>Cleaning 14 &frac12;. Handed over to al-Shaykh al-M\u0113v\u012bn, may God preserve him, 80 dir.,</p>\n</li>\n<li>\n<p>by a note plus 20, plus 69, plus 76 1/4, plus 105 3/4,&nbsp;</p>\n</li>\n<li>\n<p>plus 97. The debt for a tip, 8 1/2. Nightwatch for the year [57]9,&nbsp;</p>\n</li>\n<li>\n<p>30. Total, 628.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
