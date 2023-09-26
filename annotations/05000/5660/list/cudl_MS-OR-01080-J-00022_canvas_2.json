@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-OR-01080-J-00022%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5660%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/5b6695db-8f67-49ee-9f8d-49541d0c5dfb/",
+      "type": "Annotation",
+      "created": "2023-09-26T17:45:43.536008+00:00",
+      "modified": "2023-09-26T17:45:43.536030+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1015/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5660/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:292.8651428222656,711.2977294921875,4026.7437438964844,704.6641845703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (address)\u00a0",
+          "value": "<p>To my elder and master Abi&nbsp; Ibrahim Isma 'il b. Abraham, may God be his protector.&nbsp;</p>\n<p>From Joseph b. Samuel, known as al-?ni. Many greetings!&nbsp;</p>\n<p>To Damsis, if God will.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
