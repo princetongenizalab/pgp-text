@@ -4,6 +4,40 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/038e5969-ecdd-487f-85ae-8cd140caf617/",
+      "type": "Annotation",
+      "created": "2023-09-26T17:00:52.422490+00:00",
+      "modified": "2023-09-26T17:00:52.422560+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1015/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00026-00010/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3379/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:471.9232482910156,1857.2086181640625,4007.4522399902344,1021.2335205078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso; address\u00a0",
+          "value": "<p>To my brother&hellip; Abu &lsquo;l-Barakat, son of &hellip; al-Abzari&hellip;Fustat. From his brother Abu Sa&rsquo;id.&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/9ca5f7cb-95d4-40fb-bd20-14046c01e24c/",
       "type": "Annotation",
       "created": "2022-10-07T01:04:57.643491+00:00",
