@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F8c835df1-df14-4408-b471-432ba029c5ca%2Fmanifest%2Fcanvas%2F55f91719-8608-4137-a012-2b740a5aff09&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35356%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c4538880-6101-49a0-bf70-8849bc7e7ab2/",
+      "type": "Annotation",
+      "created": "2023-09-28T03:51:42.410373+00:00",
+      "modified": "2023-09-28T03:51:42.410388+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1001/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/8c835df1-df14-4408-b471-432ba029c5ca/manifest/canvas/55f91719-8608-4137-a012-2b740a5aff09",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35356/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:488.32257080078125,1268.6270751953125,2740.4808959960938,3545.9222412109375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>the prot&eacute;g&eacute; of the am\u012br al-mu\u02bemin\u012bn, the military commander in it (referring to al-dawla? al-a\u02bfm\u0101l?), may God make his glory eternal,</li>\n<li>\n<p>. . . . the aforementioned, and let him take(?). . .&nbsp;</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Ff45d2feb-bb85-40b7-b699-756432afe007%2Fmanifest%2Fcanvas%2Fbc74a04a-4213-46d0-940a-e2061007da64&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35356%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/08434eff-e55d-453e-96e3-43d00141b4a5/",
+      "type": "Annotation",
+      "created": "2023-09-28T03:51:28.955362+00:00",
+      "modified": "2023-09-28T03:51:28.955376+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1001/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f45d2feb-bb85-40b7-b699-756432afe007/manifest/canvas/bc74a04a-4213-46d0-940a-e2061007da64",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35356/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1083.8037109375,1122.1029052734375,2936.181640625,3750.7633056640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>turning to charitable works (or: the districts of [...]?) and presenting to the majlis al-khidma of the</p>\n</li>\n<li>\n<p>noble a[m\u012br] Sayf al-Mulk, the sword of the realm, the lion of the state and its courage, the one of resolve</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
