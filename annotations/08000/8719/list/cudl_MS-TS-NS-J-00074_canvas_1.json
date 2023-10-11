@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00074%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8719%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/8bec8ec8-d00f-40df-97c0-ccc683366eda/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:37:55.821668+00:00",
+      "modified": "2023-10-11T15:37:55.821684+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00074/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8719/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol><li>Ephraim b. Jacob known as</li><li>al-Maw\u1e63il\u012b, and Abraham b. Hiba al-Dimashq\u012b came</li><li>and contracted a partnership (shirka)\u00a0in //a shop// for dyeing.</li><li>This Ibrah\u012bm received nineteen weighed gold dinars</li><li>from this Ephraim. The term</li><li>of the partnership (shirka) was a year. This Abraham weighed out</li><li>seventeen dinars and five qir\u0101\u1e6ds.</li><li>The total was to be held in the possession of this Abraham, except for</li><li>\u00a0 \u00a0 \u00a0that which the shop (itself) brought in, since it is Ephraim\u2019s</li><li>separate from this Ibrah\u012bm. It was</li><li>\u00a0 \u00a0 \u00a0nine \u2026 </li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/4872e171-8ee3-43db-b19d-fd7119a817de/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:37:55.828303+00:00",
+      "modified": "2023-10-11T15:37:55.828319+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00074/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8719/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol><li>For Abraham\u2019s maintenance, a dirham\u00a0each day</li><li>from the middle, whatever Ephraim does not take.</li><li>Whatever there is in terms of profit of loss</li><li>will be between them equally</li></ol>\n<p></p>\n<ol><li>\u2026</li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
