@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00012-00525%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7252%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/f8b682c8-8e3b-4e69-8733-09cd9686051f/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:36:22.397773+00:00",
+      "modified": "2023-10-11T15:36:22.397790+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00525/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7252/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol><li>\u2026</li><li>[\u2026] his [p]artner</li><li>[\u2026] any court anywhere</li><li>[\u2026 r]ather the most perfect and certain</li><li>[\u2026of what] the Sages m(ay their memory be) f(or a blessing) [outlined \u2026] we also have nullified all secret dispositions</li><li>and conditions which may be made for us and which we may have made concerning this partnership (shutafut) document, as a decree</li><li>of the Sages. We performed a qinyan\u00a0with this M(r.) Obadiah regarding the payment of the nine dinars</li><li>and the partnership (shirka) as well, and with this M(r.) Manasseh ha-Kohen in accordance with (their) will and the appraisal</li><li>and the partnership (shirka)\u00a0as well, with an item suitable for doing so, concerning everything written</li><li>and stipulated above. We wrote and signed two copies of this testimony</li><li>and gave one (copy) to each of them in order that he would have a title of right and proof. </li><li>That took place on the aforementioned date in Fus\u1e6d\u0101\u1e6d Egypt, situated on the Nile River.</li><li>Proper and enduring. Written on an erasure: \u201cObadiah\u201d. This is their confirmation:</li><li>\u1e24alf\u014dn ha-Levi b. Manasseh (who) r(ests in) E(den) \u00a0 \u00a0 Manasseh ha-Kohen b. Jacob (may his) e(nd be) g(ood)</li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
