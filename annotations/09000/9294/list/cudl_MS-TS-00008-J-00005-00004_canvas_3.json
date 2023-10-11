@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00005-00004%2Fcanvas%2F3&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9294%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/fb9a1357-f19f-4a12-8c9f-6ff1fcfbeda3/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:36:09.380283+00:00",
+      "modified": "2023-10-11T15:36:09.380303+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00005-00004/canvas/3",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9294/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol><li>Abraham ha-Kohen b. Aaron (who) r(ests in) E(den)</li><li>and his employee Is\u1e25aq b. Sa\u2018\u012bd established between the two of them</li><li>that debt would be repaid which was owed this Abraham ha-Kohen by his employee,</li><li>this Is\u1e25aq, half a dirham\u00a0each day; and that he would work for him</li><li>until he pays what he owes, in return for two dirhams\u00a0each day, in dull business conditions </li><li>or active. If he leaves before paying in full</li><li>and requests his portion for the days (for which he is due) maintenance, his wage (will be)</li><li>a dirham\u00a0and a half each day; and he (Abraham) is (still) entitled to the quarter(-dirhams) \u00a0owed by him (Is\u1e25aq) for the remainder.</li><li>(Similarly,) if this Abraham evicts him in accordance with his will before his debt has been repaid,</li><li>he is entitled to the amount at the rate of two dinars and a half each day.</li><li>A qinyan\u00a0was performed with each of them this Tuesday, the 17th\u00a0of Tammuz 1438.</li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
