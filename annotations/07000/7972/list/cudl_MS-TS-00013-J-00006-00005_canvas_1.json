@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00006-00005%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7972%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/e8ec2746-3641-41cf-afa5-98f5b21b6068/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:38:59.255688+00:00",
+      "modified": "2023-10-11T15:38:59.255705+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00006-00005/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7972/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol><li>The statement of the amount of the debt which an acc[ount-book] included</li><li>for the group of the partners, which was three hundred [dinars.]</li><li>When tw[o of them] separated from the group of the partners, \u00a0</li><li>being Ab\u016b al-\u1e24asan b. Ab\u016b al-Faraj and Khalaf b. \u1e24asan,</li><li>the remaining group of the partners were involved with sitting in the storeroom.</li><li>For their part of the total from the aforementioned included account-book, </li><li>the aforementioned three hundred dinars, which was the capital</li><li>allocated to its owners\u2014they are the ones who took it out without</li><li>my permission\u2014I, Ab\u016b al-\u1e24asan b. Ab\u016b al-Faraj. From its amount (was)</li><li>//from the expenditure of// Ab\u016b al-\u2018Al\u0101 b. Ab\u016b al-\u1e62id\u0101d, from B\u016bra, (of which) </li><li>the [grou]p of the partners received eighteen dina(rs.) [\u2026]</li><li>They also received three dinars from him.</li><li>The reckoning for Damietta which the account-book included: from Jal\u0101l</li><li>al-Dawla, head of the government embroidery workshop, fifty dinars</li><li>and from Munta\u1e63ir al-B\u016br\u012b, twenty-five dinars</li><li>and from Fakhr al-Dawla, five hundred dirhams</li><li>and from the Coptic clergyman from Barbaya, four hundred dirhams,</li><li>and the rest of the amount was divided throughout the town; they took it out </li><li>in their hand without my permission. They did not trouble me therein, for </li><li>we entered (only periodically) and they were the (regular) keepers of the storeroom. </li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/0f357177-fd2b-480d-b751-571f89601587/",
+      "type": "Annotation",
+      "created": "2023-10-11T15:38:59.260633+00:00",
+      "modified": "2023-10-11T15:38:59.260646+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/979/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00006-00005/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7972/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Right margin",
+          "value": "<ol><li>At our separation they guaranteed all that which the account-book allocated us and they paid its total to me,</li><li>which entered into our partnership (shirka)\u00a0\u2026.. a period of six years from when I separated all my business</li><li>the same time</li></ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
