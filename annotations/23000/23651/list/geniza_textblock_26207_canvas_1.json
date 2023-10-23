@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23651%2Fiiif%2Ftextblock%2F26207%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23651%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/58e373d4-f4af-42ef-ace7-ac2607f0592b/",
+      "type": "Annotation",
+      "created": "2023-10-23T02:55:56.593926+00:00",
+      "modified": "2023-10-23T02:55:56.593939+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/23651/iiif/textblock/26207/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23651/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:5.306396961212158,7.613525867462158,828.0747675895691,501.65701246261597",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>..\u0647\u0630\u064a\u0646 \u0627\u0644\u062f\u064a\u0648\u0627\u0646\u064a\u0646 \u0648\u0647\u0648 \u064a\u062c\u062f\u062f \u0627\u0644\u0633\u0648\u0627\u0644</p>\n</li>\n<li>\n<p>&hellip;\u0642\u0627\u0645&hellip;.\u0645\u0646 \u0634\u064a \u0628\u0645\u0627 \u064a\u062c\u0628 \u0641\u064a\u0647\u0627</p>\n</li>\n<li>\n<p>]\u0640\u0647 \u0627\u0644\u0649 \u0627\u0644\u062e\u062f\u0645\u0629 \u0641\u064a \u0630\u0644\u0643 \u0648\u0644\u0648\u0644\u0627 \u0645\u0627 \u064a\u0637\u0645\u0639 \u0628\u0647</p>\n</li>\n<li>\n<p>&hellip;.\u0642\u062f\u0631\u062a\u0647 \u0645\u0646 [&nbsp; ]\u064a\u062c\u0628 \u0627\u0644\u062f\u064a\u0648\u0627\u0646 \u0627\u0644\u0645\u0633\u062a\u0646\u0635\u0631\u064a</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
