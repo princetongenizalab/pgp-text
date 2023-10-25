@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F37074%2Fiiif%2Ftextblock%2F37129%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F37074%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b60bcb1e-02af-4288-9284-d758dc43a17c/",
+      "type": "Annotation",
+      "created": "2023-10-25T23:35:10.959405+00:00",
+      "modified": "2023-10-25T23:35:10.959420+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/37074/iiif/textblock/37129/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/37074/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:37.86043930053711,26.960063934326172,802.1395606994629,459.2317695617676",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u0627\u0644\u0639\u0628\u064a\u062f \u0627\u0644\u0645\u0645\u0627\u0644\u064a\u0643[</li>\n<li>\u062c\u0645\u0627\u0639\u0629 \u0627\u0644\u064a\u0647\u0648\u062f[</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
