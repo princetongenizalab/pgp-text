@@ -36,6 +36,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/ad1a7944-61ed-4920-88a2-7636e3682051/",
+      "type": "Annotation",
+      "created": "2023-11-07T20:09:25.338068+00:00",
+      "modified": "2023-11-07T20:09:25.338088+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-22-43/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/604/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:367.6371765136719,1350.79150390625,2049.210723876953,2049.210693359375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, second block of text",
+          "value": "<ol>\n<li>\n<p>(1-3) I, and (A)b\u016b Sur\u016br b. al-\u1e62abb\u0101gh, and Fa\u1e0d\u0101\u02beil al-\u1e24azz\u0101n Ma\u02bf\u0101l\u012b b. al-Arbil\u012b are witnesses concerning Sitt Riy\u0101\u1e0d&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n<li>\n<p>al-N\u0101\u02bei\u1e25a; she made us testify for&nbsp;</p>\n</li>\n<li>\n<p>herself that she has&nbsp;</p>\n</li>\n<li>\n<p>donated out of her compound of which she owns 7 q\u012br\u0101\u1e6ds,</p>\n</li>\n<li>\n<p>eight to the Karaites and 7 1&frasl;2 to the Rabbanites,&nbsp;</p>\n</li>\n<li>\n<p>on the middle ten days of the month ...&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
