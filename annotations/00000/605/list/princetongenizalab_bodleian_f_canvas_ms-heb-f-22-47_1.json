@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-22-47%2F1.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F605%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/2a8e7134-aca0-4484-964a-91abc3ea7076/",
+      "type": "Annotation",
+      "created": "2023-11-07T20:12:13.790295+00:00",
+      "modified": "2023-11-07T20:12:13.790307+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-22-47/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/605/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:278.9810485839844,196.41122436523438,1935.2711486816406,1861.3612365722656",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>(1-2) The uncle of (A)b\u016b Sa\u02bf\u012bd b. al-Muqaddas\u012b made me be witness for&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>(3-4) himself, that he has given his nephew, the said (A)b\u016b Sa\u02bf\u012bd,&nbsp;</p>\n</li>\n<li>&nbsp;</li>\n<li>\n<p>the share which is his in the Estate of the Jerusalemites.&nbsp;</p>\n</li>\n<li>\n<p>&nbsp;And (A)b\u016b \u02bfAli al-N\u0101sikh was present.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
