@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F20957%2Fiiif%2Ftextblock%2F20001%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F20957%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/65380d5c-bebe-4ab5-850f-13bae8525f71/",
+      "type": "Annotation",
+      "created": "2023-11-08T23:31:59.998831+00:00",
+      "modified": "2023-11-08T23:31:59.998844+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/20957/iiif/textblock/20001/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/20957/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:11.233155250549316,16.380617141723633,812.8989858627319,493.61938285827637",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\u0627\u0644\u0645\u062c\u0644\u0633 \u0627\u0644\u0633\u0627\u0645\u064a \u0627\u0644\u0627\u062c\u0644\u064a \u0627\u0644\u0645\u0648\u0644\u0648\u064a \u0627\u0644\u0645\u062d\u0631\u0645\u064a(\u061f) \u0627\u0644\u0645\u062e\u062f\u0648\u0645\u064a \u0639\u0645\u062f\u0629 \u0627\u0644\u0645\u0644\u0648\u0643 \u062e\u0627\u0635\u0629 \u0627\u0644\u0633\u0644\u0627\u0637\u064a\u0646&nbsp; \u0648\u0627\u0644\u0640....</li>\n<li>\u0627\u0645\u064a\u0631 \u0627\u0644\u0645\u0624\u0645\u0646\u064a\u0646 \u062b\u0628\u062a \u0627\u0644\u0644\u0647 \u0633\u0639\u0627\u062f\u062a\u0647 \u0648\u0636\u0627\u0639\u0641 \u0646\u0639\u0645\u062a\u0647</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
