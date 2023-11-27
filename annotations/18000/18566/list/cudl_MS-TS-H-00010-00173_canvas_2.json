@@ -104,6 +104,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/4fbefbc1-1586-4a53-880b-96f03f0d9a75/",
+      "type": "Annotation",
+      "created": "2023-11-27T00:35:13.288247+00:00",
+      "modified": "2023-11-27T00:35:13.288278+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-H-00010-00173/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18566/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2255.7509765625,3518.453369140625,1078.621826171875,1507.269775390625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, right center",
+          "value": "<p>5. ............. D\u0101'\u016bd</p>\n<p>6.&nbsp; ibn \u1e62ema\u1e25&nbsp; today</p>\n<p>7. .............</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
