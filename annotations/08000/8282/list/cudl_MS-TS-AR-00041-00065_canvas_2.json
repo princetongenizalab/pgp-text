@@ -38,6 +38,40 @@
       "schema:position": 1
     },
     {
+      "id": "https://geniza.princeton.edu/annotations/86a3a013-4f6f-4b85-9c24-1c52f3a7660c/",
+      "type": "Annotation",
+      "created": "2023-12-04T21:15:32.992578+00:00",
+      "modified": "2023-12-04T21:19:15.196769+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00041-00065/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8282/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:159.86233520507812,0,3690.159149169922,1185.8546142578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Top Verso",
+          "value": "<p>&nbsp;</p>\n<p>1. Praise be to God alone and his blessings be upon [our lord Mu\u1e25ammad, his prophet, and his family and save them.]&nbsp;&nbsp;</p>\n<p><span lang=\"en\">2. Our sufficiency is God. What a fine keeper is he!&nbsp; </span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/bd80c5d9-b52c-469f-bd98-e408d6e1ca83/",
       "type": "Annotation",
       "created": "2023-12-04T21:13:22.523530+00:00",
@@ -68,6 +102,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/5e469aeb-0ec9-4668-b9e4-08dab287c878/",
+      "type": "Annotation",
+      "created": "2023-12-04T21:15:56.846779+00:00",
+      "modified": "2023-12-04T21:15:56.846792+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00041-00065/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8282/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:75.49048614501953,1390.123291015625,3881.1059494018555,3232.775146484375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Bottom Verso",
+          "value": "<p>dlfjdslfjd</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
