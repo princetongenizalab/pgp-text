@@ -8,21 +8,13 @@
       "type": "Annotation",
       "created": "2022-10-07T01:24:09.342866+00:00",
       "modified": "2022-10-07T01:24:09.342882+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<p>\u05d0 \u05d1 \u05d9 \u05de \u05e7 \u05ea</p>\n<ol>\n<li>] \u05e9\u05de\u05d5\u05d0\u05dc \u05d1\u05e8 \u05e9\u05db\u05e0\u05d9\u05d4</li>\n</ol>\n<p>\u05d5 \u05d0 \u05e1 \u05d1 \u05de \u05e0\u05d5 \u05e8 \u05d9 \u05e9 \u05e9\u05de</p>\n<ol>\n<li>\u05d8]\u05d5\u05d1\u05d9\u05d4 \u05d1\u05e8\u05d1\u05d9 \u05d3\u05e0\u05d9\u05d0\u05dc \u05d4\u05d7\u05d1\u05e8 \u05d1\u05df \u05d0\u05d7\u05d5\u05ea \u05d2\u05d0\u05d5\u05df</li>\n</ol>\n<p>\u05e6 \u05e8 \u05d7 \u05d4 \u05d5 \u05d2 \u05d9 \u05e7\u05df \u05e2\u05d9 \u05e2\u05d9\u05d4</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/445/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/445/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/445/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,10 +23,50 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>\u05d0 \u05d1 \u05d9 \u05de \u05e7 \u05ea</p>\n<ol>\n<li>] \u05e9\u05de\u05d5\u05d0\u05dc \u05d1\u05e8 \u05e9\u05db\u05e0\u05d9\u05d4</li>\n</ol>\n<p>\u05d5 \u05d0 \u05e1 \u05d1 \u05de \u05e0\u05d5 \u05e8 \u05d9 \u05e9 \u05e9\u05de</p>\n<ol>\n<li>\u05d8]\u05d5\u05d1\u05d9\u05d4 \u05d1\u05e8\u05d1\u05d9 \u05d3\u05e0\u05d9\u05d0\u05dc \u05d4\u05d7\u05d1\u05e8 \u05d1\u05df \u05d0\u05d7\u05d5\u05ea \u05d2\u05d0\u05d5\u05df</li>\n</ol>\n<p>\u05e6 \u05e8 \u05d7 \u05d4 \u05d5 \u05d2 \u05d9 \u05e7\u05df \u05e2\u05d9 \u05e2\u05d9\u05d4</p>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/889045d4-70ac-4569-93c5-72b6f1f3c54b/",
+      "type": "Annotation",
+      "created": "2023-12-06T19:08:01.483126+00:00",
+      "modified": "2023-12-06T19:08:01.483139+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/317/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/445/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/445/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:95.48438262939453,53.709964752197266,623.4375534057617,397.68752670288086",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
