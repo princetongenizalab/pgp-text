@@ -106,6 +106,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/bccadda0-94b0-4865-87e0-8cee681302cd/",
+      "type": "Annotation",
+      "created": "2023-12-07T00:41:03.479272+00:00",
+      "modified": "2023-12-07T00:41:03.479286+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1023/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00020-00017/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2059/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3758.774169921875,512.2235107421875,857.483154296875,3259.2071533203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - right margin",
+          "value": "<ol>\n<li>is very encouraging,</li>\n<li>praise be to God for\u00a0</li>\n<li>this.\u00a0You mentioned the </li>\n<li>cloaks (aksiyya), that </li>\n<li>someone had withheld the bundle (rizma). ...</li>\n<li>My sufficiency and trust is God in his omnipotence.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
