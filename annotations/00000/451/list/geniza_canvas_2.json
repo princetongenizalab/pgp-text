@@ -7,7 +7,7 @@
       "id": "https://geniza.princeton.edu/annotations/8f4d1146-949a-4262-b940-7c24330f3cbf/",
       "type": "Annotation",
       "created": "2023-12-07T02:16:58.832112+00:00",
-      "modified": "2023-12-07T02:16:58.832127+00:00",
+      "modified": "2023-12-07T02:22:53.596993+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/1023/",
       "target": {
         "source": {
@@ -19,7 +19,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:0,7.654821872711182,825.1649780273438,502.3451781272888",
+          "value": "xywh=pixel:14.31195068359375,0,825.6880493164062,253.85848999023438",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -27,7 +27,7 @@
         {
           "type": "TextualBody",
           "label": "Verso",
-          "value": "<ol>\n<li>I send you my best regards.&nbsp; My best regards to the Rabbi; tell him of my yearnings for him.&nbsp; Likewise, to my lord the elder, Abu Zikri.&nbsp; Tell the latter the story about the ship.&nbsp; I hope it is correct.&nbsp; And place.</li>\n</ol>",
+          "value": "<ol>\n<li>My best regards to my lord the Rav; tell him</li>\n<li>of my yearning for him. Likewise, to my lord the elder Ab\u016b Zikr\u012b.&nbsp; Tell him</li>\n<li>the story of the ship. I hope it is correct. Peace.</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -36,6 +36,40 @@
         "translating"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/6f30a05c-5070-44cf-929f-64589f5231ca/",
+      "type": "Annotation",
+      "created": "2023-12-07T02:24:29.477781+00:00",
+      "modified": "2023-12-07T02:24:29.477796+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1023/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/451/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/451/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:184.0909881591797,303.9333801269531,655.9090118408203,195.57803344726562",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>\n<p>To my lord the elder Ab\u016b Ya\u1e25y\u0101 Nahray b. Nissim, </p>\n</li>\n<li>\n<p>may God prolong his existence and make his glory eternal, </p>\n</li>\n</ol>\n<p>1. from the one who is grateful to him, Marduk </p>\n<p>2. b. Musa, may his resting place be Eden.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     },
     {
       "id": "https://geniza.princeton.edu/annotations/756ed4e8-6fb5-4c96-ae26-91758d4fc8e7/",
@@ -76,7 +110,7 @@
       "id": "https://geniza.princeton.edu/annotations/cbff9688-42d5-47a9-9143-10beb9c62174/",
       "type": "Annotation",
       "created": "2022-10-07T00:51:22.534854+00:00",
-      "modified": "2022-10-07T00:51:22.534868+00:00",
+      "modified": "2023-12-07T02:22:28.277327+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/17/",
       "target": {
         "source": {
@@ -95,7 +129,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "(upside down)",
+          "label": "Verso - address",
           "value": "<ol>\n<li>\u05dc\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05e9\u05d9\u05da \u05d0\u05d1\u05d9 \u05d9\u05d7\u05d9\u05d0 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e9\u05d0\u05db\u05d9\u05e8\u05d5\u05d4 \u05de\u05e8\u05d3\u05d5\u05da</li>\n<li>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d1\u05df \u05de\u05d5\u05e1\u05d9 \u05e0\u05e2</li>\n</ol>",
           "format": "text/html",
           "TextInput": "rtl"
