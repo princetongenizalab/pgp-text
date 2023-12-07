@@ -4,10 +4,78 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/1903c723-c3aa-443f-8fca-e47f65d49bac/",
+      "type": "Annotation",
+      "created": "2023-12-07T04:22:07.191197+00:00",
+      "modified": "2023-12-07T04:22:07.191211+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1023/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00019/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/965/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:719.6536254882812,5871.36181640625,4636.820495605469,1379.43212890625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso\u00a0",
+          "value": "<ol>\n<li>Greeting to R. Nissim, may God grant him life; and to my lord Ab\u016b Y\u016bsuf al-\u1e6carabulus\u012b and his brother.</li>\n<li>I, Mard\u016bk b. M\u016bs\u0101, send special greetings to you and to R. Nissim. God is my sufficiency.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/3d7cc31b-a84d-4f5b-a876-be06a010129d/",
+      "type": "Annotation",
+      "created": "2023-12-07T04:23:19.337993+00:00",
+      "modified": "2023-12-07T04:23:19.338007+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1023/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00019/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/965/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1093.485595703125,1793.451416015625,4350.881591796875,1148.631591796875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>To my lord the \u1e25aver R. Nahray b. Nissim,</li>\n<li>may God prolong his life and make his glory and benefaction eternal.</li>\n<li>From the one who is grateful for his kindness, Marduk b. Musa.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/1996f180-b014-4008-b7e8-eed89e06f70a/",
       "type": "Annotation",
       "created": "2022-10-07T00:38:44.403643+00:00",
-      "modified": "2022-10-07T00:38:44.403664+00:00",
+      "modified": "2023-12-07T04:22:16.077621+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/757/",
       "target": {
         "source": {
@@ -27,7 +95,7 @@
         {
           "type": "TextualBody",
           "label": "verso",
-          "value": "<ol>\n<li>\u05d5\u05e8\u05d1\u05d9 \u05e0\u05e1\u05d9\u05dd \u05d0\u05d7\u05d9\u05d0\u05d4 \u05d0\u05dc\u05dc\u05d4 \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05e1\u05d9\u05d3\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d5\u05e1\u05e3 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d0\u05dc\u05d0\u05d8\u05e8\u05d0\u05d1\u05dc\u05e1\u05d9 \u05d5\u05d0\u05db\u05d5\u05d4</li>\n</ol>\n<p>\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</p>\n<ol>\n<li>\u05d5\u05d0\u05e0\u05d0 \u05de\u05d5\u05e1\u05d9 \u05d1\u05df \u05de\u05e8\u05d3\u05d5\u05da \u05d0\u05db\u05e6\u05da \u05d1\u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05e8\u05d1\u05d9 \u05e0\u05e1\u05d9\u05dd \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d7\u05e1\u05d1\u05d9 \u05d0\u05dc\u05dc\u05d4</li>\n</ol>",
+          "value": "<ol>\n<li>\u05d5\u05e8\u05d1\u05d9 \u05e0\u05e1\u05d9\u05dd \u05d0\u05d7\u05d9\u05d0\u05d4 \u05d0\u05dc\u05dc\u05d4 \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05e1\u05d9\u05d3\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d5\u05e1\u05e3 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d0\u05dc\u05d0\u05d8\u05e8\u05d0\u05d1\u05dc\u05e1\u05d9 \u05d5\u05d0\u05db\u05d5\u05d4 \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>\u05d5\u05d0\u05e0\u05d0 \u05de\u05d5\u05e1\u05d9 \u05d1\u05df \u05de\u05e8\u05d3\u05d5\u05da \u05d0\u05db\u05e6\u05da \u05d1\u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05e8\u05d1\u05d9 \u05e0\u05e1\u05d9\u05dd \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d7\u05e1\u05d1\u05d9 \u05d0\u05dc\u05dc\u05d4</li>\n</ol>",
           "format": "text/html",
           "TextInput": "rtl"
         }
@@ -42,7 +110,7 @@
       "id": "https://geniza.princeton.edu/annotations/590b3ff4-d3c5-46a9-9498-fead7b4428ff/",
       "type": "Annotation",
       "created": "2022-10-07T00:38:44.418326+00:00",
-      "modified": "2022-10-07T00:38:44.418342+00:00",
+      "modified": "2023-12-07T04:22:23.905968+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/757/",
       "target": {
         "source": {
@@ -61,7 +129,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "(bottom of the page, upside down)",
+          "label": "Verso - address",
           "value": "<p>\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05d7\u05d1\u05e8 \u05e8\u05d1\u05d9 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\u05e2 \u05e9\u05d0\u05db\u05e8 \u05ea\u05e4\u05e6\u05dc\u05d4 \u05de\u05e8\u05d3\u05d5\u05da \u05d1\u05df \u05de\u05d5\u05e1\u05d9</p>\n<p>[\u05d0\u05d8]\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d5\u05e0\u05e2\u05de\u05ea\u05d4</p>",
           "format": "text/html",
           "TextInput": "rtl"

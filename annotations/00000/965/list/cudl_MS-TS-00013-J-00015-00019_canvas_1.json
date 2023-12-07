@@ -175,6 +175,40 @@
         "transcribing"
       ],
       "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/3054dbd3-1433-4d49-af38-ea3e0510a8ae/",
+      "type": "Annotation",
+      "created": "2023-12-07T04:20:37.063819+00:00",
+      "modified": "2023-12-07T04:20:37.063832+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1023/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00019/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/965/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:906.4180908203125,816.87451171875,3369.7178955078125,811.059814453125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - top margin",
+          "value": "<ol>\n<li>about the delivery of the</li>\n<li>\u1e6cabar\u012b&nbsp;cloak and requested</li>\n<li>that you get its price</li>\n<li>from</li>\n<li>Ab\u016b Y\u016bsuf.</li>\n<li>Whether, my lord, you have col&shy;lected&nbsp;</li>\n<li>anything from it</li>\n<li>or not,</li>\n<li>let me know</li>\n<li>in your letter.</li>\n<li>I send you</li>\n<li>my best</li>\n<li>regards.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
     }
   ]
 }
