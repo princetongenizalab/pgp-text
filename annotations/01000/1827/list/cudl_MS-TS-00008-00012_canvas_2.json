@@ -4,10 +4,58 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/2ea881b6-557b-4f75-a48b-f215f47c5a79/",
+      "type": "Annotation",
+      "created": "2023-12-09T01:06:50.536571+00:00",
+      "modified": "2023-12-09T01:06:50.536586+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00012/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1827/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:253.31285095214844,526.4570922851562,4019.3600006103516,747.5761108398438",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>To my master Abu \u038a-Faraj\u2014may God prolong his life\u2014Joseph b.\u00a0Jacob b. 'Awkal\u00a0and to Abu \u038a-Fadl and Abu \u038a-Tayyib, Hilal and\u00a0Benjamin, the sons of Joseph. From their\u00a0grateful Faraj, the freedman of Barhun.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/e07afdeb-ff1f-408f-acdd-b99e68032332/",
       "type": "Annotation",
       "created": "2022-10-07T00:44:46.782820+00:00",
       "modified": "2022-10-07T00:44:46.782834+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/87/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00012/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1827/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +65,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00012/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1827/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/87/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
