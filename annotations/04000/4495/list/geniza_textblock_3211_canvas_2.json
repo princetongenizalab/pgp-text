@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Ftextblock%2F3211%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/9a92717b-a5d7-4f29-b486-4a074273058a/",
+      "type": "Annotation",
+      "created": "2023-12-09T19:36:11.329851+00:00",
+      "modified": "2023-12-09T19:36:11.329867+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:20.690963745117188,284.92626953125,803.3917999267578,225.07373046875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>is a letter to my lord Ab\u016b l-Faraj Hiba al-Kohen, may God protect him.</li>\n<li>Please give it to him. If he's in the R\u012bf, please send it</li>\n<li>to him. Do not put off writing to me about everything that's creating stress (?).</li>\n<li>Perhaps my lord Ab\u016b l-Faraj Hibba can help you collect&nbsp;</li>\n<li>the dinars. Answer me immediately. Everyone greets you with</li>\n<li>best wishes and misses you. May God answer you with wellbeing</li>\n<li>and may you be well, may your household be well, and may everything you have be well.</li>\n<li>I received word that \u02bfImr\u0101n is putting the memory of our lord the ga\u02beon&nbsp;</li>\n<li>Shelomo, may the memory of the righteous be a blessing and have eternal life, in a bad light. What happened to him? He should alter his foul</li>\n<li>path. \"Also, mold is scattered over him, but he has taken no notice (Hosea 7:9).\" What more can I say</li>\n<li>about that? A covenant of peace.&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
