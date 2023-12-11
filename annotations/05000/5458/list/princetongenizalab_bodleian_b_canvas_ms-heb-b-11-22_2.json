@@ -7,7 +7,7 @@
       "id": "https://geniza.princeton.edu/annotations/18f226b1-8326-4f50-827f-7dcd2052796b/",
       "type": "Annotation",
       "created": "2023-12-09T21:57:18.595216+00:00",
-      "modified": "2023-12-09T21:57:18.595231+00:00",
+      "modified": "2023-12-11T03:35:26.696939+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/170/",
       "target": {
         "source": {
@@ -27,7 +27,7 @@
         {
           "type": "TextualBody",
           "label": "Verso",
-          "value": "<p>Attached to this letter, is another one in Arabic characters of the&nbsp;same content as this letter; please notice this. And again, my lord,&nbsp;do not take to heart what you have lost; you have, my lord, praise&nbsp;be to God, plenty to have recourse to and to be compensated with.&nbsp;When life is saved, nothing else matters. Nor do I need to urge you&nbsp;again to come to Mangalore.</p>\n<p>&nbsp;</p>\n<p>Accept, my lord, copious regards for your noble self and convey&nbsp;copious regards to the elder Abu Sa'd. The writer of these lines,&nbsp;Abraham b. Yiju, conveys to your excellency copious regards, and&nbsp;those who attend the writing of this letter do the same. May the&nbsp;well-being of my lord grow indefinitely and never become reduced.</p>\n<p>&nbsp;</p>\n<p>(Address:)</p>\n<p>To be delivered to my noble lord, the light of my eyes, his honor, (our) M(aster) and T(eacher) Judah ha-Kohen, the wise and understanding, the son of his honor, greatness, and hol(iness), (our) M(aster) and T(eacher) Joseph ha-Kohen, may his soul be satiated with pleasures in the Gardens of Eden until he will be quickened at the end of the days. From his servant Mahruz, the son of Jacob, (may he) r(est in) E(den). Given in trust (i.e., no fees for delivery).</p>",
+          "value": "<ol>\n<li>Attached to this letter</li>\n<li>is another one in Arabic characters of the same content as this</li>\n<li>letter; please notice this. And again, my lord, do not take to</li>\n<li>heart what you have lost; you have, my lord,</li>\n<li>praise be to God, plenty to have recourse to and to be compensated with.</li>\n<li>When life is saved, nothing else matters.</li>\n<li>Nor do I need to urge you again to come to</li>\n<li>Mangalore. Accept, my lord, copious regards for your noble self</li>\n<li>and convey copious regards to the elder Abu Sa'd.</li>\n<li>The writer of these lines, Abraham b. Yiju, conveys to your excellency</li>\n<li>copious regards, and those who attend the writing of this letter do the same.</li>\n<li>May the well-being of my lord grow indefinitely and never become reduced.</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -69,6 +69,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/a7ef6116-47f3-415c-a89b-08fc58710fde/",
+      "type": "Annotation",
+      "created": "2023-12-11T03:36:07.212937+00:00",
+      "modified": "2023-12-11T03:36:07.212952+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/b/canvas/ms-heb-b-11-22/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5458/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:75.4917221069336,3701.207763671875,1459.9369888305664,534.306884765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<p>To be delivered to my noble lord, the light of my eyes, his honor, (our) M(aster) and T(eacher) Judah ha-Kohen, the wise and understanding, the son of his honor, greatness, and hol(iness), (our) M(aster) and T(eacher) Joseph ha-Kohen, may his soul be satiated with pleasures in the Gardens of Eden until he will be quickened at the end of the days. From his servant Mahruz, the son of Jacob, (may he) r(est in) E(den). Given in trust (i.e., no fees for delivery).</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     },
