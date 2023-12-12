@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00156-00237%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9443%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/f4cc1ebe-daa2-4dd1-89e0-5750cdcc5d60/",
+      "type": "Annotation",
+      "created": "2023-12-12T03:24:47.866475+00:00",
+      "modified": "2023-12-12T03:24:47.866487+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/876/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00156-00237/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9443/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:630.1494140625,1034.146240234375,3356.694580078125,660.5382080078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>Sheikh ...\u00a02...., May your well being increase and never diminish. 3. The date of this letter is Wednesday, 29th Ab.72 In a larger script. Right Side. 4. To the illustrious Sheikh, my lord 'Arius, son of Joseph (may he) r(est in) E(den) 5. May God prolong his life and make his honoured position and welfare permanent. </p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
