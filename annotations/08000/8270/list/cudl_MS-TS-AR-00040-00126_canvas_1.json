@@ -104,6 +104,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/afc16871-9681-4a2f-a3f5-a22d92b5f67a/",
+      "type": "Annotation",
+      "created": "2023-12-12T23:40:41.854522+00:00",
+      "modified": "2023-12-12T23:40:41.854537+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00040-00126/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8270/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1913.7109375,257.1031188964844,507.778564453125,4595.718170166016",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "<ol>\n<li>\n<p>a small boat able&nbsp;to carry just a few victuals.</p>\n</li>\n<li>\n<p>I am sending now a messenger to my&nbsp;lord,</p>\n</li>\n<li>\n<p>and ask you to send him to the sheikh \"The Learned\"</p>\n</li>\n<li>\n<p>with&nbsp;a request that he deliver the palm branches to you,</p>\n</li>\n<li>\n<p>and you will keep them for your servant in Qalyub.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
