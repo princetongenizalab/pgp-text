@@ -35,6 +35,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/a77eb5f9-821a-4df8-9f39-a192f056c150/",
+      "type": "Annotation",
+      "created": "2023-12-12T23:47:22.872113+00:00",
+      "modified": "2023-12-12T23:47:22.872125+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00040-00126/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/37693/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:28.91874885559082,1160.8812255859375,2288.712354660034,908.8748779296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>The servants, the dyers in Qaly\u016bb, kiss the ground</li>\n<li>and announce&nbsp;that they perish because of the high price of the wheat,</li>\n<li>the scarcity&nbsp;of work, the heavy license fee, and the rise of the exchange rate</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
