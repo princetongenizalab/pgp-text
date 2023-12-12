@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00156-00237%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9443%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/15b41551-fa34-46dc-870e-10d38eef5ca4/",
+      "type": "Annotation",
+      "created": "2023-12-12T02:45:28.612129+00:00",
+      "modified": "2023-12-12T02:45:28.612142+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/876/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00156-00237/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9443/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:110,119.96337890625,3896.487060546875,1701.91162109375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "T-S AS 156.237 recto",
+          "value": "<ol>\n<li>\n<p>[Your servant took notice of... and your yearning] for him, a feeling shared by me. [May God ordain that] </p>\n</li>\n<li>\n<p>prosperity and health prevail in your court and grant in his grace that I be united with you. As to what you have m[entioned] </p>\n</li>\n<li>\n<p>in your kind letter about your longing to meet me, I have an even larger part and a greater&nbsp;</p>\n</li>\n<li>\n<p>share of this. In God all matters are united. The reason for writing this letter is to tell your excellency what </p>\n</li>\n<li>\n<p>happened to me on this voyage. In my p[revious] letters to your excellency I informed you </p>\n</li>\n<li>\n<p>about my travel to Sindabur. God granted me safety, I finally arrived in al-M[al\u012bb\u0101?]r and </p>\n</li>\n<li>\n<p>bought what God, the exalted, made available, to the extent reported in my previous letters. </p>\n</li>\n<li>\n<p>We intended, on our way home, to travel to Aden, but riots and bloodshed occurred, </p>\n</li>\n<li>\n<p>and [who]ever was in the town fled. The [shipmas]ter, namely, 'All Nawak, wan[ted] also to flee, but I discovered this&nbsp;</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
