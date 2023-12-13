@@ -36,6 +36,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1403d45c-db7c-4aac-9e1b-09c44819a1cc/",
+      "type": "Annotation",
+      "created": "2023-12-13T16:45:23.925743+00:00",
+      "modified": "2023-12-13T16:45:23.925755+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00039/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9047/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:42.22499465942383,2232.646484375,1615.1060600280762,2010.96533203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, left",
+          "value": "<ol>\n<li>according to his situation. Also, from the beginning</li>\n<li>after their/our arrival (in Aden), deception</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
