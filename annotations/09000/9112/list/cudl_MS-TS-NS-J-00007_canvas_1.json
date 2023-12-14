@@ -110,7 +110,7 @@
       "id": "https://geniza.princeton.edu/annotations/1cf4a305-14e1-463f-b279-03cb99d426ff/",
       "type": "Annotation",
       "created": "2023-12-14T02:54:59.018807+00:00",
-      "modified": "2023-12-14T02:54:59.018822+00:00",
+      "modified": "2023-12-14T02:55:09.873876+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/29/",
       "target": {
         "source": {
@@ -122,7 +122,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:2884.01025390625,157.86631774902344,1274.81396484375,4444.806045532227",
+          "value": "xywh=pixel:2884.01025390625,157.86631774902344,1288.4482421875,5708.314346313477",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -171,6 +171,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/e963a734-df40-4c9f-9edd-6861ff80a477/",
+      "type": "Annotation",
+      "created": "2023-12-14T02:55:27.054388+00:00",
+      "modified": "2023-12-14T02:55:27.054402+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9112/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:311.44866943359375,217.81007385253906,2604.1657104492188,865.7827606201172",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, top margin",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 3
     }
