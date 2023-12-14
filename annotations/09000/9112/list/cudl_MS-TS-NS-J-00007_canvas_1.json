@@ -39,6 +39,40 @@
       "schema:position": 1
     },
     {
+      "id": "https://geniza.princeton.edu/annotations/2865f2f1-844c-44d9-8820-c037ad233f8b/",
+      "type": "Annotation",
+      "created": "2023-12-14T02:54:44.245484+00:00",
+      "modified": "2023-12-14T02:54:44.245498+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9112/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:306.7734375,1097.567138671875,2617.06884765625,4732.045654296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/ee3ceed9-4c78-41fe-8e28-1de751cffeda/",
       "type": "Annotation",
       "created": "2023-03-08T18:44:16.236159+00:00",
@@ -69,6 +103,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1cf4a305-14e1-463f-b279-03cb99d426ff/",
+      "type": "Annotation",
+      "created": "2023-12-14T02:54:59.018807+00:00",
+      "modified": "2023-12-14T02:54:59.018822+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9112/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2884.01025390625,157.86631774902344,1274.81396484375,4444.806045532227",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     },
