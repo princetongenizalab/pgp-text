@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:07:12.090568+00:00",
       "modified": "2022-10-07T01:07:12.090589+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-8/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2553/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1c6573e6-b7aa-423d-9ae6-a72198ce8f62/",
+      "type": "Annotation",
+      "created": "2023-12-16T18:53:04.083419+00:00",
+      "modified": "2023-12-16T18:53:04.083431+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/478/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-8/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2553/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2553/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:33.99806213378906,234.78688049316406,4280.387191772461,4423.997787475586",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n\n\n\n\n\n\n\n<p>Testimony of what transpired before us, we the witnesses signed at the bottom</p>\n\n\n\n\n<p>of this document, thus it was: Mus\u0101fir b. \u02bfAl\u012b, may his end be good, the \u1e0d\u0101min of [the sale] and dyeing of silk&nbsp;&nbsp;</p>\n\n\n\n\n<p>in Damietta appeared before us and said to us: testify concerning me and perform a qinyan with me from this moment using all the formulations of claims</p>\n\n\n\n\n<p>[knowing that] I am not forced, nor in error, nor beguiled, but [doing this] of sound heart and volition, that I leased&nbsp;</p>\n\n\n\n\n<p>all that I have a right to with regard to the \u1e0dam\u0101n of silk in Ibw\u0101n, with the force of the sublime rescript that I have in my hands, &nbsp;</p>\n\n\n\n\n<p>may God increase its sublimity and loftiness, to his honor, our teacher and rabbi, Yosef the Judge, the felicity of the Yeshiva,&nbsp;&nbsp;</p>\n\n\n\n\n<p>Man of Israel, son of rabbi Avraham, may his resting place be Eden, and to the two brothers, our teacher and rabbi Daniel and Mr. \u1e24alfon, sons of Mr. Yi\u1e63haq</p>\n\n\n\n\n<p>the \u1e25azan, may his resting place be Eden, for a period of an entire year, 12 consecutive months, starting with the middle of the month of Shevat</p>\n\n\n\n\n<p>of the year 4866 from the creation of the world</p>\n\n\n\n\n<p>and ending with the middle of the month of Shevat of the year [4]867 from the creation, for the amount of 24</p>\n\n\n\n\n<p>d\u012bn\u0101rs, two d\u012bn\u0101rs per month. I will take from them its installment each month under the condition that</p>\n\n\n\n\n<p>Xxxx and I will help them against whosoever causes them harm with all that is in</p>\n\n\n\n\n<p>my power. The three aforementioned shuy\u016bkh appeared before us and said to us: perform a qinyan from us from</p>\n\n\n\n\n<p>From this moment using all the formulations of claims that we leased from this Mr. Mus\u0101fir son of \u02bfAl\u012b, may his end be good,</p>\n\n\n\n\n<p>everything that was mentioned above. We will pay him for this two d\u012bn\u0101rs per month without refusal or&nbsp;&nbsp;</p>\n\n\n\n\n<p>resistance. We performed a qinyan with each of them and his</p>\n<p>fellow with a suitable item, and as a decree</p>\n\n\n\n\n<p>of the Sages. We wrote three copies and gave them [a copy] to be for each of them</p>\n\n\n\n\n<p>As a right and proof. This was on Monday, which is the eighth day of the month of Shevat&nbsp;</p>\n\n\n\n\n<p>of the year 4866 from the creation of the world&nbsp;</p>\n\n\n\n\n<p>In the city of Damietta which is situated on the great sea and the Nile river. Proper.&nbsp;</p>\n\n\n\n\n<p>Avraham &hellip; may his end be good, Mevorakh son of \u02bfAmram</p>\n\n\n\n\n\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
