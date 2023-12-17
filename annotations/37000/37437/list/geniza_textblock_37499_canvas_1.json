@@ -36,6 +36,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/67e6156f-023b-4f6d-b7e4-b6352fc31927/",
+      "type": "Annotation",
+      "created": "2023-12-17T19:40:26.255550+00:00",
+      "modified": "2023-12-17T19:40:26.255564+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1004/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/37437/iiif/textblock/37499/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/37437/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:17.174240112304688,18.170093536376953,800.4208526611328,491.82990646362305",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>Praise be to God] alone, and his blessings be upon our master Mu\u1e25ammad and his progeny, and peace</li>\n<li>God is sufficient for his slave and it is upon him that relies.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
