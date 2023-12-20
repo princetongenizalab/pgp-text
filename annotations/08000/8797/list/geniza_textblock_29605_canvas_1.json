@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8797%2Fiiif%2Ftextblock%2F29605%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8797%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/970efc12-71ee-43ec-becb-293e7d443ee0/",
+      "type": "Annotation",
+      "created": "2023-12-20T17:35:37.943159+00:00",
+      "modified": "2023-12-20T17:35:37.943172+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/8797/iiif/textblock/29605/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8797/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:52.21593475341797,14.690260887145996,651.270149230957,469.09700107574463",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>In the name of God, the merciful and compassionate.</p>\n</li>\n<li>\n<p>The slaves report the death of \u1e24usn, the Jewess, an adult woman, the daughter of M\u016bs\u0101,</p>\n</li>\n<li>\n<p>the Jew. She left by way of heirs having a right to her inheritance three malechildren,</p>\n</li>\n<li>\n<p>these being Fut\u016b\u1e25, &rsquo;Ibr\u0101h\u012bm, and Mak\u012bn. This was on Thursday, the twenty-third</p>\n</li>\n<li>\n<p>of Rab\u012b&lsquo; II, in the year six-hundred and fifty-five. When</p>\n</li>\n<li>\n<p>they recognized the validity of this they attached their signatures on the aforementioned date. Praise be to God,</p>\n</li>\n<li>\n<p>the eternal.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
