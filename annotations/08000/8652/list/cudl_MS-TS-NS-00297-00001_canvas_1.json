@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-00297-00001%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8652%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/27570eb0-0e4a-434f-8aac-067cdf84f9af/",
+      "type": "Annotation",
+      "created": "2023-12-20T17:39:14.699614+00:00",
+      "modified": "2023-12-20T17:39:38.377149+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00297-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8652/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:278.3542785644531,475.5242614746094,3097.065643310547,2760.1534729003906",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>In the name of God, the merciful and compassionate.</p>\n</li>\n</ol>\n<ol>\n<li>\n<p>The Jewish slaves report the death of Fakriyya, the Jewess, daughter of 'Ab\u016bal-Faraj</p>\n</li>\n<li>\n<p>ibn B\u016b Sa'\u012bd, the Jew, leaving by way of heirs having a right</p>\n</li>\n<li>\n<p>to her inheritance her father, the aforementioned 'Ab\u016b al-Faraj, on Wednesday, the</p>\n</li>\n<li>\n<p>eleventh of the month of Jum\u0101d\u0101 II, in the year six-hundred and ninety-seven.</p>\n</li>\n<li>\n<p>Praise be to God, the eternal.</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p>Witness clauses</p>\n<ol>\n<li>\n<p>The slave recognizes the validity of that.</p>\n</li>\n<li>\n<p>Written by B\u016b al-\u0120amr ibn Ma&lsquo;\u0101l\u012b,</p>\n</li>\n<li>\n<p>on its date.</p>\n</li>\n<li>\n<p>The slave recognizes the validity of that.</p>\n</li>\n<li>\n<p>Written by al-Mufa\u1e0d\u1e0dal, son of the Rabbanite al-Mask\u012bl,</p>\n</li>\n<li>\n<p>on its date.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
