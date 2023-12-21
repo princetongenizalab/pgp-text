@@ -4,6 +4,40 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/36ed8a24-f0e0-49fb-a157-f0637be71611/",
+      "type": "Annotation",
+      "created": "2023-12-21T17:40:24.713088+00:00",
+      "modified": "2023-12-21T17:40:24.713102+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00004/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1872/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:196.13563537597656,431.671630859375,641.1614227294922,3823.406005859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Also, collected from the parn\u0101s Bay\u0101n, one purse, 166. Another purse, 42. Collected from the keeper of the funduq for the rent of&nbsp;</p>\n</li>\n<li>\n<p>Rab\u012b\u02bf&nbsp; al-\u0101khir, 75. Total, 619 1/2.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/d9717bc6-6fc6-43de-af3a-a2f373389f39/",
       "type": "Annotation",
       "created": "2022-10-07T02:11:44.019288+00:00",
