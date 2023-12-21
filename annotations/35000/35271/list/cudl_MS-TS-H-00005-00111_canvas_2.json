@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-H-00005-00111%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35271%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b96c0e25-f7e8-42a5-b006-1cfd5e90cb0c/",
+      "type": "Annotation",
+      "created": "2023-12-21T17:18:13.025884+00:00",
+      "modified": "2023-12-21T17:18:13.025897+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-H-00005-00111/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35271/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:501.48309326171875,167.95494079589844,3849.8289184570312,6781.727188110352",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>... from the abomination of death on the frontier and the affliction of annihilation.</p>\n</li>\n<li>\n<p>A soul should not die except by leave of God at its fixed time, which is written down.</p>\n</li>\n<li>\n<p>Since I have requited you for your services regarding the affair of the Turks</p>\n</li>\n<li>\n<p>[ ] in that, continuing the practice of your predecessors . . .</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
