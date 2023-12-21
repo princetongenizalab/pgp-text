@@ -37,6 +37,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1ea2046f-8848-492d-820d-daf07e38d513/",
+      "type": "Annotation",
+      "created": "2023-12-21T18:47:39.206380+00:00",
+      "modified": "2023-12-21T18:47:39.206396+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1031/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00025-00062/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1375/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:209.85935974121094,262.9072265625,4024.636245727539,643.5687255859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>[To] my master the elder Ab\u016b Ya\u1e25y\u0101 Nahray ibn Nissim, [from] the one thankful for his favour, &nbsp;Ab\u016b al-Khayr</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
