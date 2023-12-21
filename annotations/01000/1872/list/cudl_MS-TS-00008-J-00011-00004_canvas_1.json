@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T02:11:44.014592+00:00",
       "modified": "2022-10-07T02:11:44.014610+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00004/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1872/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,42 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/d594f85f-af3f-4eb7-bc05-a889cfed60d4/",
+      "type": "Annotation",
+      "created": "2023-12-21T17:40:01.529420+00:00",
+      "modified": "2023-12-21T17:40:01.529434+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00004/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1872/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1872/iiif/manifest/"
           }
         },
         "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3020.2,575.7 289,563.4 240,4396.9 1728.1,4341.7 1758.7,3576.3 3007.9,3588.5 3038.6,3582.4\"></polygon></svg>"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>The accounting of the collection of the parn\u0101s Bay\u0101n for two months namely, Nisan and Iyyar&nbsp;</p>\n</li>\n<li>\n<p>1494, corresponding to Dh\u016b\u02bel- \u1e25ijja (578) and Mu\u1e25arram of the year [57]9:&nbsp;</p>\n</li>\n<li>\n<p>D\u0101r al-Zajj\u0101j, 156 1&frasl;2. The apartment of b. al-Mirj\u0101n\u012b, 30.&nbsp;</p>\n</li>\n<li>\n<p>D\u0101r b. \u1e6cib\u0101n, 22. D\u0101r al-Shaykh Ab\u016b Na\u1e63r, 44.&nbsp;</p>\n</li>\n<li>\n<p>B. al-Waj\u012bh, 7. Ab\u016b\u02bfl-Ri\u1e0d\u0101, 6. B. Jall\u0101b, 8. B. al-Raqq\u012b, 8.&nbsp;</p>\n</li>\n<li>\n<p>Al-Baqq\u0101l, 8. \u1e24amid, 5. Al-Jazz\u0101r, 8. For two months, 100.&nbsp;</p>\n</li>\n<li>\n<p>Total, 352 &frac12;.&nbsp;</p>\n</li>\n<li>\n<p>Balance of the (previous) account, 51. Total, 403 1/2. To his credit, of it,&nbsp;</p>\n</li>\n<li>\n<p>distributed to the poor, 71. Left with Ma\u1e25f\u016bz, 40. Olive oil&nbsp;</p>\n</li>\n<li>\n<p>for the Babylonians, 6 1&frasl;2. R. Yifta\u1e25, 2 1/2. To the poor one, 1/2. Cleaning of the well, 2.&nbsp;</p>\n</li>\n<li>\n<p>Two locks in D\u0101r al-Zajj\u0101j, 2 1&frasl;2. Emptying, 1/2. Paper, 1/4. Total, 125 3/4.&nbsp;</p>\n</li>\n<li>\n<p>For collection for two months, 35, Balance, charged to him after having paid&nbsp;</p>\n</li>\n<li>\n<p>him for collection, 243.&nbsp;</p>\n</li>\n<li>\n<p>For a debt, 8 1/2.&nbsp;</p>\n</li>\n<li>\n<p>To his credit, of it, one purse, 100 dir.&nbsp;</p>\n</li>\n<li>\n<p>Another purse, 30 dir., which be handed over&nbsp;</p>\n</li>\n<li>\n<p>to Ma\u1e25f\u016b\u1e93. Also to his credit,&nbsp;</p>\n</li>\n<li>\n<p>one purse, 100 dir.&nbsp;</p>\n</li>\n<li>\n<p>Handed over to Ma\u1e25f\u016b\u1e93, 123.&nbsp;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
