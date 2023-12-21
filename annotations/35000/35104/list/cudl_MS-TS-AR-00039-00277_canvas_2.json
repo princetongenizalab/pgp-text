@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00039-00277%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35104%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/08691501-0881-4a75-b759-df2b9af7af71/",
+      "type": "Annotation",
+      "created": "2023-12-21T16:38:49.795620+00:00",
+      "modified": "2023-12-21T16:38:49.795632+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00039-00277/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35104/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:251.89328002929688,211.58221435546875,2354.823516845703,2815.4832153320312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>The slaves report the death of so-and-so, the son of so-and-so, the Jew, on such-and-such a day of such-and-such a month,</p>\n</li>\n<li>\n<p>in such-and-such a year. He left as heirs his son called so-and-so,</p>\n</li>\n<li>\n<p>his daughter called so-and-so, his wife called so-and-so; daughter of so-and-so, and&nbsp;his paternal cousin</p>\n</li>\n<li>\n<p>called so-and-so, son of so-and-so. When they had verified this they wrote their&nbsp;signatures on it,</p>\n</li>\n<li>\n<p>on the aforementioned date. Praise be to God, the one, the living, the eternal.</p>\n</li>\n</ol>\n<p>Witness clauses</p>\n<ol>\n<li>\n<p>The slave recognizes the validity of that.</p>\n</li>\n<li>\n<p>Written by so-and-so, son of so-and-so, the slave.</p>\n</li>\n<li>\n<p>The slave recognizes the validity of that.</p>\n</li>\n<li>\n<p>Written by so-and-so, son of so-and-so.</p>\n</li>\n<li>\n<p>The slave confirms the validity of the signatures of these witnesses, knowing them either by name</p>\n</li>\n<li>\n<p>or by family connection. Written by so-and-so, son of so-and-so, head of the Jews, on this day.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
