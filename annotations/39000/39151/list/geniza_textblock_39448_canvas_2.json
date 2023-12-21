@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F39151%2Fiiif%2Ftextblock%2F39448%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F39151%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ea611482-deb8-4d1a-8a7d-5c708e73b35d/",
+      "type": "Annotation",
+      "created": "2023-12-21T04:43:57.633356+00:00",
+      "modified": "2023-12-21T04:43:57.633370+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/39151/iiif/textblock/39448/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/39151/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:276.1112976074219,233.01890563964844,253.17221069335938,251.5215301513672",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05db\u05d3\u05d0\u05dc\u05da \u05d5\u05d2\u05d3 \u05d5\u05d9\u05ea\u05e2\u05d1\u05e8 \u05d9\u05d9\u05d9 \u05d1\u05d9 \u05dc\u05de\u05e2\u05e0\u05db\u05dd</li>\n<li>\u05d5\u05d1\u05e2\u05ea \u05d1\u05de\u05dc\u05d0\u05db\u05d9 \u05d7\u05d1\u05dc\u05d4 \u05dc\u05d9\u05d7\u05e8\u05e7\u05d4 \u05e4\u05d0\u05e4\u05ea\u05d7</li>\n<li>\u05de\u05d5\u05e1\u05d9 \u05e4\u05d0\u05d4 \u05d5\u05e7\u05d0\u05dc \u05d9\u05d9\u05d9 \u05d9\u05d9\u05d9 \u05d0\u05dc \u05e8\u05d7\u05d5\u05dd \u05d5\u05d7\u05e0\u05d5\u05df</li>\n<li>\u05d0\u05e8\u05da \u05d0\u05e4\u05d9\u05dd \u05d5\u05e8\u05d1 \u05d7\u05e1\u05d3 \u05d5\u05d0\u05de\u05ea \u05e4\u05e4\u05d9 \u05d3\u05dc\u05da</li>\n<li>\u05d0\u05dc . . \u05d0 . \u05d4\u05d3\u05d0 \u05d2\u05d8\u05d1 \u05d0\u05dc\u05d1\u05d0\u05e8\u05d9 \u05e2\u05df \u05de\u05d5\u05e1\u05d9</li>\n<li>\u05d5\u05e7\u05d0\u05dc \u05dc\u05d4 \u05d9\u05d0\u05de\u05d5\u05e1\u05d9 \u05de\u05d9\u05e0\u05d9\u05df \u05d0\u05dc\u05ea\u05d6\u05de\u05ea \u05d0\u05df(?) \u05d9\u05dc\u05ea\u05dc\u05e4\u05d5(?)</li>\n<li>\u05d9\u05e9\u05e8\u05d0\u05dc</li>\n<li>\u05d5\u05dc\u05d0 \u05d9\u05d1\u05e7 . . .&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
