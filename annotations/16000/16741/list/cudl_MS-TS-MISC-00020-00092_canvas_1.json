@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-MISC-00020-00092%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16741%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/934de62e-d58f-400c-90ce-60d439110c90/",
+      "type": "Annotation",
+      "created": "2023-12-21T17:04:39.618931+00:00",
+      "modified": "2023-12-21T17:04:39.618952+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00020-00092/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16741/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:144.99935913085938,182.91357421875,2605.0577697753906,3740.890869140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>A mighty decree, at the top of which in the writing of the exalted hand (there is a motto):</p>\n</li>\n<li>\n<p>Praise be to God, lord of the universe.</p>\n</li>\n<li>\n<p>In the name of God, the merciful and compassionate.</p>\n</li>\n<li>\n<p>From the beloved slave of God, al-Man\u1e63\u016br &lsquo;Ab\u016b &lsquo;Al\u012b, the &lsquo;im\u0101m al-\u1e24\u0101kim bi-&rsquo;Amr&nbsp;</p>\n</li>\n<li>\n<p>All\u0101h, commander of the faithful, son of the 'im\u0101m, al-&rsquo;Az\u012bz bi-All\u0101h, commander of the faithful,</p>\n</li>\n<li>\n<p>to the community of Karaite Jews, in Fus\u1e6d\u0101\u1e6d and elsewhere. On account of the</p>\n</li>\n<li>\n<p>righteous path that the commander of the faithful follows and the just course that he pursues,</p>\n</li>\n<li>\n<p>he has given instructions for you to be separated from the Rabbanites, due to the cleavage</p>\n</li>\n<li>\n<p>between you regarding the law and your differences regarding ritually clean</p>\n</li>\n<li>\n<p>and unclean food. He has removed you from the jurisdiction of the judge of this</p>\n</li>\n<li>\n<p>sect and put you [&nbsp; &nbsp;]</p>\n</li>\n<li>\n<p>He has decreed that no approach should be made to ... [&nbsp; &nbsp; ]</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
