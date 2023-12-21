@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-00162-00034%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16777%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ebc30637-51b1-49ef-908a-5a85bb99b19a/",
+      "type": "Annotation",
+      "created": "2023-12-21T16:53:26.020273+00:00",
+      "modified": "2023-12-21T16:53:26.020285+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00162-00034/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16777/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:230.76148986816406,659.0053100585938,3741.568832397461,5244.620666503906",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>[ ] my most glorious lord</p>\n</li>\n<li>\n<p>When the slave [[established]] learnt of the good intention, the kind view and the noble patronage,</p>\n</li>\n<li>\n<p>he desired to show reverence to his lofty presence, may God increase its glory</p>\n</li>\n<li>\n<p>and establish his magnificence, for his glorious actions of the past through which he honourably achieved</p>\n</li>\n<li>\n<p>celebrity and distinction and more [[glorious]] fine qualities</p>\n</li>\n<li>\n<p>than the preceding 'am\u012brs of Yemen who have been appointed previously by the</p>\n</li>\n<li>\n<p>government.</p>\n</li>\n<li>\n<p>His slaves will relate to him - may God [[establish]] cause his rule to endure -&nbsp;what the slave has charged them with concerning this, for he, by God, is prepared.&nbsp;</p>\n</li>\n<li>\n<p>If he has among [your 'am\u012brs]] the 'am\u012brs of the Arabs a slave who is at his disposal</p>\n</li>\n<li>\n<p>[ ] his adherence to him (?).</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
