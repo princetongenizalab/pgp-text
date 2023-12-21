@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00039-00189%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8238%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/aa8f6464-7861-4932-9d93-1421bd4e5ea0/",
+      "type": "Annotation",
+      "created": "2023-12-21T16:45:36.868988+00:00",
+      "modified": "2023-12-21T16:45:36.869002+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00039-00189/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8238/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:170.5213165283203,285.9784851074219,3146.6510467529297,3420.018096923828",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>In the name of God, the merciful and compassionate.</p>\n</li>\n<li>\n<p>The slaves report the death of 'Alii', daughter of B\u016b al-'Al\u0101&rsquo; ibn B\u016b Sa'd [on]</p>\n</li>\n<li>\n<p>Thursday, the twenty-ninth of D\u016b al-Qa'da, in the year six..hundred and thirty-two.</p>\n</li>\n<li>\n<p>She left the following heirs: Her aforementioned father, B\u016b al-'Al\u0101&rsquo;, and her&nbsp;brothers,</p>\n</li>\n<li>\n<p>Hiba and B\u016b Sa'd, the sons of the aforementioned B\u016b al-'Al\u0101&rsquo;.</p>\n</li>\n<li>\n<p>They wrote their signatures in (testimony of) this on the aforementioned date.</p>\n</li>\n<li>\n<p>Praise be to God, the eternal.</p>\n</li>\n</ol>\n<p>Witness clauses</p>\n<ol>\n<li>\n<p>The slave recognizes the validity of that.</p>\n</li>\n<li>\n<p>[Written by ]</p>\n</li>\n<li>\n<p>The slave [recognizes the validity of that.</p>\n</li>\n<li>\n<p>[Written by ]</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
