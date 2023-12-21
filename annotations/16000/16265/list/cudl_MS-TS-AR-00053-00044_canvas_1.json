@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00053-00044%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16265%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/698f9f68-a58b-4636-8517-ad72edbb588b/",
+      "type": "Annotation",
+      "created": "2023-12-21T17:26:11.671570+00:00",
+      "modified": "2023-12-21T17:26:11.671584+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00053-00044/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16265/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"4389.8,2154 2993.9,4278.9 2182.8,3773.8 310.4,4443.2 185.4,317.9 5262.9,330.1 5214.4,1950.2\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>[ ] .......... the jurisconsult .[ ] &hellip; [ ]</p>\n</li>\n<li>\n<p>[ al-F\u0101&rsquo;'iz bi-Na]sr All\u0101h, commander of the faithful, the benedictions of God be upon him and upon his pure ancestors and expected rightly-guided sons</p>\n</li>\n<li>\n<p>[&nbsp; &nbsp; &nbsp; the swo]rd of Isl\u0101m, succour of mankind, the protector of the judges of the Muslims and the guide of the d\u0101&lsquo;\u012bs of the believers, may God strengthen the religion through him.</p>\n</li>\n</ol>\n<ol>\n<li>\n<p>[&nbsp; &nbsp; &nbsp;] the illustrious and trustworthy judge, light of the religion, banner of the rightly-guided, close friend of the 'imam, beauty of the judges and honour of the learned.</p>\n</li>\n<li>\n<p>[&nbsp; &nbsp; &nbsp; ] support of the state and its glory, &rsquo;Ab\u016b Muhammad &lsquo;Abdall\u0101h ibn K\u0101mil ibn 'Abd aI-Kar\u012bm upon the mighty judgment</p>\n</li>\n<li>\n<p>[&nbsp; &nbsp; &nbsp; ] heavenly ..., all of it, may God make eternal the rule of him who rules it and bless him. He orders him to execute all his orders.</p>\n</li>\n<li>\n<p>[&nbsp; &nbsp; ] the two judges, the most auspicious, the powerful, trustworthy support of the regime, power of the judges, light of the state and its justice, &rsquo;Ab\u016b &rsquo;Al\u012b</p>\n</li>\n<li>\n<p>[&nbsp; &nbsp; &nbsp;], the guarded and opponents ... free Muslim [ ]......</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
