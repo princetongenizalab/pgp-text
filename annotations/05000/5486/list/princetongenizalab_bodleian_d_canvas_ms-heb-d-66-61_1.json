@@ -106,6 +106,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/0e34c11e-1b1c-480d-97a8-2f584c1a2aae/",
+      "type": "Annotation",
+      "created": "2023-12-21T21:43:37.997587+00:00",
+      "modified": "2023-12-21T21:43:37.997601+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-61/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5486/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2005.954345703125,1581.439208984375,629.76953125,4190.066650390625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin",
+          "value": "<ol>\n<li>Receive for your honored self the best </li>\n<li>greetings, and do not defer your travel\u2014may God assist you!\u2014</li>\n<li>indeed, to our place. And please, do not travel </li>\n<li>except in the company of people on whom you can rely.</li>\n<li>May peace for you overtake</li>\n<li>peace!</li>\n<li>This letter was written in a hurry. </li>\n</ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
