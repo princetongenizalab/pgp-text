@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:15:10.059382+00:00",
       "modified": "2022-10-07T01:15:10.059402+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/96cb585c-fe89-4eef-9f07-ed7c6261a6f8/manifest/canvas/e7e6ff2b-4545-431a-9079-c1674ec7cbe2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5497/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/abecf2fa-1381-46e3-97ac-936ea84139e7/",
+      "type": "Annotation",
+      "created": "2023-12-22T01:09:54.513318+00:00",
+      "modified": "2023-12-22T01:09:54.513332+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/96cb585c-fe89-4eef-9f07-ed7c6261a6f8/manifest/canvas/e7e6ff2b-4545-431a-9079-c1674ec7cbe2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5497/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5497/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:899.012451171875,441.0249938964844,2747.925048828125,2459.5624084472656",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>[. . .] I sold the pepper for 25 dinars, </li>\n<li>which makes, for 24\u00a0bah\u0101rs of small measure, 600 </li>\n<li>Malik\u012b dinars; the \u2018refurbished\u2019 iron, 12 1/2\u00a0bah\u0101rs </li>\n<li>and 30 pounds; of these, two\u00a0bah\u0101rs for 18 </li>\n<li>and the rest for 17 dinars. Proceeds: 220 </li>\n<li>dinars. The \u2018eggs\u2019 were selling badly. I sold </li>\n<li>a quantity {lit., \u2018weight\u2019} of three bah\u0101rs and 126 pounds, after the weighing</li>\n<li>and the defect,\u00a0 for the price of 99 dinars.His total credit:\u00a0</li>\n<li>927 dinars.</li>\n<li>He owes for the rest of the freight of the pepper 30 f\u012bl\u012bs. Due him for pepper</li>\n<li>from K\u016blam priced at 28 1/2 [...]</li>\n</ol>\n",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
