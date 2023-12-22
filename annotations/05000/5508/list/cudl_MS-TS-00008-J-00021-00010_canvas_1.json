@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:51:37.326804+00:00",
       "modified": "2022-10-07T01:51:37.326824+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00021-00010/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5508/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +32,42 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/386778d7-c7c8-4bf8-abdb-d268e2fc7aa1/",
+      "type": "Annotation",
+      "created": "2023-12-22T02:13:09.612698+00:00",
+      "modified": "2023-12-22T02:13:09.612711+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00021-00010/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5508/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5508/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:174.74061584472656,711.9061889648438,3436.5655364990234,2511.0874633789062",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>In Your name, O Merciful.\u00a0</li>\n<li>For the Lord will be your trust; He will keep your feet from being caught. You will decree and it will be fulfilled, etc.</li>\n<li>My letter to my lord and master, the most illustrious sheikh\u2014may God give you long life and make permanent your well-being!\u2014</li>\n<li>written in a state of well-being and good health, with strong longing for you. May God soon reunite me with you </li>\n<li>in the best of circumstances, through His favor and grace, for He is omnipotent and trustworthy!\u00a0</li>\n<li>You will be pleased to know, my lord, that I arrived in complete safety at 'Aydha\u0304b. </li>\n<li>Let them praise the Lord for His steadfast love, etc. My lord, the little one, my daughter, cries day and night over</li>\n<li>your (pl.) separation from her. May God facilitate //her// reunion with you\u2014God willing\u2014in the best of circumstances!</li>\n<li>I am making a great effort to accomplish this. Were I able to make a sale in 'Aydh\u0101b, I would sell and return.</li>\n<li>But only what God decrees will come about. I have heard that you had mentioned that I owe you the balance</li>\n<li>of an account and that the smaller packages left in the warehouse do not cover the sum. Your account,\u00a0</li>\n<li>my lord, is this: I owe you five dirhems, no more no less! You already made an accounting with me for it.\u00a0</li>\n<li>If there is good iron in the warehouse, which will cover the sum, after you kindly\u00a0</li>\n<li>give instructions to someone to sell the smaller packages left in the warehouse, fine. If your servant still owes something, I am not </li>\n<li>running away. What I still owe is not worth talking about. I shall either arrive,</li>\n<li>God willing, in Aden and pay you, or I shall send something of that value, or you can collect from </li>\n<li>the\u00a0n\u0101khud\u0101\u00a0Ma'\u0101l\u012b or from my lord and master Sheikh Khalaf...\n\n\u00a0\n</li>\n</ol>\n",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
