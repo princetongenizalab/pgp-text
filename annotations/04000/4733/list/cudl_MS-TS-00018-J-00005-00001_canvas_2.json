@@ -4,6 +4,40 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/bc4df187-c5f7-4fff-bfa8-bdc430e61ccd/",
+      "type": "Annotation",
+      "created": "2023-12-22T23:26:57.110766+00:00",
+      "modified": "2023-12-22T23:26:57.110780+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00018-J-00005-00001/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4733/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1532.33203125,8271.134765625,1260.700927734375,504.2802734375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>And another letter to [. . . Please deliver it]</li>\n<li>to him, for I have heard th[at he is in . . .\u00a0And Peace.] </li>\n</ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/54a073c1-b4e6-426e-8b41-9029ba931cc3/",
       "type": "Annotation",
       "created": "2022-10-07T00:25:37.035086+00:00",
