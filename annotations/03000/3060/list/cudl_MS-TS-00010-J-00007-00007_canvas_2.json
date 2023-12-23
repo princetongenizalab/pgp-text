@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00007-00007%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F3060%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c6152210-d40d-4910-822f-b1b9c6279f9a/",
+      "type": "Annotation",
+      "created": "2023-12-23T20:36:29.763053+00:00",
+      "modified": "2023-12-23T20:37:49.736177+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00007-00007/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3060/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:647.1876220703125,595.41259765625,3074.1412353515625,4394.40380859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>His servant and slave</p>\n</li>\n<li>\n<p>The deceased was an employee in the western caravan.</p>\n</li>\n<li>\n<p>He returned and lost his mind in the course of the year four-hundred and fifty-five</p>\n</li>\n<li>\n<p>and expired. He had not received anything of what was due to him.</p>\n</li>\n<li>\n<p>[ ] the whole. What was ...</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
