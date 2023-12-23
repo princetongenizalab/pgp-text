@@ -102,6 +102,40 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/0b062f71-1260-440e-bafe-a3a96fdf3d91/",
+      "type": "Annotation",
+      "created": "2023-12-23T22:00:14.998278+00:00",
+      "modified": "2023-12-23T22:00:14.998294+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-00001-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16796/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:322.9656066894531,306.9839172363281,1060.5415954589844,709.7393493652344",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Margin\u00a0",
+          "value": "<ol>\n<li>\n<p>and the inheritance of the slave [ ]</p>\n</li>\n<li>\n<p>that the inheritance may be sold [ ]</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
