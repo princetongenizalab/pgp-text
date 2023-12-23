@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00006-00098%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F18584%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/22629035-4106-44c3-83b3-aacde228e781/",
+      "type": "Annotation",
+      "created": "2023-12-23T18:05:30.281160+00:00",
+      "modified": "2023-12-23T18:06:19.054885+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00098/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18584/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"231.9,354.7 1989.4,258.2 1972.1,2415.4 286,2277.1 549.7,1386.6 376.7,1291.5 298.9,1083.9 195.2,565.1\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>In the name of God, the merciful and compassionate.</p>\n</li>\n<li>\n<p>The benedictions of God and his blessings, his increasing benefactions and [most&nbsp;excellent peace and greetings be upon our master and lord, the 'im\u0101m ..........., commander of the faithfuI,]</p>\n</li>\n<li>\n<p>and upon his pure ancestors, the rightly-guided 'im\u0101ms, [and] upon his most noble sons ]</p>\n</li>\n<li>\n<p>The woman slave reported to [ ]</p>\n</li>\n<li>\n<p>something, and when the slave returned to her house,</p>\n</li>\n<li>\n<p>&nbsp;[&nbsp; ]. [&nbsp; ]</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
