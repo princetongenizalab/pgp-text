@@ -36,6 +36,40 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/f6301ae9-72de-47b2-9baf-0a4824fd709d/",
+      "type": "Annotation",
+      "created": "2023-12-25T15:53:59.196741+00:00",
+      "modified": "2023-12-25T15:53:59.196754+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1033/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00042-00130/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8291/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:11.068875312805176,10.54383659362793,4211.557589530945,1674.9001331329346",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>De la part de leur fr&egrave;re Sams&acirc;m qui est prisonnier &agrave; N&acirc;bulus</li>\n<li>Qu'il arrive en Egypte au Caire - Dieu la pr&eacute;serve - &agrave; al-B&acirc;tiliya &agrave;</li>\n<li>[sous le passage] &agrave; la maison de Mu'izz ad- Daula .......... l'arabe et</li>\n<li>qu'il la transmette aux h&eacute;ritier de S&acirc;rim ad-Daula al- Q&ucirc; ............. .</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
