@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00025-00062%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F34430%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/6f5638c1-5437-4987-b36a-97ab146b2273/",
+      "type": "Annotation",
+      "created": "2023-12-25T01:01:58.450693+00:00",
+      "modified": "2023-12-25T01:01:58.450713+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00062/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/34430/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:85.12808227539062,687.6421508789062,2466.3863220214844,1704.1181030273438",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\u05d9\u05d0 \u05de\u05d5\u05dc\u05d0\u05d9 \u05e6\u05e0\u05d9 \u05d0\u05e0\u05da \u05ea\u05e9\u05d2\u05dc\u05d4</li>\n<li>\u05d1\u05d0\u05dc\u05e7\u05e8\u05d0\u05d4 \u05d7\u05ea\u05d9 \u05ea\u05d0\u05db\u05dc \u05e9\u05d9\u05d4</li>\n<li>\u05d5\u05ea\u05db\u05dc\u05d9 \u05d0\u05dc\u05e6\u05d1\u05d9\u05d0\u05df \u05d9\u05d0\u05db\u05dc\u05d5 \u05d5\u05d0\u05d9\u05e6\u05d0</li>\n<li>\u05d0\u05e0\u05d4 \u05d9\u05e8\u05d9\u05d3 \u05d9\u05e2\u05d9\u05d3 \u05de\u05d0 \u05ea\u05db\u05dc\u05d9\u05d4</li>\n<li>\u05d0\u05d3\u05d0 \u05d0\u05e8\u05d3\u05ea\u05d4 \u05d9\u05e2\u05d9\u05d3 \u05e7\u05d3\u05d9\u05de\u05d4</li>\n<li>\u05d9\u05db\u05d5\u05df \u05d5\u05d7\u05d3\u05d4 \u05de\u05d0 \u05d4\u05d5\u05d0 \u05d2\u05dc\u05d0\u05dd</li>\n<li>\u05d0\u05d7\u05d3 \u05d9\u05e7\u05e8\u05d9\u05d4</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/07b9466a-355a-4bd1-b229-9fb5fb1b6f66/",
+      "type": "Annotation",
+      "created": "2023-12-25T01:02:19.515766+00:00",
+      "modified": "2023-12-25T01:02:19.515782+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00062/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/34430/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:206.30572509765625,207.15887451171875,2414.9867553710938,497.85791015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - upper margin",
+          "value": "<ol>\n<li>\u05de\u05d0 \u05d4\u05d5 \u05d2\u05dc\u05d0\u05dd \u05de[\u05e2] \u05db\u05dc\u05e7</li>\n<li>\u05d0\u05dc\u05e6\u05d1\u05d9\u05d0\u05df</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
