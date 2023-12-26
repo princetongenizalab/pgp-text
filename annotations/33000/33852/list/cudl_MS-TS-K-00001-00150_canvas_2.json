@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00001-00150%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F33852%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c645e8d0-ba0e-4118-aed2-bcd282be51df/",
+      "type": "Annotation",
+      "created": "2023-12-26T12:38:16.729854+00:00",
+      "modified": "2023-12-26T12:38:16.729867+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00001-00150/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/33852/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:246.35838317871094,270.7329559326172,3307.859390258789,2636.285354614258",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>May God make eternal the reign of the exalted seat, the [mighty] lord, [(commander of) the armies, sword (of Islam),]</p>\n</li>\n<li>\n<p>the defender (of mankind), the protector (of judges of the Muslims), the guide (of the d\u0101&rsquo;\u012bs of the believers), and strengthen the religion through him and by his long life give comfort</p>\n</li>\n<li>\n<p>to the commander of the faithful, cause his power to endure and exalt his prestige and his word. The slave kisses the ground and reports</p>\n</li>\n<li>\n<p>to his master (that) his situation is straitened and lowly on account of the burden of his expenses and his family and that the slave</p>\n</li>\n<li>\n<p>has returned from noble service in the border post of Ascalon, may God, he is exalted, protect it, after</p>\n</li>\n<li>\n<p>exhibiting vigour and a forceful spirit, obedience to God and obedience</p>\n</li>\n<li>\n<p>to his master, and (after) his fighting the accursed enemy and the gratitude of the&nbsp;leaders for his service</p>\n</li>\n<li>\n<p>and energy, and their recognition of the valour that he exhibited ...</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
