@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00039-00470%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F36494%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/27d243e5-b31b-40b5-8948-6b9280d2fd0e/",
+      "type": "Annotation",
+      "created": "2024-01-04T15:31:49.751398+00:00",
+      "modified": "2024-01-04T15:31:49.751412+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00039-00470/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/36494/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:514.4581298828125,1097.00634765625,3722.2562255859375,3737.38720703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>[... upon our master and lord the &rsquo;im\u0101m al-Mus]tan\u1e63ir bi-All\u0101h, commander of the faithful [and upon]</p>\n</li>\n<li>\n<p>his pure ancestors. The slave of our master, the blessings of God be upon him,&nbsp;reports to</p>\n</li>\n<li>\n<p>the pure presence that he is enduring detention in the arsenal and that</p>\n</li>\n<li>\n<p>he has received due punishment. He requests a kindness and benefaction</p>\n</li>\n<li>\n<p>to be done to him by being charitable, in consideration of this, to his family, his&nbsp;children and his</p>\n</li>\n<li>\n<p>crippled mother, who have stood ransom for him. To our master, the blessings of&nbsp;God be upon him, belongs the exalted opinion regarding that, if God wills.</p>\n</li>\n<li>\n<p>Praise be to God alone and his blessings be upon our lord Mu\u1e25ammad, his&nbsp;prophet, and his pure family and save them.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
