@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F823c27a8-053c-433d-8125-ce355c9ecaf6%2Fmanifest%2Fcanvas%2Fb214319d-919e-4a05-97af-8d33732f028c&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F11159%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/b9f0b68d-ae7c-459b-b44f-de9e17889e7e/",
+      "type": "Annotation",
+      "created": "2024-01-20T17:24:22.272609+00:00",
+      "modified": "2024-01-20T17:24:22.272621+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1035/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/823c27a8-053c-433d-8125-ce355c9ecaf6/manifest/canvas/b214319d-919e-4a05-97af-8d33732f028c",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11159/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1922.5059814453125,1874.4124755859375,2416.0242919921875,1907.7642822265625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05e2\u05dc\u05d9 . . \u05e4\u05d0\u05ea \u05d7\u05e6\u05e8\u05ea\u05d4 [\u05de]\u05db\u05e6\u05d5\u05e6\u05d4 \u05d1\u05d0[\u05ea\u05dd \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>\u05d5\u05d0\u05dc\u05d5\u05dc\u05d3 \u05d0\u05dc\u05e4\u05e8\u05e2 \u05d0\u05dc\u05e2\u05d6\u05d9\u05d6 \u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd [</li>\n<li>\u05d9\u05db\u05e6\u05d5 \u05d7\u05e6\u05e8\u05ea\u05d4 \u05d1\u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d0\u05dc . [</li>\n<li>\u05d5\u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05de\u05d5\u05e1\u05d9 \u05d4\u05e8\u05d5\u05df \u05d9\u05db\u05e6\u05d0 \u05d7\u05e6\u05e8\u05ea\u05d4 \u05d1[\u05d0\u05e4\u05e6\u05dc</li>\n<li>\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d7\u05e1\u05d1\u05d9 \u05d0\u05dc\u05dc\u05d4 \u05d5\u05e0\u05e2\u05dd \u05d0\u05dc\u05d5\u05db\u05d9\u05dc</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
