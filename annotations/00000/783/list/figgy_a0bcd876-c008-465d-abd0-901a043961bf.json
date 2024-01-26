@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T01:06:05.753483+00:00",
       "modified": "2022-10-07T01:06:05.753504+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/14d2b01b-713b-4db6-b6fe-5eea78e1c3cb/manifest/canvas/a0bcd876-c008-465d-abd0-901a043961bf",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/783/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +32,24 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/e70a5e4d-238f-407c-8ebb-013e3308c845/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:37:11.599247+00:00",
+      "modified": "2022-11-14T02:20:02.350721+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/64/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/14d2b01b-713b-4db6-b6fe-5eea78e1c3cb/manifest/canvas/a0bcd876-c008-465d-abd0-901a043961bf",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/783/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/783/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +58,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>[ ] \u05de\u05de\u05e0\u05d5 \u05e9\u05ea\u05d9 \u05d4\u05e7\u05d4\u05d9\u05dc\u05d5\u05ea/ \u05d0\u05e9\u05e8 \u05d1\u05d0\u05e1\u05db\u05e0\u05d3\u05e8\u05d9\u05d4</li>\n<li>[ ] \u05e9\u05e8\u05d5\u05d9\u05d5\u05ea/ \u05d5\u05de\u05ea\u05e4\u05dc\u05dc\u05d5\u05ea \u05e2\u05dc \u05d7\u05d9\u05d9 \u05d0\u05d3\u05d9\u05e8\u05e0\u05d5 \u05d4\u05e9[\u05e8]</li>\n<li>[ ] \u05d9\u05d0\u05e8\u05d9\u05db\u05d5\u05df \u05d9\u05de\u05d9\u05d5/ \u05d5\u05d9\u05e2\u05d8\u05d4\u05d5 \u05d1\u05e9\u05dc\u05d5\u05de\u05d9\u05d5/ \u05e2\u05d5\u05e9\u05d4</li>\n<li>[ ] \u05e9\u05dc\u05d5\u05dd \u05d1\u05de\u05e8\u05d5\u05de\u05d9\u05d5/ \u05e0\u05e6\u05d7 \u05d9\u05d9' \u05d1\u05e8\u05d9\u05ea \u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
