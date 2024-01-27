@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F2b8fb55f-c748-4ae8-89a2-4b54f0fd2e21%2Fmanifest%2Fcanvas%2Fb1039717-01f8-44a7-ba95-ba9fbfdc6dcb&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12294%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/d25472e0-c852-49b7-b27e-da7690f17059/",
+      "type": "Annotation",
+      "created": "2024-01-27T18:01:56.014361+00:00",
+      "modified": "2024-01-27T18:01:56.014375+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1035/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/2b8fb55f-c748-4ae8-89a2-4b54f0fd2e21/manifest/canvas/b1039717-01f8-44a7-ba95-ba9fbfdc6dcb",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12294/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1015.2554931640625,1241.9129638671875,3252.7342529296875,1229.6326904296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05d7\u05e6\u05e8\u05d4 \u05e1\u05d9\u05d9\u05d3\u05e0\u05d0 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d0\u05d2\u05dc \u05de\u05d5\u05dc\u05d0\u05d9 \u05d5\u05de\u05d0\u05dc\u05db\u05d9</li>\n<li>\u05d0\u05d1\u05d5 \u05d0\u05dc\u05e8\u05e6\u05d0 \u05d0\u05d1\u05df \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05d7\u05e4\u05e6\u05d4\u05dd \u05d0\u05dc\u05dc\u05d4</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
