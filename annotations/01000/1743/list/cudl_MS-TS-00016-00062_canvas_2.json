@@ -4,6 +4,40 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "id": "https://geniza.princeton.edu/annotations/cb5150eb-fe22-495b-a8c5-df3b0be3772f/",
+      "type": "Annotation",
+      "created": "2024-01-28T22:01:12.152246+00:00",
+      "modified": "2024-01-28T22:01:12.152260+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00062/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1743/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:298.1812744140625,250.08749389648438,5501.9246826171875,8329.837310791016",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05dc\u05db\u05d1\u05d5\u05d3 \u05d4\u05ea\u05dc\u05de\u05d9\u05d3\u05d9\u05dd \u05d4\u05d9\u05e7\u05e8\u05d9\u05dd \u05d4\u05d3\u05e8\u05d9\u05dd \u05d1\u05de\u05d3\u05d9\u05e0\u05ea \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u05de\u05df \u05d9\u05e2\u05e7\u05d1 \u05d1\u05e8 \u05e0\u05e1\u05e0\u05d9\u05dd</li>\n<li>\u05e7\u05d0\u05d1\u05e1 \u05d9\u05d0\u05de\u05e6\u05dd \u05d9\u05d9\u05d9 \u05d5\u05d9\u05e2\u05d6\u05e8\u05dd \u05d5\u05de\u05db\u05dc [\u05e8\u05e2 \u05d9\u05e6\u05d9\u05dc\u05dd]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
       "id": "https://geniza.princeton.edu/annotations/b8b6b3e9-a26f-4575-ba42-f89ad2bb5fc2/",
       "type": "Annotation",
       "created": "2022-10-07T01:14:43.038298+00:00",
