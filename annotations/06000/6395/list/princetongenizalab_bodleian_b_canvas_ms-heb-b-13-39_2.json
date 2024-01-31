@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Fb%2Fcanvas%2Fms-heb-b-13-39%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6395%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/4d257bd7-de67-4470-ba26-220e17208ab2/",
+      "type": "Annotation",
+      "created": "2024-01-31T00:23:41.624453+00:00",
+      "modified": "2024-01-31T00:23:41.624465+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/14/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/b/canvas/ms-heb-b-13-39/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6395/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1335.9371337890625,2534.602783203125,2111.9620361328125,2072.334228515625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u0639\u0647\u062f\u0629 \u0641\u064a\u0631\u0648\u0632</li>\n<li>. . .</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
