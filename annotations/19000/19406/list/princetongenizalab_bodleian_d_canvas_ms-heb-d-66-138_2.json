@@ -36,6 +36,74 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/6d08bcfe-d992-409a-bf39-1c5ad2ec8b81/",
+      "type": "Annotation",
+      "created": "2024-01-31T00:30:46.966793+00:00",
+      "modified": "2024-01-31T00:30:46.966807+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/14/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-138/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19406/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:944.068359375,4068.564453125,1980.332763671875,545.6357421875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - postscript",
+          "value": "<ol>\n<li>\u05d5\u05db\u05dc \u05e9\u05db\u05d9\u05e0\u05d9\u05e0\u05d5 \u05e9\u05d5\u05d0\u05dc\u05d9\u05dd \u05e9\u05dc\u05d5\u05de\u05da</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/c8b496b4-a20b-483c-936f-2cd2b888589c/",
+      "type": "Annotation",
+      "created": "2024-01-31T00:31:08.984865+00:00",
+      "modified": "2024-01-31T00:31:08.984893+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/14/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-138/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19406/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:679.1396484375,2640.443603515625,2307.2041015625,408.73095703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>\u05dc\u05d0\u05d1\u05d9 \u05e8 \u05d9\u05d5\u05e1\u05e3 \u05d4\u05ea\u05e8\u05d2\u05de\u05df \u05de\u05df \u05d1\u05e0\u05d9 \u05e4\u05dc\u05d8\u05d9\u05d0\u05dc</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
     }
   ]
 }
