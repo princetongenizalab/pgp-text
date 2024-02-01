@@ -1,17 +1,17 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F445%2Fiiif%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F445%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F445%2Fiiif%2Ftextblock%2F222%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F445%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
       "id": "https://geniza.princeton.edu/annotations/c6d012a4-6b27-492f-a782-44ba5e081461/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:09.342866+00:00",
-      "modified": "2022-10-07T01:24:09.342882+00:00",
+      "modified": "2024-02-01T19:27:18.948568+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/3/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/445/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/445/iiif/textblock/222/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/445/iiif/manifest/"
@@ -34,39 +34,6 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/889045d4-70ac-4569-93c5-72b6f1f3c54b/",
-      "type": "Annotation",
-      "created": "2023-12-06T19:08:01.483126+00:00",
-      "modified": "2023-12-06T19:08:01.483139+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/317/",
-      "target": {
-        "source": {
-          "id": "https://geniza.princeton.edu/documents/445/iiif/canvas/1/",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/445/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:95.48438262939453,53.709964752197266,623.4375534057617,397.68752670288086",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
       ],
       "schema:position": 1
     }
