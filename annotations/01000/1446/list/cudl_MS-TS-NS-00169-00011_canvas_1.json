@@ -8,6 +8,21 @@
       "type": "Annotation",
       "created": "2022-10-07T00:39:22.553373+00:00",
       "modified": "2022-10-07T00:39:22.553393+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/367/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00169-00011/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1446/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +32,40 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/1b144d31-4293-4984-bba7-00056f96697c/",
+      "type": "Annotation",
+      "created": "2024-02-04T23:02:38.188054+00:00",
+      "modified": "2024-02-04T23:02:38.188065+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00169-00011/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1446/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1446/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:203.03749084472656,186.57498168945312,3105.9249114990234,2935.812469482422",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/367/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>[\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ] \u05e9\u05d5\u05dc\u05d7\u05d9\u05dd</li>\n<li>[ \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u05d4]\u05ea\u05d7\u05d9\u05dc \u05d0\u05dc\u05d5\u05e3 \u05e0\u05d8 \u05e8\u05d7 \u05dc\u05ea\u05dc\u05de\u05d9\u05d3\u05d9\u05d5</li>\n<li>[ \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ] \u05d5\u05e4\u05e8\u05e9\u05dd \u05dc\u05d4\u05dd \u05d1\u05e9\u05de\u05d9\u05e0\u05d5 \u05d1\u05e4\u05d9\u05e8\u05d5\u05e9 \u05d4\u05d6\u05d4 \u05d5\u05d0\u05dd \u05d9\u05e8\u05d0\u05d4</li>\n<li>[ \u00a0 ]\u05e9 \u05e9[\u00a0 \u00a0 ]\u05d5 \u05d0\u05d5 \u05de\u05d7\u05e7\u05d5\u05e8 \u05d9\u05d2\u05d9\u05d3\u05d4\u05d5 \u05dc\u05e0\u05d5 \u05dc\u05de\u05e2\u05df \u05e0\u05d5\u05d3\u05d9\u05e2\u05d4\u05d5 \u05d3\u05e2\u05ea\u05d9\u05e0\u05d5\u00a0</li>\n<li>[\u05d5]\u05d2\u05dd \u05e9\u05d5\u05d0\u05dc\u05d9\u05dd \u05d5\u05de\u05d1\u05e7\u05e9\u05d9\u05dd \u05d0\u05e0\u05d7\u05e0\u05d5 \u05de\u05de\u05e0\u05d5 \u05e9\u05d9\u05e9\u05dc\u05d7 \u05e0\u05d5\u05e1\u05d7\u05dd \u05d1\u05db\u05ea\u05d1\u00a0</li>\n<li>\u05d9\u05d3\u05d9 \u05d0\u05d7\u05d3 \u05ea\u05dc\u05de\u05d9\u05d3\u05d9\u05d5 \u05d5\u05d0\u05dc \u05d9\u05e7\u05d9\u05e8\u05e0\u05d5 \u05de\u05e8 \u05d9\u05d5\u05e1\u05e3 \u05d1\u05e8 \u05de\u05e8 \u05e2\u05de\u05e8\u05dd \u05d5\u05d0\u05dc\u00a0</li>\n<li>\u05d7\u05d1\u05d9\u05e8\u05d9\u05e0\u05d5 \u05d5\u05d9\u05e7\u05d9\u05e8\u05d9\u05e0\u05d5 \u05d4\u05d7\u05db\u05de\u05d9\u05dd \u05d0\u05e9\u05e8 \u05d1\u05e1\u05d2\u05dc\u05de\u05d0\u05e1\u05d4 \u05d1\u05e8\u05d5\u05db\u05d9\u05dd \u05d4\u05dd \u05dc\u05d0\u05dc\u00a0</li>\n<li>\u05e2\u05dc\u05d9\u05d5\u05df \u05e7\u05d5\u05e0\u05d4 \u05e9\u05de\u05d9\u05dd \u05d5\u05d0\u05e8\u05e5 \u05d1\u05d1\u05e7\u05e9\u05d4 \u05d5\u05d1\u05de\u05d8\u05d5 \u05de\u05df \u05d0\u05dc\u05d5\u05e3 \u05e9\u05d9\u05e2\u05e9\u05d4 \u05d6\u05d0\u05ea\u00a0</li>\n<li>\u05db\u05d9 \u05de\u05d4 \u05d9\u05ea\u05e8\u05d5\u05df \u05d0\u05dc\u05d5 \u05e0\u05e1\u05d7\u05e0\u05d5\u05dd \u05e0\u05d5\u05e1\u05d7\u05d0 \u05e9\u05e0\u05d9\u05ea \u05d4\u05dc\u05d0 \u05d9\u05d4\u05d9 \u05db\u05d5\u05d1\u05d3 \u05de\u05e9\u05d0 \u05d1\u05d3\u05e8\u05da\u00a0</li>\n<li>\u05d0\u05d1\u05dc \u05e2\u05dc \u05d0\u05dc\u05d5\u05e3 \u05e1\u05de\u05db\u05e0\u05d5 \u05d5\u05db\u05df \u05e8\u05e6\u05d5\u05e0\u05d9\u05e0\u05d5 \u05e9\u05d9\u05db\u05ea\u05d5\u05d1 \u05e0\u05e1\u05d7 \u05d0\u05d9\u05d2\u05e8\u05d5\u05ea\u05d9\u05e0\u05d5\u00a0</li>\n<li>[\u05d4\u05e4]\u05ea\u05d5\u05d7\u05d4 \u05d0\u05dc \u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05d4\u05e8\u05d1\u05d4 \u05d5\u05db\u05db\u05d4 \u05d9\u05db\u05ea\u05d5\u05d1 \u05d1\u05e8\u05d0\u05e9\u05df \u05d9\u05e2\u05e7\u05d1 \u05d1\u05e8 \u05e0\u05e1\u05d9\u05dd\u00a0</li>\n<li>[\u05e8\u05d0\u05e9 \u05db\u05dc\u05d0 \u05d0\u05dc\u05d5\u05e3 \u05d3\u05e8\u05d0] \u05e8\u05d1\u05d0 \u05dc\u05db\u05dc \u05d0\u05d7\u05d0\u05e0\u05d0 \u05d9\u05e9\u05e8\u05d0\u05dc \u05d3\u05d9 \u05d1\u05d0\u05ea\u05e8 \u05e4\u05dc\u05df \u05e9\u05dc\u05dd \u05de\u05d5\u05d3\u05e2\u05d9\u05e0\u05e0\u05d0\u00a0\u00a0</li>\n<li>[\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u05de]\u05ea\u05d9\u05d1\u05ea\u05d0 \u05d5\u05e4\u05e7\u05d9\u05d3\u05d5 \u05d9\u05ea\u05e0\u05d0 \u05e8\u05d1\u05e0\u05df \u05d3\u05de\u05ea\u05d9\u05d1\u05ea\u05d0\u00a0</li>\n<li>[ \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ] \u05e0\u05d5\u05e1\u05d7\u05d0 \u05d5\u05dc\u05e9\u05d3\u05d5\u05e8\u05d9 \u05dc\u05d5\u05d0\u05ea[\u05db\u05d5\u05df\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ]</li>\n<li>[\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ] \u05e0\u05e1\u05d7 \u05e9\u05dc\u05d4 \u05ea\u05db\u05ea\u05d5\u05d1 \u05d0[\u05d7\u05e8\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 ]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
