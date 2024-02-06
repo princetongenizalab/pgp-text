@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcolenda.library.upenn.edu%2Fphalt%2Fiiif%2F2%2F81431-p3ms3kk66%2Fcanvas%2Fp2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5728%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ae2c644f-fbc6-4fa1-a26d-374784a71902/",
+      "type": "Annotation",
+      "created": "2024-01-18T20:21:05.468256+00:00",
+      "modified": "2024-01-18T20:21:05.468269+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3ms3kk66/canvas/p2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5728/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:383.9999694824219,215.20877075195312,1590.8570861816406,1046.5054626464844",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05e9\u05dc\u05d0 \u05d9\u05d4\u05d0 \u05de\u05db\u05e9\u05d5\u05dc \u05d5\u05dc\u05d0 \u05de\u05d5\u05e7\u05e9</li>\n<li>\u05d1\u05de\u05e7\u05d5\u05de\u05db\u05dd \u05d5\u05dc\u05d0 \u05d1\u05de\u05e7\u05d5\u05de\u05d5\u05ea</li>\n<li>\u05d9\u05e9\u05e8\u05d0\u05dc \u05d5\u05e4\u05e8\u05e9\u05d5 \u05dc\u05e4\u05e0\u05d9\u05e0\u05d5</li>\n<li>\u05ea\u05e9\u05d5\u05d1\u05ea \u05d4\u05d3\u05d1\u05e8\u05d9\u05dd \u05d2\u05dd \u05db\u05dc\u00a0</li>\n<li>\u05d7\u05e4\u05e6\u05d9\u05db\u05dd \u05e2\u05dd \u05e9\u05dc\u05d5\u05de\u05db\u05dd</li>\n<li>\u05d5\u05e9\u05dc\u05d5\u05de\u05db\u05dd \u05d9\u05d2\u05d3\u05dc \u05d5\u05d9\u05e2\u05e6\u05dd\u00a0</li>\n<li>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u05dc\u05e2\u05d3 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
