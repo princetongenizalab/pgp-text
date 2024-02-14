@@ -70,6 +70,73 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/0ab4aba2-13f7-4359-bd6e-e29742baf947/",
+      "type": "Annotation",
+      "created": "2024-02-14T22:00:06.994979+00:00",
+      "modified": "2024-02-14T22:01:05.995488+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-I-00107-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5746/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3340.4,1705.1 3494.7,2030.9 3551.9,2333.9 3357.5,2362.5 3248.9,2253.9 2991.6,1928 2700,1636.4 2688.6,1470.7 2797.2,1407.8 2957.3,1430.6\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Right diagonal region",
+          "value": "<ol>\n<li>&nbsp;\u05d9\u05d4\u05d5\u05d3\u05d4 \u05d1\u05e0\u05d5 \u05d9\u05d7\u05d6\u05e7\u05d9\u05d4\u05d5 \u05d1\u05e0\u05d5 \u05d3\u05d5\u05d9\u05d3 \u05d1\u05e0\u05d5</li>\n<li>&nbsp;\u05d9\u05d7\u05d6\u05e7\u05d9\u05d4\u05d5 \u05d1\u05e0\u05d5 \u05e8\u05d0\u05e9 \u05d2\u05dc\u05d5\u05ea</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/b90e7b97-c85f-4535-a557-56b20b7b8f45/",
+      "type": "Annotation",
+      "created": "2024-02-14T22:00:56.609902+00:00",
+      "modified": "2024-02-14T22:00:56.609917+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-I-00107-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5746/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3167.588623046875,124.57164001464844,198.19580078125,1361.961196899414",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Right vertical margin",
+          "value": "<ol>\n<li><span lang=\"he\">&nbsp;\u05d9\u05d0\u05e9\u05d9\u05d4\u05d5 \u05d1\u05df \u05d6\u05db\u05d0\u05d9 \u05e9\u05dc\u05de\u05d4 \u05d1\u05e0\u05d5</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 4
     }
   ]
 }
