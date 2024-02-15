@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00026-00009%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F39296%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/847615db-18f6-413b-99ad-85de56856989/",
+      "type": "Annotation",
+      "created": "2024-02-15T20:48:27.831659+00:00",
+      "modified": "2024-02-15T20:48:27.831671+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00026-00009/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/39296/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:364.52496337890625,299.43121337890625,3332.7997436523438,592.3530883789062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, top margin",
+          "value": "<ol>\n<li>\u064a\u062a\u0641\u0636 &nbsp;\u064a\u062a\u0641\u0636\u0644 \u064a\u062a\u0641\u0636\u0644 \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u0648 \u063a\u0627\u0644\u0628 \u062d\u0631[\u0633\u0647] \u0648\u064a\u0642\u0631 \u0644\u0643 \u0645\u0627 \u0647\u0648 &nbsp;\u0645\u0642\u0648\u0644 \u0639\u0627</li>\n<li>\u0627\u0644\u062d\u0627\u0645\u0644 \u0645\u0646 \u0627\u0644\u0627\u062e\u0631\u0629 \u0641\u064a \u0627\u0644\u0627\u0631 \u0645\u0639 \u0627\u062c\u0631\u0629 \u0628\u064a\u062a\u064a \u0633\u0628\u0640[\u0640\u0639\u0640]\u0640\u0629 \u0648\u0639\u0634\u0631\u064a\u0646 \u062f\u0631\u0647\u0645 [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
