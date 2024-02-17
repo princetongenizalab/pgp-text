@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F39301%2Fiiif%2Ftextblock%2F39750%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F39301%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/1cce0710-cb82-4665-8f4a-7f5dc77e41c3/",
+      "type": "Annotation",
+      "created": "2024-02-17T07:20:22.314307+00:00",
+      "modified": "2024-02-17T07:20:22.314319+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1048/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/39301/iiif/textblock/39750/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/39301/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:119,20.229167938232422,319.3333740234375,130.00000381469727",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Colophon on top of page",
+          "value": "<ol>\n<li>\u05d1\u05e2\u05d6\u05e8\u05ea \u05e9\u05d3\u05d9 \u05d1\u05e8\u05e7\u05d9\u05e2\u05d0 \u05d0\u05ea\u05d7\u05d9\u05dc \u05d1\u05d1\u05d0 \u05de\u05e6\u05d9\u05e2\u05d0</li>\n<li>\u05e4\u05d9\u05e8\u05d5\u05e9 \u05d4\u05dc\u05db\u05d5\u05ea \u05e9\u05dc\u05e8\u05d1\u05d9\u05e0\u05d5 \u05d9\u05e6[\u05d7]\u05e7 \u05d0\u05d5\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc \u05d6\u05e6\u05dc</li>\n<li>\u05de\u05d0 \u05d0\u05dc\u05e4\u05d4 \u05db\u05d1\u05d5\u05d3 \u05d2\u05d3\u05d5\u05dc\u05ea \u05e7\u05d3\u05d5\u05e9\u05ea \u05de\u05e8\u05d9\u05e0\u05d5 \u05d5\u05e8\u05d1\u05d9\u05e0\u05d5 \u05d7\u05d9\u05d9\u05d0</li>\n<li>\u05d1\u05d5\u05e6\u05d9\u05e0\u05d0 \u05d3\u05e0\u05d4\u05d5\u05e8\u05d0 \u05de\u05e7\u05d5\u05e8 \u05d4\u05d1\u05d9\u05e0\u05d4 \u05d5\u05d4\u05e1\u05e4\u05e8\u05d0 \u05d1\u05e8 \u05db'\u05d2'\u05e7' \u05de\u05e8\u05d9\u05e0\u05d5</li>\n<li>\u05d9\u05e6\u05d7\u05e7 \u05d4\u05d9\u05e8\u05d0 \u05e7\u05d5\u05e0\u05d5 \u05d1\u05db\u05dc \u05db\u05d5\u05d7\u05d5 \u05d5\u05d0\u05d5\u05e0\u05d5 \u05d1\u05e2\u05d5\u05d3\u05d5 \u05d6\u05e6\u05dc</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
