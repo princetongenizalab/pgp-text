@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6183%2Fiiif%2Ftextblock%2F14458%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6183%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/6af86f01-be55-4e6b-aaa2-2b80dcc79314/",
+      "type": "Annotation",
+      "created": "2024-02-23T20:00:05.061167+00:00",
+      "modified": "2024-02-23T20:00:05.061181+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/6183/iiif/textblock/14458/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6183/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:9.388885498046875,11.47222900390625,605.3333435058594,375.9999694824219",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d5\u05dc\u05d0 \u05ea\u05e7\u05e6\u05d9\u05e8 \u05e4\u05d9 \u05de\u05d0 \u05db\u05ea\u05d1\u05ea \u05d0\u05dc\u05d9\u05d9\u05da \u05d5\u05d0\u05df \u05d0\u05de\u05db\u05e0\u05da \u05ea\u05e9\u05ea\u05e8\u05d9 \u05dc\u05d9 \u05d1\u05d3\u05d9\u05e0\u05e8</li>\n<li>\u05d0\u05db\u05e8 \u05e7\u05de\u05d7 \u05e4\u05ea\u05e4\u05d3\u05dc \u05e2\u05dc\u05d9\u05d9 \u05d0\u05d1\u05e7\u05da \u05d0\u05dc\u05d4 \u05d5\u05d0\u05e0\u05ea \u05de\u05d5\u05ea\u05e4\u05d3\u05d9\u05dc \u05d5\u05d9\u05db\u05d5\u05df \u05de\u05e2</li>\n<li>\u05e1\u05d5\u05dc\u05d9\u05d9\u05de\u05df \u05d5\u05e2\u05dc\u05d0\u05df \u05d3\u05db\u05dc \u05d0\u05dc\u05e4\u05d5\u05e1\u05d8\u05d8 \u05d5\u05db\u05d5\u05e0\u05ea \u05d1\u05d9\u05dc\u05e4\u05d9\u05d9\u05d5\u05dd \u05dc\u05dd</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
