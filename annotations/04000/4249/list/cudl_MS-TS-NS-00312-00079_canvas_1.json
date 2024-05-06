@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f5e99746f3bcd446a649322e7693a92a\"",
       "id": "https://geniza.princeton.edu/annotations/4b73596e-caa2-4c3d-b0e0-e96f010865f0/",
       "type": "Annotation",
       "created": "2022-10-07T01:08:15.579351+00:00",
       "modified": "2022-10-07T01:08:15.579372+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00312-00079/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4249/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +33,41 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3690fafd943ff051eef8a2687127330b\"",
+      "id": "https://geniza.princeton.edu/annotations/9c01996c-f639-46e8-a197-ff4dbf2b38da/",
+      "type": "Annotation",
+      "created": "2024-05-06T01:29:13.482589+00:00",
+      "modified": "2024-05-06T01:29:13.482603+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00312-00079/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4249/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4249/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:262.82513427734375,257.884765625,4015.4932250976562,1757.96435546875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"he\">\u05db\u05ea\u05d0\u05d1\u05d9 \u05d9\u05d0\u05e9\u05d9\u05db\u05d9 \u05d5\u05e8\u05d9\u05e1\u05d9 \u05d5\u05e1\u05d9\u05d3\u05d9 \u05d5\u05d2\u05dc\u05d9\u05dc\u05d9 \u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05da \u05d5\u05d0\u05d3\u05d0\u05dd \u05e1\u05dc[\u05d0\u05de\u05ea\u05da]</span></li>\n<li><span lang=\"he\">\u05d5\u05db\u05d0\u05df \u05dc\u05da \u05d5\u05de\u05e2\u05da \u05d5\u05dc\u05d9 \u05d5\u05e0\u05d0\u05e6\u05e8 \u05de\u05df \u05d0\u05dc\u05d0\u05e1\u05db\u05e0\u05d3\u05e8\u05d9\u05d4 \u05dc\u05d5 \u05d0\u05df \u05d1\u05e7\u05d9 \u05de\u05df \u05d0\u05d9\u05d9\u05e8 [\u05e2\u05df]</span></li>\n<li><span lang=\"he\">\u05d0\u05d7\u05d5\u05d0\u05dc \u05d0\u05df \u05e6\u05d0\u05dc\u05d7\u05d4 \u05d5\u05e9\u05d5\u05e7 \u05d0\u05dc\u05d9\u05da \u05e9\u05e8\u05d9\u05d3 \u05e7\u05e8\u05d1 \u05d0\u05dc= \u05d0\u05dc\u05d2\u05de[\u05e2 \u05d1\u05da \u05e2\u05dc\u05d9]</span></li>\n<li><span lang=\"he\">\u05db\u05d9\u05e8 \u05d5\u05e7\u05d3 \u05db\u05ea\u05d1\u05ea \u05d0\u05dc\u05d9\u05da \u05db\u05ea\u05d1 \u05d0\u05df \u05e2\u05d3\u05d0 \u05d5\u05de\u05d0 \u05e8\u05d0\u05d9\u05ea \u05dc\u05d5\u05d0\u05d7[\u05d3 \u05de\u05e0\u05d4\u05d0]</span></li>\n<li><span lang=\"he\">\u05d2\u05d5\u05d0\u05d1 \u05d5\u05e2\u05d6 \u05e2\u05dc\u05d9 \u05d3\u05d0\u05dc\u05da \u05d0\u05e1\u05d0\u05dc \u05d0\u05dc \u05e9\u05d2\u05dc \u05db\u05d9\u05e8 [&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span></li>\n<li><span lang=\"he\">\u05e2\u05d0\u05dc\u05d9 \u05d0\u05e0\u05da [ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d4\u05d0\u05d3\u05d9 \u05d0\u05dc\u05d1\u05dc\u05d3 \u05d0\u05dc\u05d0[&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span></li>\n<li><span lang=\"he\">[ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d9\u05e6\u05dc \u05e4\u05d9 \u05d9\u05d5\u05de\u05df \u05dc\u05d4[ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
