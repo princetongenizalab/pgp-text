@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F8be7d5cf-f126-4e4c-8071-69901575889b%2Fmanifest%2Fcanvas%2F04221ecb-ef31-45ea-86bc-836cd27abee0&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F695%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"ddb56f2881011daa5f0453bd6585e22e\"",
+      "id": "https://geniza.princeton.edu/annotations/933a1cf4-fc4e-4330-abe7-83b75bf601cf/",
+      "type": "Annotation",
+      "created": "2024-05-17T19:23:41.504639+00:00",
+      "modified": "2024-05-17T19:23:41.504653+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/8be7d5cf-f126-4e4c-8071-69901575889b/manifest/canvas/04221ecb-ef31-45ea-86bc-836cd27abee0",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/695/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1572.1981811523438,485.8890380859375,4101.616271972656,1858.2374267578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>\u05de\u05d5\u05dc\u05d0\u05d9 \u05d5\u05e1\u05d9\u05d3\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da [\u05d0\u05d1\u05d5] \u05d0\u05dc\u05db\u05d9\u05e8 \u05de[\u05d5\u05e1\u05d9] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05e9\u05d0\u05db\u05e8\u05d4 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0'\u05e2'</p>\n</li>\n<li>\n<p>\u05d1\u05df \u05d1\u05e8\u05d4\u05d5\u05df \u05d0\u05dc\u05ea\u05d0\u05d4\u05e8\u05ea\u05d9&nbsp;</p>\n</li>\n<li>\n<p>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d5\u05e1\u05dc\u05d0\u05de\u05ea\u05d4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05de\u05e6\u05e8 \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4</p>\n</li>\n<li>\n<p>\u05ea[ &nbsp; &nbsp; &nbsp; &nbsp; ]\u05dc \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d4\u05d3\u05d0 \u05d0\u05dc\u05db\u05ea\u05d0\u05d1 \u05e2\u05e0\u05d3 [ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]\u05d9\u05d4 \u05d5\u05d9\u05d5\u05e6\u05dc\u05d4 \u05dc\u05e6\u05d0\u05d7\u05d1\u05d4 //\u05e4\u05e2\u05dc// \u05de\u05e0\u05e2\u05de\u05d0</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
