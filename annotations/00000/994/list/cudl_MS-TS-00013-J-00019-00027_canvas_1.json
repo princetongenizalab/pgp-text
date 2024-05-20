@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"25912a93688de3ab9d46ab13fb2b701c\"",
       "id": "https://geniza.princeton.edu/annotations/2a26aab9-7b0a-4fed-b35a-5153726d1cf5/",
       "type": "Annotation",
       "created": "2022-10-07T02:10:12.289760+00:00",
       "modified": "2022-10-07T02:10:12.289780+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00019-00027/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -16,22 +32,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00019-00027/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/43/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -39,26 +39,18 @@
       "schema:position": 1
     },
     {
+      "etag": "\"68bfd802271a1bf375edda80c89d590a\"",
       "id": "https://geniza.princeton.edu/annotations/95723f05-2f29-4cf1-a9f6-d25a4340e9f3/",
       "type": "Annotation",
       "created": "2022-10-07T02:10:12.294863+00:00",
-      "modified": "2022-10-07T02:10:12.294877+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "margin",
-          "value": "<p>\u05e2\u05dc\u05d9\u05d4\u05d0 / \u05e4\u05d9\u05db\u05e8\u05e7\u05d4 / \u05e0\u05e1\u05d9\u05dd \u05d1\u05df \u05d9\u05e6\u05d7\u05e7 / \u05d5\u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd / \u05e4\u05d9\u05ea\u05e4\u05e6\u05dc \u05d9\u05e2\u05e8\u05e4\u05e0\u05d9 / \u05d0\u05d9\u05e9</p>\n<p>\u05e1\u05d1\u05d1 \u05d4\u05d3\u05d4 / \u05d0\u05dc \u05e8\u05d6\u05de\u05d4 \u05e4\u05e7\u05d3 / \u05d6\u05d0\u05d3 \u05d0\u05de\u05e8\u05d4\u05d0 / \u05e2\u05dc\u05d9 [[\u05e7\u05dc\u05d1\u05d9]] \u05de\u05d0 / \u05d1\u05d9 \u05db\u05ea\u05d0\u05d1\u05d4 / \u05dc\u05d0</p>\n<p>\u05d9\u05db\u05dc\u05d9\u05e0\u05d9 / \u05de\u05e0\u05d4 / \u05d1\u05d7\u05d0\u05dc\u05d4 / \u05d5\u05e1\u05dc\u05d0\u05de\u05ea\u05d4 / \u05d5\u05d7\u05d0\u05d2\u05d0\u05ea\u05d4 / \u05e4\u05d0\u05e0\u05d9 \u05d0\u05e1\u05e8 / \u05d1\u05d4\u05d0 \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4</p>\n<p>\u05e7\u05e8\u05d0\u05ea / \u05e2\u05dc\u05d9\u05da \u05d0\u05ea\u05dd / \u05d0\u05dc \u05e1\u05dc\u05dd / \u05d5\u05e1\u05d9\u05d3\u05e0\u05d0 \u05d0\u05dc / \u05e8\u05d1 \u05e8\u05d1 \u05d9\u05db\u05e6\u05d4 /</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2024-05-20T00:12:39.372548+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/43/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00019-00027/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/"
           }
         },
         "selector": {
@@ -67,7 +59,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "right margin",
+          "value": "<ol>\n<li>\n<p><span lang=\"he\">\u05e4\u05d9 \u05db\u05e8\u05e7\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e2\u05dc\u05d9\u05d4\u05d0</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05de\u05db\u05ea\u05d5\u05d1 \u05e0\u05e1\u05d9\u05dd \u05d1\u05df \u05d9\u05e6\u05d7\u05e7</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d5\u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd&nbsp;</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e4\u05d9\u05ea\u05e4\u05e6\u05dc \u05d9\u05e2\u05e8\u05e4\u05e0\u05d9</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d0\u05d9\u05e9 \u05e1\u05d1\u05d1 \u05d4\u05d3'\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d0\u05dc\u05e8\u05d6\u05de\u05d4 \u05e4\u05e7\u05d3</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d6\u05d0\u05d3 \u05d0\u05de\u05e8\u05d4\u05d0</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e2\u05dc\u05d9 [[\u05e7\u05dc\u05d1]] \u05de\u05d0</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d1\u05d9 \u05db\u05ea\u05d0\u05d1\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05dc\u05d0 \u05d9\u05db\u05dc\u05d9\u05e0\u05d9</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05de\u05e0\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d1\u05d7\u05d0\u05dc\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d5\u05e1\u05dc\u05d0\u05de\u05ea\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d5\u05d7\u05d2\u05d0\u05ea\u05d4(!)</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e4\u05d0\u05e0\u05d9 \u05d0\u05e1\u05e8</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d1\u05d4\u05d0 \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e7\u05e8\u05d0\u05ea</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e2\u05dc\u05d9\u05d4 \u05d0\u05ea\u05dd</span></p>\n</li>\n<li>\n<p><span lang=\"he\">&nbsp;\u05d0\u05dc\u05e1\u05dc\u05dd</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05d5\u05e1\u05d9\u05d3\u05e0\u05d0 \u05d0\u05dc</span></p>\n</li>\n<li>\n<p><span lang=\"he\">\u05e8\u05d1 \u05d9\u05db\u05e6\u05d4</span></p>\n</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -75,26 +75,18 @@
       "schema:position": 2
     },
     {
+      "etag": "\"c260e7358479432a0beebe0a802e8300\"",
       "id": "https://geniza.princeton.edu/annotations/0e5765f3-0cc7-42b5-b154-feafbd861ab9/",
       "type": "Annotation",
       "created": "2022-10-07T02:10:12.298695+00:00",
-      "modified": "2022-10-07T02:10:12.298707+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "the other side",
-          "value": "<p>\u05d1\u05d0\u05dc \u05e1\u05dc\u05dd \u05d5\u05d9\u05d4\u05e0\u05d0\u05d4 \u05d1\u05d4\u05d3\u05d4 / \u05d0\u05dc \u05d0\u05e2\u05d9\u05d0\u05d3 / \u05d5\u05d9\u05e6\u05e3 \u05ea\u05d5\u05d7\u05e9\u05d4 / \u05d0\u05dc\u05d9\u05d4 / \u05d5\u05d0\u05e6\u05d4\u05d0\u05e8\u05d9 / \u05d9\u05db\u05e6\u05d5\u05d4</p>\n<p>\u05d1\u05d0\u05dc / \u05e1\u05dc\u05dd /</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2024-05-20T00:13:47.229382+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/43/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00019-00027/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/994/iiif/manifest/"
           }
         },
         "selector": {
@@ -103,7 +95,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "top margin",
+          "value": "<ol>\n<li>\n<p>\u05d1\u05d0\u05dc\u05e1\u05dc\u05dd</p>\n</li>\n<li>\n<p>\u05e8\u05d9\u05d4\u05e0\u05d9\u05d4</p>\n</li>\n<li>\n<p>\u05d1\u05d4\u05d3'\u05d4</p>\n</li>\n<li>\n<p>\u05d0\u05dc\u05d0\u05e2\u05d9\u05d0\u05d3</p>\n</li>\n<li>\n<p>\u05d5\u05d9\u05e6\u05e3</p>\n</li>\n<li>\n<p>\u05ea\u05d5\u05d7\u05e9\u05d4</p>\n</li>\n<li>\n<p>\u05d0\u05dc\u05d9\u05d4</p>\n</li>\n<li>\n<p>\u05d5\u05d0\u05e6\u05d4\u05d0\u05e8\u05d9</p>\n</li>\n<li>\n<p>\u05d9\u05db\u05e6\u05e8\u05d4</p>\n</li>\n<li>\n<p>\u05d1\u05d0\u05dc</p>\n</li>\n<li>\n<p>\u05e1\u05dc\u05dd</p>\n</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
