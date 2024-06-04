@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"15314ca05293563aa3a66311145cc18c\"",
       "id": "https://geniza.princeton.edu/annotations/bbcba4eb-158d-44d6-8a99-f3ffc839c17e/",
       "type": "Annotation",
       "created": "2022-10-07T01:20:00.423185+00:00",
       "modified": "2022-10-07T01:20:00.423203+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"e789180d95db2f7b9c40afa965df92b8\"",
+      "id": "https://geniza.princeton.edu/annotations/23dff9bc-9165-43dc-807a-e5f6226d5b0b/",
+      "type": "Annotation",
+      "created": "2024-06-04T16:21:23.872151+00:00",
+      "modified": "2024-06-04T16:21:23.872164+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:451.4727478027344,375.0843505859375,3327.5631408691406,5967.7130126953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"he\">\u05dc\u05db\u05d1\u05d5\u05d3 \u05d2\u05d3\u05dc\u05ea \u05e7\u05d3\u05e9\u05ea \u05de\u05e8\u05d9\u05e0\u05d5 \u05d5\u05e8\u05d1\u05d9\u05e0\u05d5 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d2[\u05d3\u05d5\u05dc \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4</span></li>\n<li><span lang=\"he\">\u05e1\u05e0\u05d4\u05d3\u05e8\u05d0 \u05e8\u05d1\u05d0 \u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e1\u05dc[\u05d0\u05de\u05ea\u05d4</span></li>\n<li><span lang=\"he\">\u05d5\u05ea\u05d0\u05d9\u05d9\u05d3\u05d4 \u05d5\u05e0\u05e2\u05de\u05ea\u05d4 \u05e2\u05df \u05d7\u05d0\u05dc \u05e1\u05dc\u05d0\u05de\u05d4 \u05d5\u05e0\u05e2\u05de\u05d4 \u05d5\u05e9\u05d5\u05e7 \u05e9\u05d3[\u05d9\u05d3 \u05d0\u05dc\u05d9\u05d4 \u05d5\u05d0\u05dc\u05d9]</span></li>\n<li><span lang=\"he\">\u05e8\u05d1' \u05e0\u05e1\u05d9\u05dd \u05d5\u05dc\u05d3\u05d4 \u05d0\u05d7\u05d9\u05d0\u05d4 \u05d0\u05dc\u05dc\u05d4 \u05e7\u05e8\u05d1 \u05d0\u05dc\u05dc\u05d4 \u05d0\u05dc\u05d0\u05d2\u05ea\u05de\u05d0\u05e2 \u05d1\u05d4\u05dd \u05e2[\u05dc\u05d9 \u05d0\u05e1\u05e8 \u05d7\u05d0\u05dc]</span></li>\n<li><span lang=\"he\">\u05e7\u05d3 \u05e2\u05dc\u05dd \u05d0\u05dc\u05db\u05d0\u05dc\u05e7 \u05d2\u05dc\u05ea \u05e7\u05d3\u05e8\u05ea\u05d4 \u05e9\u05d5\u05e7\u05d9 \u05dc\u05d7\u05e6'\u05e8\u05ea\u05d4\u05dd \u05d0\u05d3\u05d0\u05dd \u05d0\u05dc\u05dc\u05d4 [</span></li>\n<li><span lang=\"he\">\u05d5\u05d0\u05e0\u05d0 \u05de\u05d0 \u05d0\u05d3\u05e2 \u05d0\u05dc\u05e1\u05d5\u05d0\u05dc \u05e2\u05e0\u05d4\u05dd \u05e4\u05d9 \u05db\u05dc \u05d0\u05dc\u05d0\u05d5\u05e7\u05d0\u05ea \u05d0\u05dc\u05de[</span></li>\n<li><span lang=\"he\">\u05e2\u05dc\u05d0\u05dc \u05d0\u05d7\u05d9\u05d0\u05d4 \u05d0\u05dc\u05dc\u05d4 \u05d5\u05d0\u05df \u05d0\u05e6\u05d7\u05d0\u05d1\u05e0\u05d0 \u05d0\u05dc\u05d5\u05d0\u05e6\u05dc\u05d9\u05df \u05d9\u05d1\u05dc\u05d2\u05d5\u05d0 [</span></li>\n<li><span lang=\"he\">\u05dc\u05d4\u05dd \u05d5\u05d7\u05de\u05d3\u05e0\u05d0 \u05d0\u05dc\u05dc\u05d4 \u05ea\u05e2' \u05e2\u05dc\u05d9 \u05d3\u05dc\u05da \u05d5\u05e1\u05d0\u05dc\u05ea\u05d4 \u05de\u05d6\u05d9\u05d3\u05d4\u05dd \u05de\u05df \u05db\u05dc \u05db\u05d9[\u05e8</span></li>\n<li><span lang=\"he\">\u05d0\u05dc]\u05dc\u05d4 \u05d9]\u05e2\u05dc\u05dd \u05d3\u05d5\u05e2\u05d0\u05e0\u05d0 \u05dc\u05de\u05d5\u05d0\u05dc\u05d9\u05d9 \u05e4\u05d9 \u05db\u05dc \u05d0\u05dc\u05d0\u05d5\u05e7\u05d0\u05ea \u05d5\u05d9\u05ea\u05e7\u05d1\u05dc \u05de[\u05e0\u05d0 \u05d3\u05d5\u05e2\u05d0\u05e0\u05d0 \u05e4\u05d9\u05d4\u05dd]</span></li>\n<li><span lang=\"he\">&nbsp;\u05d5\u05d9\u05e8\u05d6\u05e7\u05d4 \u05d0'\u05d7\u05e8\u05d9'\u05ea \u05d8\u05d5\u05d1\u05d4 \u05d5\u05d9\u05e0\u05e4\u05e2\u05e0\u05d0 \u05d1\u05d3\u05e2\u05d0\u05d4 \u05d5\u05d9\u05d7\u05e8\u05e1\u05d4 [</span></li>\n<li><span lang=\"he\">&nbsp;\u05d9\u05e9\u05d0\u05d4\u05d3\u05e0\u05d0 \u05e4\u05e8\u05d7 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d5\u05dc\u05d3\u05d4 \u05db\u05de\u05d0 \u05e0\u05d7\u05d1\u05d5 \u05d0\u05d2\u05de\u05e2\u05d9\u05df \u05d5[</span></li>\n<li><span lang=\"he\">&nbsp;\u05d1\u05e2\u05d2\u05dc\u05d4 \u05d5\u05d1\u05d6\u05de\u05df \u05e7\u05e8\u05d9\u05d1 \u05d5\u05de\u05d0 \u05d9\u05d2\u05e2\u05dc\u05e0\u05d9 \u05d9\u05d0\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05d0 \u05e0\u05db\u05ea\u05d1 \u05d0\u05dc[\u05d0</span></li>\n<li><span lang=\"he\">&nbsp;\u05db\u05dc \u05d0\u05dc\u05d0\u05d5\u05e7\u05d0\u05ea \u05d0\u05dc\u05d0 \u05d0\u05d9\u05ea\u05d0\u05e8 \u05d0\u05dc\u05ea\u05db\u05e4\u05d9\u05e3 \u05e2\u05df \u05d7\u05e6'\u05e8\u05ea\u05d4 \u05d5\u05ea\u05d0\u05e0\u05d9 [&nbsp;</span></li>\n<li><span lang=\"he\">&nbsp;\u05d8\u05d5\u05d9\u05dc\u05d4 \u05d3\u05d5\u05e8 \u05d1\u05d0\u05dc\u05e2\u05d9\u05e0\u05d9\u05df \u05e7[\u05d3\u05e8] \u05e1\u05e0\u05d4 \u05e4\u05de\u05d0 \u05e0\u05d2\u05d3 \u05de\u05df \u05d9\u05e2\u05dc[\u05d2\u05d4\u05d0</span></li>\n<li><span lang=\"he\">&nbsp;\u05db\u05ea\u05d1\u05ea \u05db\u05ea\u05d0\u05d1 \u05dc\u05d7\u05e6'\u05e8\u05d4 \u05de\u05d5\u05dc\u05d0\u05d9 \u05db\u05de\u05d0 \u05d9\u05d2\u05d1 \u05e4\u05d0\u05d7\u05d1 [</span></li>\n<li><span lang=\"he\">&nbsp;[&nbsp; &nbsp; &nbsp; ] \u05d5\u05d9\u05d3\u05d9\u05e0\u05d9\u05e0\u05d9 \u05dc\u05db'\u05e3 \u05d6\u05db'\u05d5'\u05ea \u05d5\u05d0[\u05e0\u05d0 \u05d5\u05d7]\u05e7 \u05d0\u05d1\u05d9 [</span></li>\n<li><span lang=\"he\">&nbsp;[&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d0\u05df \u05d9\u05e0\u05d5\u05d1 \u05e2\u05e0\u05d9 \u05d0\u05dc\u05d9 \u05de\u05d5\u05dc[\u05d0\u05d9</span></li>\n<li><span lang=\"he\">&nbsp;\u05e2\u05d5\u05d6 \u05d1\u05d9\u05ea \u05d9\u05e9\u05e8\u05d0\u05dc \u05d5\u05ea\u05e4\u05d0\u05e8\u05ea\u05d5 \u05d5\u05ea\u05e2\u05e8\u05e4[\u05d4] \u05e2\u05d3\u05e8\u05d9 [</span></li>\n<li><span lang=\"he\">&nbsp;\u05db\u05dc \u05d0\u05dc\u05d0\u05d5\u05e7\u05d0\u05ea \u05dc\u05d9\u05dc \u05d5\u05e0\u05d4\u05d0\u05e8 \u05e0\u05e1\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d0\u05df \u05d9\u05e1[\u05ea]\u05d9\u05e8\u05d4\u05d5 [\u05d1\u05e1\u05ea\u05e8 \u05db\u05e0\u05e4\u05d9\u05d5</span></li>\n<li><span lang=\"he\">&nbsp;\u05d7'\u05df \u05d7'\u05e1'\u05d3 \u05d5\u05e8\u05d7\u05de\u05d9'\u05dd' \u05d5\u05d9\u05e7\u05d9\u05d9\u05dd \u05e2\u05dc\u05d9\u05d5 \u05de\u05e7' \u05e9\u05db' [</span></li>\n<li><span lang=\"he\">&nbsp;\u05e2\u05dc\u05d9\u05d5 \u05e7\u05e8\u05d0 \u05d3\u05db' \u05d5\u05e0'\u05d7' \u05de\u05e6\u05d0 \u05d7\u05df \u05d1\u05e2\u05d9\u05e0\u05d9 \u05d0\u05dc \u05d5\u05d9\u05d4[</span></li>\n<li><span lang=\"he\">&nbsp;\u05d5\u05d9\u05ea\u05e7\u05d1\u05dc \u05de\u05e0\u05d0 \u05e6\u05d0\u05dc\u05d7 \u05d0\u05dc\u05d3\u05e2\u05d0 \u05d5\u05d0\u05e8\u05d3\u05ea \u05d0\u05df \u05e0\u05d2\u05d9 \u05d0\u05dc\u05d9 [&nbsp;</span></li>\n<li><span lang=\"he\">&nbsp;\u05e7\u05dc\u05ea \u05dc\u05d0 \u05d9\u05db\u05d5\u05df \u05d4\u05d3\u05d0 \u05d1\u05d0\u05dc\u05de\u05d5\u05d0\u05e4\u05e7\u05d4 \u05de\u05e0\u05d4 \u05e4\u05d0\u05d7\u05d1 [&nbsp;</span></li>\n<li><span lang=\"he\">&nbsp;\u05de\u05e9\u05e7 \u05d0\u05dc\u05d0\u05e0\u05e1\u05d0\u05df \u05e2\u05dc\u05d9 \u05d7\u05d3\u05e7\u05ea\u05d9\u05d4 \u05dc\u05db\u05d0\u05df \u05d0\u05d5\u05dc [</span></li>\n<li><span lang=\"he\">&nbsp;\u05e4\u05d0\u05e1\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d0\u05df \u05d9\u05e6\u05d9\u05dc\u05d4\u05d5 \u05de\u05d0'\u05d3'\u05dd' \u05e8'\u05e2' \u05d5\u05de\u05e9\u05db[\u05df \u05e8\u05e2</span></li>\n<li><span lang=\"he\">&nbsp;\u05d5\u05de\u05db'\u05dc' \u05de'\u05d9'\u05e0'\u05d9 \u05e4\u05e8'\u05e2\u05e0\u05d9'\u05d5'\u05ea \u05d4\u05de\u05ea\u05e8'\u05d2'\u05e9'\u05d5'\u05ea \u05d5\u05db' [</span></li>\n<li><span lang=\"he\">&nbsp;\u05d5\u05e7\u05d3 \u05e1\u05d0\u05dc\u05ea \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e1[\u05e8\u05d5\u05e8</span></li>\n<li><span lang=\"he\">&nbsp;\u05de\u05d5\u05dc\u05d0\u05d9</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0081cb1525ef3263654eb56d819a73ef\"",
+      "id": "https://geniza.princeton.edu/annotations/9d0531b5-122b-4dc9-a730-8bfb9057103c/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:20:00.427788+00:00",
+      "modified": "2022-10-07T01:20:00.427800+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/743/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/9d0531b5-122b-4dc9-a730-8bfb9057103c/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:20:00.427788+00:00",
-      "modified": "2022-10-07T01:20:00.427800+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +104,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"9fde724c17479366876723038ba09d16\"",
+      "id": "https://geniza.princeton.edu/annotations/e01288c1-bdb9-4282-b85f-e21b5acc530f/",
+      "type": "Annotation",
+      "created": "2024-06-04T16:22:03.833496+00:00",
+      "modified": "2024-06-04T16:22:03.833509+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3738.458740234375,80.9814453125,530.315185546875,6270.57373046875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "<ol>\n<li><span lang=\"he\">\u05d5\u05d0\u05e2\u05dc\u05dd \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05df \u05db\u05ea\u05d1\u05ea \u05de\u05e2 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d9\u05d5\u05e1\u05e3 \u05d1\u05df \u05d0\u05d1\u05d5 [\u05db]\u05ea\u05d9\u05e8 \u05d1\u05df \u05d9\u05d4\u05d1\u05d5\u05d9 \u05e0'\u05e0' \u05d0\u05dc\u05d9 \u05e2\u05e0\u05d3</span></li>\n<li><span lang=\"he\">\u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05e2\u05dc\u05d9 \u05d7\u05e1\u05df \u05d1\u05df \u05d1\u05e0\u05d3\u05d0\u05e8 \u05e2\u05dc\u05d9 [&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d0\u05dc\u05d3\u05d9 \u05d2\u05d0 \u05de\u05df \u05de\u05d3\u05d4 \u05e4\u05d9\u05d4 \u05db\u05ea\u05d0\u05d1</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"3e2f96a9a3ccde2dfa8b90dfa40a887b\"",
+      "id": "https://geniza.princeton.edu/annotations/684f5c3f-1d6a-4cb3-92ec-29d0482cd3fc/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:20:00.431356+00:00",
+      "modified": "2022-10-07T01:20:00.431368+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,18 +166,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/743/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/684f5c3f-1d6a-4cb3-92ec-29d0482cd3fc/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:20:00.431356+00:00",
-      "modified": "2022-10-07T01:20:00.431368+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -89,22 +175,41 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "etag": "\"f92d8234d52db2ec639f76cff7efe1b8\"",
+      "id": "https://geniza.princeton.edu/annotations/fbe25732-67e1-449c-8e35-ff882390318d/",
+      "type": "Annotation",
+      "created": "2024-06-04T16:22:28.760032+00:00",
+      "modified": "2024-06-04T16:22:28.760046+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-19/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5426/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:328.5005798339844,78.06502532958984,3607.7577209472656,377.45401763916016",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, upper margin",
+          "value": "<ol>\n<li><span lang=\"he\">[&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d0\u05e0\u05d4 \u05d0\u05e0\u05e4\u05d3\u05d4 \u05d0\u05dc\u05d9\u05d4 [ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05d0\u05dc\u05d9\u05e0\u05d0 \u05e4\u05de\u05d0 \u05e2\u05dc\u05de\u05e0\u05d0</span></li>\n<li><span lang=\"he\">[ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ] \u05dc\u05e2\u05dc \u05d9\u05d2\u05d9\u05e0\u05d0 \u05e4\u05d9\u05d4 \u05d2\u05d5\u05d0\u05d1 \u05d0\u05de\u05d0 \u05e6'\u05d0\u05e2 [</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
