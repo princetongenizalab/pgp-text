@@ -4,26 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"c25615847963892c8579d09e98ef7277\"",
       "id": "https://geniza.princeton.edu/annotations/86359625-30a3-4817-928e-848a25510d3c/",
       "type": "Annotation",
       "created": "2022-10-07T01:37:49.810774+00:00",
-      "modified": "2022-10-07T01:37:49.810787+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso.",
-          "value": "<ol>\n<li>. . . . . . . . . . . . . . . . . . . . . . . . . . . . ] . \u05d5\u05d2 . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . . . . . . . . . . . . . ] . . \u05d0\u05dc\u05d3\u05d9 \u05e2\u05e0 . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . . . . . . ] . . .\u05de . . . . . . . . . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . ] . . . . . . . . . . \u05e4\u05d9 \u05d5\u05e7\u05d3 \u05d5. . . . . . .</li>\n<li>. . . . . . ] . . \u05ea\u05de. . . . . . \u05d5\u05dc. . . . \u05dc\u05d9 \u05d5\u05d0\u05dc\u05e7\u05de\u05ea \u05d0\u05dc\u05d8\u05d9\u05d9\u05d1</li>\n<li>. . . ] . .\u05dc.\u05d1\u05d1\u05e1\u05d5 [ . . ] \u05d0. . . . . \u05ea\u05db\u05e8\u05d2 \u05d0\u05dc\u05d9\u05d4\u05dd</li>\n<li>. . . \u05e4\u05d9 . . . . .\u05d1\u05dc\u05e1. . . \u05dc\u05d0\u05dc\u05d0 \u05d9\u05d1\u05e7 \u05dc. . . . \u05d1\u05e2\u05d3 \u05d3\u05dc\u05da</li>\n</ol>\n<ol>\n<li>\u05d5\u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2024-06-05T21:14:05.073757+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00037-00012/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3824/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/3824/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +24,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>. . . . . . . . . . . . . . . . . . . . . . . . . . . . ] . \u05d5\u05d2 . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . . . . . . . . . . . . . ] . . \u05d0\u05dc\u05d3\u05d9 \u05e2\u05e0 . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . . . . . . ] . . .\u05de . . . . . . . . . . . . . . .</li>\n<li>. . . . . . . . . . . . . . . ] . . . . . . . . . . \u05e4\u05d9 \u05d5\u05e7\u05d3 \u05d5. . . . . . .</li>\n<li>. . . . . . ] . . \u05ea\u05de. . . . . . \u05d5\u05dc\u05d0 \u05ea\u05db\u05e1\u05dc(?) \u05d5\u05d0\u05dc\u05e7\u05de\u05d7 \u05d0\u05dc\u05d8\u05d9\u05d9\u05d1</li>\n<li>. . . ] . .\u05dc.\u05d1\u05d1\u05e1\u05d5 [ . . ] \u05d0. . . . . \u05d5\u05e7\u05ea \u05ea\u05db\u05e8\u05d2 \u05d0\u05dc\u05d9\u05d4\u05dd</li>\n<li>. . . \u05e4\u05d9 . . . . .\u05d1\u05dc\u05e1. . . \u05dc\u05d0\u05dc\u05d0 \u05d9\u05ea\u05e7\u05dc \u05e2\u05dc\u05d9\u05da \u05d1\u05e2\u05d3 \u05d3\u05dc\u05da</li>\n<li>\u05d5\u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
