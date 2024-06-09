@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-LG-ARABIC-00001-00050%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F26597%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"314a370e9c53ecac50b98147ce0150dd\"",
+      "id": "https://geniza.princeton.edu/annotations/fdfaca25-6bd5-4d7f-89ee-11e6ea5ed37c/",
+      "type": "Annotation",
+      "created": "2022-12-24T15:27:30.988992+00:00",
+      "modified": "2024-06-09T04:58:43.190990+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-LG-ARABIC-00001-00050/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/26597/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:356.7820739746094,135.09190368652344,258.5130310058594,249.57810974121094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>\u062d\u0636\u0631\u0629 \u0645\u0648\u0644\u0627\u064a \u0627\u0644\u0631\u064a\u0633 \u0627\u0644\u062c\u0644\u064a\u0644 . . . . . . . . . . [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
