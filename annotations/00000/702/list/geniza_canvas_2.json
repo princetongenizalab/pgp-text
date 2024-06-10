@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"c07e960b0616f3bb002bf2abfedc1fe4\"",
+      "id": "https://geniza.princeton.edu/annotations/f2bf88a8-c34c-4011-bcb6-485b511354ff/",
+      "type": "Annotation",
+      "created": "2024-06-10T18:58:01.608669+00:00",
+      "modified": "2024-06-10T18:58:01.608681+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/702/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/702/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:18.5,19.09723663330078,574.22216796875,144.88886260986328",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>[\u05dc\u05e1\u05d9\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9] \u05d0\u05d1\u05d9 \u05d9\u05d7\u05d9\u05d9 \u05e0\u05d4\u05e8\u05d0\u05d9 \u05d1\u05d9\u05e8' \u05e0\u05e1\u05d9\u05dd \u05d6'\u05e6'\u05dc' \u05e7\u05e8\u05d5\u05d9 &nbsp; &nbsp; \u05de\u05df \u05d5\u05d0\u05d3\u05d4 \u05d5\u05e0\u05d0\u05e9\u05e8 \u05d0\u05d5\u05e6\u05d0\u05e4\u05d4 &nbsp; \u05d9\u05e6\u05d7\u05e7 \u05d1\u05df \u05d9\u05e2\u05e7\u05d1 \u05e0'\u05e0'</li>\n<li>[\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc]\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e1\u05dc\u05d0\u05de\u05ea\u05d4 \u05d5\u05e1\u05e2\u05d0\u05d3&lt;\u05ea&gt;\u05d4</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b3d34d2c20f8a9b9e8a1623da081f0a2\"",
       "id": "https://geniza.princeton.edu/annotations/94c2946f-51f5-44e0-a1b7-5b0cfd633d99/",
       "type": "Annotation",
       "created": "2022-10-07T01:04:38.886369+00:00",
       "modified": "2022-10-07T01:04:38.886380+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/702/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/702/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,41 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"a98bfeb8bc1d30109a8bbc42c7dce1b4\"",
+      "id": "https://geniza.princeton.edu/annotations/4b009bbb-6ee6-46b1-b892-d9cd8c0d0228/",
+      "type": "Annotation",
+      "created": "2024-06-10T18:58:28.366707+00:00",
+      "modified": "2024-06-10T18:58:28.366722+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/702/iiif/canvas/2/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/702/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/702/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:38.94444274902344,259.0971984863281,527.1110992431641,69.3333740234375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/43/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, bottom",
+          "value": "<ol>\n<li><span lang=\"he\">\u05d3\u05d5\u05db\u05d0\u05df \u05d0\u05d1\u05e8\u05d4\u05d9\u05dd \u05d1\u05df \u05d0\u05dc\u05d0\u05e1\u05db\u05e0\u05d3\u05e8\u05d0\u05e0\u05d9</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
