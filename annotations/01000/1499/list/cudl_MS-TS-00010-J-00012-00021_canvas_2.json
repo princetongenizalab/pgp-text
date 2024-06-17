@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e94af0ac46dae4d4d3e69566af68f894\"",
+      "id": "https://geniza.princeton.edu/annotations/9440ce5c-9c5e-42f5-b5dc-7f1d8936df91/",
+      "type": "Annotation",
+      "created": "2024-06-17T18:59:47.693131+00:00",
+      "modified": "2024-06-17T18:59:47.693146+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1499/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:256.55194091796875,876.3231201171875,3815.6694946289062,873.76953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li><span lang=\"he\">\u05d7\u05e6'\u05e8\u05d4' \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d9 \u05e0\u05d4\u05e8\u05d0\u05d9&nbsp; &nbsp; &nbsp; \u05de\u05df \u05de\u05e2\u05ea\u05e7\u05d3 \u05de\u05d7\u05d1\u05ea\u05d4 &nbsp; &nbsp; \u05de\u05e6\u05dc\u05d9\u05d7 \u05d1\u05df \u05d9\u05d4\u05d5\u05d3\u05d4</span></li>\n<li><span lang=\"he\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\u05d1\u05d9\u05e8' \u05e0\u05e1\u05d9\u05dd \u05d6'\u05e6'\u05dc'&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05d0\u05de\u05d0\u05e0\u05d4 \u05de\u05d5\u05d3\u05d0\u05d4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05d9\u05e9\u05e2 \u05d9\u05d9\u05e4\u05e2</span></li>\n<li><span lang=\"he\">\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05d0\u05d9\u05d0\u05dd \u05e2\u05d6\u05d4&nbsp; &nbsp; &nbsp; &nbsp; \u0628\u0644\u063a \u0627\u0644\u0627\u0645\u0627\u0646\u0629 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u062a\u0631\u0642\u064a \u0628\u0627\u0644\u0633\u0644\u0627\u0645\u0629</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"7c3d93f73a0816d4f1a8a22e6239a82b\"",
       "id": "https://geniza.princeton.edu/annotations/4a6eef1f-de94-4e83-83a2-b7e07b2a1b30/",
       "type": "Annotation",
       "created": "2022-10-07T01:12:54.659720+00:00",
       "modified": "2022-10-08T06:06:13.878403+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1499/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:313.05023193359375,590.1270141601562,3943.2822875976562,4507.952575683594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00021/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1499/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:313.05023193359375,590.1270141601562,3943.2822875976562,4507.952575683594",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/762/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
