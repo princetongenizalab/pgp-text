@@ -4,11 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"4dab49001efd735635314717c4e9ac4c\"",
+      "etag": "\"33f6e183d8d9e632e36b96228e7921c2\"",
       "id": "https://geniza.princeton.edu/annotations/7f85f31c-8c17-4f1d-894d-10fa4d203c2b/",
       "type": "Annotation",
       "created": "2024-06-18T18:47:25.060923+00:00",
-      "modified": "2024-06-18T18:47:25.060935+00:00",
+      "modified": "2024-06-18T18:50:03.896101+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
@@ -27,7 +27,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "verso, right column",
+          "label": "verso, Judaeo-Arabic address, right column",
           "value": "<ol>\n<li><span lang=\"he\">\u05dc\u05e1\u05d9\u05d3\u05d9 \u05d5\u05d5\u05d0\u05dc\u05d3\u05d9 \u05d0\u05d1\u05d9 \u05d0\u05e1\u05d7\u05e7 \u05d0\u05d1\u05e8\u05d4\u05d9\u05dd \u05d1\u05d9\u05e8 \u05e9\u05d1[\u05ea\u05d0\u05d9]&nbsp;</span></li>\n<li><span lang=\"he\">\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e1\u05dc\u05d0\u05de\u05ea\u05d4 \u05d5\u05e0\u05e2\u05de\u05ea\u05d4</span></li>\n</ol>",
           "format": "text/html"
         }
@@ -39,11 +39,46 @@
       "schema:position": 1
     },
     {
-      "etag": "\"d087729bc1bfc69963f9cb5885f59a30\"",
+      "etag": "\"6c0010d9b5947f8723cd94096993a3c0\"",
+      "id": "https://geniza.princeton.edu/annotations/2e4ef5f0-7f36-4fcf-a267-7cf477997f2b/",
+      "type": "Annotation",
+      "created": "2024-06-18T18:52:33.840912+00:00",
+      "modified": "2024-06-18T18:52:33.840926+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00011-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2795/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:325.15753173828125,884.0220336914062,4501.399597167969,772.2490844726562",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, Judaeo-Arabic address",
+          "value": "<p><span lang=\"he\">\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05d0\u05d1\u05d9 \u05d0\u05d1\u05d5 \u05d0\u05b4\u05e1\u05b0\u05d7\u05b7\u05e7 \u05d0\u05b4\u05d1\u05b0\u05bc\u05e8\u05b7\u05d4\u05d9\u05dd \u05d1\u05d9\u05e8 \u05e9\u05d1\u05ea\u05d0\u05d9, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05e9\u05dc\u05d5\u05de\u05d5 \u05d5\u05d0\u05ea \u05d0\u05d5\u05e9\u05e8\u05d5; \u05de\u05d1\u05e0\u05d5 \u05e9\u05de\u05d5\u05d0\u05dc \u05d1\u05df \u05d0\u05b4\u05d1\u05b0\u05bc\u05e8\u05b7\u05d4\u05d9\u05dd, \u05d9\u05d9\u05e9\u05de\u05e8.</span></p>\n<p><span lang=\"he\">\u05de\u05db\u05dc \u05e8\u05e2; \u05dc\u05b0\u05e4\u05b8\u05dc\u05b6\u05e8\u05b0\u05de\u05d5\u05b9, \u05d1\u05e8\u05e6\u05d5\u05df \u05d4\u05d0\u05dc \u05d9\u05ea\u05d2\u05d3\u05dc \u05d5\u05d9\u05e9\u05ea\u05d1\u05d7. (\u05de\u05e1\u05d5\u05e8 \u05d1)\u05e0\u05d0\u05de\u05e0\u05d5\u05ea, \u05ea\u05d6\u05db\u05d4 \u05dc\u05e9\u05dc\u05d5\u05dd; \u05d9\u05e9\u05e2 \u05d9\u05d9\u05e4\u05e2.</span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"577e841e9f3442ed43b86a209ed20f6d\"",
       "id": "https://geniza.princeton.edu/annotations/4dc68fea-0269-4e68-8b1e-d8cf5f74285d/",
       "type": "Annotation",
       "created": "2024-06-18T18:47:54.747664+00:00",
-      "modified": "2024-06-18T18:47:54.747700+00:00",
+      "modified": "2024-06-18T18:50:16.213290+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/20/",
       "target": {
         "source": {
@@ -62,7 +97,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "verso, left column",
+          "label": "verso, Judaeo-Arabic address, left column",
           "value": "<ol>\n<li><span lang=\"he\">\u05de\u05df \u05d5\u05dc\u05d3\u05d4 \u05e9\u05de\u05d5\u05d0\u05dc \u05d1\u05df \u05d0\u05d1\u05e8\u05d4\u05d9\u05dd \u05d5\u05e7\u05d9 \u05e4\u05d9\u05d4 \u05d2\u05de\u05d9\u05e2 \u05d0\u05dc\u05d0\u05e1[\u05d5\u05d0</span></li>\n<li><span lang=\"he\">\u05e1\u05e7\u05dc\u05d9\u05d4 \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4 \u05e2\u05d6 \u05d5\u05d2\u05dc</span></li>\n<li><span lang=\"he\">\u05d1\u05dc\u05d2 \u05d1]\u05d0\u05dc\u05d0\u05de\u05d0\u05e0\u05d4 \u05ea\u05e8\u05d1\u05d7 \u05d0\u05dc\u05e1\u05dc\u05d0\u05de\u05d4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05d9\u05e9\u05e2 \u05d0\u05e4\u05e2</span></li>\n</ol>",
           "format": "text/html"
         }
@@ -70,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"3b23ad2315123f58a0636635b52bd337\"",
+      "id": "https://geniza.princeton.edu/annotations/b07a906e-fa06-4445-9af0-6e1c2ec69b60/",
+      "type": "Annotation",
+      "created": "2024-06-18T18:52:58.454084+00:00",
+      "modified": "2024-06-18T18:52:58.454099+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00011-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2795/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:396.2857360839844,1615.62646484375,4196.564361572266,721.443359375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, Arabic address",
+          "value": "<p><span lang=\"he\">\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05d0\u05d1\u05d9 \u05d0\u05d1\u05d5 \u05d0\u05e1\u05d7\u05e7 \u05d0\u05b4\u05d1\u05b0\u05bc\u05e8\u05b7\u05d4\u05d9\u05dd \u05d1\u05df \u05e1\u05e0\u05d1\u05d0\u05d8, \u05d4\u05d9\u05d3\u05d5\u05e2 (\u05d1\u05e9\u05dd) \u05e9\u05d1\u05ea\u05d0\u05d9 \u05e0\"\u05e0; \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05e9\u05dc\u05d5\u05de\u05d5 \u05d5\u05d0\u05ea \u05d0\u05d5\u05e9\u05e8\u05d5; \u05de\u05d1\u05e0\u05d5 \u05e1\u05de\u05d5\u05d0\u05dc, \u05d9\u05d9\u05e9\u05de\u05e8 (\u05d4\u05e0\u05de\u05e2\u05df) \u05de\u05db\u05dc \u05e8\u05e2; \u05de\u05e1\u05d5\u05e8 \u05d5\u05ea\u05d6\u05db\u05d4 \u05dc\u05d2\u05de\u05d5\u05dc (\u05de\u05d0\u05dc\u05d5\u05d4\u05d9\u05dd); \u05dc\u05e4\u05b7\u05dc\u05b6\u05e8\u05b0\u05de\u05d5\u05b9, \u05d1\u05e8\u05e6\u05d5\u05df \u05d4\u05d0\u05dc.</span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     },
