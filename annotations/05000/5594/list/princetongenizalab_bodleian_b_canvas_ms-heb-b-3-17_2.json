@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Fb%2Fcanvas%2Fms-heb-b-3-17%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5594%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"09693242253a56611b88a1587a1ff381\"",
+      "id": "https://geniza.princeton.edu/annotations/c0db576e-e6d2-40a0-ae08-77a4a80939b3/",
+      "type": "Annotation",
+      "created": "2024-06-21T14:38:06.154552+00:00",
+      "modified": "2024-06-21T14:38:06.154565+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/b/canvas/ms-heb-b-3-17/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5594/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:679.23681640625,2678.155517578125,2741.760009765625,682.33837890625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li><span lang=\"he\">\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05d7\u05d1\u05e8 \u05d4\u05d2\u05d3\u05d5\u05dc \u05d2\u05d3\u05d5\u05dc \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4 \u05e8\u05d1\u05e0' \u05e0\u05d4\u05e8\u05d0\u05d9&nbsp; &nbsp; &nbsp; &nbsp; \u05e9\u05d0\u05db\u05e8\u05d4 \u05d9\u05e9\u05d5\u05e2\u05d4 \u05d1\u05df \u05d0\u05e1\u05de\u05e2\u05d9\u05dc</span></li>\n<li><span lang=\"he\">\u05d1\u05d9\u05e8' \u05e0\u05e1\u05d9\u05dd \u05d6''\u05dc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05e0''\u05e2</span></li>\n<li><span lang=\"he\">\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05d6\u05d4 \u05d5\u05ea\u05d0\u05d9\u05d9\u05d3\u05d4 \u05d5\u05e0\u05e2\u05de\u05d0\u05d4&nbsp; &nbsp; &nbsp; \u05e9\u05dc\u05d5\u05dd \u05e8\u05d1</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
