@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~43043~103799%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35117%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"0fde92ce09269b4864d905898b2f3f7b\"",
+      "id": "https://geniza.princeton.edu/annotations/a4468d34-8ac6-409a-a183-46cb2bffafbf/",
+      "type": "Annotation",
+      "created": "2024-06-24T20:44:24.652389+00:00",
+      "modified": "2024-06-24T20:44:24.652402+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/281/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~43043~103799/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35117/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:200.625,1220.46875,4689.609375,1161.953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\u0627\u0644\u0645\u0645\u0627\u0644\u064a\u0643 \u064a\u0646\u0647\u0648\u0627 \u0648\u0641\u0627\u0629 \u0647\u0628\u0629 \u0628\u0646 \u0633\u064a\u062f \u0648\u0641\u0627 \u0627\u0644\u064a\u0647\u0648\u062f\u064a \u0641\u064a \u0627\u0644\u0639\u0634\u0631 \u0627\u0644\u0627\u062e\u064a\u0631 \u0645\u0646 \u0635\u0641\u0631 \u0633\u0640[\u0640\u0646\u0629] \u062b\u0645\u0627\u0646 \u0648\u0639\u0634\u0631\u064a\u0646 &lt;\u0648&gt;\u0633\u0628\u0639 (\u0645\u0627\u0626\u0629) \u0628\u0627\u0644\u063a\u0631\u0642</li>\n<li>\u0628\u064a\u0646 \u0628\u0631 \u0627\u0644\u062c\u064a\u0632\u0629 \u0648\u0645\u0635\u0631 \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u0630\u0643\u0648\u0631 \u0639\u0644\u0645\u0648\u0627 \u0630\u0644\u0643 \u0628\u0627\u0644\u0634\u0627\u0626\u0639 \u0627\u0644\u0630\u0627\u0626\u0639 \u0648\u0627\u0644\u0627\u0633\u062a\u0641\u0627\u0636\u0629</li>\n<li>\u0648\u062e\u0644\u0641&nbsp;\u0645\u0646&nbsp;\u0627\u0644\u0648\u0631\u062b\u0629&nbsp;\u0627\u0628\u0648\u0647&nbsp;\u0648\u0641\u0627&nbsp;\u0648\u0627\u0645\u0647&nbsp;\u0648\u0627\u062e\u0648\u0647&nbsp;[\u0648]\u0632\u0648\u062c\u062a\u0647</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
