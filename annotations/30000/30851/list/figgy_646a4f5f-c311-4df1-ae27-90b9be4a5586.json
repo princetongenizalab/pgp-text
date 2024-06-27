@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F40be59a7-e77c-4534-8e87-c0137c7789c8%2Fmanifest%2Fcanvas%2F646a4f5f-c311-4df1-ae27-90b9be4a5586&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30851%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"70c47ee25bab15287eed19309837144f\"",
+      "id": "https://geniza.princeton.edu/annotations/f426f8ce-dccf-4447-bf5f-78c23cee4345/",
+      "type": "Annotation",
+      "created": "2024-06-27T15:48:49.706672+00:00",
+      "modified": "2024-06-27T15:48:49.706685+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1073/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/40be59a7-e77c-4534-8e87-c0137c7789c8/manifest/canvas/646a4f5f-c311-4df1-ae27-90b9be4a5586",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30851/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1975.713134765625,964.1836547851562,4426.078857421875,3942.0121459960938",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Combined reading from all fragments. Lost Archive, p. 397",
+          "value": "<p>their signatures validated it... fifty d\u012bn\u0101rs... except for the amount of the officials .... their extraction and expenditure... for the needs of calling for the construction of canals ... [di]srepair of the estate/village and its ... [Therfore the command]er of the faithful has ordered the writing of this decre... all... allotment of irrigation from these canals.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
