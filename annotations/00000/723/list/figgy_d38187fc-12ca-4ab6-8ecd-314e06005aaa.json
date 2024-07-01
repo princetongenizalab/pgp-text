@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F1998abcf-774b-45c1-8f83-9068dfe8821f%2Fmanifest%2Fcanvas%2Fd38187fc-12ca-4ab6-8ecd-314e06005aaa&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F723%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9131879763b3ad537fff4b3ec608d008\"",
+      "id": "https://geniza.princeton.edu/annotations/b404944b-e25e-4791-9f24-a03bcc6f691a/",
+      "type": "Annotation",
+      "created": "2024-07-01T03:44:36.131130+00:00",
+      "modified": "2024-07-01T03:44:36.131144+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/1998abcf-774b-45c1-8f83-9068dfe8821f/manifest/canvas/d38187fc-12ca-4ab6-8ecd-314e06005aaa",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/723/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1423.0391845703125,877.682861328125,3485.1678466796875,596.4835205078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li><span lang=\"he\">\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05d7\u05d1\u05e8 \u05d0\u05dc\u05de\u05e2\u05d5\u05dc\u05d4 \u05de\u05e8\u05e0' \u05d5\u05e8\u05d1\u05e0' &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05de\u05d7\u05d1\u05d4 \u05de\u05d5\u05e1\u05d9 \u05d1\u05df \u05d0\u05d1\u05d9 \u05d0\u05dc\u05d7\u05d9 \u05e0'\u05e2' \u05db\u05dc\u05d9\u05dc\u05d4</span></li>\n<li><span lang=\"he\">\u05e0\u05d4\u05e8\u05d0\u05d9 \u05d2\u05d3\u05d5\u05dc \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4 \u05d1\u05d9\u05e8' \u05e0\u05e1\u05d9\u05dd \u05d6'\u05e6'\u05dc'</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
