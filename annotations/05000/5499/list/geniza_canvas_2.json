@@ -4,6 +4,41 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"18572027a1c25dde8fa7dc59cc6d0562\"",
+      "id": "https://geniza.princeton.edu/annotations/52b5707a-ebd6-401a-ad91-89d58e617905/",
+      "type": "Annotation",
+      "created": "2024-07-05T08:04:03.284383+00:00",
+      "modified": "2024-07-05T08:04:03.284397+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5499/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5499/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,14,622,382",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<ol>\n<li>(To) His excellency, the most illustrious Sheikh, my master,</li>\n<li>Ab\u016b Is\u1e25\u0101q Abraham, son of</li>\n<li>his honor, great and holy master Pera\u1e25ya b.&nbsp;Yij\u016b from al-Mahdiyya</li>\n<li>may he rest in Eden the Garden!</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"2ecedf0e4796fd1a0a663d7d75ffdef6\"",
       "id": "https://geniza.princeton.edu/annotations/2a3071e0-4cc0-40c1-bb9e-f75528807779/",
       "type": "Annotation",
