@@ -4,11 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"18572027a1c25dde8fa7dc59cc6d0562\"",
+      "etag": "\"d06a8e7796673d7ec02ca83d2c0fc07c\"",
       "id": "https://geniza.princeton.edu/annotations/52b5707a-ebd6-401a-ad91-89d58e617905/",
       "type": "Annotation",
       "created": "2024-07-05T08:04:03.284383+00:00",
-      "modified": "2024-07-05T08:04:03.284397+00:00",
+      "modified": "2024-07-05T08:06:01.903491+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/249/",
       "target": {
         "source": {
@@ -20,7 +20,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:0,14,622,382",
+          "value": "xywh=pixel:1,0,622,382",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -28,7 +28,7 @@
         {
           "type": "TextualBody",
           "label": "Verso, address",
-          "value": "<ol>\n<li>(To) His excellency, the most illustrious Sheikh, my master,</li>\n<li>Ab\u016b Is\u1e25\u0101q Abraham, son of</li>\n<li>his honor, great and holy master Pera\u1e25ya b.&nbsp;Yij\u016b from al-Mahdiyya</li>\n<li>may he rest in Eden the Garden!</li>\n</ol>",
+          "value": "<ol>\n<li>(To) His excellency, the most illustrious Sheikh, my master,</li>\n<li>Ab\u016b Is\u1e25\u0101q Abraham, son of</li>\n<li>his honor, great and holy master Pera\u1e25ya b.&nbsp;Yij\u016b from al-Mahdiyya</li>\n<li>may he rest in Eden the Garden!</li>\n</ol>\n<p>&nbsp;</p>\n<ol>\n<li>(From) His servant, who is grateful</li>\n<li>for his favors, Khalaf b.</li>\n<li>Isaac&mdash;may the spirit of the Lord give him rest!</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -71,6 +71,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"9ac56444e9ea5c5bca6d632f18f204d3\"",
+      "id": "https://geniza.princeton.edu/annotations/dd1782f2-1cd1-465c-9670-3a21c47bd8f8/",
+      "type": "Annotation",
+      "created": "2024-07-05T08:08:12.634255+00:00",
+      "modified": "2024-07-05T08:08:12.634270+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5499/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5499/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:10,166,626,245",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address (Arabic)",
+          "value": "<p>(Not in Friedman and Goitein's translation; this translation by Marina Rustow)</p>\n<ol>\n<li>His excellency, the most exalted shaykh, my lord Ab\u016b Is\u1e25\u0101q Ibr\u0101h\u012bm</li>\n<li>Ibn Yij\u016b al-Isr\u0101\u02be\u012bl\u012b</li>\n</ol>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<ol>\n<li>(From) his servant who longs for him,</li>\n<li>Khalaf b. Is\u1e25aq al-Isr\u0101\u02be\u012bl\u012b</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     },
