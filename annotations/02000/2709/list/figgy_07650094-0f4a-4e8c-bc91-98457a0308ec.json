@@ -4,35 +4,35 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"83c4c23343652876354e67f1e757c863\"",
       "id": "https://geniza.princeton.edu/annotations/a0a3f5f2-c23e-4fc9-bca1-3aa272208a34/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:53.732176+00:00",
-      "modified": "2022-10-07T01:24:53.732187+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso",
-          "value": "<p>\u05e9\u05d0\u05db\u05e8\u05d4 \u05dc\u05d0] \u05e2\u05d3\u05de\u05d4</p>\n<p>\u05e6\u05d3\u05e7\u05d4] \u05d1\u05df \u05e8 \u05d9\u05d4\u05d5\u05d3\u05d4</p>\n<p>\u05e0\u05e2</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2024-07-06T01:24:32.659887+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/a1e8f62c-99fb-4031-a625-c05d85279172/manifest/canvas/07650094-0f4a-4e8c-bc91-98457a0308ec",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2709/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2709/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:108.5600000000004,144.60000000000036,5319.44,7085.4",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>\u05e9\u05d0\u05db\u05e8\u05d4 \u05dc\u05d0 \u05e2\u05d3\u05de\u05d4</li>\n<li>\u05e6\u05d3\u05e7\u05d4 \u05d1\u05df \u05e8 \u05d9\u05d4\u05d5\u05d3\u05d4</li>\n<li>\u05e0\u05e2</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
