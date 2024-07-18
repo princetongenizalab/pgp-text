@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00245%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30818%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"f379abdd39594297b20732a2d99b30c6\"",
+      "id": "https://geniza.princeton.edu/annotations/1f1e5c40-b3ca-46ae-91f8-9c639d9e0bca/",
+      "type": "Annotation",
+      "created": "2024-01-05T17:47:12.724768+00:00",
+      "modified": "2024-07-18T13:07:52.606018+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00245/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30818/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2549.2,653.5 2058.7,1362.9 893.8,1450.5 604.8,3938 2873.3,4148.2 2847,2746.8 2925.8,2431.5 2873.3,995\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>To our lord, the blessings of God be upon him, belongs the lofty resolution concerning that, if God wills.</p>\n</li>\n<li>\n<p>Praise be to God alone, God bless our lord Mu\u1e25ammmad and his family,and save them.</p>\n</li>\n<li>\n<p>My sufficiency is God. How excellent a keeper is he!</p>\n</li>\n<li>\n<p>The slave of our lord and master, the im\u0101m al-Mustan\u1e63ir bi-All\u0101h, commander ofthe faithful ...</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
