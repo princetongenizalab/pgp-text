@@ -4,6 +4,41 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"ef4d79580a2a7b34df7ea10e728ffe79\"",
+      "id": "https://geniza.princeton.edu/annotations/377b5bd7-1e65-473c-94f4-bab39df7f15a/",
+      "type": "Annotation",
+      "created": "2024-07-19T19:10:10.082122+00:00",
+      "modified": "2024-07-19T19:10:10.082138+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/154/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00033/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4349/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:189.2717742919922,242.4182891845703,2290.146682739258,780.0253143310547",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>To his honor, the sublime, most majestic, and lordly court, Moses,\u00a0</li>\n<li>the sun of sages, may God perpetuate his glory.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"8730c6302cf42364b9ed250967e02f6e\"",
       "id": "https://geniza.princeton.edu/annotations/65b37c9e-8ae7-46aa-a921-3fa0c8c152d5/",
       "type": "Annotation",
