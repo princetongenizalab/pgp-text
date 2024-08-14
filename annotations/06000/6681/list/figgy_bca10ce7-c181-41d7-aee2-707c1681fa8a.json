@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fd573aabf-0e9b-4339-9909-ab32f21a9793%2Fmanifest%2Fcanvas%2Fbca10ce7-c181-41d7-aee2-707c1681fa8a&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6681%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"de6c370c443ff4c6f6adcb9c4fe6eb27\"",
+      "id": "https://geniza.princeton.edu/annotations/09fee3bd-5f60-4350-9c5e-e97c0cf6746f/",
+      "type": "Annotation",
+      "created": "2024-08-14T21:15:46.089509+00:00",
+      "modified": "2024-08-14T21:15:46.089527+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/4/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/d573aabf-0e9b-4339-9909-ab32f21a9793/manifest/canvas/bca10ce7-c181-41d7-aee2-707c1681fa8a",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6681/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"2231.872802734375,5599.28466796875 4561.59130859375,4694.74365234375 4477.4482421875,4416.0185546875 2126.693603515625,5415.220703125\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Address",
+          "value": "<ol>\n<li>\u05d0\u05db\u05d9 \u05d0\u05dc\u05e2\u05d6\u05d9\u05d6 \u05e2\u05dc\u05d9 \u05e9\u05de\u05e8\u05d9\u05d4 \u05d1\u05e8 \u05e9\u05de\u05d5\u05d0\u05dc \u05e0\u05e2</li>\n<li>\n<p>\u05d0\u05db\u05d9\u05d4 \u05dc\u05d0 \u05e2\u05d3\u05de\u05d4 \u05d9\u05e2\u05e7\u05d1 \u05d1\u05df \u05d9\u05d5\u05e1\u05e3</p>\n</li>\n<li>\n<p>. . \u05d0\u05df \u05d0\u05dc\u05d1\u05e8\u05e7\u05d9 \u05e0\u05e2</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
