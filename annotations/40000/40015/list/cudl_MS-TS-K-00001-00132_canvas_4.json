@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00001-00132%2Fcanvas%2F4&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40015%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5392422675696110c920cba35fdf72d6\"",
+      "id": "https://geniza.princeton.edu/annotations/cf2b175a-9d75-4f41-8215-c5badb2a1a06/",
+      "type": "Annotation",
+      "created": "2024-08-27T14:18:54.889811+00:00",
+      "modified": "2024-08-27T14:18:54.889828+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1080/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00001-00132/canvas/4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40015/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3300.79638671875,482.7594299316406,2591.3994140625,3500.5350036621094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Page six, per editors (folio 2, verso, right side)",
+          "value": "<p></p>\n<ol>\n<li>\n<p>(6:1-2) (magic names, in which the Arabic word: al-wa\u1e25a \u201cspeed\u201d, is included twice.)</p>\n</li>\n<li>\u00a0</li>\n<li>\n<p>I adjure you, \u2026 that you should bring me</p>\n</li>\n<li>\n<p>now\u2026[If he is asleep]</p>\n</li>\n<li>\n<p>wake him, if he is sitting, make him stand and bring him to me,</p>\n</li>\n<li>\n<p>and do not cause his mind to be taken from him. Be willing and say it</p>\n</li>\n<li>\n<p>three times. Put the incense on the embers</p>\n</li>\n<li>\n<p>with a piece of cloth from their garments or their hair. \u2026and mention</p>\n</li>\n<li>\n<p>\u2026in your words, and if they come\u2026at that</p>\n</li>\n<li>\n<p>time know that\u2026 his mind is disturbed\u2026as you wish,</p>\n</li>\n<li>\n<p>and if you wish to bring him back\u2026</p>\n</li>\n<li>\n<p>\u2026[will co]me to you, extinguish the embers\u2026</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
