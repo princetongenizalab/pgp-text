@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"5ac8b088f8e6ce1e92d714c866e3242d\"",
       "id": "https://geniza.princeton.edu/annotations/110006ae-3842-44ad-8192-1d60b7a3aa16/",
       "type": "Annotation",
       "created": "2022-10-07T00:31:36.117986+00:00",
       "modified": "2022-10-07T00:31:36.118006+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00035-00011/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1357/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"c89d0b24e93d905fd62050b3a42ce7af\"",
+      "id": "https://geniza.princeton.edu/annotations/1f6b6458-352c-4b80-acc4-9bcbe5e75948/",
+      "type": "Annotation",
+      "created": "2024-08-27T19:18:41.862581+00:00",
+      "modified": "2024-08-27T19:18:41.862595+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/930/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00035-00011/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1357/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1357/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:212.1408233642578,297.7719421386719,3614.657272338867,5026.971221923828",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Rustow, Heresy, pp.\u00a0209-14, with minor emendations by Daniel Wagman",
+          "value": "<p></p>\n<ol>\n<li>\n<p>[...] Many of the common folk were provoking a quarrel. On [the day of]</p>\n</li>\n<li>\n<p>Hoshana [Rabba], they ascended the Mount of Olives according to their custom, and the defamers</p>\n</li>\n<li>\n<p>were saying to the people, \u2018The Qaraites have bribed this man so that</p>\n</li>\n<li>\n<p>the ban [against the eaters] of meat with milk will not be pronounced, and they say that he has assured them he will not. Now, tell</p>\n</li>\n<li>\n<p>him not to alter our tradition, and if he refuses [to comply], do not listen to him, and gather against him</p>\n</li>\n<li>\n<p>together.\u2019 After the sermon, I was saying sweet words to the people for the sake of</p>\n</li>\n<li>\n<p>the contributions to be tossed onto the cloak. But lo and behold, only a few people were making donations!</p>\n</li>\n<li>\n<p>These were the ones who had come in order to pray. The majority of those who had ascended the mountain had done so for the sake of the slander of the</p>\n</li>\n<li>\n<p>defamers and were talking insolently, gloating, and being impudent. They were telling</p>\n</li>\n<li>\n<p>me, \u2018You say in your sermons, \u2018I accept rabbinic tradition as the rest of you.\u2019 Just as you have received</p>\n</li>\n<li>\n<p>the commandments and the customs, do not alter the custom of our forefathers. For if you alter it, everyone</p>\n</li>\n<li>\n<p>will follow and there will be Qaraites saying things that aren\u2019t true!\u2019 When I saw that no one</p>\n</li>\n<li>\n<p>was listening or paying attention, I stood on the [cantors\u2019] chair and said, \u2018It is your choice.</p>\n</li>\n<li>\n<p>Do as you wish.\u2019 Our Third Rabbi, may his Rock preserve him, was also speaking</p>\n</li>\n<li>\n<p>in their ears, saying, \u2018It is not a commandment that you should fight over it! Why should we concern ourselves with this dispute?!\u2019</p>\n</li>\n<li>\n<p>They did not listen to him, and the people\u2019s quarrel on the mountain increased greatly. The elders [of the synagogue] came with</p>\n</li>\n<li>\n<p>the governor of the city and said, \u2018Please rise and announce the order of the festivals of the Lord.\u2019</p>\n</li>\n<li>\n<p>I stood up and announced [the calendar], as is the custom. They [the defamers] cried: \u2018Declare the ban!\u2019 I told them, \u2018I have already said that</p>\n</li>\n<li>\n<p>I shall not declare it!\u2019 The two brothers, \u1e25averim [of the yeshiva], may God keep them, stood up\u2014my son was with them\u2014</p>\n</li>\n<li>\n<p>and they declared it. But they [only?] appeased the crowd with their words: it [only] seemed to them that they had mentioned \u2018meat</p>\n</li>\n<li>\n<p>with milk.\u2019 Then, they [the three young men] descended the mountain. I had not yet reached my house when there came soldiers of</p>\n</li>\n<li>\n<p>the governor of Palestine, [al-Duzbar\u012b,] known as Mu\u2018tazz al-Dawla, may God preserve him [...]</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
