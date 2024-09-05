@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F32106%2Fiiif%2Ftextblock%2F25174%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F32106%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5c8b2010bbb874d822afca5dd510ce05\"",
+      "id": "https://geniza.princeton.edu/annotations/2cd57d1c-9be8-4b1b-be0f-771c99c203b6/",
+      "type": "Annotation",
+      "created": "2024-09-05T18:31:29.828728+00:00",
+      "modified": "2024-09-05T18:31:42.444676+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1101/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/32106/iiif/textblock/25174/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/32106/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:85,10,351,89",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>[...]</li>\n<li>\n<p>[ ] \u05db\u05dc \u05e1\u05d8\u05e0\u05d0 \u05e9\u05d9\u05e9 [\u05d1]\u05dc\u05d1\u05d5 \u05d9\u05d4\u05e4\u05da \u05dc\u05d0\u05d4\u05d1\u05d4 \u05d5\u05d9\u05e8\u05d7\u05dd \u05d9\u05ea\u05d4 \u05d5\u05d9\u05e9\u05d0 \u05d7\u05df \u05d5\u05d7\u05e1\u05d3</p>\n</li>\n<li>\n<p>[ \u05db\u05d9\u05d5]\u05e1\u05e3 \u05d1\u05e4\u05e0\u05d9 \u05e4\u05e8\u05e2\u05d4 \u05de\u05dc\u05da \u05de\u05e6\u05e8\u05d9\u05dd \u05d5\u05db\u05d0\u05e1\u05ea\u05e8 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05dc\u05da \u05d0\u05d7\u05e9\u05d5\u05e8\u05d5\u05e9</p>\n</li>\n<li>\n<p>[ ] \u05e4'\u05d1'\u05e4' \u05ea\u05e9\u05d0 \u05d7\u05df \u05d5\u05d7\u05e1\u05d3 \u05d5\u05d9\u05e7\u05e8 \u05d1\u05e2\u05d9\u05e0\u05d9 \u05d1\u05e2\u05dc\u05d4 \u05db\u05d3\u05d9 \u05e9\u05d9\u05e8\u05d7\u05dd</p>\n</li>\n</ol>\n<p>...</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"49e473d119faab15d45612ae6a44eadf\"",
+      "id": "https://geniza.princeton.edu/annotations/004f6235-87e1-488e-9f42-113fe67a3285/",
+      "type": "Annotation",
+      "created": "2024-09-05T18:32:40.256814+00:00",
+      "modified": "2024-09-05T18:32:40.256830+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1101/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/32106/iiif/textblock/25174/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/32106/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:112,47,354,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>[...]</li>\n<li>[...] May every hatred that there is in his heart turn to love, and may he love her and have grace and favour [...]</li>\n<li>[like J]oseph in front of Pharaoh the King of Egypt, and like Esther in front of King Ahasuerus</li>\n<li>[...] N daughter of N will have grace and favour and glory in the eyes of her husband so that he will love</li>\n<li>[her]</li>\n</ol>\n<p>...</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
