@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00157-00050%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F32112%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"ab4620b5358fd1c805a07f45efda357a\"",
+      "id": "https://geniza.princeton.edu/annotations/2c536311-308a-4973-850c-ddb56c81859d/",
+      "type": "Annotation",
+      "created": "2024-09-06T15:34:37.142055+00:00",
+      "modified": "2024-09-06T15:34:37.142070+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1104/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00157-00050/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/32112/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:350.1595764160156,618.0694580078125,1254.6231384277344,2846.5040283203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>&hellip;\u05d1 \u05db\u05d9\u05e8\u05d0</li>\n<li>&hellip;\u05d0\u05e8 \u05d2\u05de\u05d9\u05e2\u05d0</li>\n<li>&hellip; [\u05d0\u05d3]\u05d0 \u05d0\u05db\u05ea\u05dc\u05d2</li>\n<li>&hellip; [\u05d5\u05d9]\u05e6\u05d9\u05d1 \u05db\u05d9\u05e8\u05d0 \u05db\u05d1\u05d9\u05e8\u05d0</li>\n<li>&hellip; [\u05d0\u05db\u05ea\u05dc]\u05d2\u05ea \u05d0\u05dc \u05db\u05de\u05d3\u05d4 \u05d5\u05dc\u05d3</li>\n<li>&hellip; \u05d5\u05d0\u05d3\u05d0 \u05d0\u05db\u05ea\u05dc\u05d2</li>\n<li>&hellip;\u05d4 \u05d0\u05dc\u05d0\u05d9\u05de\u05df \u05e4\u05d0\u05e0[\u05d4]</li>\n<li>&hellip; \u05d5\u05d0\u05d3\u05d0 \u05d0\u05db\u05ea\u05dc\u05d2</li>\n<li>&hellip;\u05e7\u05d0\u05dc \u05e2\u05dc\u05d9\u05d4 &hellip;</li>\n<li>&hellip; \u05d3\u05dc\u05da \u05db\u05d9\u05e8\u05d0 &hellip;</li>\n<li>&hellip;&nbsp; [\u05d0\u05db\u05ea]\u05dc\u05d2 \u05de\u05d5\u05e6'\u05e2&nbsp; \u05d7\u05e7 \u05d0\u05dc</li>\n<li>&hellip; [\u05e4\u05d0\u05e0]\u05d4&nbsp; \u05d9\u05de\u05e8\u05e5'.&nbsp; \u05d5\u05d0\u05d3\u05d0</li>\n<li>&hellip; [\u05de\u05d5]\u05e6'\u05e2 \u05de\u05df \u05d0\u05dc\u05d2\u05d0\u05e0\u05d1 \u05d0\u05dc\u05d0\u05d9\u05e1\u05e8</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
