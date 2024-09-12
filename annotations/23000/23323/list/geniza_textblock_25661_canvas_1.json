@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Ftextblock%2F25661%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"10173b04887958d12cf24546947c3168\"",
+      "id": "https://geniza.princeton.edu/annotations/1d019b1f-410b-44dd-a4d7-9c7c0588a5d2/",
+      "type": "Annotation",
+      "created": "2024-09-12T00:21:19.660021+00:00",
+      "modified": "2024-09-12T00:23:23.577419+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/23323/iiif/textblock/25661/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:90,78,398,187",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "folio 1, recto",
+          "value": "<p>(ln. 19-26)</p>\n<p>essere entrati con forza nella casa di campagna del sottoscritto e preso dalla stalla le due vacche di sua propriet&agrave; e tenute le vacche in sequestro</p>\n<p>(ln. 32-40)</p>\n<p>quanto siano gravi le mancanze che commisero a carico di un suddito italiano e conoscendo in pari tempo le gravi conseguenze che derivar potevano da questo loro indebito operato</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

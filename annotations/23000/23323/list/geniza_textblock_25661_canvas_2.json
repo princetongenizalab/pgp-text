@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Ftextblock%2F25661%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"38224d00fde163c257d008f2f3805d81\"",
+      "id": "https://geniza.princeton.edu/annotations/734b58de-e189-4f77-a705-0fdacbb9a965/",
+      "type": "Annotation",
+      "created": "2024-09-12T00:24:48.967767+00:00",
+      "modified": "2024-09-12T00:24:48.967786+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/23323/iiif/textblock/25661/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:119,62,314,254",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "folio 1, verso",
+          "value": "<p><span lang=\"en\">(ln. 21-29)</span></p>\n<p><span lang=\"en\">ha veduto che i detti animali erano ridotti in cattivo stato, per averli mancato il nutrimento necessario, mentre li facevano menare dei lavori faticosi nei terreni di Ibrahim Bey</span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
