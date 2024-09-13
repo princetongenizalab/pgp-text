@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"873d09f777d77652655eba69bfab06c4\"",
       "id": "https://geniza.princeton.edu/annotations/01d16f77-d2be-478c-95fa-bfa95a56b819/",
       "type": "Annotation",
       "created": "2022-10-07T01:21:24.215809+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"cf826ccc8c4009a5a8c7646b98ed6a99\"",
+      "id": "https://geniza.princeton.edu/annotations/d5d605ac-8345-4db2-a2c4-6b070ef6bbf2/",
+      "type": "Annotation",
+      "created": "2024-09-13T01:40:04.783345+00:00",
+      "modified": "2024-09-13T01:40:04.783360+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1108/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00022-00025/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2076/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:136.8095245361328,281.6666564941406,3895.047409057617,3983.5711364746094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<p><span lang=\"en\">In the name of God [this is] my letter to you, my brother and master, may God lengthen your life and establish your glory, protection, peace, and sweetness. From Ramla, the end of Tishrei, may God teach you blessing, and the blessing of the blessed holidays, and may God grant long life.</span></p>\n<p><span lang=\"en\">I inform you that we had such lovely holidays, more than has ever been. I've already said that you should come on the pilgrimage, and [if you did] I would praise you to no end. Al-Da\u02beudi asked about my lord and I [told] him: he could not come because of the circumstance of the altercation, and Ibn Shua\u02bf had done things [...] and the first thing that happened was that on the day of the Fast of Kippur, a man from [Tyre] and a man from Tiberias became involved in love, and the Tiberian began embracing the Tyrian in the sight of [the people] and those from Tiberias and those from Tyre began to fight with one another and went out to [...] and they brought the chief of the police to the synagogue and [...] until the people calmed down.</span><span lang=\"en\">Then Yosef [HaKohen ben Shlomo, the Palestinian gaon] said to Daniel [ ben \u02bfAzaryah, the Babylonian gaon], \"this is [...], for such is the behavior of these people every day.\" So they reached an agreement regarding their leadership and went with the people to the [Temple] Mount, and they spent all the rest of the festivals [together] and [Yosef pr]ayed for Daniel to be rosh yeshiva and Daniel prayed from Yosef to be the head of the best din of the yeshiva--a beautiful prayer. I send you greetings, and to Abu al-Faraj greetings, and to Far[...].</span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
