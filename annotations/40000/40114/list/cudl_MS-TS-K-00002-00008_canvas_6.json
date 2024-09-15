@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00002-00008%2Fcanvas%2F6&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40114%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5fc65c6de5d4d2edab5bfe304669c4a9\"",
+      "id": "https://geniza.princeton.edu/annotations/af82ce05-0005-42f9-882d-066929df575b/",
+      "type": "Annotation",
+      "created": "2024-09-15T17:35:26.081490+00:00",
+      "modified": "2024-09-15T17:35:26.081505+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1112/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00008/canvas/6",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40114/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:405.21978759765625,324.17584228515625,1782.9669799804688,907.6923217773438",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05ea\u05e9\u05e8\u05d9 \u05d4\u0597 \u05d9\u05d5\u05dd \u05d4\u05db\u05e4\u05d5\u05e8\u05d9\u05dd \u05d6\u0597</li>\n<li>\u05e1\u05d5\u05db\u05d4 \u05d5\u05e9\u05de\u05d9\u05e0\u05d9 \u05e2\u05e6\u05e8\u05ea \u05d4\u0597</li>\n<li>\u05e2\u05e8\u05d1\u05d4 \u05d3\u0597 \u05de\u05e8\u05d7\u05e9\u05d5\u05df \u05d5\u0597\u05d6\u0597</li>\n<li>\u05db\u05e1\u05dc\u05d5 \u05d0\u0597 [...]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"89f4fda7d7e04badce6004a3d1dec81f\"",
+      "id": "https://geniza.princeton.edu/annotations/8cb27d64-1e3d-4def-b6e5-348fb4fdd7fb/",
+      "type": "Annotation",
+      "created": "2024-09-15T17:36:53.049192+00:00",
+      "modified": "2024-09-15T17:36:53.049208+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1112/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00008/canvas/6",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40114/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:332.2802429199219,235.02748107910156,1855.9065246582031,972.5274505615234",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>Ti&scaron;ri: Thursday; day of Atonement: Sabbath;</li>\n<li>Sukkot and &Scaron;emini \u02bfA\u1e63eret: Thursday;</li>\n<li>(day of the) Willow: Wednesday; Mar\u1e25e&scaron;van: Friday and Sabbath;</li>\n<li>Kislev: Sunday</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
