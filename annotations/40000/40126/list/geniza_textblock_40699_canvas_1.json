@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40126%2Fiiif%2Ftextblock%2F40699%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40126%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"659ae20332027c1969316c7d72645af9\"",
+      "id": "https://geniza.princeton.edu/annotations/642c9a4c-bd76-495b-877f-4dd504ae5cca/",
+      "type": "Annotation",
+      "created": "2024-09-19T20:51:33.993596+00:00",
+      "modified": "2024-09-19T20:51:33.993611+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1117/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40126/iiif/textblock/40699/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40126/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:94,206,322,122",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto, bottom margin",
+          "value": "<ol>\n<li>\u05d0\u05e0\u05d9 \u05e6\u05d3\u05e7\u05d4 \u05d1\u05df \u05de\u05e7\u05de\u05dc\u05d9\u05d4 \u05d9\u05d5\u05d3\u05d9\u05e2\u05d5\u05e0\u05d9 \u05d1\u05d7\u05dc\u05d5\u05dd \u05d4\u05dc\u05d9\u05dc\u05d0</li>\n<li>\u05d9\u05d4\u05d5\u05d4 \u05ea/\u05d3\u05e8\u05da \u05e6\u05d3\u05d9\u05e7\u05d9\u05dd \u05d5\u05d9\u05dc\u05de\u05d3\u05d9\u05e0\u05d9</li>\n<li>\u05dc\u05e2\u05e1\u05d5\u05ea \u05e8\u05e6\u05d5\u05e0\u05d5 \u05db\u05e8\u05e6\u05d5\u05e0\u05d5</li>\n<li>\u05d5\u05dc\u05de\u05e2\u05df \u05e9\u05de\u05d5 \u05d4\u05d2\u05d3\u05d5\u05dc</li>\n<li>\u05db\u05d9 \u05d0\u05df \u05dc\u05d9 \u05d0\u05dc\u05d5\u05d4 \u05d0\u05dc\u05d0 \u05d0\u05ea\u05d4</li>\n<li>\u05d5\u05dc\u05db\u05d4 \u05dc\u05d1\u05d3\u05da \u05d4\u05ea\u05e4\u05dc\u05dc\u05ea\u05d9</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"cfc3b8632b492cd5a287fc9d55e49123\"",
+      "id": "https://geniza.princeton.edu/annotations/2981f882-2437-4259-b923-d00c44b6900a/",
+      "type": "Annotation",
+      "created": "2024-09-19T20:53:34.706006+00:00",
+      "modified": "2024-09-19T20:53:34.706020+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1117/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40126/iiif/textblock/40699/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40126/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:93,202,370,110",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>I \u1e62edaqah ben Ma[qma]lyah, inform me in a dream this night</li>\n<li>YHWH the path of the righteous people: and he will teach me</li>\n<li>to make His will my will</li>\n<li>and for His great name</li>\n<li>since I have no God but you</li>\n<li>and to You only I hereby pray.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

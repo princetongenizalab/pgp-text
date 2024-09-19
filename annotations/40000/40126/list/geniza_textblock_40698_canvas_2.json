@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40126%2Fiiif%2Ftextblock%2F40698%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40126%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"43f318a6afb4fbf19a2a69d82d934729\"",
+      "id": "https://geniza.princeton.edu/annotations/671e482e-dc2e-4701-8c22-353bcb377bdf/",
+      "type": "Annotation",
+      "created": "2024-09-19T20:50:43.968284+00:00",
+      "modified": "2024-09-19T20:50:43.968299+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1117/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40126/iiif/textblock/40698/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40126/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:79,156,369,161",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, bottom margin",
+          "value": "<ol>\n<li>\u05d0\u05e0\u05d9</li>\n<li>\u05e6\u05d3\u05e7\u05d4 \u05d1\u05df \u05de\u05e7\u05de\u05dc\u05d9\u05d4 \u05d9\u05d5\u05d3\u05d9\u05e2\u05d9\u05e0\u05d9 \u05d9\u05d4\u05d5\u05d4 \u05d1\u05d7\u05d5\u05dc\u05dd</li>\n<li>\u05d4\u05dc\u05d9\u05dc\u05d4 \u05de\u05d4 \u05e9\u05d0\u05e6\u05d0 \u05e2\u05d3 \u05e9\u05d0\u05d4\u05d9\u05d4 \u05e6\u05d3\u05d9\u05e7</li>\n<li>\u05dc\u05e4\u05b8\u05e0\u05da \u05db\u05d0\u05e9\u05e8 \u05ea\u05d0\u05d4\u05d1 \u05e0\u05e6\u05d7</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"c114c9fae0cdb3a03f9b717a519d79cd\"",
+      "id": "https://geniza.princeton.edu/annotations/c36cf629-6c3e-4a8e-ad0e-d3dec65defe2/",
+      "type": "Annotation",
+      "created": "2024-09-19T20:52:25.942803+00:00",
+      "modified": "2024-09-19T20:52:25.942818+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1117/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40126/iiif/textblock/40698/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40126/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:122,153,324,144",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>I</li>\n<li>\u1e62edaqah ben Maqmalyah, inform me YHWH in a dream</li>\n<li>this night, what I should do so that I may be righteous</li>\n<li>before you as you eternally like</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
