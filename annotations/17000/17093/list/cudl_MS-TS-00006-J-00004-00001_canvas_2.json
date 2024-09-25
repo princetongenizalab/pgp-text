@@ -1,0 +1,76 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00006-J-00004-00001%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F17093%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"91c3d8aebb6f3ab953c4f2de3049cc0d\"",
+      "id": "https://geniza.princeton.edu/annotations/3b62d1c5-59e8-45d6-b3f2-95ae586dbf50/",
+      "type": "Annotation",
+      "created": "2024-09-25T21:17:17.664210+00:00",
+      "modified": "2024-09-25T21:17:17.664231+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/363/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00006-J-00004-00001/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/17093/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:851.4944458007812,1140.6812744140625,3116.7909545898438,240.989013671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>\u05ea\u05d5\u05d1\u05dc \u05d4\u05d0\u05d9\u05d2\u05e8\u05ea \u05dc\u05de\u05f3 \u05d0\u05dc\u05d9\u05d4 \u05d0\u05d7\u05de\u05d3 \u05e2\u05d9\u05e0\u05d9 \u05d0\u05d1\u05d9\u05da \u05d0\u05d1\u05e8\u05d4\u05dd [...] </li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d04358ee97ab5ffaa2b4b086762b02db\"",
+      "id": "https://geniza.princeton.edu/annotations/c99890e4-7fbc-4608-864c-e39da7af39c3/",
+      "type": "Annotation",
+      "created": "2024-09-25T21:18:25.575917+00:00",
+      "modified": "2024-09-25T21:18:25.575933+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/363/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00006-J-00004-00001/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/17093/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:867.5604248046875,1140.6812744140625,3084.6590576171875,208.8570556640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>May this letter be carried to Mar Elijah, delight of my eyes, from me,\u00a0 your father Abraham [\u2026] </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
