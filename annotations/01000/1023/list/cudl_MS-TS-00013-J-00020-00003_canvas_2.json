@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00020-00003%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1023%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"1f90d0de5cff642be51f29cad35e3e13\"",
+      "id": "https://geniza.princeton.edu/annotations/da926e48-f4ae-4100-b87a-71d7bf99efa5/",
+      "type": "Annotation",
+      "created": "2024-09-26T21:19:59.377085+00:00",
+      "modified": "2024-09-26T21:19:59.377103+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/363/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00020-00003/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1023/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:483.67401123046875,1219.69970703125,3732.7014770507812,620.3643798828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>\u05d5\u05d4\u05d6\u05e7\u05df \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d9 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05e9\u05d5\u05d0\u05dc \u05d1\u05e9\u05dc\u05d5\u05dd \u05d1\u05d9\u05ea\u05d5 \u05d5\u05d4\u05e7\u05d8\u05d5\u05df \u05d1\u05df \u05d1\u05ea\u05d5 \u05d5\u05de\u05e6\u05d5\u05d4 \u05e2\u05dc\u05d9\u05d5</li>\n<li>\u05d5\u05d1\u05e9\u05dc\u05d5\u05dd \u05d4\u05db\u05dc \u05e9\u05dc\u05dd \u05d4\u05d5\u05d0 \u05d0\u05ea\u05e0\u05d5 \u05db\u05dc\u05e0\u05d5 \u05d7\u05d9\u05d9\u05dd </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
