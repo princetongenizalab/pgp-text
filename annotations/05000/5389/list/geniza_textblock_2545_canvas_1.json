@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5389%2Fiiif%2Ftextblock%2F2545%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5389%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"2d7d204a73f75ee2dd71495412e84a24\"",
+      "id": "https://geniza.princeton.edu/annotations/02e5a61d-9660-4597-b46e-e72ab0ad9962/",
+      "type": "Annotation",
+      "created": "2024-10-07T18:23:25.929610+00:00",
+      "modified": "2024-10-07T18:23:25.929627+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5389/iiif/textblock/2545/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5389/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:12,14,617,371",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>[Date, place, and parties.]</p>\n</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n<li>\n<p>&hellip;Mr. Jekuthiel claimed</p>\n</li>\n<li>\n<p>that he had sold to Joseph indigo from</p>\n</li>\n<li>\n<p>the House of Raisins against clearing a sum of 40</p>\n</li>\n<li>\n<p>dinars, which he, Jekuthiel, owed the Agency House of the Qadi Abu \u02bel-\u1e6c\u0101hir.</p>\n</li>\n<li>\n<p>Mr. Joseph had guaranteed that he would settle the account</p>\n</li>\n<li>\n<p>with the House of the Qadi {add: for them, in his name}. Meanwhile some time had passed,&nbsp;</p>\n</li>\n<li>\n<p>and &ldquo;these days I was sued by the House of the Qadi</p>\n</li>\n<li>\n<p>for the aforementioned amount. I request him (Joseph) now to clear me from this.&rdquo;</p>\n</li>\n<li>\n<p>When asked about this, Joseph replied: &ldquo;I paid Mr.</p>\n</li>\n<li>\n<p>Jekuthiel these 40 dinars; they were included in the 100</p>\n</li>\n<li>\n<p>dinars, and no claim remains against me in this matter.&rdquo;</p>\n</li>\n<li>\n<p>Against this, Mr. Jekuthiel declared:</p>\n</li>\n<li>\n<p>&ldquo;I have received from him these 100 dinars,</p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
