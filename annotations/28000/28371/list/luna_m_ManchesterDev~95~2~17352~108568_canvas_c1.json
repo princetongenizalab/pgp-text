@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~17352~108568%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F28371%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"280999cae11303e21fc8a96ee1fecfe8\"",
+      "id": "https://geniza.princeton.edu/annotations/ea95e639-becf-4cc5-b726-66e89f814366/",
+      "type": "Annotation",
+      "created": "2024-10-18T16:41:02.530245+00:00",
+      "modified": "2024-10-18T16:41:02.530261+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/887/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~17352~108568/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/28371/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:59.594337463378906,951.4143676757812,2208.705223083496,1938.2719116210938",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d1\u05e2\u05f3\u05f3\u05d4&nbsp;</li>\n<li>\u05de\u05d5\u05d3\u05d4 \u05d0\u05e0\u05d9 \u05d4\u05d7\u05ea\u05d5\u05dd \u05de\u05d8\u05d4 \u05d4\u05d9\u05d5\u05ea \u05d0\u05de\u05ea \u05d5\u05e6\u05d3\u05e7 \u05d0\u05d9\u05da \u05e7\u05d1\u05dc\u05ea\u05d9 \u05d1\u05db\u05d7 \u05d4\u05e8\u05e9\u05d0\u05ea\u05d9 \u05de\u05d9\u05d3</li>\n<li>\u05d4\u05e8\u05d1\u05e0\u05d9\u05dd \u05d4\u05de\u05d5\u05d1\u05d4\u05e7\u05d9\u05dd \u05d1\u05d9\u05d3\u05d9\u05e0\u05d0 \u05d4\u05db\u05d0&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
