@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"48c971de740aedf12636f1406f6f4475\"",
+      "id": "https://geniza.princeton.edu/annotations/2947baf7-dc24-4837-a1e8-bc863cfb5af4/",
+      "type": "Annotation",
+      "created": "2024-10-19T22:24:57.450062+00:00",
+      "modified": "2024-10-19T22:24:57.450077+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1123/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00014-00018/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1911/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:195.9573516845703,167.2490997314453,2169.5673065185547,4210.347091674805",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>Then there transpired that which a book</li>\n<li>would prove insufficient to describe. Next, caskets were brought</li>\n<li>and he began to eat lemon cakes.</li>\n<li>We stayed [just] for a while but he detained me</li>\n<li>in order that we confer a moment confidentially.</li>\n<li>The master seemed favourably inclined. In the meantime</li>\n<li>Rabbi Avraham, may God protect him, had taught al-(alal [8] a term with which to address [9] Rabbi Moses. Upon his reciting it [Rabbi Moses] laughed [10] with amusement and sported with the [child]. [11] I was the first to leave [the house], [12] while al-Gall remained behind talking to the usher [13] in the vestibule. Whereupon Rabbi Moses [14] enquired of Rabbi Abraham 'Where has his son gone ? ' [15] 'He is standing by the door ', he replied. ' Go and call him ', he said, while re-entering [the door], [17] whereupon he came across the [child who again] recited the form of address. [18] Peace.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"1114460027ed6d8c9b8cad12d7a5f3f3\"",
       "id": "https://geniza.princeton.edu/annotations/bdbd5dd1-641d-48e3-9d95-8d0843e659a2/",
       "type": "Annotation",
       "created": "2022-10-07T01:17:11.726045+00:00",
       "modified": "2022-10-07T01:17:11.726056+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00014-00018/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1911/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00014-00018/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1911/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
