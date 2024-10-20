@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e6745e6d6ec51162850f39c594c8adde\"",
       "id": "https://geniza.princeton.edu/annotations/87483cc6-d7cf-485d-838d-305a0b77673f/",
       "type": "Annotation",
       "created": "2023-07-20T15:55:36.788369+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"ae0fb2123da500a8596c8d85d3051033\"",
+      "id": "https://geniza.princeton.edu/annotations/8349691d-2389-4358-8272-cecd8ee06d42/",
+      "type": "Annotation",
+      "created": "2024-10-20T22:29:46.925747+00:00",
+      "modified": "2024-10-20T22:29:46.925761+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/52/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00027/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2285/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:200.22018432617188,5287.53662109375,3325.025665283203,958.90625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d0\u05e4\u05e8\u05d0\u05d7 \u05e9\u05d0\u05db\u05e8\u05d4</li>\n<li>\u05d0\u05d3\u05d0\u05dd \u05d0\u05dc\u05dc\u05d4 \u05e2\u05d6\u05d4</li>\n<li>\u05e2\u05e8\u05d5\u05e1 \u05d1\u05df \u05d9\u05d5\u05e1\u05e3 \u05e0\u05e2 \u05d0\u05d1\u05e8\u05d4\u05dd \u05d1\u05df \u05d9\u05e2\u05e7\u05d1</li>\n<li>\u05e0\u05d1\u05ea</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
       ],
       "schema:position": 1
     }
