@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F30afc1f2-f36e-4217-94f8-eb6f7c5590de%2Fmanifest%2Fcanvas%2F0cb2ee46-a9fb-4fc4-814d-1920d25bd289&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F11428%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5b58c11094ef80c9dfdbd394a17f95f2\"",
+      "id": "https://geniza.princeton.edu/annotations/3a5a8649-73c7-41a1-bb26-7d9931fbe420/",
+      "type": "Annotation",
+      "created": "2024-10-22T18:48:23.289321+00:00",
+      "modified": "2024-10-22T18:48:23.289332+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/887/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/30afc1f2-f36e-4217-94f8-eb6f7c5590de/manifest/canvas/0cb2ee46-a9fb-4fc4-814d-1920d25bd289",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11428/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:593.2568359375,754.0030517578125,3910.85009765625,3031.2518310546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d1\u05e2\u05f3\u05f3\u05d4</li>\n<li>\u05d1\u05d4\u05d9\u05d5\u05ea \u05e9\u05d7\u05d6\u05e7\u05ea \u05d4\u05d7\u05e0\u05d5\u05ea \u05e9\u05d1\u05de\u05e7\u05d5\u05dd \u05d4\u05d9\u05d4\u05d5\u05d3\u05d9\u05dd \u05e9\u05db\u05e0\u05d2\u05d3 \u05d7\u05d0\u05e8\u05ea \u05d0\u05dc\u05e6\u05e7\u05d0\u05dc\u05d1\u05d4 \u05d4\u05d9\u05d0 \u05dc\u05d4\u05d9\u05e7\u05e8 \u05d5\u05e0\u05e2\u05f3 \u05db\u05d4\u05f3\u05f3\u05e8 \u05d9\u05e9\u05e8\u05d0\u05dc \u05e4\u05d9\u05e0\u05d8\u05d5 \u05d9\u05e6\u05f3\u05f3\u05d5 \u05d4\u05df \u05e2\u05ea\u05d4</li>\n<li>\u05d4\u05e9\u05db\u05d9\u05e8 \u05d4\u05e8\u05d9\u05f3 \u05d4\u05e0\u05d6\u05f3 \u05d4\u05d7\u05d6\u05e7\u05d4 \u05d4\u05e0\u05d6\u05f3 \u05e2\u05dd \u05db\u05dc\u05d9(!) \u05ea\u05e9\u05de\u05d9\u05e9 \u05d4\u05d7\u05e0\u05d5\u05ea \u05d4\u05e0\u05d6\u05f3 \u05d4\u05d9\u05d9\u05e0\u05d5&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
