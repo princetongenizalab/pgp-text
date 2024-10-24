@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F31333%2Fiiif%2Ftextblock%2F1335%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F31333%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"6c56bbee41106b59c4b6751143d1c0cd\"",
+      "id": "https://geniza.princeton.edu/annotations/706dab5a-e42b-4bb3-bee6-0207e647317d/",
+      "type": "Annotation",
+      "created": "2024-10-24T18:12:07.974748+00:00",
+      "modified": "2024-10-24T18:12:42.374055+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/887/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/31333/iiif/textblock/1335/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/31333/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:13.2421875,13.34765625,614.7578125,371.65234375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>:(Ruth 4:11) Border text of ketubba</p>\n<p>\u05d5\u05d9\u05d0\u05de\u05e8\u05d5 \u05db\u05dc \u05d4\u05e2\u05dd \u05d0\u05e9\u05e8 \u05d1\u05e9\u05e2\u05e8 \u05d5\u05d4\u05d6\u05e7\u05e0\u05d9\u05dd \u05e2\u05d3\u05d9\u05dd \u05d9\u05ea\u05df \u05d9\u05d4\u05d9\u05d4 \u05d0\u05ea \u05d4\u05d0\u05e9\u05d4 \u05d4\u05d1\u05d0\u05d4 \u05d0\u05dc \u05d1\u05d9\u05ea\u05da \u05db\u05e8\u05d7\u05dc \u05d5\u05db\u05dc\u05d0\u05d4 \u05d0\u05e9\u05e8 \u05d1\u05e0\u05d9\u05d4\u05dd&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
