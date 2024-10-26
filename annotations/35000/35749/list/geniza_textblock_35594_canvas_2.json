@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d9ad3c4dc8ea0a2665f5e5c29c835680\"",
       "id": "https://geniza.princeton.edu/annotations/8ab33c26-4123-4371-abcd-3c6a3eab894f/",
       "type": "Annotation",
       "created": "2024-04-20T19:42:55.776537+00:00",
@@ -34,6 +35,74 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"17eb1ba9dc4378b3b40053b22c27245b\"",
+      "id": "https://geniza.princeton.edu/annotations/3260ff7c-a44f-4ece-919d-803ce5b3d16a/",
+      "type": "Annotation",
+      "created": "2024-10-26T19:17:12.101506+00:00",
+      "modified": "2024-10-26T19:17:25.947653+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1126/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/35749/iiif/textblock/35594/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35749/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:178.04296875,50.4453125,341.17578125,216.10546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u062a\u0642\u0628\u0644 \u0627\u0644\u0627\u0631\u0636 \u0628\u064a\u0646 \u064a\u062f\u064a\u0647\u0627 \u0648\u062a\u0646\u0647\u064a \u0628\u0633\u0627\u0645\u064a\u0647\u0627 \u062f\u0627\u0645\u062a [\u0646\u0639\u0645\u062a\u0647\u0627</li>\n<li>\u0648\u0647\u0644\u0640\u0643\u062a \u0627\u0639\u0627\u062f\u064a\u0647\u0627 \u0627\u0646\u0647\u0627 \u0627\u0645\u0631\u0627\u0629 \u0645\u0646\u0642\u0637\u0639\u0629 \u0635\u0639\u0644\u0648\u0643\u0629 \u0641\u0642\u064a\u0631\u0629 \u0644\u064a\u0633</li>\n<li>\u0644\u0647\u0627 ...... \u0627\u0644\u0627</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d5338b875bf94432886448f41fe37760\"",
+      "id": "https://geniza.princeton.edu/annotations/b91b700f-c966-4a7b-8253-3c558c366999/",
+      "type": "Annotation",
+      "created": "2024-10-26T19:18:49.495734+00:00",
+      "modified": "2024-10-26T19:18:49.495759+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1126/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/35749/iiif/textblock/35594/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35749/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:109.83984375,54.8515625,392.0234375,171.78125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>[The slave] kisses the ground before him and reports to his loftiness&mdash;may his favour endure</li>\n<li>and his enemies perish&mdash;that she is a cut-off woman, indigent, poor, who has no</li>\n<li>[one but God and him ....].</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
