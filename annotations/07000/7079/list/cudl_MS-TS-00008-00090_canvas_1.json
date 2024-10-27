@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-00090%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7079%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"50305264075a9db6386eb45985235362\"",
+      "id": "https://geniza.princeton.edu/annotations/20f04aa6-3486-4de4-94ac-28c428768929/",
+      "type": "Annotation",
+      "created": "2024-10-27T20:16:30.050221+00:00",
+      "modified": "2024-10-27T20:16:30.050240+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/5/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00090/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7079/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:136.6062469482422,142.8156280517578,3663.531204223633,2738.334274291992",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"he\">&hellip; [ \u05db\u05d9 \u05d9\u05d1\u05e2\u05dc \u05d1\u05d7\u05d5\u05e8 \u05d1]\u05ea\u05d5\u05dc\u05d4 \u05d9\u05d1\u05e2\u05dc\u05d5\u05da \u05d1[\u05e0\u05d9\u05da] &hellip;</span></li>\n<li><span lang=\"he\">&hellip; \u05d4\u05d6\u05e7\u05e0\u05d9\u05dd \u05e2\u05d3\u05d9\u05dd &hellip;</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"769d3a28a6b32dd52c5240ef46d2a458\"",
+      "id": "https://geniza.princeton.edu/annotations/098bb9c5-8c06-4275-9652-1c0ebe6f832c/",
+      "type": "Annotation",
+      "created": "2024-10-27T20:17:26.998633+00:00",
+      "modified": "2024-10-27T20:17:26.998645+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/5/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00090/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7079/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:68.30313110351562,378.7718811035156,3731.7232360839844,2788.1219177246094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"en\">&hellip; [as the young man marries a v]irgin your sons shall marry you (Is. 62: 5) &hellip;</span></li>\n<li><span lang=\"en\">&hellip; the elders, witnesses &hellip;</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
