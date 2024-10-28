@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-44%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F610%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"c52557917cd5a511709e7b5e22d20c5a\"",
+      "id": "https://geniza.princeton.edu/annotations/134e6402-fb26-47ae-83cd-40c25e2d86f7/",
+      "type": "Annotation",
+      "created": "2024-10-28T19:19:57.356080+00:00",
+      "modified": "2024-10-28T19:19:57.356096+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-44/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/610/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:161.5,402.0138854980469,3167.194580078125,1695.7500305175781",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li><span lang=\"en\">The apprentices at the construction, 1. Removal of garbage, 1\u2153. R. Samuel, for teaching,</span></li>\n<li><span lang=\"en\">Marheshwan, 7. Paper, 1\u00be. Clearing away garbage in D\u0101r Sitt Ghaz\u0101l, 7.</span></li>\n<li><span lang=\"en\">Total, 223.</span></li>\n<li><span lang=\"en\">Also, b. al-\u0100h\u016bv, 4. Deducted from Ab\u016b\u02bel-\u1e24asan and Ab\u016b\u02bel-Khayr, 6. Rent for</span></li>\n<li><span lang=\"en\">the store, 1\u00bd. Paid by Ma\u1e25f\u016b\u1e93, 100\u00bc. Money held by him in addition, 7\u00bc. Paid by him,</span></li>\n<li><span lang=\"en\">in addition, 33, by al-Shaykh Ab\u016b \u02bfImr\u0101n, and for collection, 30. From Baq\u0101, for two months,</span></li>\n<li><span lang=\"en\">that is Rab\u012b\u02bf al-\u0101khir and Jum\u0101d\u0101\u02bel-awwal, 8. </span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
