@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"ee99d9131ee508c1b5c691aa5d2b465c\"",
       "id": "https://geniza.princeton.edu/annotations/6777778b-c793-4817-8b7f-2f5b94994dc8/",
       "type": "Annotation",
       "created": "2022-10-07T01:52:37.696403+00:00",
       "modified": "2022-10-07T01:52:37.696422+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,59 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"6f4b73e876595fd487d2b95f25ce8751\"",
+      "id": "https://geniza.princeton.edu/annotations/a21323da-ea6a-4861-ab6b-558c10f6db92/",
+      "type": "Annotation",
+      "created": "2024-10-29T19:13:46.181145+00:00",
+      "modified": "2024-10-29T19:14:27.276293+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/4",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1877/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1877/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3001.30078125,342.32342529296875 159.22019958496094,254.7523193359375 199.02525329589844,4123.80322265625 1870.83740234375,4131.76416015625 1950.447509765625,3407.312255859375 1918.603515625,2117.628662109375 3088.8720703125,2109.667724609375 3041.10595703125,429.8945617675781 3041.10595703125,445.8165588378906\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Main region:",
+          "value": "<p>&nbsp;</p>\n<ol>\n<li>The accounting of the Estate, by Ab\u016b\u02bel-Bay\u0101n, the parn\u0101s; Dh\u016b\u02bel-qa\u02bfda and Dh\u016b\u02bel-\u1e25ijja,</li>\n<li>corresponding to Nisan 1493: D\u0101r al-Zajj\u0101j, the q\u0101\u02bfa and the upper part,</li>\n<li>Dh\u016b\u02bel-\u1e25ijja, 79, 71.&nbsp;</li>\n<li>D\u0101r b. \u1e6cib\u0101n, 22. Joseph al-Jazz\u0101r, 18. Al-Faq\u012bh, 10.</li>\n<li>Al-B\u0101b, 4&frac14;. Al-Binh\u0101w\u012b, 22. Ma\u02bf\u0101l\u012b, 16.</li>\n<li>Munajj\u0101, 16. Ri\u1e0d\u0101, 12. B. al-Waj\u012bh, 14.</li>\n<li>The apartment of b. al-Mirj\u0101n\u012b, 30. The apartment of al-Kohen, 58. 372&frac14; Left with him, 134&frac14; dir.</li>\n<li>The balance of his debt, 31&frac12;.</li>\n<li>Paid by al-Shaykh Ab\u016b\u02bel-Ma\u1e25\u0101sin,</li>\n<li>14&frac12;. Al-\u1e24emdat, for repairs, 30.</li>\n<li>The orphans of b. \u1e24ubaysh, 6. Garbage from D\u0101r</li>\n<li>al-Zajj\u0101j, 10&frac12;. Work at the passageway, 13.</li>\n<li>Al-W\u0101t\u012bq, 10. The shop of al-Binh\u0101w\u012b, 3.</li>\n<li>A helper, 2. Al-La\u1e25\u1e25\u0101n Ab\u016b Sahl, 2.</li>\n<li>Ab\u016b Sa\u02bfd al-Labb\u0101n, 12.</li>\n<li>The apartment of Fut\u016b\u1e25 in D\u0101r al-Zajj\u0101j, 8.</li>\n<li>Collection fees, 18.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"91f9db8cf53b7afe0b05b7f7101d52d0\"",
+      "id": "https://geniza.princeton.edu/annotations/d3ef39d3-d314-4427-9c0a-4d8743af1772/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:52:37.710002+00:00",
+      "modified": "2022-10-07T01:52:37.710015+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1877/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +94,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/d3ef39d3-d314-4427-9c0a-4d8743af1772/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:52:37.710002+00:00",
-      "modified": "2022-10-07T01:52:37.710015+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,22 +103,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/4",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1877/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
