@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"7807b399789b2e285bf5b7ac59bb9cdc\"",
       "id": "https://geniza.princeton.edu/annotations/bd523936-1bf6-40de-99cd-152fd3118935/",
       "type": "Annotation",
       "created": "2022-10-07T00:41:02.047796+00:00",
       "modified": "2022-10-07T00:41:02.047816+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00110/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1328/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"7902b0d1f6d7e914e20eec0e54abce63\"",
+      "id": "https://geniza.princeton.edu/annotations/30d2f8cb-0339-47a9-9003-00224c59c912/",
+      "type": "Annotation",
+      "created": "2024-10-30T21:37:39.871227+00:00",
+      "modified": "2024-10-30T21:37:39.871240+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00110/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1328/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1328/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2305.40478515625,282.973876953125,1939.203125,6100.583740234375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Region I, left side",
+          "value": "<p></p>\n<ol>\n<li>(1-2) The compound known as the apartment of Ab\u016b\u02bel-Ri\u1e0d\u0101, 16\u00bd.</li>\n<li>\u00a0</li>\n<li>The compound known as (of) b. al-Mu\u02beaddib, 2.</li>\n<li>An eighth of D\u0101r R. Yesh\u016b\u02bf\u0101, 1.</li>\n<li>Al-Burj, Shirkat S\u0101lim, 17.</li>\n<li>D\u0101r al-Zayt, 7.</li>\n<li>A quarter of D\u0101r b. al-\u1e24all\u0101l, 5.</li>\n<li>S\u016bq al-Kab\u012br, the funduq, 40.</li>\n<li>Al-Q\u0101l\u016bs, the compound adjacent to al-diy\u0101r, 2.</li>\n<li>D\u0101r al-Parn\u0101s \u02bfAll\u016bn, 9.</li>\n<li>D\u0101r al-Sha\u02bf\u02bf\u0101r\u012bn, 18.</li>\n<li>D\u0101r al-N\u0101qa, 23.</li>\n<li>A quarter of D\u0101r al-Sukkar\u012b, 17.</li>\n<li>D\u0101r Sulaym\u0101n al-Munajjim, 3.</li>\n<li>D\u0101r al-Ghazl \u2026.</li>\n<li>D\u0101r b. al-Kuwayyis, a quarter, 3.</li>\n<li>D\u0101r al-Shaykh Ab\u016b\u02bel-Fa\u1e0d\u0101\u02beil, 20.</li>\n<li>D\u0101r Hiba al-Abz\u0101r\u012b, a quarter, 13.</li>\n<li>Lane Khab\u012b\u1e63a, 14.</li>\n<li>D\u0101r al-Mudallala, 39.</li>\n<li>D\u0101r b. al-Q\u0101bis\u012b, 16\u00bd.</li>\n<li>D\u0101r b. al-\u1e62abb\u0101gh, 10\u00bd.</li>\n<li>D\u0101r al-Luff\u0101\u1e25a, 12\u00bd.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"66cb0901b3ef28a480ae0f2c036cfe0e\"",
+      "id": "https://geniza.princeton.edu/annotations/19f69d3f-1153-4bcf-8f67-3c2be61ead49/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:41:02.060912+00:00",
+      "modified": "2022-10-07T00:41:02.060929+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00110/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1328/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/19f69d3f-1153-4bcf-8f67-3c2be61ead49/",
-      "type": "Annotation",
-      "created": "2022-10-07T00:41:02.060912+00:00",
-      "modified": "2022-10-07T00:41:02.060929+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,22 +104,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00110/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1328/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
