@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"a29002fda4134ba32c81bdf79b6bc5c8\"",
       "id": "https://geniza.princeton.edu/annotations/55a426aa-a6b8-4041-979a-d71d3c82b75e/",
       "type": "Annotation",
       "created": "2022-10-07T02:04:21.750567+00:00",
       "modified": "2022-10-07T02:04:21.750584+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/1345/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1345/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2360b28a07760b838885bef861418193\"",
+      "id": "https://geniza.princeton.edu/annotations/fb087df2-157d-4b56-a292-feee8ec0c14f/",
+      "type": "Annotation",
+      "created": "2024-10-31T16:29:22.220506+00:00",
+      "modified": "2024-10-31T16:29:22.220528+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/1345/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1345/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1345/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:58,7,326,237",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p></p>\n<ol>\n<li>Am\u012bn al-Dawla, 20;</li>\n<li>\n<p>Al-Sha\u02bf\u02bf\u0101r\u012bn, 20.</p>\n</li>\n<li>\n<p>The daughter of Ab\u016b\u02bel-Faraj, 20.</p>\n</li>\n<li>\n<p>Al-Rayyis Ab\u016b\u02bel-Najam, 15.</p>\n</li>\n<li>\n<p>Al-N\u0113zer, 50.</p>\n</li>\n<li>\n<p>Our Master, al-Rayyis Ab\u016b\u2019l-Bay\u0101n, 5.</p>\n</li>\n<li>\n<p>Al-Shaykh \u016b Na\u1e63r, 5.</p>\n</li>\n<li>\n<p>Al-Yat\u012bm, 3.</p>\n</li>\n<li>\n<p>Al-\u0100h\u016bv, 2.</p>\n</li>\n<li>\n<p>The judges, 96.</p>\n</li>\n<li>\n<p>\u1e24ikr, 3. 5 musicians, 9.</p>\n</li>\n<li>\n<p>Oil for the synagogue, for \u1e62afar, 30.</p>\n</li>\n<li>\n<p>D\u0101r al-Turk\u012b\u00a0</p>\n</li>\n<li>\n<p>(in) al-Jaz\u012bra, for 3 months, 4.</p>\n</li>\n<li>\n<p>The q\u0101\u02bfa, 22. The storeroom, 6.</p>\n</li>\n<li>\n<p>D\u0101r al-Surr\u012bya, for three months,</p>\n</li>\n<li>\n<p>plus a tip, 4. From the funduq of (al-) S\u016bq al-Kab\u012br, 3.</p>\n</li>\n<li>\n<p>From al-Mask\u012bl, 2. </p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
