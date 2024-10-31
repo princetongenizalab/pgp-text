@@ -75,11 +75,11 @@
       "schema:position": 1
     },
     {
-      "etag": "\"61c06b448e8ae016d80fce84195ec0b5\"",
+      "etag": "\"310de41677a729aa69bcb71119a78b7b\"",
       "id": "https://geniza.princeton.edu/annotations/37019093-eb79-4b2a-b0b0-fdda86a6384b/",
       "type": "Annotation",
       "created": "2024-10-31T18:09:43.782189+00:00",
-      "modified": "2024-10-31T18:09:43.782210+00:00",
+      "modified": "2024-10-31T18:13:17.360560+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
@@ -99,7 +99,7 @@
         {
           "type": "TextualBody",
           "label": "Verso, right margin",
-          "value": "<p>He herewith attaches its note.</p>",
+          "value": "<ol>\n<li>He herewith attaches its note.</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -108,6 +108,76 @@
         "translating"
       ],
       "schema:position": 2
+    },
+    {
+      "etag": "\"497695d1772115fd1e3f2acb771f0701\"",
+      "id": "https://geniza.princeton.edu/annotations/5f6acffc-731c-4090-8c6f-c39a3b49a240/",
+      "type": "Annotation",
+      "created": "2024-10-31T18:12:10.592402+00:00",
+      "modified": "2024-10-31T18:12:29.570929+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:682.4302368164062,127.42108154296875,1618.8468627929688,3724.9998168945312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column II (left side)",
+          "value": "<p></p>\n<ol>\n<li>The accounting of the months of Tammuz and Av 1494</li>\n<li>D\u0101r al-N\u0101g\u012bd, 32. The apartment of R. Jacob,</li>\n<li>Tammuz, 5.</li>\n<li>Av, 7.</li>\n<li>Al-Burj, 29. D\u0101r al-Zayt, 23.</li>\n<li>D\u0101r Sitt Ghazal, 432. Abu'l-Majd, 4.</li>\n<li>The apartment of Bay\u0101n, 14. D\u0101r b. Pin\u1e25\u0101s, 13.</li>\n<li>Shirkat b. S\u0101lim, 16. The funduq, 23.</li>\n<li>The ruin, 4. The lower part of D\u0101r R. Nathan, 12.</li>\n<li>The upper part of the funduq: The store, 4.</li>\n<li>Ab\u016b\u02bel-Khayr, Av, 10.</li>\n<li>Ab\u016b Na\u1e63r, a third of a month, 4\u00bd,</li>\n<li>D\u0101r al-Shar\u012bf, 14. B. Nathan, 5.</li>\n<li>D\u0101r \u02bfAbla, 25.</li>\n<li>Shirkat b. \u02bfAlam al-Dawla, 14\u00bd.</li>\n<li>Shirkat b. al-Maq\u0101ni\u02bf\u012bya, 19\u00bd.</li>\n<li>Shirkat b. Th\u0101bit, 24.</li>\n<li>(18-19) Total, 374.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
+    },
+    {
+      "etag": "\"d280ab3be454010d59fa54364c54966b\"",
+      "id": "https://geniza.princeton.edu/annotations/7d8f97cc-c1ea-4460-ae2a-a0f558a13b1b/",
+      "type": "Annotation",
+      "created": "2024-10-31T18:13:06.714436+00:00",
+      "modified": "2024-10-31T18:13:06.714451+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:558.5388793945312,1837.12158203125,355.15521240234375,1825.33251953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, left margin",
+          "value": "<ol>\n<li>From the balance of the (previous) account: 15. Total, 388\u00bd.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 4
     }
   ]
 }
