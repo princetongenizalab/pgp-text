@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"ae846b23e6480f0b3a9a216fd603b432\"",
       "id": "https://geniza.princeton.edu/annotations/1459e99e-bc43-4e9e-b8bc-c3efa899f610/",
       "type": "Annotation",
       "created": "2022-10-07T00:41:13.466400+00:00",
       "modified": "2022-10-07T00:41:13.466421+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,27 +33,81 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "etag": "\"21d4c7fe5d54016bd05315ccb74ecc89\"",
+      "id": "https://geniza.princeton.edu/annotations/54b63eda-321f-47d8-8a14-bb5e48d7e43c/",
+      "type": "Annotation",
+      "created": "2024-10-31T18:08:22.251873+00:00",
+      "modified": "2024-10-31T18:08:22.251887+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2337.416748046875,115.63191986083984,1040.687255859375,3022.948890686035",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column I (right side)",
+          "value": "<p></p>\n<ol>\n<li>\u1e6c\u0101hir b. Ma\u1e25f\u016b\u1e93</li>\n<li>Mak\u0101rim,</li>\n<li>olive oil, two ra\u1e6dls.</li>\n<li>Oakum and paper, \u00be.</li>\n<li>The balance for oil for burning</li>\n<li>paid to al-M\u0113v\u012bn, 3\u00bd.</li>\n<li>Nightwatch for Rab\u012b\u02bf</li>\n<li>al-awwal in Qa\u1e63r al-Sham\u02bf</li>\n<li>and elsewhere, 9\u00bc.</li>\n<li>Total, 160.</li>\n<li>To his credit,</li>\n<li>the remainder of the collection (fee)</li>\n<li>of Iyyar, 5. Total,</li>\n<li>165.</li>\n<li>Balance charged to him, 40.</li>\n<li>To his credit, of it,</li>\n<li>for collection, 25. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"61c06b448e8ae016d80fce84195ec0b5\"",
+      "id": "https://geniza.princeton.edu/annotations/37019093-eb79-4b2a-b0b0-fdda86a6384b/",
+      "type": "Annotation",
+      "created": "2024-10-31T18:09:43.782189+00:00",
+      "modified": "2024-10-31T18:09:43.782210+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1350/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3245.953125,528.6030883789062,198.226318359375,735.0885620117188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, right margin",
+          "value": "<p>He herewith attaches its note.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
