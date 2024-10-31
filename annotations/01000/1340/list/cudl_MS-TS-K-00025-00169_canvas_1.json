@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"5e4b42aa7fb849032103eb0ffa08275b\"",
       "id": "https://geniza.princeton.edu/annotations/2f3d37dd-416c-493a-9fff-b2cfa5d4ed08/",
       "type": "Annotation",
       "created": "2022-10-07T01:31:35.944647+00:00",
       "modified": "2022-10-07T01:31:35.944666+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00169/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"e2f5a75eb5b5f85d141c47aeccc4cb4f\"",
+      "id": "https://geniza.princeton.edu/annotations/3a71bc6b-8551-45e1-8746-389c665916a7/",
+      "type": "Annotation",
+      "created": "2024-10-31T16:11:39.163007+00:00",
+      "modified": "2024-10-31T16:11:39.163022+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00169/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:276.9230651855469,177.2307586669922,4198.153594970703,2835.692092895508",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, main region",
+          "value": "<ol>\n<li>\u2026. and \u00bc; from Shabb\u0101t, 2\u00be\u00a0 dir.</li>\n<li>From b. al-\u1e24all\u0101l, 2\u00bd\u00a0 dir. From Mu\u1e25sin, 8 dir. From the two shops, 8 dir.</li>\n<li>The khu\u1e63\u1e63, 2\u00bd dir. The two rooms, empty. Total</li>\n<li>44 dir.</li>\n<li>Also, collected by me for Dh\u016b\u02bel-\u1e25ijja : From \u1e24asan al-Baghd\u0101d\u012b, 5\u00bd dir.</li>\n<li>From Jacob al-\u1e24amm\u0101l, 4\u00bd dir. From al-R\u016bm\u012bya, 2\u00be dir.</li>\n<li>From Da\u02be\u016bd al-\u1e24amm\u0101l, 3 dir. From the mother-in-law of b. Ams\u012bna,\u00a0 2\u00be dir.</li>\n<li>From the wife of al-\u1e62\u0101\u02beigh, 2\u00be dir. From Shabb\u0101t, 2\u00be dir.</li>\n<li>From b. al-\u1e24all\u0101l, 2\u00bd dir. From the shop of al-Munajjim, 4 dir.</li>\n<li>From the slave girl of al-\u1e62aww\u0101f, 3 dir. From the khu\u1e63\u1e63, 2\u00bd dir. Total,</li>\n<li>36 dir. There is a balance of rent from Mu\u1e25sin,</li>\n<li>from al-Magh\u0101zil\u012b, and from al-Dimashq\u012b, the rent for 25 days. The small room, empty.</li>\n<li>The total revenue amounts to 200 dir. ; to deduct : 1\u00bd dir. less \u00bd d\u0101niq.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"467bdacf4efc852491bff5e2c629e2a6\"",
+      "id": "https://geniza.princeton.edu/annotations/201deb26-1499-4693-90dc-2a0ccb02635a/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:31:35.950917+00:00",
+      "modified": "2022-10-07T01:31:35.950934+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00169/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/201deb26-1499-4693-90dc-2a0ccb02635a/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:31:35.950917+00:00",
-      "modified": "2022-10-07T01:31:35.950934+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,25 +104,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"fb12bbff7a9660d264b414f8db080883\"",
+      "id": "https://geniza.princeton.edu/annotations/0067123f-2523-435f-97be-aa07bf072344/",
+      "type": "Annotation",
+      "created": "2024-10-31T16:14:50.863882+00:00",
+      "modified": "2024-10-31T16:14:50.863900+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00025-00169/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1340/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:4308.9228515625,908.3076171875,332.3076171875,1849.845947265625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "<p>From Mu\u1e25sin, 8. From al-Magh\u0101zil\u012b, 4. </p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     }
