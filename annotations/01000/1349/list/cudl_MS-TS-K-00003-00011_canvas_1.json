@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"8de12e1c59a9e21b32d12421f22363f6\"",
       "id": "https://geniza.princeton.edu/annotations/49075383-7a4f-4fc9-a94b-478ee413ba5e/",
       "type": "Annotation",
       "created": "2022-10-07T01:11:05.131749+00:00",
       "modified": "2022-10-07T01:11:05.131767+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,59 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"24f07c44c96282fc116397719b092a10\"",
+      "id": "https://geniza.princeton.edu/annotations/d9fa5d7a-c6fa-4440-95d4-7f2296a14c91/",
+      "type": "Annotation",
+      "created": "2024-10-31T17:50:39.447296+00:00",
+      "modified": "2024-10-31T17:50:39.447310+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3076.363525390625,229.09091186523438 220.90908813476562,204.5454559326172 212.72727966308594,613.6363525390625 1546.3636474609375,531.8181762695312 1718.1817626953125,559.1201782226562 1898.1817626953125,687.2377319335938 1980,752.727294921875 2053.636474609375,3927.272705078125 2569.0908203125,3927.272705078125 3174.54541015625,3927.272705078125 3117.272705078125,1824.54541015625 3125.45458984375,351.81817626953125\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, column I (right side)",
+          "value": "<p></p>\n<ol>\n<li>The accounting of the collection of al-Shaykh Ab\u016b\u02bel-Bay\u0101n al-J\u0101b\u012b for the month of Siwan</li>\n<li>1494, corresponding to \u1e62afar:</li>\n<li>D\u0101r al-N\u0101g\u012bd, of blessed memory, 16.</li>\n<li>The apartment of R. Jacob, 9.</li>\n<li>Al-Burj, 29.</li>\n<li>D\u0101r al-Zayt, 5\u00bd.</li>\n<li>The apartment of b. Y\u014dn\u0101, 19\u00bd.</li>\n<li>D\u0101r Sitt Ghaz\u0101l, 24.</li>\n<li>Ab\u016b\u02bel-Majd, 2.</li>\n<li>The apartment of Bay\u0101n, 7.</li>\n<li>D\u0101r b. Pin\u1e25\u0101s, 6.</li>\n<li>Shirkat b. S\u0101lim, 8.</li>\n<li>The funduq, 12.</li>\n<li>Its upper part, and the ruin, 16.</li>\n<li>Shirkat al-Shar\u012bf, 7.</li>\n<li>B. Nathan, 22.</li>\n<li>D\u0101r \u02bfAbla, 12\u00bd.</li>\n<li>B. \u02bfAlam al-Dawla, 7\u00bc.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"c74ffcf0492711aa148c8d110680071b\"",
+      "id": "https://geniza.princeton.edu/annotations/218e1f2b-6960-4890-a0c1-aefb6cdc9e89/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:11:05.147103+00:00",
+      "modified": "2022-10-07T01:11:05.147118+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +94,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/218e1f2b-6960-4890-a0c1-aefb6cdc9e89/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:11:05.147103+00:00",
-      "modified": "2022-10-07T01:11:05.147118+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,25 +103,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"d8a8e46849b74c522f6202c3d685058f\"",
+      "id": "https://geniza.princeton.edu/annotations/45cba8e8-4823-4e26-bac8-30ab51e10cad/",
+      "type": "Annotation",
+      "created": "2024-10-31T17:52:01.745405+00:00",
+      "modified": "2024-10-31T17:52:01.745421+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00011/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1349/iiif/manifest/"
           }
         },
         "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1587.3,572.7 932.7,589.1 196.4,654.5 327.3,4074.5 1096.4,4099.1 1538.2,4009.1 2053.6,4033.6 2012.7,2552.7 1963.6,744.5 1840.9,703.6\"></polygon></svg>"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, column II (left side)",
+          "value": "<p></p>\n<ol>\n<li>Shirkat b, al-Maq\u0101ni\u02bf\u012bya, 9\u00be.</li>\n<li>D\u0101r b. Th\u0101bit, 12.</li>\n<li>Total, 205.</li>\n<li>Expenditures: Repairs in D\u0101r b. Pin\u1e25\u0101s:</li>\n<li>al-N\u0101g\u012bd, pillars, 3. For 10 days,</li>\n<li>beginning Friday, 8 Rab\u012b\u02bf al-awwal: Gypsum, 4\u00be.</li>\n<li>A meal, 1\u00bc. Mawh\u016bb and two helpers, 10. The overseer, 1\u00bd.</li>\n<li>Thursday, 14 Rab\u012b\u02bf al-awwal:</li>\n<li>A meal, 1. Bricks, 2. Mawh\u016bb and an apprentice, 7.</li>\n<li>Two helpers, 5. Gypsum, 1\u00bd. The overseer 1\u00bd. A tip, \u00bd.</li>\n<li>Olive oil, two ra\u1e6dls plus three ra\u1e6dls (?)</li>\n<li>A tip, 2\u00bd.. A carpenter in D\u0101r b. Y\u014dn\u0101, \u00bd \u2153</li>\n<li>B. al-Mu\u02bfallima, 9\u00bd. \u1e24ikr for \u1e62afar, 23.</li>\n<li>A carpenter in al-Burj, \u00bc \u2153. The son of the N\u0101s\u012b, 40.</li>\n<li>For teaching, to R. Solomon, in Iyyar and Siwan, 6.</li>\n<li>Oil for burning to the Synagogue of the Palestinians for the month of Tammuz \u2026.</li>\n<li>Garbage removal from D\u0101r b. Nathan, 5. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     }
