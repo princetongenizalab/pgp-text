@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"749aedbdade2348cf937f52b733e96b5\"",
       "id": "https://geniza.princeton.edu/annotations/4a5ec53d-d5b9-47fe-9487-c26fce87b79b/",
       "type": "Annotation",
       "created": "2022-10-07T00:36:58.291790+00:00",
       "modified": "2022-10-07T00:36:58.291808+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-50-14/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/555/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"7e32adfa7d88b7f794573b221a2159ee\"",
+      "id": "https://geniza.princeton.edu/annotations/1afc636f-9f5f-42dc-bb1e-9b4e18286f9b/",
+      "type": "Annotation",
+      "created": "2024-11-04T22:07:45.570105+00:00",
+      "modified": "2024-11-04T22:07:45.570119+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-50-14/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/555/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/555/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:324.7929382324219,290.9603271484375,2480.084503173828,6203.8087158203125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>Spent in D\u0101r b. Pin\u1e25as</li>\n<li>on the date of Thursday, the 6th</li>\n<li>of Marheshwan, 127 of the documents:</li>\n<li>(4-5): a crowbar, \u00bc. The weigher of the lime, \u00bd. Transportation, 1\u00bd.</li>\n<li>\u00a0</li>\n<li>(6-7) The apartment, \u00bc. A meal, 1\u00bd. The axe (axes?) \u00bc. A rope, \u00be.</li>\n<li>\u00a0</li>\n<li>(8-9) Clay, 8\u00bd. Special masons, 12. Supervision, 2.</li>\n<li>\u00a0</li>\n<li>The second day:</li>\n<li>(11-12) For lime, 15. Special masons, 17. Supervision, 2</li>\n<li>\u00a0</li>\n<li>and a meal,</li>\n<li>2.</li>\n<li>Repairs on the tenth:</li>\n<li>(16-17) A meal, 2. Special masons, 18. For soil, 3\u00bd.</li>\n<li>\u00a0</li>\n<li>Supervision,</li>\n<li>2.</li>\n<li>During the last ten days of this (month):</li>\n<li>(21-22) Pillars, 10. Transportation, \u00bd.</li>\n<li>\u00a0</li>\n<li>(23-24) Helpers and a mason, 12\u00bd. A ladder, \u00bc.</li>\n<li>\u00a0</li>\n<li>Supervision,</li>\n<li>2.</li>\n</ol>\n<p></p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
