@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"72354fe5f7f07f65d272bdf9b465a520\"",
+      "id": "https://geniza.princeton.edu/annotations/a3112e6f-78a5-42d2-810c-287251db2b2e/",
+      "type": "Annotation",
+      "created": "2024-11-04T21:08:00.615469+00:00",
+      "modified": "2024-11-04T21:08:00.615487+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/479/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/479/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:25,11,375,245",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>D\u0101r b. Pin\u1e25as:</li>\n<li>The daughter of al-\u1e24amishsh\u012b, 3.</li>\n<li>Shirkat al-Q\u0101\u1e0d\u012b:</li>\n<li>The mother of \u1e24uwayt, 1. The mother of (A)b\u016b\u02bel-\u02bfIzz, 1\u00bd,</li>\n<li>Shirkat (A)b\u016b Man\u1e63\u016br, 2\u00bd,</li>\n<li>Shirkat b. \u02bfAlam al-Dawla, 1.</li>\n<li>D\u0101r \u02bfAbla, 2\u00bd,</li>\n<li>D\u0101r al-Zajj\u0101j:</li>\n<li>Sulaym\u0101n, 5. (A)b\u016b Mu\u1e25ammad, 2.</li>\n<li>(A)b\u016b\u02bel-\u1e24asan, 2. The funduq, 40.</li>\n<li>Ab\u016b\u02bel-Sur\u016br, for the q\u0101\u02bfa, 5.</li>\n<li>(Total), 171. Owed by him,</li>\n<li>207.</li>\n<li>Total,</li>\n<li>378.</li>\n<li>Spent of it:</li>\n<li>For nightwatch, Dh\u016b\u02bel-\u1e25ijja, 20.</li>\n<li>The remainder of the \u1e25ikr, Dh\u016b\u02bel-\u1e25ijja, 5\u00bc,</li>\n<li>Nightwatch for al-Jaz\u012bra, 1.</li>\n<li>A tip on account of a wall in D\u0101r</li>\n<li>al-Zajj\u0101j, 4.</li>\n<li>\u1e6c\u0101hir, for 3 weeks, 3.</li>\n<li>For zab\u012bb for the havd\u0101l\u0101, 1.</li>\n<li>Removal of garbage from D\u0101r al-Zayt, 5.</li>\n<li>Collection (fees), 15.</li>\n<li>Paid to myself, for Av, 30. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"18b47b14681846eea15a22ffb264f98e\"",
       "id": "https://geniza.princeton.edu/annotations/90f6b1d9-90c4-43bf-a2bc-985e4034acbb/",
       "type": "Annotation",
       "created": "2022-10-07T01:22:20.253538+00:00",
       "modified": "2022-10-07T01:22:20.253551+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/479/iiif/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/479/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://geniza.princeton.edu/documents/479/iiif/canvas/2/",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/479/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
