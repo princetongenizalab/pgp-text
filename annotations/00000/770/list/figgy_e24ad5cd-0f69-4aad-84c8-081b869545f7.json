@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"b7bac7b18f8c017ce5ed864309d0d475\"",
       "id": "https://geniza.princeton.edu/annotations/9f011cad-8083-4c14-b8ca-e8b2155d62a0/",
       "type": "Annotation",
       "created": "2022-10-07T01:04:05.216345+00:00",
       "modified": "2022-10-07T01:04:05.216365+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e2737ccd-eb76-4cb1-a7b5-b6bb11129b03/manifest/canvas/e24ad5cd-0f69-4aad-84c8-081b869545f7",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"cd555b43371799f4e203ab5993200e8b\"",
+      "id": "https://geniza.princeton.edu/annotations/4fd82149-8780-4815-93da-e2be3d783aac/",
+      "type": "Annotation",
+      "created": "2024-11-12T18:53:33.419207+00:00",
+      "modified": "2024-11-12T18:53:33.419219+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/e2737ccd-eb76-4cb1-a7b5-b6bb11129b03/manifest/canvas/e24ad5cd-0f69-4aad-84c8-081b869545f7",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/"
           }
         },
         "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3808.53466796875,2970.88037109375 2088.55126953125,2758.674560546875 1664.1397705078125,5595.5302734375 1887.51416015625,5830.0732421875 3506.97900390625,6064.61669921875 3708.01611328125,4523.3330078125 3797.36572265625,3439.966796875 3819.703369140625,3049.061279296875 3842.040771484375,3066.888671875\"></polygon></svg>"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p></p>\n<ol>\n<li>(1-7) AI-Kohen al-Shaykh Ab\u016b\u02bel-Munajj\u0101 al-Z\u0101r\u012bz, the collector of the of the heqd\u0113sh in al-Q\u0101hira al-Ma\u1e25r\u016bsa (which is under) the authority of our Lord and G\u0101\u02be\u014dn Sar-Sh\u0101l\u014dm ha-Levi Ge\u02be\u014dn Ya\u02bfaq\u014dv, may His Glory be exalted, amen, presented (the account) of the (sum) spent from the rent of the above-mentioned estate for the distribution of clothes on the date</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>of Wednesday, the 22nd of</li>\n<li>the\u00a0 month of Teveth 1493,3 in waraq,</li>\n<li>100 dir. Also, what was spent out of</li>\n<li>the balance left from the account of the rent of</li>\n<li>Tishri and Marheshwan: 50 dir.,</li>\n<li>spent of it according to a verified account,</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

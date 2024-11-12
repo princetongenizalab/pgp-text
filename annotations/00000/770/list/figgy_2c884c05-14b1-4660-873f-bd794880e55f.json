@@ -4,10 +4,60 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"4b2c988ba659531c9b8bdf201d1b7897\"",
+      "id": "https://geniza.princeton.edu/annotations/3da73d06-7a97-4432-b1fb-028a34105e35/",
+      "type": "Annotation",
+      "created": "2024-11-12T18:54:33.989118+00:00",
+      "modified": "2024-11-12T18:54:33.989135+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e2737ccd-eb76-4cb1-a7b5-b6bb11129b03/manifest/canvas/2c884c05-14b1-4660-873f-bd794880e55f",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"3069.898193359375,2579.68310546875 1464.39404296875,2835.633056640625 1596.2470703125,4588.50244140625 1704.8319091796875,5573.52197265625 2015.07421875,6062.1533203125 2806.192138671875,6000.10498046875 3628.33447265625,5782.935546875 3550.77392578125,4945.28125 3457.701171875,4797.916015625 3341.3603515625,4014.553955078125 3170.72705078125,3083.826904296875\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>of the rent of Tishri and Marheswan.</li>\n<li>The above mentioned Kohen also presented a note</li>\n<li>signed by our Master al-Dayy\u0101n R. Isaac</li>\n<li>in which he mentions that he owes a balance from</li>\n<li>the rent for the month of Elul 1492,</li>\n<li>70\u00be\u00a0 dir.</li>\n<li>Al-Z\u0101r\u012bz mentioned that 30 dir. were spent for the children of</li>\n<li>the N\u0101s\u012b. For the guardians of the estates,</li>\n<li>as prepayment for the nightwatch of six months</li>\n<li>ending on the last (day) of Iyyar 1493, 15.</li>\n<li>Removal of garbage, and the darr\u0101b, 6.</li>\n<li>For the balance due for purchasing five palm branches, 8.</li>\n<li>Paid by him for removal\u00a0 of garbage, 7\u00bc,</li>\n<li>Paid to him, as collection fee,</li>\n<li>4\u00bd, Total, 70</li>\n<li>dir. and \u00be. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"504d0d30c45892d39f878be8cecafd6e\"",
       "id": "https://geniza.princeton.edu/annotations/02d393fd-0204-429d-a4cc-db805784269b/",
       "type": "Annotation",
       "created": "2022-10-07T01:04:05.226633+00:00",
       "modified": "2022-10-07T01:04:05.226649+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e2737ccd-eb76-4cb1-a7b5-b6bb11129b03/manifest/canvas/2c884c05-14b1-4660-873f-bd794880e55f",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +67,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/e2737ccd-eb76-4cb1-a7b5-b6bb11129b03/manifest/canvas/2c884c05-14b1-4660-873f-bd794880e55f",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/770/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
