@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-J-00001-00032%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1317%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"fa8ef8cc7088fb651bf5e24ff24c5b30\"",
+      "id": "https://geniza.princeton.edu/annotations/d889084f-c730-4d06-a2c3-d11283c1f5a2/",
+      "type": "Annotation",
+      "created": "2024-11-17T04:35:07.622292+00:00",
+      "modified": "2024-11-17T04:35:07.622310+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-J-00001-00032/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1317/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:231.40322875976562,405.9040222167969,1801.9103698730469,2522.674591064453",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>(1-2, canceled) A mason, 2. Helpers, 7\u00bd.</li>\n<li>\u00a0</li>\n<li>(3-4, canceled) A meal, 1\u00bd. Removal of garbage, and clay, 3\u00bd.</li>\n<li>\u00a0</li>\n<li>(5-6) Allowance for Purim, 3. The guardian of the quarter, 2.</li>\n<li>\u00a0</li>\n<li>(7-8) Gypsum for D\u0101r Ab\u012b\u02bel-Mun\u0101, 5\u00bd + \u215b. Paid for collection to al-Shaykh Ab\u016b\u02bel-Faraj b. Daniel, 32.</li>\n<li>\u00a0</li>\n<li>(9-11) Removal of garbage, and clay, 3\u00bd. Removal of garbage, and clay, 3\u00bd.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>(12-13) \u2026.210. Ibn al-Dajj\u0101j\u012b al-\u02beA\u1e6d\u1e6d\u0101r. Ibn al-J\u0101b\u012b Ab\u016b\u02bel-\u02bfIzz. \u00a0 \u00a0 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
