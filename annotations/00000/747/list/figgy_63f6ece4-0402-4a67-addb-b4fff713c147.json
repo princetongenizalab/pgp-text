@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F543b82e3-e2e6-4f50-a9f5-95cb5e59df4a%2Fmanifest%2Fcanvas%2F63f6ece4-0402-4a67-addb-b4fff713c147&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F747%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"0584b161896799dd7f1261ebce0a8ee0\"",
+      "id": "https://geniza.princeton.edu/annotations/3e8f88e1-8d11-4218-890d-e62735bbab91/",
+      "type": "Annotation",
+      "created": "2024-11-17T03:53:47.748514+00:00",
+      "modified": "2024-11-17T03:53:47.748530+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/543b82e3-e2e6-4f50-a9f5-95cb5e59df4a/manifest/canvas/63f6ece4-0402-4a67-addb-b4fff713c147",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2841.21875,457.9875183105469,1848.91259765625,5266.856231689453",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column I (right side)",
+          "value": "<p></p>\n<ol>\n<li>(1-2) The said al-Shaykh Ab\u016b\u02bel-\u1e6c\u0101hir collected</li>\n<li>\u00a0</li>\n<li>(from) the \u1e6dubayqa for Nisan</li>\n<li>of the year [15]33</li>\n<li>\u2026.of Nisan</li>\n<li>of the year [15]34,</li>\n<li>(7-8) 132.</li>\n<li>\u00a0</li>\n<li>Also, owed to al-Shaykh Ab\u016b\u02bel-\u1e6c\u0101hir</li>\n<li>by al-Shaykh \u27e6Abraham\u27e7</li>\n<li>Ibr\u0101h\u012bm al-Parn\u0101s,</li>\n<li>38\u00bd.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"603ad5899419aed030ae2cf672e22693\"",
+      "id": "https://geniza.princeton.edu/annotations/2b767af2-d2a8-4ff7-93e8-7dedd100cd62/",
+      "type": "Annotation",
+      "created": "2024-11-17T03:54:17.208316+00:00",
+      "modified": "2024-11-17T03:54:17.208365+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/543b82e3-e2e6-4f50-a9f5-95cb5e59df4a/manifest/canvas/63f6ece4-0402-4a67-addb-b4fff713c147",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:754.831298828125,831.1625366210938,1976.13134765625,5377.112854003906",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column II (left side)",
+          "value": "<p></p>\n<ol>\n<li>Owed to al-Shaykh Ab\u016b\u02bel-\u1e6c\u0101hir, the beadle of the Synagogue,</li>\n<li>by al-Shaykh Ibr\u0101h\u012bm,</li>\n<li>for the month of Adar,</li>\n<li>1\u00bd dir.</li>\n<li>(5-6) Al-Faq\u012bh, 3\u00bd \u2026., 2\u00bd.</li>\n<li>\u00a0</li>\n<li>(7-9) A carpenter, 1\u00bd. A debt, 2 q\u012br\u0101ts. Palm branches,</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>2\u00be.</li>\n<li>A debt,</li>\n<li>from Saturday,</li>\n<li>2 dir.</li>\n<li>\u2026. A rope for the well,</li>\n<li>\u2026.1\u00bd dir.</li>\n<li>\u2026. A carpenter \u2026.</li>\n<li>\u2026. \u00be\u00a0</li>\n<li>dir.\u00a0 \u00a0 \u00a0 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}

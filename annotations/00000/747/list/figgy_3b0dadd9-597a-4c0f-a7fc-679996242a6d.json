@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"9f25c3683985d59b366f8e263bb81180\"",
       "id": "https://geniza.princeton.edu/annotations/dfe23519-7fdc-4b33-a568-44d05e89a554/",
       "type": "Annotation",
       "created": "2022-10-07T01:07:31.007008+00:00",
       "modified": "2022-10-07T01:07:31.007028+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05d5\u05e2\u05df \u05e9\u05d4\u05e8 \u05e1\u05d9\u05d5\u05df II</li>\n</ol>\n<p>\u05d0\u05dc\u05db\u05e0\u05d9\u05e1\u05d4</p>\n<ol>\n<li>\u05d0\u05dc\u05d2\u05de\u05dc\u05d4</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/543b82e3-e2e6-4f50-a9f5-95cb5e59df4a/manifest/canvas/3b0dadd9-597a-4c0f-a7fc-679996242a6d",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,12 +24,89 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d5\u05e2\u05df \u05e9\u05d4\u05e8 \u05e1\u05d9\u05d5\u05df II</li>\n</ol>\n<p>\u05d0\u05dc\u05db\u05e0\u05d9\u05e1\u05d4</p>\n<ol>\n<li>\u05d0\u05dc\u05d2\u05de\u05dc\u05d4</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "etag": "\"596e528be2fb7de3805a6bb8e44c48eb\"",
+      "id": "https://geniza.princeton.edu/annotations/3683c8f6-a532-497d-b2ca-edf8adca8def/",
+      "type": "Annotation",
+      "created": "2024-11-17T03:52:08.945034+00:00",
+      "modified": "2024-11-17T03:52:08.945053+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/543b82e3-e2e6-4f50-a9f5-95cb5e59df4a/manifest/canvas/3b0dadd9-597a-4c0f-a7fc-679996242a6d",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2832.737548828125,525.8375244140625,2001.574951171875,5835.0999755859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, column I (right side)",
+          "value": "<ol>\n<li>To al-Faq\u012bh for the year</li>\n<li>[15]34,</li>\n<li>3\u00bd.</li>\n<li>Total,</li>\n<li>27 dir.</li>\n<li>\u27e627\u27e7 dir.</li>\n<li>Owed to al-Shaykh Ab\u016b\u02bel-\u1e6c\u0101hir</li>\n<li>for oil for the synagogue:</li>\n<li>(9-10): For the month of Nisan, 26 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>For Iyyar,</li>\n<li>16 ra\u1e6dls.</li>\n<li>For the month of Siwan,</li>\n<li>21.</li>\n<li>For Tammuz and Av,</li>\n<li>32</li>\n<li>ra\u1e6dls.</li>\n</ol>\n<p></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"45ffd937c1b489a6d56a3f33c6cdf90e\"",
+      "id": "https://geniza.princeton.edu/annotations/f846d004-e20b-4be0-809c-d3dbe30aa963/",
+      "type": "Annotation",
+      "created": "2024-11-17T03:53:07.065660+00:00",
+      "modified": "2024-11-17T03:53:07.065681+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/543b82e3-e2e6-4f50-a9f5-95cb5e59df4a/manifest/canvas/3b0dadd9-597a-4c0f-a7fc-679996242a6d",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/747/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:800.4564819335938,584.6920776367188,2043.4490356445312,5801.317199707031",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, column II (left side)",
+          "value": "<ol>\n<li>(For Elul,) 16 ra\u1e6dls</li>\n<li>a month.</li>\n<li>(For Tishri,) 31 ra\u1e6dls.</li>\n<li>For Marcheshwan and Kislev,</li>\n<li>32 ra\u1e6dls.</li>\n<li>For Teveth and Shevat,</li>\n<li>32 ra\u1e6dls</li>\n<li>For Adar I and Adar</li>\n<li>II, 32 ra\u1e6dls.</li>\n<li>For the month of Nisan,</li>\n<li>26.</li>\n<li>For the month of Iyyar,</li>\n<li>16 ra\u1e6dls.</li>\n<li>Total,</li>\n<li>\u27e6ra\u1e6dls\u27e7 264.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
