@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00054-00015-A%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1274%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"977763f28e898685f9e5edb0b63aa42b\"",
+      "id": "https://geniza.princeton.edu/annotations/ef4cebf2-2d8c-4919-a637-c4e2ee1777f9/",
+      "type": "Annotation",
+      "created": "2024-11-17T22:35:37.827886+00:00",
+      "modified": "2024-11-17T22:35:37.827906+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2699.302734375,328.6973876953125,2300.8818359375,6225.3289794921875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>III:</p>\n<p></p>\n<ol>\n<li>Record of sums spent by al-Shaykh Ab\u016b\u02bel-Sur\u016br</li>\n<li>as he found it necessary:</li>\n<li>To Waf\u0101, 1 dinar. To Yeh\u016bd\u0101 and Gh\u0101lib, 8.</li>\n<li>Lime, including transportation, 2. Slaking of lime and depositing of wood, 20.</li>\n<li>Workers in clay, 11. Slaking of lime, \u00bd.</li>\n<li>3 \u1e25imls of pebbles, 4\u00bd. Gh\u0101lib, 3.</li>\n<li>Gypsum and other things, 21\u00bd. A helper, 3\u00bd.</li>\n<li>Their meal, 1. Slaking of lime, \u00bd.</li>\n<li>A worker in lime, 4. A helper, 3\u00bd.</li>\n<li>Their meal, 1. Oakum, 3\u00bd.</li>\n<li>Total, in gold, 1 dinar.</li>\n<li>(In waraq) 86\u00bd.</li>\n<li>Plus,</li>\n<li>the edge of the grating, 1\u00bc. Blocking up of the door, 3.</li>\n<li>A carpenter, 4. 1\u00bd ra\u1e6dl nails, 4.</li>\n<li>His meal, \u00bd. (Total,) 12\u00be.</li>\n<li>Transportation of wood and its unloading, 14\u00bd.</li>\n<li>Total, 15.\u00a0 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
