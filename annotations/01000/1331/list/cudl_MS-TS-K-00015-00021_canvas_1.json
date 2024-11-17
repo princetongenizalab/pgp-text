@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"2abf5392c7f8d544a9de42ed591e5bac\"",
+      "id": "https://geniza.princeton.edu/annotations/c408f27b-e28e-4018-9dbc-703fdc994c8e/",
+      "type": "Annotation",
+      "created": "2024-11-17T04:54:54.646423+00:00",
+      "modified": "2024-11-17T04:54:54.646438+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00021/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:311.5150146484375,195.95298767089844,2095.1895751953125,2466.9979400634766",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Side b:",
+          "value": "<ol>\n<li>The two sums and the sum left by (A)b\u016b\u02bel-Ri\u1e0d\u0101, 80 dir.</li>\n<li>428, plus 3, plus 200.</li>\n<li>(3-6) From al-F\u0101m\u012b, 13. From the Christian in al-Burj, 2. Total, 523.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>(7-8) Spent for the Master, the N\u0101s\u012b, May God preserve him, 100, 200, 5.</li>\n<li>\u00a0</li>\n<li>(9-10) Collected for him: In waraq, 30. Fowl, hens, 16. Barley, two times, 6 and 3.</li>\n<li>\u00a0</li>\n<li>(11-12) One irdabb barley, 16. Straw and a sack, 6. Fowl, hens, 10 dir.\u00a0\u00a0</li>\n<li></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"81156b192ed2871fc01d0985b766e62d\"",
       "id": "https://geniza.princeton.edu/annotations/c237c9fc-bd31-46d3-abc3-42dd546a40e2/",
       "type": "Annotation",
       "created": "2022-10-07T01:41:45.971961+00:00",
       "modified": "2022-10-07T01:41:45.971973+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00021/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00021/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

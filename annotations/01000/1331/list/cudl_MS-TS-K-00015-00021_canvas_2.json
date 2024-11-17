@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"b25e9250f02ce877f32d0ae1abbab560\"",
       "id": "https://geniza.princeton.edu/annotations/6eabe3b0-90c3-4b56-8a59-27b411aee54d/",
       "type": "Annotation",
       "created": "2022-10-07T01:41:45.962820+00:00",
       "modified": "2022-10-07T01:41:45.962839+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"8e69f0039f714ff17645b23417c64bf7\"",
+      "id": "https://geniza.princeton.edu/annotations/238f00ff-bfc3-4f68-ad81-9e477712dda8/",
+      "type": "Annotation",
+      "created": "2024-11-17T04:54:16.521586+00:00",
+      "modified": "2024-11-17T04:54:16.521601+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00021/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1331/iiif/manifest/"
           }
         },
         "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"1955.6,308 694.3,224.9 532.9,528 435.1,1686.7 498.7,2381 1153.8,2429.9 1388.5,2610.8 2244.1,2659.7 2312.5,1911.6 2341.9,361.8\"></polygon></svg>"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Side a:",
+          "value": "<p></p>\n<ol>\n<li>Collected from b. (A)b\u016b\u02bel-Zunn\u0101r\u012b, for the repairs of his house:</li>\n<li>(A)b\u016b\u02bel-Mun\u0101 al-F\u0101m\u012b, 16.</li>\n<li>From the same, 15.</li>\n<li>From the same, 15, paid to the two apprentices for the woman.</li>\n<li>From the\u00a0 same, 15.</li>\n<li>From al-Thiqa al-J\u0101b\u012b, 30.</li>\n<li>From b. al-Dajj\u0101j\u012b, 2.</li>\n<li>From the widow .... her husband, Ab\u016b \u02bfImr\u0101n.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
