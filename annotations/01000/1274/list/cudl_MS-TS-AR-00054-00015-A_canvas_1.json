@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"109664b6f742f193cfe18f823a3fc5eb\"",
       "id": "https://geniza.princeton.edu/annotations/a6a5d5b9-7a30-4d70-8dc3-f8cb8065b37f/",
       "type": "Annotation",
       "created": "2022-10-07T01:45:12.655993+00:00",
       "modified": "2022-10-07T01:45:12.656012+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,59 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"01cc0800792848a3b17c6cc879eea168\"",
+      "id": "https://geniza.princeton.edu/annotations/a4dad7d2-eee1-4f07-9816-f8f4d71ffdb8/",
+      "type": "Annotation",
+      "created": "2024-11-17T22:34:28.409428+00:00",
+      "modified": "2024-11-17T22:34:28.409445+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:246.7105255126953,345.3947448730469,4835.526290893555,7263.157989501953",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>I:</p>\n<ol>\n<li>Thursday:</li>\n<li>2 workers in clay, \u00bd (?). Oakum, 6. N\u0101sh\u016bsh, 2.</li>\n<li>Meal for the special masons, 2\u00bd, 4 helpers, 12\u00bd.</li>\n<li>1 \u1e25iml lime, 6\u00bd. Masons, 10.</li>\n<li>Their helper, one day, 2. A worker in gypsum, \u00bd.</li>\n<li>A gutter, 3. Their mason, 1</li>\n<li>(Total) 46.</li>\n<li>Friday:</li>\n<li>1 \u1e25iml floor tiles, \u00bd. 1 helper, \u00bd.</li>\n<li>A worker in gypsum, 1 nisf. A meal, \u00bd.</li>\n<li>Pavers, 10. AI-Qamala (?), 3\u00bd.</li>\n<li>The master, 7. Their apprentice, 1.</li>\n<li>Their meal, 1\u00bd. Gh\u0101lib, 4</li>\n<li>A helper, 3\u00bd.</li>\n<li>In gold, 1 nisf.</li>\n<li>Waraq, 32\u00bd.</li>\n<li>Sunday:</li>\n<li>Helpers, 7\u00bd. Oakum, 6.</li>\n<li>Workers in clay, 10. Clay, 4.</li>\n<li>Palm branches, 1. Masons, 10.</li>\n<li>(Total) 38\u00bd.</li>\n<li>Monday:</li>\n<li>Masons, 10. 3 helpers, 8.</li>\n<li>Cutting of floor tiles, 1. Meal of the special masons, 5\u00bd.</li>\n<li>A worker in lime, 6\u00bd. A worker in lime, 6.</li>\n<li>A worker in gypsum, 1 nisf. (Total,) in gold, 1 nisf.</li>\n<li>(In waraq,) 37.</li>\n</ol>\n<p>II:</p>\n<p></p>\n<ol>\n<li>Tuesday:</li>\n<li>Pebbles, 6. A worker in lime, 6\u00bd.</li>\n<li>Workers in lime, 12. 3 pavers, 10\u00bd.</li>\n<li>Helpers, 7. Clay, 5.</li>\n<li>Masons, 10. Workers in clay, 9.</li>\n<li>Gh\u0101lib, 3\u00bd. His meal, \u00bd.</li>\n<li>Gypsum, 1 nisf. (Total,) in gold, 1 nisf.</li>\n<li>(In waraq,) 70.</li>\n<li>Wednesday:</li>\n<li>Workers in lime, 11\u00bd. Pavers, 7.</li>\n<li>(11-12) Helpers, 6. Meal for Gh\u0101lib, \u00bd. (Total,) 25.</li>\n<li>\u00a0</li>\n<li>Thursday:</li>\n<li>A worker in lime, 7. Floor tiles, 3\u00bd.</li>\n<li>Gh\u0101lib, 3\u00bd, Pavers and a helper, 13.</li>\n<li>Pebbles, 6. A helper, 4.</li>\n<li>Gypsum, 1 nisf. Workers in clay, 9.</li>\n<li>(Total,) in gold, 1 nisf.</li>\n<li>In waraq, 46.</li>\n<li>Friday:</li>\n<li>A worker in gypsum, 1. Oakum, 3.</li>\n<li>A karr\u0101kh, 4\u00bd. A meal, 1\u00bd</li>\n<li>Twigs, 7. A carpenter \u2026.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"9cc8ed90dac64d30a551456c7962f489\"",
+      "id": "https://geniza.princeton.edu/annotations/84e65f66-74aa-48df-ac64-ff2cff32c452/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:45:12.663879+00:00",
+      "modified": "2022-10-07T01:45:12.663891+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +94,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/84e65f66-74aa-48df-ac64-ff2cff32c452/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:45:12.663879+00:00",
-      "modified": "2022-10-07T01:45:12.663891+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +103,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"476dd2e3125437c90d61848936fb280d\"",
+      "id": "https://geniza.princeton.edu/annotations/05617fa8-bb91-4621-b3ae-ab38418ab6cb/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:45:12.671718+00:00",
+      "modified": "2022-10-07T01:45:12.671730+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,18 +130,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/05617fa8-bb91-4621-b3ae-ab38418ab6cb/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:45:12.671718+00:00",
-      "modified": "2022-10-07T01:45:12.671730+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -89,22 +139,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00054-00015-A/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1274/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
