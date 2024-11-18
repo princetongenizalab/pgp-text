@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f9587e51d98ffb710252fcc507cfe860\"",
       "id": "https://geniza.princeton.edu/annotations/02959911-0721-4d7e-a57c-678e26d4acda/",
       "type": "Annotation",
       "created": "2022-10-07T02:03:30.882342+00:00",
       "modified": "2022-10-07T02:03:30.882360+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00100/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1327/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"820820115acb87fae831664d08c5e476\"",
+      "id": "https://geniza.princeton.edu/annotations/f9b4421e-e180-48df-8926-53316681968c/",
+      "type": "Annotation",
+      "created": "2024-11-18T04:35:21.231423+00:00",
+      "modified": "2024-11-18T04:35:21.231440+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00100/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1327/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1327/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:189.3579559326172,308.2296142578125,1972.3988800048828,3887.1253662109375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p></p>\n<ol>\n<li>Record of the sum of the repairs</li>\n<li>made in the large \u1e6dabaqa,</li>\n<li>Shirkat al-Dayy\u0101n R. Menash\u0113, may God preserve him, (being)</li>\n<li>the apartment of his son, al-Shaykh Joseph:</li>\n<li>The first day, that is, Thursday, 15</li>\n<li>Iyyar: Clay, 2. Gypsum, 2.</li>\n<li>Gypsum, 12\u00bc \u2153. A layer of clay pipes, \u00be.</li>\n<li>A meal, 1\u00bc. Helpers, 2\u00bc. A special mason, 2\u00bc</li>\n<li>Supervision, 1. A water carrier, 1\u00bd.</li>\n<li>Friday \u2026.</li>\n<li>Gypsum, 6. Water, 2. A meal, 1\u00bc, A special mason, 5.</li>\n<li>Helpers, 4\u00bd. Pillars, 1. A layer of clay pipes, \u00bc.</li>\n<li>A carpenter, \u00be. Sunday:</li>\n<li>Gypsum, 9. A gift, \u00bc + \u2153. 2 special masons, 4.</li>\n<li>Helpers, 5. A water carrier, 1\u00bd. Clay, 1. A meal, 1\u00bc.</li>\n<li>Total, 68\u00bc.</li>\n<li>Monday, the following day, sawyers, 11.</li>\n<li>\u2026. N\u0101sh\u016bsh and transportation, 16\u00bd.\u00a0\u00a0</li>\n<li>\u2026. Tuesday,</li>\n<li>\u2026. a carpenter, 4. A helper, 2\u00bd.\u00a0 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
