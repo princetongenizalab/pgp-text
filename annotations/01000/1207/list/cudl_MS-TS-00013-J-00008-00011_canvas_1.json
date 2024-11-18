@@ -107,6 +107,41 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "etag": "\"de70d4d904f95a1bfa777b501a2341a9\"",
+      "id": "https://geniza.princeton.edu/annotations/234c5f98-95dd-4beb-9e0b-96cac7471358/",
+      "type": "Annotation",
+      "created": "2024-11-18T04:15:18.048459+00:00",
+      "modified": "2024-11-18T04:15:18.048474+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00008-00011/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1207/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1806.9676513671875,6971.583984375,903.7498779296875,406.6875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, bottom margin",
+          "value": "<ol>\n<li>Joseph b. Akh\u016b\u02beI-Jayyid.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
     }
   ]
 }
