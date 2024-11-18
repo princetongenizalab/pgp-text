@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"6e10243a48566712ae94229359bddf90\"",
       "id": "https://geniza.princeton.edu/annotations/1d36fd4a-bd4b-47ce-abbd-cf04e4180b47/",
       "type": "Annotation",
       "created": "2022-11-06T22:24:32.264834+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"357c65f9a1e2a953665ad94050fb2430\"",
+      "id": "https://geniza.princeton.edu/annotations/e5350567-1753-4e65-81f6-1156dd13a735/",
+      "type": "Annotation",
+      "created": "2024-11-18T20:56:30.219473+00:00",
+      "modified": "2024-11-18T20:56:30.219485+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/920/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/86288076-3e5c-4c1e-a952-073a065da679/manifest/canvas/4e76955e-a445-4c92-befb-d3361e18ca05",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11064/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:979.973388671875,664.5796508789062,5102.619873046875,7118.887145996094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>\u2026 and fortune in \u2026\u00a0</p>\n</li>\n<li>\n<p>I unsheathed an intent to serve in [...] the mis[sion](?) \u2026</p>\n</li>\n<li>\n<p>[from] on top of pulpits, and spreading the kernels of the speech of truth about the loftiest of generous traits, and I flew\u00a0</p>\n</li>\n<li>\n<p>the banner of my tribe/companions and softened their spirits until they arrived in al-Sh\u0101m</p>\n</li>\n<li>\n<p>\u2026 the necks \u2026 \u00a0 </p>\n</li>\n</ol>\n<p></p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
