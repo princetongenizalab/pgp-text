@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00051-00144%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1266%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"89ee066468c13a411b0a17ba0063fa2a\"",
+      "id": "https://geniza.princeton.edu/annotations/6c214c8e-adb3-49b6-9ff4-0d6499e65cc8/",
+      "type": "Annotation",
+      "created": "2024-11-19T17:44:48.116418+00:00",
+      "modified": "2024-11-19T17:44:48.116444+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00051-00144/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1266/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2295.45166015625,199.9264373779297,1873.384765625,4198.45539855957",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Column b (recto, right side)",
+          "value": "<p></p>\n<ol>\n<li>D\u0101r al-Burj:</li>\n<li>The apartment of (A)b\u016b Sa\u02bf\u012bd n. Nu\u1e63ayr, 12.</li>\n<li>The q\u0101\u02bfa, the apartment of \u1e6c\u0101hir the blind man, 3.</li>\n<li>The apartment of b. Zikr\u012b, 12.</li>\n<li>(A)b\u016b\u02bel-Majd al-Parn\u0101s, 1.</li>\n<li>The brother of (A)b\u016b\u02bel-Wa\u1e25sh, 6.</li>\n<li>D\u0101r b. Pin\u1e25as:</li>\n<li>Ab\u016b Sahl al-Zajj\u0101j, 13.</li>\n<li>D\u0101r b. Azhar:</li>\n<li>The q\u0101\u02bfa, for half a month, \u00bd.</li>\n<li>The mother of \u1e24uwayt, 1\u00bd.</li>\n<li>The mother of Ab\u016b\u02bel-\u02bfIzz, 2.</li>\n<li>Shirkat (A)b\u016b Man\u1e63\u016br al-Kohen, 3.</li>\n<li>Shirkat b. \u02bfAlam al-Dawla:</li>\n<li>The q\u0101\u02bfa, 2. The \u1e6dabaqa \u2026.\u00a0</li>\n<li>D\u0101r \u02bfAbla:</li>\n<li>The mustaraqa, 20\u00bd.</li>\n<li>D\u0101r b. \u1e6c\u012bb\u0101n,</li>\n<li>the \u1e6dabaqa, 5.</li>\n<li>D\u0101r al-Zajj\u0101j,</li>\n<li>\u02bf\u012as\u0101, 5\u00bd \u2026. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
