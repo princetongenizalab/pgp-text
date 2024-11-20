@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00006-00054%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1355%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"1a602ae4eaeb841476952346b5bd0dbd\"",
+      "id": "https://geniza.princeton.edu/annotations/4516eabd-4851-423e-a06d-cbe85339bfb4/",
+      "type": "Annotation",
+      "created": "2024-11-20T17:10:34.001453+00:00",
+      "modified": "2024-11-20T17:10:34.001470+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00054/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1355/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2549.15576171875,222.92996215820312,2151.7587890625,1705.8988952636719",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column c (right side)",
+          "value": "<ol>\n<li>Column c:</li>\n<li>Labwa:</li>\n<li>The first (period) owed by her on the first of Rama\u1e0d\u0101n</li>\n<li>of the year [58]7, the rent for her apartment, 1\u00bd each month.</li>\n<li>(4-7) Paid in full to him by Labwa, Rab\u012b\u02bf of the year [58]8.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"4ba6018f6acb7e444688bab53e744b82\"",
+      "id": "https://geniza.princeton.edu/annotations/645ff2dd-3f36-4e2e-b83c-196cce6c2cdd/",
+      "type": "Annotation",
+      "created": "2024-11-20T17:11:12.256160+00:00",
+      "modified": "2024-11-20T17:11:12.256178+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00054/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1355/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:242.315185546875,164.77432250976562,2277.7626953125,2907.7820739746094",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column d (left side)",
+          "value": "<p></p>\n<ol>\n<li>AI-Shaykh Ab\u016b\u02bel-\u1e6c\u012bb</li>\n<li>(canceled: owes from the beginning of the year[58]7, 1 dinar)</li>\n<li>owes for teaching</li>\n<li>from the month Rab\u012b\u02bf</li>\n<li>of the year [58]8.</li>\n<li>(6-8) To his credit, money held by me, on the first of Shaww\u0101l of the year [58]8, 1 dinar; to his credit, 38.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>The wife of Ab\u016b\u02bel-\u1e24asan</li>\n<li>owes on Rab\u012b\u02bf al-awwal</li>\n<li>of the year [58]9 \u2026. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
