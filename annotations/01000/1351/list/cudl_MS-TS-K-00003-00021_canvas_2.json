@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"901238f547b3ee5e330dce3f646d8b0d\"",
       "id": "https://geniza.princeton.edu/annotations/0dc2dc6f-576d-48c3-a7d3-9c8ad7e96fd6/",
       "type": "Annotation",
       "created": "2022-10-07T00:30:55.196737+00:00",
       "modified": "2022-10-07T00:30:55.196756+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3f184e37d745240b234280cbc53da68e\"",
+      "id": "https://geniza.princeton.edu/annotations/7a9a66c1-f4ea-465f-9911-8469becf178a/",
+      "type": "Annotation",
+      "created": "2024-11-20T20:10:20.544491+00:00",
+      "modified": "2024-11-20T20:10:20.544507+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00021/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:265.7967834472656,200.5133514404297,2027.9595642089844,4237.36604309082",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>(1-2) The debt to be deducted from the revenue of D\u0101r b. Nu\u02bfm\u0101n:</li>\n<li>\u00a0</li>\n<li>(3-6) Removal of garbage, 73\u00bd. The watchmen, on account, for Rash\u012bd, 2 q\u012br\u0101\u1e6ds in nuqra. Paid by al-Muhadhdhab, 5. B. al-\u02bf\u016ad\u012b, 6\u00bd.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>(7-11) The former debt, on account of the apartment, paid by al-Shaykh Ab\u016b\u02bel-Mak\u0101rim and al-Shaykh H\u0101r\u016bn for the first year, 75. Plus, for the second year, 68.</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>Rash\u012bd, the rent for two months that he did not pay,</li>\n<li>78.</li>\n<li>The reduction for b. (A)b\u016b Sa\u02bf\u012bd al-Mu\u02bfallim, of the rent</li>\n<li>for 4\u00bd months,</li>\n<li>38.</li>\n<li>Plus, paid for 150 that he bought</li>\n<li>but did not deliver to us, 10.</li>\n<li>Owed by the blessed al-Am\u012br, the rent</li>\n<li>of the q\u0101\u02bfa for 5\u00bd months, money that he did not</li>\n<li>pay, 34</li>\n<li>a month, 187.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"1e633135a106832dd5a124d5f2ff42e4\"",
+      "id": "https://geniza.princeton.edu/annotations/05c8035c-a507-4b88-b45b-17bc67338cf7/",
+      "type": "Annotation",
+      "created": "2024-11-20T20:11:52.182726+00:00",
+      "modified": "2024-11-20T20:11:52.182742+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00021/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:265.22637939453125,222.60072326660156,1951.3085327148438,3267.9678802490234",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p></p>\n<ol>\n<li>(1-2) The sum due the blessed al-Am\u012br, paid to al-Shaykh AI-As\u02bfad al-\u1e62ayr\u0101f\u012b, 275.</li>\n<li>\u00a0</li>\n<li>Plus, to the policemen and the watchmen, and the watchman</li>\n<li>of the Estate for the whole period of the repairs,</li>\n<li>23.</li>\n<li>The settlement of the debt to the parn\u0101s Ibr\u0101h\u012bm for his collection work,</li>\n<li>as agreed by the elders, 80.</li>\n<li>Plus 1 dinar paid to him by al-\u02bf\u0100r\u016bna,</li>\n<li>when it was inhabited by him, which he then asked to have returned to him,</li>\n<li>40.</li>\n<li>A delegate to al-\u02bfAskar for negotiations,</li>\n<li>40.</li>\n<li>Plus, paid by al-Shaykh H\u0101r\u016bn to the watchmen</li>\n<li>from al-\u02bf\u0100r\u016bna as ordered by the (police) chief,</li>\n<li>20.</li>\n<li>The debt of Rash\u012bd, to us and to the elders,</li>\n<li>73\u00bc. </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"80a80f43e19291d0f87666d9dd6a5502\"",
       "id": "https://geniza.princeton.edu/annotations/4bb5f21f-8666-4d5b-a634-02bdd4ba1b1c/",
       "type": "Annotation",
       "created": "2022-10-07T00:30:55.207668+00:00",
       "modified": "2022-10-07T00:30:55.207681+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00021/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00003-00021/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1351/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
