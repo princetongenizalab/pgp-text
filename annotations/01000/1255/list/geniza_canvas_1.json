@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"a2b2ee47c6685fe708194e816d92574b\"",
       "id": "https://geniza.princeton.edu/annotations/d13663ae-9dd4-4c70-b352-1e2519bba8e7/",
       "type": "Annotation",
       "created": "2022-10-07T00:43:57.203106+00:00",
       "modified": "2022-10-07T00:43:57.203126+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/1255/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1255/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"9835c009dc80e37c1d2fa76be0e8aaeb\"",
+      "id": "https://geniza.princeton.edu/annotations/992e20ef-42b6-4b8b-9503-bc8635c43c73/",
+      "type": "Annotation",
+      "created": "2024-11-20T21:11:44.423331+00:00",
+      "modified": "2024-11-20T21:11:44.423348+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/1255/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1255/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1255/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:14,12,563,349",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, column a (left side)",
+          "value": "<p></p>\n<ol>\n<li>the balance \u2026. On the last of Sha\u02bfb\u0101n for repairs,</li>\n<li>201\u00bd dir.; 6 dir. And 5 dinars.</li>\n<li>The first of the blessed Rama\u1e0d\u0101n: Paid for fixing the dome</li>\n<li>and repairs on the verandas, to Marw\u0101n, 1\u00be.</li>\n<li>Water, 1\u00be. Water, and a helper, 8\u00bc.</li>\n<li>5 qin\u1e6d\u0101rs of gypsum, 4.</li>\n<li>Supply of the pipe: Ibl\u012bz clay, 18</li>\n<li>loads \u2026. On 5 of lime, 20\u00be.</li>\n<li>(9-10) 16 loads, 4\u00bc. Transportation and carrying to the site, 1\u00bd.</li>\n<li>\u00a0</li>\n<li>(11-12) 20 loads, 7. Marw\u0101n, for slaking the lime, 1\u00bd.</li>\n<li>\u00a0</li>\n<li>6 \u2026. sandy (clay?),</li>\n<li>1\u00bd.</li>\n<li>Hire of Marw\u0101n and his partner, 2\u00bd; water for the clay,</li>\n<li>30\u2153</li>\n<li>Marw\u0101n, 1\u00bd; a water carrier, 1.</li>\n<li>Hire for half a day, water, and a helper, 3\u00be.</li>\n<li>A water carrier, 1\u00be.</li>\n<li>Wages of a mason and a helper at the pipe, 7\u00bc.</li>\n<li>Marw\u0101n, 2. Water \u2026. 1\u00bd.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
