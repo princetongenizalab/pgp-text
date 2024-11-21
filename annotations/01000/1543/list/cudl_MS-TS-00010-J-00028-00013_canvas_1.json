@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e0ad5f0225287e75debd5d1486c29f40\"",
       "id": "https://geniza.princeton.edu/annotations/9776a71c-f47a-41f2-acc6-8ef70de79df9/",
       "type": "Annotation",
       "created": "2022-10-07T00:33:36.801457+00:00",
       "modified": "2022-10-07T00:33:36.801475+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00028-00013/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"4f706560b188ba88921ffcc911110550\"",
+      "id": "https://geniza.princeton.edu/annotations/488e3fe2-de92-4ca5-a57d-589bec19a638/",
+      "type": "Annotation",
+      "created": "2024-11-21T22:25:52.016473+00:00",
+      "modified": "2024-11-21T22:25:52.016487+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00028-00013/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:516.659423828125,604.6014404296875,4232.210205078125,5331.4854736328125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p></p>\n<ol>\n<li>(1-2) \u2026. 24 months, beginning on the month (in which) the deeds of lease held by him (were written), which is the month of Marheshwan</li>\n<li>\u00a0</li>\n<li>of the year 1506 of the documents, corresponding to Dh\u016b\u02bel-qa\u02bfda</li>\n<li>(4-7) of the year 590 of the Arabic calendar, the sum of the rent being 160 dir. This we accepted and rented the said q\u0101\u02bfa to him for the said two years, for 160 dir., as mentioned above. This is a lease that is sound, complete, absolute, decided, and valid, binding on</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>(8-9) the said al-\u02bfaniy\u012bm and whoever will appear in their name, to the said al-Shaykh Ab\u016b\u02bel-Sur\u016br and his heirs after him. About this (deed), there will be no pretext that could make it unsound; no subterfuge</li>\n<li>\u00a0</li>\n<li>(10-13) could abolish, no condition unbind it. So we stipulate upon this al-Shaykh Ab\u016b\u02bel-Sur\u016br that he shall not install any distiller of rose water, nor any mr\u1e25q(?), nor arsenic, nor anything else of any other crafts that need the kindling of fIre to do them, in the said q\u0101\u02bfa, during the whole period of his renting it; since it is on these</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>conditions that we rented him the said q\u0101\u02bfa that is nowadays included in the property of \u02bfaniy\u0113 mi\u1e63rayim.</li>\n<li>Here attached and sound, according to the text. And everything is proper, sound, and valid.</li>\n<li>Validated by Samuel ha-Levi b. R. Saadya, of blessed memory.</li>\n<li>Menash\u0113 b. R \u2026.\u00a0 </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

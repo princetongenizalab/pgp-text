@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"6d7b060e2fa9e0f2a376b7a726fbe7ab\"",
+      "id": "https://geniza.princeton.edu/annotations/eb3addb4-1ece-48a3-8f02-86b6c6b07964/",
+      "type": "Annotation",
+      "created": "2024-11-21T22:26:16.996342+00:00",
+      "modified": "2024-11-21T22:26:16.996362+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00028-00013/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:412.0797119140625,462.3333435058594,1979.9927978515625,4402.217437744141",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>the lane of the Synagogue of the Palestinians,</li>\n<li>may it soon be rebuilt and reestablished, known</li>\n<li>as D\u0101r b. Baq\u0101 and Sh\u0101l\u014dm,</li>\n<li>Samuel ha-Levi b. R. Saadya, of blessed memory.</li>\n<li>(5-6) Also, collected from al-Shaykh Ab\u016b\u02bel-Sur\u016br, 1\u00bc \u2159 dinars,</li>\n<li>\u00a0</li>\n<li>paid to al-Qa\u02bfn\u012b b. al-Muqarqish</li>\n<li>on account of the balance due him for the repairs.</li>\n<li>Also, collected from him the 2 dinars left</li>\n<li>on account of the sum he borrowed to make repairs</li>\n<li>with in the compound mentioned above.</li>\n<li>Samuel ha-Levi.</li>\n<li>Also, collected from him 2 dinars</li>\n<li>on account of (the sum used to make) the repairs in the \u1e6dabaqa,</li>\n<li>the largest of the \u1e6dabaqas of the funduq.</li>\n<li>Also, collected from him, 2 dinars,</li>\n<li>the balance of his debt\u00a0 to the end</li>\n<li>of the month Av, may it be transformed into joy, of the year 1510,</li>\n<li>corresponding to Shaww\u0101l of the year [5]95.</li>\n<li>Samuel ha-Levi.\u00a0\u00a0</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"546a00c82ff5f136f89c30d6d5995aa5\"",
       "id": "https://geniza.princeton.edu/annotations/db588641-0f1f-4d58-92b0-f9f400f92f3c/",
       "type": "Annotation",
       "created": "2022-10-07T00:33:36.811664+00:00",
       "modified": "2022-10-07T00:33:36.811679+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00028-00013/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00028-00013/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1543/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
