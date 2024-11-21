@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d9db16152e6a910bbf9ae8ccd4567aa7\"",
       "id": "https://geniza.princeton.edu/annotations/3427238a-f487-4f22-a355-bd263a3a6f11/",
       "type": "Annotation",
       "created": "2022-10-07T00:52:54.024368+00:00",
       "modified": "2022-10-07T00:52:54.024386+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00189/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1413/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"03f6aab0be0e4ae87f9cd9a7b8f2ddd2\"",
+      "id": "https://geniza.princeton.edu/annotations/e7d4a644-2cad-4e31-95ff-659571b2a733/",
+      "type": "Annotation",
+      "created": "2024-11-21T21:48:57.830021+00:00",
+      "modified": "2024-11-21T21:48:57.830034+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00189/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1413/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1413/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:204.2679443359375,913.1978759765625,1538.0174560546875,1521.9964599609375",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p></p>\n<ol>\n<li>(1-2) Al-Shaykh Ab\u016b\u02bel-Faraj b. Ma\u1e25f\u016b\u1e93 appeared (in court) and paid in my presence</li>\n<li>\u00a0</li>\n<li>the sum due for removal of garbage to those</li>\n<li>who removed it, 30 dir.</li>\n<li>waraq. Written by \u02bfAmr\u0101m b. R. \u1e24alf\u014dn ha-Levi.</li>\n<li>Written by Mev\u014dr\u0101kh ha-Levi</li>\n<li>b. R. \u02bfAmr\u0101m ha-Levi.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
