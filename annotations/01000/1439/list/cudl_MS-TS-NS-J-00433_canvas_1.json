@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"4ce13c914d127fe4f489d0fc9384d501\"",
       "id": "https://geniza.princeton.edu/annotations/3b487e20-82cb-4c24-b8ba-dfc82ef40c90/",
       "type": "Annotation",
       "created": "2022-10-07T01:56:46.166064+00:00",
       "modified": "2022-10-07T01:56:46.166084+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00433/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1439/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"12b3c386a4665670bbed1412feaa0041\"",
+      "id": "https://geniza.princeton.edu/annotations/7552dcd4-7a4b-42b6-8ff3-abf717b8ed12/",
+      "type": "Annotation",
+      "created": "2024-11-21T22:05:05.288219+00:00",
+      "modified": "2024-11-21T22:05:05.288235+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00433/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1439/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1439/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:176.8461456298828,204.76922607421875,3696.889694213867,6416.919250488281",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<p></p>\n<ol>\n<li>\u2026. helpers, 7 dir. Water, \u00bd. The second week:</li>\n<li>\u2026. will Improve. Water for the clay, 11 dir.</li>\n<li>\u2026. 2\u00bd dir. 3 helpers, 8 dir.</li>\n<li>\u2026. the beginning of the construction work. Monday, 1 dinar collected,</li>\n<li>\u2026. 2 dir. Water for the lime and the clay, 9\u00bd.</li>\n<li>\u2026. Days, 21 dir. Sandy clay and ibl\u012bz, 25 dir.</li>\n<li>\u2026. Marble, 5. Water, 1 dir. The porter, 2 ladders, 6.</li>\n<li>\u2026. Thursday, 7 dir. Water \u00bc dir.</li>\n<li>\u2026. Monday, straw, 7 dir. Water, 3\u00bd.</li>\n<li>\u2026. and \u00bd. The mason for his meals, and the rest of his wages, 8.</li>\n<li>\u2026. 8. Tuesday, helpers, 10\u00bd.</li>\n<li>\u2026. meal of the mason for 2 days, 2. Wednesday,</li>\n<li>\u2026. 10\u00bd. Water, 6 dir. Meal of the mason, 3 days, 3 dir.</li>\n<li>\u2026. Thursday, 3 helpers, 10\u00bd. Water, 5\u00bc.</li>\n<li>\u2026. 3 helpers, 10\u00bd. Water, 3\u00bc. Straw, 6 dir.</li>\n<li>\u2026. the day of kneading the clay, Sunday, before the work of the mason</li>\n<li>\u2026. 3 helpers, 10\u00bd. Oakum, 5 dir.</li>\n<li>\u2026. 3 dir. A carpenter for the locks of the rooms, 5 dir\u2026.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
