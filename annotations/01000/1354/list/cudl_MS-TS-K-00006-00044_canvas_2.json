@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"c55abf525a77b2a761050560984db802\"",
       "id": "https://geniza.princeton.edu/annotations/495d4b04-138d-4dbb-8c79-f55a245c6fc1/",
       "type": "Annotation",
       "created": "2022-10-07T00:48:30.725575+00:00",
       "modified": "2022-10-07T00:48:30.725594+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00044/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1354/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b982498e9b4439fdafe3fd41b3fb1205\"",
+      "id": "https://geniza.princeton.edu/annotations/49006c86-097f-46d4-a516-dba0e06e882f/",
+      "type": "Annotation",
+      "created": "2024-11-22T19:59:48.885738+00:00",
+      "modified": "2024-11-22T19:59:48.885750+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00006-00044/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1354/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1354/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:241.93377685546875,250.7154998779297,2142.4778442382812,6178.93147277832",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>Collected for the month of Mu\u1e25arram, that is Siwan of the year 1558:</li>\n<li>The room of Fakhr al-Shamm\u0101\u02bf, 4\u00be.</li>\n<li>Ibn Ya\u1e25y\u0101 al-\u1e24\u0101shir, 2.</li>\n<li>\u1e6c\u016bvy\u0101 al-R\u016bm\u012b, 2\u00bd.</li>\n<li>Umm Hiba Mu\u02bfaddida, 3.</li>\n<li>Ab\u016b\u02bel-Ghayth al-Dahh\u0101n, 10.</li>\n<li>\u02bfAbdallah Saqq\u0101, 3.</li>\n<li>Najam al-Parn\u0101s, 5.</li>\n<li>Al-Na\u1e25\u1e25\u0101s, 3.</li>\n<li>The children of al-Ghuz\u016bl\u012b, 5.</li>\n<li>Ibn al-N\u0101kh\u016bda, 10.</li>\n<li>Ab\u016b\u02bel-Fat\u1e25 including (the sum whose collection was) given up, total: 47\u00bd.</li>\n<li>H\u0101n\u012b Bayy\u0101, 3\u00bd.</li>\n<li>Mak\u0101rim \u1e62abb\u0101gh, 10.</li>\n<li>Ab\u016b\u02bel-\u02bfAl\u0101 \u1e62abb\u0101gh, 4.</li>\n<li>Ab\u016b Sad\u012bd, 1.</li>\n<li>The neighbor of H\u0101n\u012b, al-Zift\u0101w\u012b, 3\u00bc.</li>\n<li>\u02bfIm\u0101d, 5.</li>\n<li>Sulaym\u0101n al-Sh\u0101m\u012b, 2.</li>\n<li>Shirkat Barak\u0101t, for two months, 7.</li>\n<li>Ab\u016b\u02bel-Fa\u1e0dl al-Bayy\u0101\u02bf, 8.</li>\n<li>Ab\u016b\u02bel-\u02bfIzz al-Mugharbil, 6</li>\n<li>Jacob Naqq\u0101d Maghrib\u012b, 6.</li>\n<li>The son-in-law of Ab\u016b \u02bfAl\u012b al-\u1e24aff\u0101r, 4.</li>\n<li>AI-Kohen Mu\u02bfammar, 7.</li>\n<li>Munajj\u0101 aI-Kohen, 3.</li>\n<li>Barak\u0101t al-Mutasawwiq, 6.</li>\n<li>D\u0101r Wathth\u0101b, 11.</li>\n<li>Jacob Ibn aI-Najj\u0101r, 4.</li>\n<li>The storeroom of Nu\u1e63ayr, 2.</li>\n<li>(31-32) Samuel, including (the sum whose collection) from him was given up in D\u0101r al-Muqarqish, 12. 200\u00bd.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
