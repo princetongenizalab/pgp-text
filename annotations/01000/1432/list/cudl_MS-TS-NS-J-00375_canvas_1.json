@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00375%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1432%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"a0c45566fd7b8fe0786ae3bd6fe22e08\"",
+      "id": "https://geniza.princeton.edu/annotations/26c1a2c3-06b6-4de8-b694-258fbf6594bc/",
+      "type": "Annotation",
+      "created": "2024-11-22T20:23:15.329887+00:00",
+      "modified": "2024-11-22T20:23:15.329903+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00375/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1432/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2208.947998046875,298.5064697265625,2009.943603515625,2716.4090576171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (right side)",
+          "value": "<p></p>\n<ol>\n<li>(1-2) For the month of Siwan, 21 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>(3-4) For Tammuz and Av, 32 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>(5-6) For the month of Elul, 16 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>(7-8) For the month of Tishri, 31 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>(9-10) For Marheshwan and Kislev, 32 ra\u1e6dls.</li>\n<li>\u00a0</li>\n<li>(11-12) For Teveth and Shevat, 32 ra\u1e6dls.</li>\n<li>\u00a0</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b1a93fed148b94360cd6f8d932d084b3\"",
+      "id": "https://geniza.princeton.edu/annotations/a79e559a-f974-485d-8197-581d81fc47ae/",
+      "type": "Annotation",
+      "created": "2024-11-22T20:23:41.385743+00:00",
+      "modified": "2024-11-22T20:23:41.385758+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00375/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1432/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:308.4566955566406,557.2120971679688,1830.8396911621094,2557.2056274414062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (left side)",
+          "value": "<p></p>\n<ol>\n<li>Collected by al-Shaykh Ab\u016b\u02bel-\u1e6c\u0101hir,</li>\n<li>of it: The rent of the \u1e6dabaqa</li>\n<li>known as the apartment of b. al-Dayy\u0101n</li>\n<li>al-Mask\u012bl, of blessed memory, namely 8</li>\n<li>dir. each month, by a note from</li>\n<li>His Excellency our Master al-Rayyis,</li>\n<li>from the first of the month of Nisan</li>\n<li>of the year [15]33 to</li>\n<li>the last of the month of Siwan of the year</li>\n<li>[15]34 \u2026.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
