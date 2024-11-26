@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"a7f38f7f18b4abcef7a19841abbd8228\"",
       "id": "https://geniza.princeton.edu/annotations/40df5e97-81f5-4b73-8cb9-84ce20590d51/",
       "type": "Annotation",
       "created": "2022-10-07T00:43:15.892933+00:00",
@@ -35,6 +36,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0e383c0efaca4958768e5eff885ff44c\"",
+      "id": "https://geniza.princeton.edu/annotations/0133a327-ca6d-4aab-afcd-9d62845de5ad/",
+      "type": "Annotation",
+      "created": "2024-11-26T21:35:21.311545+00:00",
+      "modified": "2024-11-26T21:35:21.311564+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/1469/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1469/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:4,12,557,356",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p></p>\n<ol>\n<li>Collected on Dh\u016b\u02bel-qa\u02bfda</li>\n<li>that is Nisan 1558 \u2026.</li>\n<li>Jacob b. aI-Najj\u0101r \u2026.</li>\n<li>Ab\u016b\u02bel-M \u2026.\u00a0</li>\n<li>Ab\u016b\u02bel-Fa\u1e0dl Bayy\u0101\u02bf \u2026.</li>\n<li>Ab\u016b\u02bel-\u02bfIzz al-Mugharbil \u2026.</li>\n<li>Jacob Naqq\u0101d \u2026.</li>\n<li>Abraham Khabb\u0101z \u2026.</li>\n<li>\u02bfAbdallah Saqq\u0101 \u2026.</li>\n<li>Barak\u0101t Mutasawwiq \u2026.</li>\n<li>Najam al-Parn\u0101s \u2026.</li>\n<li>Mak\u0101rim \u1e62abb\u0101gh \u2026.</li>\n<li>The wife of Fakhr \u2026.</li>\n<li>The children of al-Ghuz\u016bl\u012b, 5.</li>\n<li>Ab\u016b Sa\u02bf\u012bd \u2026.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
