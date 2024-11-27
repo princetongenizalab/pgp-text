@@ -4,11 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"edd19014277b353f90bf9d9c28c51794\"",
+      "etag": "\"d903303891851b4ddcab2721204190d6\"",
       "id": "https://geniza.princeton.edu/annotations/1e6c9d7d-705d-4cb1-b3a8-264465877a7f/",
       "type": "Annotation",
       "created": "2024-04-05T05:27:10.780544+00:00",
-      "modified": "2024-04-05T05:27:24.030111+00:00",
+      "modified": "2024-11-27T18:39:21.285412+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/3/",
       "target": {
         "source": {
@@ -27,7 +27,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso - Hebrew-script address",
+          "label": "Verso, address,\u00a0Hebrew script",
           "value": "<ol>\n<li>\u05de\u05df \u05ea\u05dc\u05de\u05d9\u05d3\u05d4 \u05e9\u05d0\u05db\u05e8 \u05d5\u05d3\u05d0\u05e2\u05d9 \u05dc\u05d4 \u05e0\u05ea\u05df \u05d1\u05df \u05d9\u05e6\u05d7\u05e7</li>\n<li>\u05d4\u05e1\u05e4\u05e8\u05d3\u05d9 \u05d0\u05dc\u05e1\u05d0\u05db\u05df \u05e4\u05d9 \u05d0\u05dc\u05e7\u05d3\u05e1 \u05e2\u05de\u05e8\u05d4 \u05d0\u05dc\u05e8\u05d7\u05de\u05df</li>\n<li>\u05d0\u05de\u05df</li>\n</ol>",
           "format": "text/html"
         }
@@ -35,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"65a14b7af12d93c41b70c10777fde56f\"",
+      "id": "https://geniza.princeton.edu/annotations/7dff9b43-4ebc-47ff-acd6-45dd277586df/",
+      "type": "Annotation",
+      "created": "2024-11-27T18:38:35.977734+00:00",
+      "modified": "2024-11-27T18:38:35.977752+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/2054/iiif/textblock/29083/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2054/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:165,58.90234375,271.46484375,116.09765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, Hebrew script",
+          "value": "<ol>\n<li>From his student who is grateful and asks after him, Natan b. Yi\u1e63\u1e25aq&nbsp;</li>\n<li>ha-Sefaradi, who lives in Jerusalem, may the Merciful One preserve him,</li>\n<li>amen.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
