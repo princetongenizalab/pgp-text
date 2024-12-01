@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"9779c70a2a1f1ddc322d7bfebcc20410\"",
       "id": "https://geniza.princeton.edu/annotations/415044af-bed1-4bf9-ad55-da973db446c3/",
       "type": "Annotation",
       "created": "2022-10-07T01:13:51.781881+00:00",
       "modified": "2022-10-07T01:13:51.781901+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00320-00141/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1463/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"dd5cebb9d2af8fec5d2fd4ef815b37a2\"",
+      "id": "https://geniza.princeton.edu/annotations/987052e0-194b-42ea-9a70-f69bd34be9ca/",
+      "type": "Annotation",
+      "created": "2024-12-01T14:36:02.935183+00:00",
+      "modified": "2024-12-01T14:36:02.935197+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00320-00141/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1463/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1463/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:208.40675354003906,963.8812255859375,2583.317367553711,5515.6075439453125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u2026. for two days, 4 dir.</li>\n<li>\u2026. from him, originally</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
