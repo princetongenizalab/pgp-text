@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e3de11decced05f9169971dc811a9e5b\"",
       "id": "https://geniza.princeton.edu/annotations/56cf0b9b-210a-4305-9c8a-b648c8b81f28/",
       "type": "Annotation",
       "created": "2022-10-07T00:59:37.788658+00:00",
       "modified": "2022-10-07T00:59:37.788676+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"93b5661656fadfac448d88b57891a6ea\"",
+      "id": "https://geniza.princeton.edu/annotations/4b21e28d-e111-432b-8765-1f39c25697e4/",
+      "type": "Annotation",
+      "created": "2024-12-01T03:39:06.144109+00:00",
+      "modified": "2024-12-01T03:39:06.144130+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:268.7516784667969,298.61297607421875,2806.962188720703,3643.0784301757812",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, main region",
+          "value": "<p></p>\n<ol>\n<li>Al-Maghrib\u012b; paper, 1\u00bc. Transportation, \u00bd. Total, 302. Also, to his credit, paid for</li>\n<li>clothing, 16. For oil, to b. Jall\u0101b for the month of Tishri 1495,</li>\n<li>14. For work at the pipe of D\u0101r al-Zajj\u0101j, 13\u00bd. D\u0101r b. \u1e6c\u012bb\u0101n, 2\u00bd.</li>\n<li>Two boards, 1. A carpenter, \u00be. Work at the door, 2. Total, 389\u00be.</li>\n<li>The balance charged to him, 164\u00be.</li>\n<li>To his credit of it, for collection (fees), 37. (Canceled: To his credit, for sending off the wife of the N\u0101s\u012b, of blessed memory, 194).</li>\n<li>Balance charged to him, to the last of Elul 1494, 127\u00be.</li>\n<li>The accounting of the month of Tishri: Collected by the parn\u0101s Bay\u0101n, 1495:</li>\n<li>D\u0101r al-Zajj\u0101j, the q\u0101\u02bfa, 15\u00bd. Man\u1e63\u016br, 1\u00bd. Kar\u012bm, 5.</li>\n<li>\u02bfAbd al-\u02bfAz\u012bz, 5. \u02bfUbayd, 4. Umm \u02bfIwa\u1e0d, 2. \u02bf\u012as\u0101, 6. Ab\u016b Wa\u1e25\u012bd, 2\u00bd.</li>\n<li>Umm \u02bfAbdallah, 2. Sulaym\u0101n, 9. Asad, 5. Umm \u02bfIwa\u1e0d, 22. Fut\u016b\u1e25, 6.</li>\n<li>Ab\u016b \u02bfAl\u012b, 5. Total, 71. The apartment of b. al-Mirj\u0101n\u012b, 15. D\u0101r b. \u1e6c\u012bb\u0101n, 11.</li>\n<li>D\u0101r al-Shaykh Ab\u016b Na\u1e63r, 24. The shops: B. al-Waj\u012bh, 7. Ri\u1e0d\u0101, 6.</li>\n<li>B. Jall\u0101b, 8. \u02bfAbdallah, 10. The baker, 9\u00bd. B. Ma\u1e25f\u016b\u1e93 \u1e24am\u012bd, 5.</li>\n<li>Al-Jazz\u0101r, 8. Total, 174\u00bd. Charged to him, the balance of the (previous) account, 127\u00be.</li>\n<li>Total 302\u00bc. To his credit of it, for sending off the wife of the N\u0101s\u012b, of blessed memory, 194. Also, as to the sum he borrowed,</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"7526667cd032412c4e8829ed75057b59\"",
+      "id": "https://geniza.princeton.edu/annotations/8658eb5f-7ced-485b-80a0-5407b4ee5dda/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:59:37.796876+00:00",
+      "modified": "2022-10-07T00:59:37.796890+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/8658eb5f-7ced-485b-80a0-5407b4ee5dda/",
-      "type": "Annotation",
-      "created": "2022-10-07T00:59:37.796876+00:00",
-      "modified": "2022-10-07T00:59:37.796890+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,25 +104,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"776fc932f7fb7011ea8565779d0725a5\"",
+      "id": "https://geniza.princeton.edu/annotations/add3a3c0-4b23-4100-8c34-aebcbaae1d7e/",
+      "type": "Annotation",
+      "created": "2024-12-01T03:39:33.831003+00:00",
+      "modified": "2024-12-01T03:39:33.831016+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00011-00007/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1875/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:2931.23681640625,353.5906982421875,268.751708984375,3560.9598388671875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin",
+          "value": "<ol>\n<li>the parn\u0101s Tam\u012bm collected the equivalent of the 10 above mentioned dirhems, through his share in the clothing for the year 1495.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     }
