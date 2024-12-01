@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Ff%2Fcanvas%2Fms-heb-f-56-44%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F6533%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9f6e9a98d8acf3c3cdd2d47284e5cfaa\"",
+      "id": "https://geniza.princeton.edu/annotations/0addaaa4-41fe-422b-909d-293584d2ad22/",
+      "type": "Annotation",
+      "created": "2024-12-01T04:04:28.956908+00:00",
+      "modified": "2024-12-01T04:04:28.956921+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/f/canvas/ms-heb-f-56-44/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6533/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:210.06292724609375,2412.33544921875,2757.9229125976562,1707.6083984375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n<ol>\n<li>Collected from Ab\u016b (I)s\u1e25aq al-\u02bfAdan\u012b, 100 dir.</li>\n<li>waraq, of Egyptian tender, for the rent of his apartment in the \u1e6dabaqa of the upper part of</li>\n<li>the compound which is opposite the Synagogue of the Babylonians,</li>\n<li>known as (the compound) of al-Shaykh Ab\u016b Na\u1e63r b. al-Shaykh Ab\u016b\u02bel-M\u016bna,</li>\n<li>of blessed memory, for one lunar year of 12 months,</li>\n<li>beginning on the first of the month of Adar II 1497,</li>\n<li>corresponding to Dh\u016b\u02bel-\u1e25ijja of the year 581.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
