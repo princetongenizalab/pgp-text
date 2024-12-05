@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"8fa454672f7571dceb6180f01a52afc8\"",
       "id": "https://geniza.princeton.edu/annotations/60d5875a-d8d8-46fb-8c70-194df1fff641/",
       "type": "Annotation",
       "created": "2022-10-07T01:05:59.313873+00:00",
       "modified": "2022-10-07T01:05:59.313894+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00242/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5480/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,77 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0cde37009ce8a9e4ead967108e6fbb2b\"",
+      "id": "https://geniza.princeton.edu/annotations/5bcd5e3e-9eb0-4c16-8d13-20e2617697f1/",
+      "type": "Annotation",
+      "created": "2024-12-05T17:13:29.904128+00:00",
+      "modified": "2024-12-05T17:13:29.904147+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00242/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5480/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5480/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:299.9080505371094,799.7548217773438,5598.283843994141,4211.209045410156",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>\u05dc\u05de\u05d0 \u05db\u05d0\u05df \u05d9\u05d5\u05dd \u05d0\u05dc\u05d0\u05ea\u05e0\u05d9\u05df \u05ea\u05d0\u05e0\u05d9 \u05e2[\u05e9\u05e8] \u05d7\u05d3\u05e9 \u05e0\u05d9\u05e1\u05df \u05e9[\u05e0\u05ea ...]\u00a0</p>\n</li>\n<li>\n<p>\u05d1\u05e4\u05e1\u05d8\u05d0\u05d8 \u05de\u05e6\u05e8\u05d9\u05dd \u05d3\u05e2\u05dc \u05e0\u05d9\u05dc\u05d5\u05e1 \u05e0\u05d4\u05e8\u05d0 \u05de\u05d5\u05ea\u05d1\u05d4 [\u05e8\u05e9\u05d5\u05ea\u05d9\u05d4 \u05e8\u05d0\u05d3\u05d5\u05e0\u05e0\u05d5 \u05d0\u05d1\u05e8\u05d4\u05dd ...]</p>\n</li>\n<li>\n<p>\u05d4\u05e4\u05d8\u05d9\u05e9 \u05d4\u05d7\u05d6\u05e7 \u05e0\u05e8 \u05d4\u05de\u05e2\u05e8\u05d1\u05d9 \u05d3\u05d2\u05dc \u05d4\u05e8\u05d1\u05e0\u05d9\u05dd \u05d9\u05d7\u05d9\u05d3 [\u05d4\u05d3\u05d5\u05e8 ...]\u00a0</p>\n</li>\n<li>\n<p>\u05d7\u05e6\u05e8 \u05d0\u05dc\u05d9\u05e0\u05d0 \u05d0\u05e0\u05df \u05d7\u05ea\u05d5\u05de\u05d9 \u05de\u05d8\u05d4 \u05de\u05e8' \u05d5\u05e8' \u05d0\u05dc\u05e2\u05d6\u05e8 \u05d4\u05d6\u05e7[\u05df \u05d4\u05d9\u05e7\u05e8 \u05d1\u05e8 ... \u05d5\u05de\u05e8' \u05d5\u05e8']\u00a0</p>\n</li>\n<li>\n<p>\u05d9\u05d0\u05e9\u05d9\u05d4\u05d5 \u05d4\u05d6\u05e7\u05df \u05d4\u05d9\u05e7\u05e8 \u05d1\u05e8 \u05de\u05e8' \u05d5\u05e8' \u05d9\u05e4\u05ea \u05d6''\u05dc \u05d0\u05dc\u05d5\u05db\u05dc\u05d0 \u05d0\u05dc\u05d3\u05d9 [\u05d5\u05db\u05dc\u05d4\u05dd ... \u05d5\u05d2\u05e2\u05dc\u05d4\u05dd ...]</p>\n</li>\n<li>\n<p>\u05d5\u05db\u05dc\u05d0 \u05dc\u05d9\u05ea\u05e1\u05dc\u05de\u05d5 \u05d0\u05dc\u05de\u05d0\u05dc \u05d0\u05dc\u05d3\u05d9 \u05ea\u05e8\u05db\u05d4 \u05de\u05e8' \u05d5\u05e8' \u05e4\u05ea\u05d7[\u05d9\u05d4 ...]\u00a0</p>\n</li>\n<li>\n<p>\u05d5\u05ea\u05e8\u05da \u05d9\u05ea\u05d9\u05dd \u05e6\u05e2\u05d9\u05e8 //\u05d0\u05e1\u05de\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05df\\\\ \u05de\u05e1\u05ea\u05d7\u05e7 \u05dc\u05de\u05d9\u05d0\u05e8\u05ea\u05d4 \u05d7\u05e1\u05d1 [...]\u00a0</p>\n</li>\n<li>\n<p>\u05dc\u05d4\u05dd \u05d1\u05ea\u05d2\u05e8 \u05d0\u05dc\u05d0\u05e1\u05db\u05e0\u05d3\u05e8\u05d9\u05d4 \u05d5\u05e7\u05d0\u05dc\u05d5\u05d0 \u05dc\u05e0\u05d0 \u05d0\u05e7\u05e0\u05d5 \u05de\u05e0\u05d0 \u05d5\u05d0\u05e9\u05d4\u05d3\u05d5 [...]\u00a0</p>\n</li>\n<li>\n<p>\u05d1\u05e2\u05e5 \u05d5\u05e7\u05d1\u05e6\u05e0\u05d0 \u05d5\u05ea\u05e1\u05dc\u05de\u05e0\u05d0 \u05de\u05df \u05d0\u05dc\u05e7\u05d0\u05e6\u05d9 \u05d0\u05dc\u05e1\u05d3\u05d9\u05d3 \u05e2\u05dc\u05d9 \u05d1\u05df \u05de\u05d7\u05de\u05d5\u05d3 \u05d0\u05dc\u05de\u05e2[\u05e8]\u05d5\u05e3 \u05d1\u05d0\u05d1\u05df \u05d0\u05dc\u05de\u05d7\u05ea\u05e1\u05d1 \u05d3\u05d0\u05dd \u05e2\u05d6\u05d4\u00a0</p>\n</li>\n<li>\n<p>\u05de\u05df \u05d0\u05dc\u05e2\u05d9\u05df \u05d0\u05dc\u05de\u05e6\u05e8\u05d9 \u05d0\u05dc\u05d2\u05d9\u05d3 \u05d0\u05dc\u05de\u05d7\u05e7\u05e7 \u05d0\u05dc\u05d5\u05d6\u05d0\u05df \u05de\u05d0\u05d9\u05d4 \u05d3\u05d9\u05e0\u05d0\u05e8\u05d0 \u05d5\u05d0\u05d7\u05d3\u05d4 \u05d5\u05ea\u05dc\u05ea\u05d4 \u05d5\u05e1\u05d1\u05e2\u05d9\u05df \u05d3\u05d9\u05e0\u05d0\u05e8\u05d0 \u05d5\u05e1\u05d3\u05e1 \u05d5\u05ea\u05de\u05df \u05d3\u05d9\u05e0\u05d0\u05e8\u00a0</p>\n</li>\n<li>\n<p>\u05e2\u05d9\u05e0\u05d0 \u05de\u05e6\u05e8\u05d9\u05d4 \u05de\u05ea\u05d0\u05e7\u05d9\u05dc\u05d0 \u05d2\u05d9\u05d0\u05d3\u05d0 \u05e6\u05d7\u05d0\u05d7\u05d0 \u05e0\u05e7\u05d3 \u05de\u05e6\u05e8 \u05d5\u05d5\u05d6\u05e0\u05d4 \u05d0\u05dc\u05de\u05e1\u05d9\u05e8[\u05d4] \u05e2\u05dc\u05d9 \u05d9\u05d3\u05d4 \u05e8\u05e1\u05d0\u05dc\u05d4 \u05d5\u05d0\u05de\u05d0\u05e0\u05d4</p>\n</li>\n<li>\n<p>\u05de\u05df \u05e2\u05e0\u05d3 \u05d0\u05dc\u05de\u05d5\u05dc\u05d0 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d0\u05d2\u05dc \u05db\u05d1\u05d5\u05d3 \u05d2\u05d3\u05d5\u05dc\u05ea \u05e7\u05d3\u05d5\u05e9 \u05de\u05e8\u05e0\u05d5 \u05d5\u05e8\u05d1\u05e0\u05d5 \u05e9\u05de\u05e8\u05d9\u05d4\u05d5 \u05d4\u05e9\u05e8 \u05d4\u05e0\u05db\u05d1\u05d3 \u05d4\u05e0\u05d2\u05d9\u05d3 \u05d4\u05de\u05d9\u05d5\u05de\u05df \u05e0\u05d2\u05d9\u05d3\u00a0</p>\n</li>\n<li>\n<p>\u05d0\u05e8\u05e5 \u05ea\u05d9\u05de\u05df \u05d8\u05d5\u05d1 \u05e2\u05dd \u05d0\u05dc'\u05d9\u05dd \u05d5\u05e2\u05dd \u05d0\u05e0\u05e9\u05d9\u05dd \u05e0\u05d0\u05de\u05df \u05d0\u05dc\u05d3\u05d9 \u05db\u05d0\u05e0\u05ea \u05de\u05d5\u05d3\u05d5\u05e2\u05d4 \u05e2\u05e0\u05d3\u05d4 \u05dc\u05d5\u05e8\u05ea\u05d4 \u05de\u05e8' \u05e4\u05ea\u05d7\u05d9\u05d4 \u05d4\u05e0\u05d6\u05db\u05e8 \u05dc\u05e2\u05d9\u05dc\u05d0\u00a0</p>\n</li>\n<li>\n<p>\u05d5\u05e7\u05e6\u05d3 \u05ea\u05e1\u05d9\u05d9\u05e8\u05d4\u05d0 \u05dc\u05d4\u05dd \u05d5\u05d0\u05df \u05d9\u05db\u05ea\u05d1 \u05dc\u05d4 \u05de\u05d0 \u05d9\u05d1\u05e8\u05d9\u05d4 \u05de\u05df \u05d3\u05e8\u05da \u05d3\u05dc\u05da \u05dc\u05dc\u05d9\u05d5\u05dd \u05d5\u05de\u05d0 \u05d1\u05e2\u05d3\u05d4 \u05d5\u05d0\u05dc\u05d0\u05df \u05d0\u05e7\u05e0\u05d5 \u05de\u05e0\u05d0</p>\n</li>\n<li>\n<p>\u05d5\u05d0\u05e9\u05d4\u05d3\u05d5 \u05e2\u05dc\u05d9\u05e0\u05d0 \u05d0\u05df \u05db\u05dc \u05de\u05e0\u05d0 \u05e7\u05d3 \u05d0\u05d1\u05e8\u05d9 \u05de\u05e8' \u05d5\u05e8' \u05e9\u05de\u05e8\u05d9\u05d4\u05d5 \u05d4\u05e9\u05e8 \u05d4\u05e0\u05db\u05d1\u05d3 \u05d4\u05e0\u05d6\u05db\u05e8 \u05dc\u05e2\u05d9\u05dc\u05d0 \u05d5\u05d5\u05e8\u05ea\u05ea\u05d4 \u05de\u05df \u05d1\u05e2\u05d3\u05d4</p>\n</li>\n<li>\n<p>\u05de\u05df \u05d3\u05e8\u05da \u05d4\u05d3\u05d0 \u05d0\u05dc\u05de\u05d1\u05dc\u05d2 \u05d0\u05dc\u05d3\u05d9 \u05d5\u05e6\u05dc \u05d0\u05dc\u05d9\u05e0\u05d0 \u05e2\u05dc\u05d9 \u05d9\u05d3 \u05d0\u05dc\u05e7\u05d0\u05e6\u05d9 \u05e2\u05dc\u05d9 \u05d0\u05dc\u05de\u05d3\u05db\u05d5\u05e8 \u05d1\u05d0\u05e2\u05dc\u05d0\u05d4 \u05d1\u05e8\u05d0\u05d4 \u05d1\u05d0\u05ea\u05d4 \u05de\u05d0\u05e6\u05d9\u05d4 \u05e7\u05d0\u05d8\u05e2\u05d4</p>\n</li>\n<li>\n<p>\u05dc\u05d0 \u05d0\u05de\u05e8 \u05d9\u05e2\u05dc\u05d4\u05d0 \u05d5\u05dc\u05d0 \u05e9\u05e8\u05d8 \u05d9\u05e4\u05e1\u05db\u05d4\u05d0 \u05d5\u05dc\u05d0 \u05ea\u05d0\u05d5\u05d9\u05dc \u05d9\u05d1\u05d8\u05dc\u05d4\u05d0 \u05d1\u05e8\u05d0\u05d4 \u05e7\u05d1\u05e5 \u05d5\u05d0[\u05e1]\u05ea\u05d9\u05e4\u05d0 \u05d7\u05e1\u05d1 \u05e4\u05d5\u05d5\u05e5 \u05dc\u05e0\u05d0 \u05e4\u05e2\u05dc \u05d3\u05dc\u05da </p>\n</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0921e0f09dcf0dd22d8ef038734718f7\"",
+      "id": "https://geniza.princeton.edu/annotations/a8cb0d5f-d5a1-45d8-a3f6-99a3fbb97013/",
+      "type": "Annotation",
+      "created": "2024-12-05T17:14:20.481692+00:00",
+      "modified": "2024-12-05T17:14:20.481713+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00242/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5480/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:374.88507080078125,962.2050170898438,5335.864440917969,4011.2700805664062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>On Monday, 12 Nisan [...]</p>\n</li>\n<li>\n<p>in Fustat Egypt, situated on the Nile river, [in the jurisdiction of our lord Abraham . . .]</p>\n</li>\n<li>\n<p>the strong hammer, the western lamp, banner of the rabbis, unique [of his generation . . .]</p>\n</li>\n<li>\n<p>There appeared before us, we the undersigned, our master and lord Eleazar the [distinguished ] elder [b. . . . and master and lord ]</p>\n</li>\n<li>\n<p>Josiah the distinguished elder b. our master and lord Japheth\u2014may his memory by a blessing!\u2014the agents, whom [were appointed . . . and made]</p>\n</li>\n<li>\n<p>agents to accept payment of the money left by our master and lord Peta\u1e25[ya\u0304...]</p>\n</li>\n<li>\n<p>He left a minor orphan //whose name is Abu \u02bel-\u1e24asan// who has the right to his inheritance according [to the Torah . . . and . . . appointed]</p>\n</li>\n<li>\n<p>them in the port city of Alexandria. They said to us: Perform with us the symbolic act of obligation and testify [to us...one to]</p>\n</li>\n<li>\n<p>another (?), and we collected and took payment from the Qadi al-Sadi\u0304d \u02bfAli\u0304 b. Ma\u1e25mu\u0304d known as Ibn al-Mu\u1e25tasib\u2014may his honored position be permanent!\u2014</p>\n</li>\n<li>\n<p>good, verified, weighed Egyptian gold coinage, 173 724 dinars,</p>\n</li>\n<li>\n<p>Egyptian gold coins, good, confirmed, weighed, Egyptian standard mithqa\u0304ls, which had been sent with him to carry as a trust</p>\n</li>\n<li>\n<p>by our lord the most illustrious Sheikh, his honor, great and holy master and lord Shemarya\u0304hu\u0304, the distinguished prince (sar), the important Nagid, the Nagid</p>\n</li>\n<li>\n<p>of the land of Yemen, who is good before God and trusted by men, which had been deposited with him for the heirs of our master Peta\u1e25ya\u0304, mentioned above.</p>\n</li>\n<li>\n<p>He proceeded to send them (the funds) to them, intending that a quittance from the responsibility be issued him, for today and the future. Now perform with us the symbolic act of obligation</p>\n</li>\n<li>\n<p>and testify to us, that each of us has released our master and lord Shemarya\u0304hu\u0304 the distinguished prince mentioned above and his heirs after him</p>\n</li>\n<li>\n<p>from responsibility for thus sum, which we have received from the aforementioned Qadi \u02bfAli\u0304\u2014a complete, final, ultimate release.</p>\n</li>\n<li>\n<p>Nothing will discredit it, no condition will invalidate it, and no interpretation will nullify it, a release for payment and full collection, as we were entrusted to do by [. . .]}</p>\n</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
