@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fprincetongenizalab.github.io%2Fiiif%2Fbodleian%2Fc%2Fcanvas%2Fms-heb-c-28-53%2F2.json&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F19326%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9fe470e435074839a9bf44a1a2359fdb\"",
+      "id": "https://geniza.princeton.edu/annotations/32560adb-19d9-43cf-b20c-0a26d86e1581/",
+      "type": "Annotation",
+      "created": "2024-12-07T23:58:48.650762+00:00",
+      "modified": "2024-12-07T23:58:48.650780+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1035/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-53/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19326/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:229.810546875,384.2697448730469,4757.267578125,1489.6963195800781",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>\u05d0]\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05df \u05e2\u05dc\u05d5\u05df \u05d1\u05df \u05d9\u05e2\u05d9\u05e9 \u05e0\u05e2</li>\n<li>] \u05d4\u05db\u05d4\u05df</li>\n<li>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1]\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e2\u05dc\u05d0\u05d4</li>\n<li>\u05e9\u05d0\u05db\u05e8\u05d4 \u05d9\u05e2\u05e7\u05d1 \u05d1\u05df \u05d0\u05d4\u05e8\u05df</li>\n<li>\u05d4\u05db\u05d4\u05df</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
