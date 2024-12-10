@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5404%2Fiiif%2Ftextblock%2F495%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5404%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9c28309bce9d514af57654051812f6fc\"",
+      "id": "https://geniza.princeton.edu/annotations/e5f9c3cc-9421-409a-88fe-6cc419a92f82/",
+      "type": "Annotation",
+      "created": "2024-12-10T17:11:31.901650+00:00",
+      "modified": "2024-12-10T17:11:31.901666+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5404/iiif/textblock/495/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5404/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:72,15,482,364",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\n<p>Take notice that I have paid the 90 dinars,\u00a0</p>\n</li>\n<li>\n<p>which I had owed, to their owner, and witnesses have signed the</p>\n</li>\n<li>\n<p>receipt. Take notice of this. There was no</p>\n</li>\n<li>\n<p>need to alert me to expedite</p>\n</li>\n<li>\n<p>making this payment. {Alt. tr.: Inform me of any need you have, so that I can take care of it expeditiously.}</p>\n</li>\n<li>\n<p>[Regards.]</p>\n</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"c18fdc085496f671d33ebace9e25bba6\"",
+      "id": "https://geniza.princeton.edu/annotations/ad5d6ee1-9fe1-4052-bbd1-f1850c61fe3c/",
+      "type": "Annotation",
+      "created": "2024-12-10T17:13:28.213440+00:00",
+      "modified": "2024-12-10T17:13:28.213455+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5404/iiif/textblock/495/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5404/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:41,272,534,119",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "address",
+          "value": "<ol>\n<li>\n<p>(To) his excellency, my lord, the illustrious Sheikh Abu \u02bel-\u1e24asan</p>\n</li>\n<li>\n<p>\u02bfAll\u0101n b. \u1e24ass\u016bn\u2014may he rest in Eden!\u2014</p>\n</li>\n<li>\n<p>may God make his honored position permanent!</p>\n</li>\n<li>\n<p>(From) His servant,</p>\n</li>\n<li>\n<p>Bund\u0101r b. al-\u1e24asan b.</p>\n</li>\n<li>\n<p>Bund\u0101r, may he rest in Eden!</p>\n</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
