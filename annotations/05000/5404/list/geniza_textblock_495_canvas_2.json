@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5404%2Fiiif%2Ftextblock%2F495%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5404%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"d744ae66fa6fe8461cadd89cd8014ddc\"",
+      "id": "https://geniza.princeton.edu/annotations/5475fb76-be3a-40f1-9e81-254a353ad374/",
+      "type": "Annotation",
+      "created": "2024-12-10T17:18:26.375740+00:00",
+      "modified": "2024-12-10T17:18:26.375757+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5404/iiif/textblock/495/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5404/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:85,21,427,298",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>\n<p>(To) his excellency, my lord, the illustrious Sheikh Abu \u02bel-\u1e24asan</p>\n</li>\n<li>\n<p>\u02bfAll\u0101n b. \u1e24ass\u016bn&mdash;may he rest in Eden!&mdash;</p>\n</li>\n<li>\n<p>may God make his honored position permanent!</p>\n</li>\n<li>\n<p>(From) His servant,</p>\n</li>\n<li>\n<p>Bund\u0101r b. al-\u1e24asan b.</p>\n</li>\n<li>\n<p>Bund\u0101r, may he rest in Eden!</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3f2d4ba9703de610bf020cceacb8e5a5\"",
+      "id": "https://geniza.princeton.edu/annotations/5683043c-a0d6-44d4-ac33-98c84a59de54/",
+      "type": "Annotation",
+      "created": "2024-12-10T17:19:15.756389+00:00",
+      "modified": "2024-12-10T17:19:15.756406+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5404/iiif/textblock/495/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5404/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:163,83,367,238",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>\u05d7\u05e6\u05e8\u05d4 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d0\u05d2\u05dc \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05df \u05e2\u05d1\u05d3\u05d4</li>\n<li>\u05e2\u05dc\u05d0\u05df \u05d1\u05df \u05d7\u05e1\u05d5\u05df \u05e0\u05e2 (!) \u05d1\u05e0\u05d3\u05d0\u05e8 \u05d1\u05df \u05d0\u05dc\u05d7\u05e1\u05df \u05d1\u05df</li>\n<li>\u05d0\u05d3\u05d0\u05dd \u05d0\u05dc\u05dc\u05d4 \u05e2\u05d6\u05d4 \u05d1\u05e0\u05d3\u05d0\u05e8 \u05e0\u05e2</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
