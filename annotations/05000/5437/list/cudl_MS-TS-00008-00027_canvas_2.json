@@ -4,26 +4,53 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "id": "https://geniza.princeton.edu/annotations/57b999fe-ea1f-4139-87aa-4928227b0441/",
+      "etag": "\"ab7bcbc1567beb52c46cc171aa740771\"",
+      "id": "https://geniza.princeton.edu/annotations/69dc2739-f46a-4336-82d8-e4a02dfdac4e/",
       "type": "Annotation",
-      "created": "2022-10-07T01:13:26.206007+00:00",
-      "modified": "2022-10-07T01:13:26.206021+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso:",
-          "value": "<ol>\n<li>.... [...] \u05d9\u05e6\u05dc \u05e2\u05d3\u05df \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4</li>\n<li>[\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4] \u05d1\u05e7\u05d0\u05d4</li>\n<li>[\ufe92\ufee4]\u0627\u0631\u0643 \u0628\u0646 \u0633\u0647\u0644 \u0627\u0644\u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a \u0645\u062d\u0628\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0645\u0633\u0639\u0648\u062f \u0627\u0644\u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a</li>\n<li>[ ] \u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u064a\u0635\u0644 \u0639\u062f\u0646 \u0633\u0644\u0645\u0647\u0627 \u0644\u0644\u0647 \u062f\u0643\u0627\u0646 \u0627\u0644\u0634\u064a\u062e \u0627\u0633\u062d\u0642</li>\n<li>\u0628\u0646 \u0628\u0646\u062f\u0627 \u0631</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "created": "2024-12-10T16:32:05.117106+00:00",
+      "modified": "2024-12-10T16:32:05.117129+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00027/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5437/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5437/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:74.74844360351562,122.31562805175781,4192.708099365234,1658.0563201904297",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>(To) [...May God lengthen] his life! To Aden, God willing.</li>\n<li>[(To)...Mub]\u0101rak b. Sahl, the Israelite.</li>\n<li>[May God lengthen his life] and make his honored position permanent!</li>\n<li>(From) His friend Y\u016bsuf ( Joseph) b. Mas\u02bf\u016bd, the Israelite.</li>\n<li>To be delivered to Aden\u2014may God keep it prosperous!\u2014to the store of Sheikh Is\u1e25\u0101q b. Bund\u0101r.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b31169a19b105785154f4f3778c3c3d3\"",
+      "id": "https://geniza.princeton.edu/annotations/57b999fe-ea1f-4139-87aa-4928227b0441/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:13:26.206007+00:00",
+      "modified": "2024-12-10T16:30:24.358827+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00027/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5437/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +59,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>.... [...] \u05d9\u05e6\u05dc \u05e2\u05d3\u05df \u05d0\u05df \u05e9\u05d0 \u05d0\u05dc\u05dc\u05d4</li>\n<li>[\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4] \u05d1\u05e7\u05d0\u05d4</li>\n<li>[\ufe92\ufee4]\u0627\u0631\u0643 \u0628\u0646 \u0633\u0647\u0644 \u0627\u0644\u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a \u0645\u062d\u0628\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0645\u0633\u0639\u0648\u062f \u0627\u0644\u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a</li>\n<li>[ ] \u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u064a\u0635\u0644 \u0639\u062f\u0646 \u0633\u0644\u0645\u0647\u0627 \u0644\u0644\u0647 \u062f\u0643\u0627\u0646 \u0627\u0644\u0634\u064a\u062e \u0627\u0633\u062d\u0642</li>\n<li>\u0628\u0646 \u0628\u0646\u062f\u0627 \u0631</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
