@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d16f10b3ff77bd76e92faa8c5fd1f6ca\"",
       "id": "https://geniza.princeton.edu/annotations/5b43d46d-92be-4b3b-857e-2d95dd1413a8/",
       "type": "Annotation",
       "created": "2022-10-07T00:28:42.026747+00:00",
       "modified": "2022-10-07T00:28:42.026768+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-13/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/593/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d671d2ace9cd57dc51ce1b24749cc37b\"",
+      "id": "https://geniza.princeton.edu/annotations/64f6d3b3-fd69-4bfd-88cb-d3603224a129/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:28:42.041756+00:00",
+      "modified": "2024-12-12T00:09:02.283801+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-75-13/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/593/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/593/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,12 +60,20 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right margin:",
+          "value": "<ol>\n<li>\u05ea\u05db\u05e8\u05d2 \u05e4\u05d9 \u05db\u05dc \u05d5\u05d2\u05d4</li>\n<li>\u05d5\u05de\u05d1\u05e9\u05e8 \u05d4\u05dc\u05d5\u05d9 \u05ea\u05dc\u05de\u05d9\u05d3 \u05e8\u05d1\u05d9\u05e0\u05d5 \u05d9\u05db\u05e5 \u05d7\u05e6\u05e8\u05ea\u05d4 \u05d1\u05d0\u05dc\u05e9\u05dc\u05d5\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 1
+      "schema:position": 2
     }
   ]
 }
