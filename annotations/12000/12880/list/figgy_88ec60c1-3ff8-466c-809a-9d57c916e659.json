@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F4984c2b0-ccef-4254-8453-d101211eb48b%2Fmanifest%2Fcanvas%2F88ec60c1-3ff8-466c-809a-9d57c916e659&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F12880%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"afa9acb6f686e0122341917c43be8bdf\"",
+      "id": "https://geniza.princeton.edu/annotations/eb2540ae-fccd-42d4-9902-3712b22cd329/",
+      "type": "Annotation",
+      "created": "2024-12-15T19:30:36.736315+00:00",
+      "modified": "2024-12-15T19:30:36.736327+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/5/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/4984c2b0-ccef-4254-8453-d101211eb48b/manifest/canvas/88ec60c1-3ff8-466c-809a-9d57c916e659",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12880/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:138.1642608642578,1692.4166259765625,3697.148239135742,3791.1434326171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"he\">\u05d1\u05e9\u05dd \u05d0\u05dc \u05e2\u05d5\u05dc\u05dd</span></li>\n<li><span lang=\"he\">\u05d5\u05d9'\u05d9 \u05d0\u05e9\u05e8 \u05dc\u05d0 \u05d9\u05e1\u05e4\u05e8</span></li>\n<li><span lang=\"he\">\u05d8\u05d5\u05d1\u05d9\u05dd \u05d4\u05e9\u05e0\u05d9\u05dd</span></li>\n<li><span lang=\"he\">\u05db\u05d9 \u05db\u05d0\u05e9\u05d4 \u05e2\u05d6\u05d5\u05d1\u05d4</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"a7ccaaf21af4e3c7f270d11fef5a7950\"",
+      "id": "https://geniza.princeton.edu/annotations/521212d8-5ab0-4187-b637-1d5659f5d8da/",
+      "type": "Annotation",
+      "created": "2024-12-15T19:31:21.568429+00:00",
+      "modified": "2024-12-15T19:31:21.568443+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/5/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/4984c2b0-ccef-4254-8453-d101211eb48b/manifest/canvas/88ec60c1-3ff8-466c-809a-9d57c916e659",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/12880/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:122.36920928955078,1830.3814697265625,3657.983573913574,3556.1551513671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"en\">In the name of the Everlasting God</span></li>\n<li><span lang=\"en\">And the Lord who cannot be counted (Jer. 33: 22)</span></li>\n<li><span lang=\"en\">Two are better (Koh. 4: 9)</span></li>\n<li><span lang=\"en\">Because like an abandoned woman (Is. 54: 6)</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
