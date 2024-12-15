@@ -4,11 +4,46 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"c1647e1d0f6707f9bb2e67c961d2e51e\"",
+      "etag": "\"68dea13cb71653483678eecafbcf5408\"",
+      "id": "https://geniza.princeton.edu/annotations/6c401c21-4b6e-43b4-be19-30e127a1c266/",
+      "type": "Annotation",
+      "created": "2024-12-15T05:05:33.450281+00:00",
+      "modified": "2024-12-15T05:05:36.366281+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/6555/iiif/textblock/3179/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6555/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:208.1640625,332.68359375,263.56640625,96.30859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05ea\u05d5\u05db\u05e5 \u05d8\u05dc\u05e2\u05ea\u05d4\u05d0 \u05d0\u05dc\u05e1\u05e2\u05d9\u05d3\u05d4 \u05d0\u05dc\u05e9\u05e8\u05d9\u05e4\u05d4 \u05d0\u05ea\u05dd \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d0\u05e4\u05e6\u05dc\u05d4</li>\n<li>\u05d5\u05ea\u05e7\u05e8\u05d9 \u05d0\u05dc\u05de\u05d5\u05dc\u05d0 \u05e8\u05d1\u05d9 \u05d9\u05d5\u05e1\u05e3 \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05ea\u05e2\u05dc\u05de\u05d4 \u05d0\u05e0\u05d9 \u05e1\u05d9\u05e8\u05ea \u05e6\u05d7\u05d1\u05d4</li>\n<li>\u05d4\u05d3\u05d0 \u05d0\u05dc\u05db\u05ea\u05d0\u05d1 \u05db\u05ea\u05d0\u05d1\u05d9\u05df \u05dc\u05d4 \u05d5\u05d0 \u05de\u05e2 \u05d7\u05d0\u05de\u05dc \u05d4\u05d3\u05d0 \u05d5\u05d5\u05d0 \u05de\u05e2</li>\n<li>\u05de\u05db\u05d0\u05e8\u05d9 \u05d5\u05d0\u05db\u05e8 \u05e7\u05d1\u05dc \u05d4\u05d0\u05d5\u05dc\u05d0 \u05de\u05e2 \u05db\u05e6\u05d9\u05e8 \u05d5\u05d9\u05e1\u05dc\u05dd \u05d0\u05dc\u05de\u05d5\u05dc\u05d0 \u05e2\u05dc\u05d9</li>\n<li>\u05d0\u05dc\u05e4\u05e8\u05e2\u05d9\u05df \u05d0\u05dc\u05e0\u05d2\u05d9\u05d1\u05d9\u05df \u05d0\u05e4\u05e6\u05dc \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd \u05d5\u05d0\u05ea\u05de\u05d4 \u05d5\u05e9\u05dc\u05d5\u05dd \u05e8\u05d1</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"dcd595a25a2f648ab3cc011cb0d59bfe\"",
       "id": "https://geniza.princeton.edu/annotations/f3b896b1-240b-4699-ae44-48bc9c93101f/",
       "type": "Annotation",
       "created": "2024-12-15T04:58:54.693417+00:00",
-      "modified": "2024-12-15T04:58:54.693430+00:00",
+      "modified": "2024-12-15T05:05:36.370836+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/99/",
       "target": {
         "source": {
@@ -36,14 +71,14 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 1
+      "schema:position": 2
     },
     {
-      "etag": "\"99a66a122c313fd9b1e4dede8385091a\"",
+      "etag": "\"6edcf3edd725ca28b7e3629f9cef8568\"",
       "id": "https://geniza.princeton.edu/annotations/9feaefa4-9b2c-4e48-aff3-e71f1f466b06/",
       "type": "Annotation",
       "created": "2024-12-15T05:01:28.842956+00:00",
-      "modified": "2024-12-15T05:01:28.842971+00:00",
+      "modified": "2024-12-15T05:05:36.366984+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/99/",
       "target": {
         "source": {
@@ -71,7 +106,7 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2
+      "schema:position": 3
     }
   ]
 }
