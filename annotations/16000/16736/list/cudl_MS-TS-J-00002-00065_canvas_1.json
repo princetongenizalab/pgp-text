@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-J-00002-00065%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16736%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"bb6ea44c341333ef100b3f08232466c3\"",
+      "id": "https://geniza.princeton.edu/annotations/81c218a5-8caf-46ee-b77a-34aafac964fe/",
+      "type": "Annotation",
+      "created": "2024-12-15T23:38:16.863320+00:00",
+      "modified": "2024-12-15T23:38:16.863334+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/5/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-J-00002-00065/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16736/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:522.7882080078125,536.31640625,1314.9105224609375,2497.763916015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li><span lang=\"he\">&hellip; [\u05d7]\u05d3\u05e9 \u05e4\u05dc\u05d5\u05e0\u05d9 \u05e9\u05e0\u05ea</span></li>\n<li><span lang=\"he\">&hellip; \u05d9\u05d5\u05e0\u05d9\u05dd \u05d1\u05d9\u05e8\u05d5\u05e9\u05dc\u05dd</span></li>\n<li><span lang=\"he\">&hellip; \u05dc\u05e7\u05d7 \u05e4\u05dc\u05d5\u05e0\u05d9 \u05d1\u05df \u05e4'</span></li>\n<li><span lang=\"he\">&hellip; \u05de\u05d0\u05ea \u05d0\u05d1\u05d9\u05d4</span></li>\n<li><span lang=\"he\">&hellip; [\u05dc]\u05d4\u05d9\u05d5\u05ea \u05dc\u05d9 \u05dc\u05d0\u05e9\u05d4</span></li>\n<li><span lang=\"he\">&hellip; \u05db\u05d9 \u05e8\u05e6\u05d9\u05ea\u05d9</span></li>\n<li><span lang=\"he\">&hellip; [\u05d7]\u05e4\u05e6\u05d4 \u05d5\u05dc\u05e7\u05d7\u05ea\u05d9</span></li>\n<li><span lang=\"he\">&hellip; \u05d7\u05de\u05e9\u05d9\u05dd \u05db\u05e1\u05e3 \u05db\u05db'</span></li>\n<li><span lang=\"he\">&hellip; \u05d4\u05d1\u05ea\u05d5\u05dc\u05d5\u05ea \u05d5\u05d0 ||</span></li>\n<li><span lang=\"he\">&hellip; [\u05db]\u05e1\u05e3 \u05d5\u05d0\u05ea\u05df \u05d0\u05d5\u05ea\u05dd</span></li>\n<li><span lang=\"he\">&hellip; \u05dc\u05db\u05d1\u05d5\u05d3\u05d4 \u05dc\u05ea\u05ea</span></li>\n<li><span lang=\"he\">&hellip; [\u05d3]\u05e8\u05db\u05de\u05d5\u05e0\u05d9\u05dd \u05d5\u05e9\u05e7\u05dc\u05ea\u05d9</span></li>\n<li><span lang=\"he\">&hellip; \u05db\u05df \u05d5\u05db\u05df \u05dc\u05de\u05e9\u05d0 \u05e2\u05dc\u05d9</span></li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
