@@ -37,6 +37,41 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "etag": "\"2ba17606871f6aaa95aaf7148ae18d6b\"",
+      "id": "https://geniza.princeton.edu/annotations/dc49b1db-c96f-4d52-8ca0-3e176053af7d/",
+      "type": "Annotation",
+      "created": "2024-12-19T19:36:38.885762+00:00",
+      "modified": "2024-12-19T19:36:38.885776+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00154-00116/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5457/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:356.8282470703125,285.4625549316406,2647.6651611328125,892.0705261230469",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>(To) The most illustrious elder, my lord Abraham</li>\n<li>Ben \u2018Ish\u016b\u2014May God preserve your well-being!</li>\n<li>(From) Your servant Ma\u1e0dm\u016bn</li>\n<li>b. al-\u1e24asan b. Bund\u0101r.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
