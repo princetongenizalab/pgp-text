@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00021-00022%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F5957%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"e01bccc5fc538259ca88cdda97b8c5db\"",
+      "id": "https://geniza.princeton.edu/annotations/a589918f-75fd-4689-bb9e-f32b3f5697f9/",
+      "type": "Annotation",
+      "created": "2024-12-23T03:25:50.501575+00:00",
+      "modified": "2024-12-23T03:25:50.501590+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00021-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5957/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:913.8281860351562,664.9177856445312,3189.5692749023438,677.9834594726562",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - Arabic address",
+          "value": "<ol>\n<li>\u064a\u0635\u0644 \u0627\u0644\u0649 \u0645\u0635\u0631 \u0627\u0644\u0649 \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u0648 \u0645\u0646\u0635\u0648\u0631 \u0627\u0644\u0646\u0634\u0627\u062f\u0631\u064a \u064a\u0648\u0635\u0644\u0647 \u0627\u0644\u0649 \u062a\u0645\u064a\u0645 \u0628\u0646 \u0645\u0648\u0633\u0649</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"db151355c8b5da192b42a993fb107d1c\"",
+      "id": "https://geniza.princeton.edu/annotations/b6a50c0c-c690-4911-a93c-56a14507cbd8/",
+      "type": "Annotation",
+      "created": "2024-12-23T03:26:32.911659+00:00",
+      "modified": "2024-12-23T03:26:32.911673+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00021-00022/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5957/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:345.32037353515625,1436.1654052734375,3517.2955932617188,889.1671142578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - Judaeo-Arabic address",
+          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05de\u05e6\u05e8 \u05d0\u05dc\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05de\u05e0\u05e6\u05d5\u05e8 \u05d0\u05dc\u05e0\u05e9\u05d0\u05d3\u05e8\u05d9 \u05d0\u05d7\u05d9\u05d0\u05d4 \u05d0\u05dc\u05dc\u05d4</li>\n<li>\u05d9\u05d5\u05e6\u05dc\u05d4 \u05d0\u05dc\u05d9 \u05e6\u05d4\u05e8\u05d4 \u05ea\u05de\u05d9\u05dd \u05d1\u05df \u05de\u05d5\u05e1\u05d9 \u05de\u05df \u05e2\u05d1\u05d3\u05d4 \u05d0\u05d1\u05d5 \u05e2\u05dc\u05d9 \u05d1\u05df \u05e2\u05de\u05ea\u05d4</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
