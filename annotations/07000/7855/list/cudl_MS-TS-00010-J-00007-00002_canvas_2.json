@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00007-00002%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7855%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"700eba7f1c3ecc490ef5eb25447845e7\"",
+      "id": "https://geniza.princeton.edu/annotations/6abd2559-9346-448d-b6c1-2637f2aeee6e/",
+      "type": "Annotation",
+      "created": "2024-12-23T23:12:08.365239+00:00",
+      "modified": "2024-12-23T23:12:08.365252+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00007-00002/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7855/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:297.35577392578125,618.3314819335938,3291.9943237304688,2085.2034301757812",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>We ask from God and from you - in regard to this Rabbi Abraham -</p>\n</li>\n<li>\n<p>that you encourage him with agreeable words, perhaps he may report them to us.</p>\n</li>\n<li>\n<p>Say to him, \"This loss .... is not of your doing\". May God in heaven</p>\n</li>\n<li>\n<p>help me to reward you with what is good. (From all the greetings which I sent through you) pick out for yourself the especially good</p>\n</li>\n<li>\n<p>ones. Inform the elder Abu' Nas'r (that I send him) best regards,</p>\n</li>\n<li>\n<p>//And peace//</p>\n</li>\n<li>\n<p>(and inform yourself) that the elder Abu'l-Faraj, the son of your maternal uncle, and his son ask\u00a0</p>\n</li>\n<li>\n<p>about you. Do not neglect (to do something) about his request to write the chief.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"dfa58848c268420ea6a7e604412792a3\"",
+      "id": "https://geniza.princeton.edu/annotations/f548ff47-a173-4953-832c-0e042e8acdc4/",
+      "type": "Annotation",
+      "created": "2024-12-23T23:13:01.816224+00:00",
+      "modified": "2024-12-23T23:13:01.816245+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00007-00002/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7855/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:586.0130615234375,2772.343994140625,2969.0887451171875,519.9326171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Address",
+          "value": "<ol>\n<li>\n<p>May this letter come to the honorable, great and holy Rabbi Elijah the judge</p>\n</li>\n<li>\n<p>from his slave Joseph b. Jacob the Kohen</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
