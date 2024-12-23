@@ -39,11 +39,11 @@
       "schema:position": 1
     },
     {
-      "etag": "\"8d165a279437da481e331fa14d74145c\"",
+      "etag": "\"11c73b29a685ea5b58051e5d85bd8dd9\"",
       "id": "https://geniza.princeton.edu/annotations/d08b1fca-8db9-44fd-9513-4699d48e29df/",
       "type": "Annotation",
       "created": "2024-12-23T18:52:00.246056+00:00",
-      "modified": "2024-12-23T18:52:00.246084+00:00",
+      "modified": "2024-12-23T18:58:53.471249+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/38/",
       "target": {
         "source": {
@@ -62,7 +62,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "verso, right column",
+          "label": "side a, column I (right)",
           "value": "<ol>\n<li>50. The gypsum</li>\n<li>in D\u0101r \u1e24ayy\u016bn,</li>\n<li>21, 10&frac12;, 6, 20, 20.</li>\n<li>Total,</li>\n<li>77&frac12;.</li>\n<li>\u02bfImr\u0101n</li>\n<li>for the \u1e6dabaqa,</li>\n<li>gypsum,</li>\n<li>20, 25, 32&frac12;.</li>\n<li>77&frac12;.</li>\n<li>Plus clay</li>\n<li>and wood</li>\n<li>collected for Wednesday.</li>\n</ol>",
           "format": "text/html"
         }
@@ -109,6 +109,41 @@
       "schema:position": 2
     },
     {
+      "etag": "\"b44ed5b75948d506b9d165ca7a4484b0\"",
+      "id": "https://geniza.princeton.edu/annotations/fd780db7-2598-48cc-89e9-d602cb4edb82/",
+      "type": "Annotation",
+      "created": "2024-12-23T18:56:45.819329+00:00",
+      "modified": "2024-12-23T18:56:45.819344+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00305/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1428/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1070.49169921875,201.64639282226562,1368.75,3264.7220153808594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "side a, column II (middle)",
+          "value": "<ol>\n<li>Returned by \u1e24ayy\u016bn</li>\n<li>the whitewasher:</li>\n<li>(3-4) Gypsum, 20. Clay, 20. Lime, 1 q\u012br\u0101\u1e6d.</li>\n<li>&nbsp;</li>\n<li>Returned by</li>\n<li>\u02bfImr\u0101n:</li>\n<li>(7-8) Gypsum, 64; masons, 37.</li>\n<li>&nbsp;</li>\n<li>A meal,</li>\n<li>5.</li>\n<li>Paid by \u02bfImr\u0101n</li>\n<li>(12-14) for transportation of gypsum for the special masons,37. 22; 1&frac12; dir., ....dirhems.</li>\n<li>&nbsp;</li>\n<li>&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
       "etag": "\"77d8deaa22f431f6c6ca4ae606025383\"",
       "id": "https://geniza.princeton.edu/annotations/84ccea01-9260-46af-adb0-bbabd68c00b7/",
       "type": "Annotation",
@@ -140,6 +175,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "etag": "\"dc261fb91f01c3ad51bc900c6feaf73a\"",
+      "id": "https://geniza.princeton.edu/annotations/26f19ccf-e18b-4a5a-acca-b39e92037535/",
+      "type": "Annotation",
+      "created": "2024-12-23T18:58:39.273970+00:00",
+      "modified": "2024-12-23T18:58:39.273987+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/38/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00305/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1428/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:340.4917297363281,161.09083557128906,1155.8332214355469,1480.2776947021484",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "side a, column III (left)",
+          "value": "<ol>\n<li>Paid by \u1e24ayy\u016bn,</li>\n<li>the cost of the floor tiles,</li>\n<li>22. Masons,</li>\n<li>45.</li>\n<li>(5-6) Lime, 9 ....hired workers, 9.</li>\n<li>&nbsp;</li>\n<li>A water carrier, 9.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 3
     }
