@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00015-00001%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7657%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"579e6662b39bbec3ff9a5f4a760dd1ae\"",
+      "id": "https://geniza.princeton.edu/annotations/0a38f265-ba8c-453c-96d6-96b71182ae65/",
+      "type": "Annotation",
+      "created": "2024-12-23T22:16:44.558350+00:00",
+      "modified": "2024-12-23T22:16:44.558367+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00015-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7657/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:118.49334716796875,984.7783203125,3066.7114868164062,2579.013427734375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>I present my son Solomon with a Torah commentary</p>\n</li>\n<li>\n<p>I present my son Solomon with a Torah commentary in five volumes, as well as</p>\n</li>\n<li>\n<p>the prayerbook of Rabbe'nu' Solomon (of blessed memory). No one else has any right to it. It is a gift for my son</p>\n</li>\n<li>\n<p>Solomon, a gift which cannot be taken back. A gift of a healthy man, not</p>\n</li>\n<li>\n<p>of one on his death-bed. All codices and copper vessels in my house</p>\n</li>\n<li>\n<p>belong to no one else. They are his, a definite gift. The remaining</p>\n</li>\n<li>\n<p>smaller codices he should divide with his brother Abu Zikri. The</p>\n</li>\n<li>\n<p>codex of the Torah, Prophets and Hagiographa is my son Solomon's. He may teach</p>\n</li>\n<li>\n<p>the pupils from it. His brother must not take them from him, nor divide them</p>\n</li>\n<li>\n<p>with him at all. They are my son Solomon's, a gift, whether he be a teacher or whether</p>\n</li>\n<li>\n<p>he not be a teacher. His brother has no right to that at all \u2026. as</p>\n</li>\n<li>\n<p>God [is] my [witness]. I wrote this myself. I, Elljah, son of R. Ze[kharia.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
