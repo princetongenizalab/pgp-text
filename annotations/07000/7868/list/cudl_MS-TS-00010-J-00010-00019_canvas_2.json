@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"47315b9fbdadf467a1f10ee66417ef69\"",
       "id": "https://geniza.princeton.edu/annotations/5646efa2-e684-46d3-a7dc-a7a2638dc988/",
       "type": "Annotation",
       "created": "2022-10-18T06:21:09.967891+00:00",
       "modified": "2022-10-18T06:21:09.967906+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso:",
-          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d2\u05dc\u05d9\u05dc</li>\n<li>\u05d1\u05e8\u05db\u05d0\u05ea \u05d0\u05dc\u05de\u05e2\u05e8\u05d5\u05e3 \u05d1\u05df</li>\n<li>\u05d0\u05dc\u05d3\u05d9\u05d0\u05df</li>\n<li>\u05de\u05df \u05d0\u05dd \u05db\u05dc\u05e3</li>\n<li>\u05de\u05df \u05e1\u05de\u05d1\u05d0\u05d8</li>\n</ol>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00010-00019/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/7868/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/7868/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,10 +24,52 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso:",
+          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05dc\u05d2\u05dc\u05d9\u05dc</li>\n<li>\u05d1\u05e8\u05db\u05d0\u05ea \u05d0\u05dc\u05de\u05e2\u05e8\u05d5\u05e3 \u05d1\u05df</li>\n<li>\u05d0\u05dc\u05d3\u05d9\u05d0\u05df</li>\n<li>\u05de\u05df \u05d0\u05dd \u05db\u05dc\u05e3</li>\n<li>\u05de\u05df \u05e1\u05de\u05d1\u05d0\u05d8</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b81c88146e7373cba9fe86235b24816f\"",
+      "id": "https://geniza.princeton.edu/annotations/66a7a841-0563-4e0b-aa5f-91c0e4f01ea8/",
+      "type": "Annotation",
+      "created": "2024-12-24T01:51:46.528845+00:00",
+      "modified": "2024-12-24T01:51:46.528859+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00010-00019/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7868/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:648.6865234375,552.2166748046875,3414.447265625,923.771728515625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso address",
+          "value": "<ol>\n<li>\n<p>(May this) c]ome to my patron the distinguished elder From Umm Khalaf</p>\n</li>\n<li>\n<p>Baraka't, known as son of</p>\n</li>\n<li>\n<p>the Judge From Sumba't</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
