@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2Fa0f1148a-ebdf-47ce-b12f-00756380736b%2Fmanifest%2Fcanvas%2F9f52569b-b2ef-4d22-9650-f1d0307b624c&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F10549%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"83e8286c3671df11257398e471a71ca1\"",
+      "id": "https://geniza.princeton.edu/annotations/db7b65b8-fc0f-4553-976d-f684ab532afe/",
+      "type": "Annotation",
+      "created": "2024-12-26T08:47:59.007413+00:00",
+      "modified": "2024-12-26T08:47:59.007435+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1040/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/a0f1148a-ebdf-47ce-b12f-00756380736b/manifest/canvas/9f52569b-b2ef-4d22-9650-f1d0307b624c",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/10549/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:881.7477416992188,1109.5081787109375,3339.4280395507812,3024.2335205078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u0627\u0644\u0645\u0648\u0644\u0627 \u0627\u0644\u0627\u062c\u0644 \u0627\u0644\u0646\u0627\u0633\u064a \u0627\u0644\u062c\u0644\u064a\u0644 \u0627\u0644\u0646\u0628\u064a\u0644</li>\n<li>\u0627\u062f\u0627\u0645 \u0627\u0644\u0644\u0647 \u062d\u0627\u0644\u0647 \u062a\u0639\u0644\u0645 \u062d\u0636\u0648\u0631 \u0645\u0648\u0635\u0644\u0647\u0627</li>\n<li>\u0648\u0642\u062f \u0627\u0641\u0636\u0627\u0644\u0647 \u0645\u0646 \u0639\u0640[</li>\n<li>\u0641\u0644\u0627 \u064a\u062f\u0641\u0639 \u0644\u0647 \u0627\u0644\u0648\u0644\u0627\u064a\u0629 \u0648\u0630\u0644\u0643 \u0644\u0633\u0628\u0628 \u0627\u0644\u0627\u0630\u0644\u0627\u0644</li>\n<li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]........</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
