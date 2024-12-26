@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"b491a122ab170515b5886c302bc4a7dc\"",
+      "id": "https://geniza.princeton.edu/annotations/2f141d99-e3e6-4d56-a4df-99e9625f0177/",
+      "type": "Annotation",
+      "created": "2024-12-26T19:13:51.228891+00:00",
+      "modified": "2024-12-26T19:13:51.228905+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00020-00130/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5452/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:216.9077911376953,1354.5174560546875,3154.2801971435547,2849.3223876953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>\n<p>[. . . May God], the Exalted, recompense and replace what has been lost! And after this\u00a0</p>\n</li>\n<li>\n<p>[so-and-so] paid me 2,100 dinars for the ship, a price</p>\n</li>\n<li>\n<p>{alt. tr.: the highest bid} absolutely [unheard of]. He did not accept this, but charged me with</p>\n</li>\n<li>\n<p>[. . .I asked God], the Exalted, [for guidance and] fitted out the ship</p>\n</li>\n<li>\n<p>\u2014the [Mub\u0101ra]k\u2014which will sail to Mangalore under the supervision of Sheikh Ab\u016b Sa\u02bf\u012bd b. Ma\u1e25f\u016b\u1e93 {lit., \u2018I outfitted the ship...through the agency of Sheikh...to Mangalore\u2019}.\u00a0</p>\n</li>\n<li>\n<p>\u2014may God ordain his {alt. tr.: its} safe arrival! I have done so dreading that [enemies]</p>\n</li>\n<li>\n<p>and whoever has no good in him would gloat over my misfortune. I sent you with Sheikh\u00a0</p>\n</li>\n<li>\n<p>Ab\u016b Sa\u02bf\u012bd b. Ma\u1e25f\u016b\u1e93 half a basket of dates and a piece {alt. tr.: unit} of</p>\n</li>\n<li>\n<p>ros[e water] and two [rub\u0101]\u02bfiyyas of sugar and raisins. Please be sure to collect this, my lord,</p>\n</li>\n<li>\n<p>and may you think well of your servant! I shall be glad {alt. tr.: please honor me} to do any errand for you.</p>\n</li>\n<li>\n<p>May you be granted complete well-being and the mercy of</p>\n</li>\n<li>\n<p>[God, and His blessings]! And peace.</p>\n</li>\n<li>I sent you with Sheikh Ab\u016b Sa\u02bf\u012bd a rub\u0101\u02bfiyya of soap.</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"33d25995a870270d406cdd0b4bebcf34\"",
       "id": "https://geniza.princeton.edu/annotations/756042be-7fb4-4770-b48b-db7c72843b8d/",
       "type": "Annotation",
       "created": "2022-10-07T01:40:55.888746+00:00",
       "modified": "2022-11-08T00:48:19.561908+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00020-00130/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5452/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00020-00130/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5452/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
