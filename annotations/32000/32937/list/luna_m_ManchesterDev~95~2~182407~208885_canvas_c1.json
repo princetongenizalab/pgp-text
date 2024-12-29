@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fluna.manchester.ac.uk%2Fluna%2Fservlet%2Fiiif%2Fm%2FManchesterDev~95~2~182407~208885%2Fcanvas%2Fc1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F32937%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"b8fc02839cc9d232a73a71ef89f010c7\"",
+      "id": "https://geniza.princeton.edu/annotations/55b6c948-b276-4c67-a73e-d8aa57ad788c/",
+      "type": "Annotation",
+      "created": "2024-12-29T15:38:29.323603+00:00",
+      "modified": "2024-12-29T15:38:29.323616+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1148/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~182407~208885/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/32937/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1039.2613525390625,271.2651672363281,2143.4459228515625,2361.458465576172",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (filing note in Judaeo-Arabic):",
+          "value": "<ol>\n<li>\u05e4\u05ea\u05d0\u05dc\u05d9\u05df \u05d0\u05dc</li>\n<li>\u05d7\u05e8\u05d9\u05e8</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
