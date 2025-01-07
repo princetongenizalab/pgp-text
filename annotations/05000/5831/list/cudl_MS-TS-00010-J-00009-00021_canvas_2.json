@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"2eba871b65cdc623d3765b380982040a\"",
       "id": "https://geniza.princeton.edu/annotations/040726b1-4ae7-4835-bc53-0bf64531547e/",
       "type": "Annotation",
       "created": "2023-02-08T20:35:43.672926+00:00",
@@ -38,6 +39,42 @@
       "schema:position": 1
     },
     {
+      "etag": "\"eda6df45d00d1b40aa2222a7864ca900\"",
+      "id": "https://geniza.princeton.edu/annotations/6cd88711-9a47-423f-9d38-61ecb706c749/",
+      "type": "Annotation",
+      "created": "2025-01-07T19:53:22.739133+00:00",
+      "modified": "2025-01-07T19:53:22.739146+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00009-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5831/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:573.496826171875,3158.7841796875,4396.809326171875,473.362548828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05d5\u05d4\u05d5\u05d0\u05d9\u05dc\u05d4 \u05dc\u05d4\u05d6\u05db\u05d9\u05e8 \u05dc\u05d0\u05d1\u05e8\u05d4\u05dd \u05d1\u05df \u05e0\u05e6\u05d9\u05e8 \u05d0\u05ea \u05d4\u05e9\u05d1\u05d5\u05e2\u05d5\u05ea \u05e9\u05e0\u05e9\u05d1\u05e2 \u05e9\u05dc\u05d0 \u05d9\u05de\u05e1\u05d5\u05e8 \u05dc\u05d0\u05d9\u05e9 \u05d3\u05d1\u05e8 \u05de\u05d6\u05d4. </p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"a2a74d1f79f5d8a21c1c843a03aa8b3b\"",
       "id": "https://geniza.princeton.edu/annotations/28dee465-db13-45bd-94fc-b71d76a6734b/",
       "type": "Annotation",
       "created": "2023-02-08T20:37:27.440045+00:00",
@@ -68,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"1fb5d99f4735d63afc879de3137cecbd\"",
+      "id": "https://geniza.princeton.edu/annotations/62663953-b53a-42f2-b2f6-8b173684a916/",
+      "type": "Annotation",
+      "created": "2025-01-07T19:53:41.512469+00:00",
+      "modified": "2025-01-07T19:53:41.512495+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00009-00021/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5831/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:655.4249877929688,1247.1280517578125,4460.531066894531,1065.0655517578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<p>\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d4\u05d7\u05d1\u05e8 \u05d2\u05d3\u05d5\u05dc \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4, \u05e8\u05d1\u05e0\u05d9 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05d9\"\u05e8 \u05e0\u05e1\u05d9\u05dd \u05d6\"\u05dc, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05d2\u05d3\u05d5\u05dc\u05ea\u05d5 \u05d5\u05d0\u05ea \u05e2\u05d6\u05e8\u05ea\u05d5 \u05dc\u05d5. \u05d0\u05d5\u05d4\u05d1\u05d5, \u05d9\u05e9\u05d5\u05e2\u05d4 \u05d1\u05df \u05d0\u05b7\u05e1\u05de\u05e2\u05d9\u05dc \u05e0\"\u05e2. </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
