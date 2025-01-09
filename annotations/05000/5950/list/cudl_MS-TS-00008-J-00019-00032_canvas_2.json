@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"87b82bb95cc8a7b28adf7fecb42a6eb1\"",
       "id": "https://geniza.princeton.edu/annotations/d9d678cc-b12d-41fb-bddc-588f0989ee06/",
       "type": "Annotation",
       "created": "2023-02-15T18:27:43.566842+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2c35e534f49808f2258190f3e4b3f803\"",
+      "id": "https://geniza.princeton.edu/annotations/04fcb175-c6ef-4826-8e6e-b87ad3059a45/",
+      "type": "Annotation",
+      "created": "2025-01-09T21:56:49.107415+00:00",
+      "modified": "2025-01-09T21:56:49.107430+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00032/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5950/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:424.07049560546875,565.4273071289062,3857.0217895507812,2948.2994995117188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05e8\u05d1\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d0 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05e9\u05dc\u05d5\u05de\u05d5 \u05d5\u05d0\u05ea \u05d7\u05e1\u05d3\u05d9\u05d5 \u05dc\u05d5 ; \u05de\u05d1\u05e8\u05d4\u05d5\u05df \u05d1\u05df \u05e6\u05d0\u05dc\u05d7 \u05e0''\u05e0 \u05ea\u05d0\u05d4\u05e8\u05ea\u05d9.... </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
