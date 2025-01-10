@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"1432e4aabc1d21193e6cc215ea5d5fa2\"",
       "id": "https://geniza.princeton.edu/annotations/6d8b7578-1f13-4da3-b682-4b391fe937c6/",
       "type": "Annotation",
       "created": "2022-10-07T00:42:29.730383+00:00",
       "modified": "2022-12-03T01:04:37.981852+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00028-00187/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5471/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"f598b543a7e9d49c7bacb80fcfb8b07c\"",
+      "id": "https://geniza.princeton.edu/annotations/de4c8ba3-51df-4f50-b88e-9e1777061e96/",
+      "type": "Annotation",
+      "created": "2025-01-10T00:06:56.902921+00:00",
+      "modified": "2025-01-10T00:08:44.770789+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00028-00187/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5471/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5471/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:289.52008056640625,777.2998657226562,2605.7584838867188,10726.029235839844",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Summary and partial translation ",
+          "value": "<p>\u00a0</p>\n<p>[Goitein and Friedman divide the letter into four sections [A]-[D], and provide translations of selected lines]</p>\n<p>[A] Opening salutations and blessings, much in rhymed Arabic (lines 1\u201310).</p>\n<p>[B] The Ibn/Abu\u0304 (al-)Daghi\u0304sh affair (lines 10\u201348).</p>\n<p>(35) Our [Nagi]d David\u2014may his Rock protect him! \u2014. . . (37) advised me (your servant) to let the matter (38) stand and leave it, until Sheikh Maka\u0304rim (39) b. al-\u1e6cayyib [arrives], on condition that [the merchandise] be neither sold nor (40) purchased, until a court ruling is made in connection with it and Sheikh (41) Maka\u0304rim b. al-\u1e6cayyib arrives or perhaps your excellency returns (42) next year and takes action which will (43) bring about commendable results. This is to inform you, that (44) were I to stubbornly pursue the suit, it would lead to bloodshed. (45) God protect me!</p>\n<p>[C] News from Yemen, Egypt and the Maghreb and closing remarks (line 48-verso, line 8).</p>\n<p>(49) News of the land: It is calm.\u00a0(50) Resources are plentiful, and the pitchers9 are overflowing with water. (51) The Sultan\u2014may God make his rule eternal!\u2014is just, and all of (52) the inhabitants are safe and secure. News of (53) Egypt is good, and prices are up. For the (54) Maghreb, the same . . .</p>\n<p>[Margin] (4) Pepper is for [thirty-]seven [dinars a baha\u0304r, . . .] (5) sixty, lac sixty, Fan\u1e63[u\u0304ri\u0304] camphor (6) eighty a mann, Chinese camphor per mann (7) [...]teen, nutmeg seventy per ten, (8) c[leansed] cloves fifty-five per ten (manns), (9) [. . .] a dinar per mann. Rhubarb is not selling in (10) the country [. . .] (11) galangal is not to be seen. [Verso] (1) Aromatic wood (\u02bfu\u0304d) is selling, especially of average quality.</p>\n<p>[D] Address in Arabic characters:</p>\n<p>(1) (To) The most illustrious [...] Sheikh (2) Abu\u0304 Ya\u02bfqu\u0304b b. Hibat Allah (?).[Written perpendicularly] (1) To be delivered to Lawa\u0304manda (?), (2) God willing.}</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"99ac5ccc98f9a995540b88eccb62fe48\"",
+      "id": "https://geniza.princeton.edu/annotations/4905ab87-937b-4479-93d2-6e6a4332a294/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:42:29.740301+00:00",
+      "modified": "2022-12-03T01:05:18.252491+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00028-00187/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5471/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/4905ab87-937b-4479-93d2-6e6a4332a294/",
-      "type": "Annotation",
-      "created": "2022-10-07T00:42:29.740301+00:00",
-      "modified": "2022-12-03T01:05:18.252491+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,22 +104,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00028-00187/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5471/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
