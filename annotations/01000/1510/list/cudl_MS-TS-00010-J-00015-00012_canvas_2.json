@@ -4,26 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f4160b0bc6bad3c617293472d5275f01\"",
       "id": "https://geniza.princeton.edu/annotations/121f5a2d-d313-489c-b88f-2b214a7d5f46/",
       "type": "Annotation",
       "created": "2022-10-07T01:16:18.515779+00:00",
-      "modified": "2022-10-07T01:16:18.515792+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso, Right",
-          "value": "<ol>\n<li>\u05dc\u05e1\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d9 [ ] \u05d0\u05e1\u05de\u05e2\u05d9\u05dc \u05d1\u05df \u05d0\u05e1\u05d7\u05e7 \u05d0\u05dc\u05d0\u05e0\u05d3\u05dc\u05e1\u05d9</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2025-01-20T03:54:52.460029+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00015-00012/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1510/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1510/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +24,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, Right",
+          "value": "<ol>\n<li>\u0644\u0633\u064a\u062f\u064a \u0648\u0645\u0648\u0644\u0627\u064a . . . . . . . . . \u0628\u0646 \u0633\u0645\u0648\u0627\u0644 \u0627\u0646\u062f\u0644\u0633\u064a</li>\n<li>\u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647 \u0648\u0627\u062f\u0627\u0645 \u062a\u0627\u064a\u064a\u062f\u0647 \u0648\u0646\u0639\u0645\u0627\u0647 \u0648\u0633\u0639\u0627\u062f\u062a\u0647</li>\n<li>\u05dc\u05e1\u05d9\u05d3\u05d9 \u05d5\u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05d1\u05d9 [ ] \u05d0\u05e1\u05de\u05e2\u05d9\u05dc \u05d1\u05df \u05d0\u05e1\u05d7\u05e7 \u05d0\u05dc\u05d0\u05e0\u05d3\u05dc\u05e1\u05d9</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -40,10 +40,26 @@
       "schema:position": 3
     },
     {
+      "etag": "\"5d7c9c43479d4b85e0410ede0d30f64c\"",
       "id": "https://geniza.princeton.edu/annotations/7f29b1cb-153f-4349-898c-dd092f8face3/",
       "type": "Annotation",
       "created": "2022-10-07T01:16:18.521996+00:00",
       "modified": "2022-10-07T01:16:18.522009+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00015-00012/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1510/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -53,22 +69,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00015-00012/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1510/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
