@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00020-00011%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7901%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"d1cca2aba58620c4ddb86f93109d51a5\"",
+      "id": "https://geniza.princeton.edu/annotations/8ca51127-9b5a-4bd4-bee2-53a795d17890/",
+      "type": "Annotation",
+      "created": "2025-01-30T03:25:03.381216+00:00",
+      "modified": "2025-01-30T03:25:03.381235+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00020-00011/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7901/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:303.89556884765625,547.8155517578125,4327.427185058594,1733.2664794921875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>in the lack of [\u00a0 \u00a0 \u00a0 \u00a0 ] know the gift of God which has reached you ....</p>\n</li>\n<li>\n<p>your two boys whose fame is established in the assembly of the scholars.</p>\n</li>\n<li>\n<p>So tell her that her brother [is sending] her ........ knows what is in</p>\n</li>\n<li>\n<p>her heart. Be patient with her. Be as good to her</p>\n</li>\n<li>\n<p>as you would be even to strangers. Receive greetings as numerous as locusts.</p>\n</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
