@@ -40,6 +40,41 @@
       "schema:position": 1
     },
     {
+      "etag": "\"b2ac53df0f59aa01aa6e047a618cccef\"",
+      "id": "https://geniza.princeton.edu/annotations/032d111b-cb14-47fd-b84f-23008404fa5a/",
+      "type": "Annotation",
+      "created": "2025-01-30T19:48:35.292785+00:00",
+      "modified": "2025-01-30T19:48:35.292803+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/380ffb47-9c44-47bf-9522-c8ed8612264a/manifest/canvas/f9541b0f-61de-4b6e-b61e-c6a2af69936c",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5413/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1812.8013916015625,3371.07763671875,2371.0394287109375,768.0830078125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "IB II,25 verso, Arabic address",
+          "value": "<ol>\n<li>To his excellency, the most illustrious elder, my lord Ibr\u0101h\u012bm</li>\n<li>b. \u012ash\u016b, the Maghrebi, the Israelite.</li>\n<li>(From) His servant\u00a0</li>\n<li>Ma\u1e0dm\u016bn b. \u1e24asan b. Bund\u0101r.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"919866dade5ef9412ccfc6d5b9ba8d07\"",
       "id": "https://geniza.princeton.edu/annotations/dccdfc60-7253-45ab-b16c-a23dc68f233b/",
       "type": "Annotation",
@@ -71,6 +106,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"04f26c7e295cb0d7a074de3eb7335315\"",
+      "id": "https://geniza.princeton.edu/annotations/f83b0276-5c0c-4f6d-bec6-cd10364b5baf/",
+      "type": "Annotation",
+      "created": "2025-01-30T19:49:03.267447+00:00",
+      "modified": "2025-01-30T19:49:03.267474+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/380ffb47-9c44-47bf-9522-c8ed8612264a/manifest/canvas/f9541b0f-61de-4b6e-b61e-c6a2af69936c",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5413/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1528.944580078125,2285.74267578125,2404.434326171875,968.45263671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "IB II,25 verso, Hebrew address",
+          "value": "<ol>\n<li>To my esteemed lord, light of my eyes,\u00a0</li>\n<li>our master and teacher Abraham, the son of his honor, great and holy</li>\n<li>Yij\u016b\u2014may he rest in Eden!\u00a0</li>\n<li>(From) Your friend Ma\u1e0dm\u016bn,\u00a0</li>\n<li>the son of \u1e24asan\u2014may he rest in Eden! </li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
