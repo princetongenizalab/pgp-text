@@ -4,11 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"d24a7b14e18b01717a0f941e4d067ce3\"",
+      "etag": "\"3a9b099e9d5bf173c17cb39c9932530d\"",
       "id": "https://geniza.princeton.edu/annotations/55ba498e-c022-4cad-8733-8611e8d1bee5/",
       "type": "Annotation",
       "created": "2025-01-28T18:11:10.023345+00:00",
-      "modified": "2025-01-28T18:11:10.023363+00:00",
+      "modified": "2025-01-30T12:59:09.296639+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/1156/",
       "target": {
         "source": {
@@ -28,13 +28,47 @@
         {
           "type": "TextualBody",
           "label": "Verso",
-          "value": "<ol>\n<li><span lang=\"ar\">\u0645\u0646 \u0627\u0646\u0646\u064a \u0642\u062f \u0627\u0639\u0637\u064a\u062a \u0627\u0644\u0642\u0648\u0633 \u064a\u062a\u0627\u0645\u062b\u0644\u0629(\u061f) \u0644\u0647\u0630\u0627 \u0627\u0644\u0627\u0645\u0631 \u0628\u0627\u0631\u064a\u0647\u0627</span></li>\n<li><span lang=\"ar\">\u0645\u0646] \u0627\u0644\u0627\u0645\u0648\u0631 \u0627\u062d\u0633\u0646 \u0636\u0627\u0631\u0628\u0647\u0627 \u0648\u0644\u062d\u0636\u0631\u0629 \u0645\u0648\u0644\u0627\u064a \u0627\u0644\u0633\u064a\u062f \u0627\u0644\u062c\u0644\u064a\u0644</span></li>\n<li><span lang=\"ar\">[\u0627\u0644\u0631\u0627\u064a \u0627\u0644\u0627\u0639\u0644\u0649 \u0641\u064a \u0630\u0644\u0643 \u0627\u0646 \u0634\u0627 \u0627\u0644\u0644\u0647]</span></li>\n</ol>",
+          "value": "<ol>\n<li><span lang=\"ar\">\u0645\u0646 \u0627\u0646\u0646\u064a \u0642\u062f \u0627\u0639\u0637\u064a\u062a \u0627\u0644\u0642\u0648\u0633 \u0645\u062a\u0627\u0645\u0644\u0629 \u0644\u0647\u0630\u0627 \u0627\u0644\u0627\u0645\u0631 \u0628\u0627\u0631\u064a\u0647\u0627</span></li>\n<li><span lang=\"ar\">\u0645\u0646] \u0627\u0644\u0627\u0645\u0648\u0631 \u0627\u062d\u0633\u0646 \u0636\u0627\u0631\u0628\u0647\u0627 \u0648\u0644\u062d\u0636\u0631\u0629 \u0645\u0648\u0644\u0627\u064a \u0627\u0644\u0633\u064a\u062f \u0627\u0644\u062c\u0644\u064a\u0644</span></li>\n<li><span lang=\"ar\">[\u0627\u0644\u0631\u0627\u064a \u0627\u0644\u0627\u0639\u0644\u0649 \u0641\u064a \u0630\u0644\u0643 \u0627\u0646 \u0634\u0627 \u0627\u0644\u0644\u0647]</span></li>\n</ol>",
           "format": "text/html"
         }
       ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"1ee08a4eb888b821f4ed0d4a039cf6a8\"",
+      "id": "https://geniza.princeton.edu/annotations/5b6726c9-fd17-4049-ae7b-86380d9b47c6/",
+      "type": "Annotation",
+      "created": "2025-01-30T12:58:38.133265+00:00",
+      "modified": "2025-01-30T12:58:38.133282+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1161/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-II-00101-00002/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16841/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1076.8447265625,714.069091796875,4222.880859375,2047.359375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>that I have verily given the bow after great consideration of this affair to its master</li>\n<li>and] the most appropriate candidate. And to my master, the illustrious elder</li>\n<li>[belongs the resolution regarding this if God wills]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
