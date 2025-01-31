@@ -9,7 +9,7 @@
       "type": "Annotation",
       "created": "2022-10-07T01:27:16.048231+00:00",
       "modified": "2024-06-12T20:42:55.920017+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00037-00001/canvas/1",
@@ -36,6 +36,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"f523faf4d6dce79fdfea264dbe3f259a\"",
+      "id": "https://geniza.princeton.edu/annotations/28dff5b3-b3ee-4f38-bff4-cfcedcc53ff3/",
+      "type": "Annotation",
+      "created": "2025-01-30T23:58:18.452960+00:00",
+      "modified": "2025-01-30T23:58:18.452974+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00037-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5433/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1121.793701171875,1233.4874267578125,1180.068603515625,573.0374755859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "IB II,33 recto",
+          "value": "<ol>\n<li>Blessed memorandum</li>\n<li>by {alt. tr.: for} Ma\u1e0dm\u016bn b. \u1e24asan.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
