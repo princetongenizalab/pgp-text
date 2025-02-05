@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8879%2Fiiif%2Ftextblock%2F2966%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8879%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"6cd044ffbc7492bb1d550589d84eca1c\"",
+      "id": "https://geniza.princeton.edu/annotations/948e268e-5e20-4554-9a94-067e55e07c8c/",
+      "type": "Annotation",
+      "created": "2025-02-05T21:54:36.216195+00:00",
+      "modified": "2025-02-05T21:54:36.216210+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1155/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/8879/iiif/textblock/2966/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8879/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:9.2109375,14.921875,617.515625,374.7578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (180 degrees)",
+          "value": "<ol>\n<li>\u05d9\u05d4\u05d5\u05d3\u05d4 \u05de\u05e1\u05e2\u05d5\u05d3 \u05d1\u05df \u05de\u05d5\u05e1\u05d4 \u05de\u05e1\u05e2\u05d5\u05d3</li>\n<li>\u05e1\u05d9\u05ea \u05d0\u05dc\u05d1\u05d9\u05ea \u05d1\u05ea \u05d0\u05d1\u05e8\u05d4\u05dd \u05de\u05d9\u05e0\u05d9\u05e8</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
