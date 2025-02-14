@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F08f257f0-68a6-46a2-a06c-1c1998268862%2Fmanifest%2Fcanvas%2F8a8991d7-6348-4932-adcf-355c44f63af4&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F11086%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"29e03fe5e102ab8d6425fa8204b15253\"",
+      "id": "https://geniza.princeton.edu/annotations/7b6e6114-f2d6-46aa-b7bc-b85ac6586b1c/",
+      "type": "Annotation",
+      "created": "2025-02-14T15:47:42.568619+00:00",
+      "modified": "2025-02-14T15:47:42.568633+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1155/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/08f257f0-68a6-46a2-a06c-1c1998268862/manifest/canvas/8a8991d7-6348-4932-adcf-355c44f63af4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/11086/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1057.51806640625,2411.904296875,2548.033447265625,2580.0048828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d1\u05e8\u05d1\u05d9\u05e2\u05d9 \u05d1\u05e9\u05d1[...</li>\n<li>\u05d5\u05e2\u05e9\u05e8\u05d9\u05dd \u05d5\u05e9\u05e9\u05d4[................ ..]\u05e0\u05d9\u05e0\u05d0 \u05d3\u05e8\u05d2[...</li>\n<li>\u05e0\u05d0 \u05d0\u05de\u05d5\u05df \u05d3\u05e2\u05dc \u05db\u05d9\u05e3 \u05d9\u05de\u05d0 \u05e8\u05d1\u05d0 \u05de\u05d5\u05ea\u05d1\u05d4 \u05d0\u05e0\u05d0 \u05d6\u05db\u05d9(?) [...</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
