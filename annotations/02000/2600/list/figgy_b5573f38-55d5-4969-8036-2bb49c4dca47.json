@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"b4c6a5f9f43bdb5f83a691e9f3a5904b\"",
       "id": "https://geniza.princeton.edu/annotations/5b4ffaf2-6b27-4627-8b9e-8cda3d848f1c/",
       "type": "Annotation",
       "created": "2022-10-07T00:40:19.537654+00:00",
@@ -39,6 +40,7 @@
       "schema:position": 1
     },
     {
+      "etag": "\"4493546989607d0366709e4115edbad6\"",
       "id": "https://geniza.princeton.edu/annotations/6f1f9cdc-1f86-4b07-80c9-88e77f24e790/",
       "type": "Annotation",
       "created": "2023-02-23T22:21:06.622904+00:00",
@@ -69,6 +71,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"7867f8864c9f9fb30435a3c575e5f73d\"",
+      "id": "https://geniza.princeton.edu/annotations/b8f48b72-a9aa-42d8-80c7-f355f2a749e3/",
+      "type": "Annotation",
+      "created": "2025-02-18T23:28:33.678745+00:00",
+      "modified": "2025-02-18T23:28:33.678760+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/e5186488-ed92-48ab-ab25-8ccf344cde7d/manifest/canvas/b5573f38-55d5-4969-8036-2bb49c4dca47",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2600/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1757.9583740234375,2000.395263671875,4436.2335205078125,730.668212890625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<p>\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05e8\u05d1\u05d9 \u05e8\u05d1\u05e0\u05d0 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05d2\u05d3\u05d5\u05dc\u05ea\u05d5; \u05d0\u05d5\u05d4\u05d1\u05d5 \u05e0\u05ea\u05df \u05d1\u05df \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05ea\u05df \u05e0\"\u05e2. </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
