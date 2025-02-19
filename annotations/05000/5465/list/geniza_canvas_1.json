@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"7173d17a5ceabcd67e1714b590d3786d\"",
       "id": "https://geniza.princeton.edu/annotations/4e30d306-b3c7-4649-b353-8a796570fb88/",
       "type": "Annotation",
       "created": "2022-10-07T00:40:28.359497+00:00",
       "modified": "2022-10-07T00:40:28.359514+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/5465/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5465/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"69165d5135d439c092b68ecc30721c13\"",
+      "id": "https://geniza.princeton.edu/annotations/65d79a9c-3746-41ff-be0b-7aac02224256/",
+      "type": "Annotation",
+      "created": "2025-02-19T23:34:00.027033+00:00",
+      "modified": "2025-02-19T23:34:00.027052+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://geniza.princeton.edu/documents/5465/iiif/canvas/1/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5465/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5465/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:106,25,211,222",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<p>1. In Your name, O Merciful.</p>\n<p>2. M[emorandum] for {add: Isha\u0304q Nafu\u0304[si\u0304]}.</p>\n<p>\u00a0</p>\n<ol>\n<li>Five hundred {add: and t[en . . .]}</li>\n<li>Manns and also {add: a bale} [. . .]</li>\n<li>and he should take what it (the merchandise) owes [for shipping expenses]</li>\n<li>from the gate of \u02bfAydha\u0304b \u00a0to [the Egyptian capital . . .]</li>\n<li>{add: manns less} a quarter {add: of \u02bfu\u0304d (aromatic wood)} [. . .]</li>\n<li>emblic and a satchel of pepper [. . .]</li>\n<li>Ka\u0304buli\u0304 {or read: Ka\u0304bi\u0304li\u0304} myrobalan, thirty manns [. . .]</li>\n<li>To be purchased: a large tray [. . .]</li>\n<li>a good one, and two silver kohl tubes with their brushes and cases,</li>\n<li>and four Jurja\u0304ni\u0304 tunics with their wimples,</li>\n<li>and two gil[ded] sha\u0304shiyas [. . .], and two exquisite scarves</li>\n<li>or two gilded mukhlafs suitable for children. And if</li>\n<li>there are no Jurja\u0304ni\u0304 tunics, there should be instead</li>\n<li>exquisite silk dresses {alt. tr.: clothing} suitable for women,</li>\n<li>and they should be tailored, and four dresses {alt. tr.: pieces of clothing} of exquisite \u1e6cali\u0304 cloth</li>\n<li>made in Ashmu\u0304n. And for two thirds of a mithqa\u0304l [. . .]</li>\n<li>and a basket of good earthenware made in \u0100mid or Fustat</li>\n<li>and a case of fine glasses {alt. tr.: fine copper vessels for wine}, and for two mithqa\u0304ls tumblers</li>\n<li>and goblets {alt. tr.: jars}34 manufactured in the house of al-Jawhar. And a bottle of</li>\n<li>Iraqi rose water, and a dinar\u2019s worth of antimony.</li>\n<li>And a dinar\u2019s worth of ammoniac salt. And a half dinar\u2019s worth of gallnuts.</li>\n<li>And a dinar\u2019s worth of rose jam. And a dinar\u2019s worth of white lead.</li>\n<li>And four silk f\u016b\u1e6das, small ones for children,</li>\n<li>and four large f\u016b\u1e6das of twisted silk. And two f\u016b\u1e6das</li>\n<li>of Andalusian manufacture, exquisite and fine, like those</li>\n<li>worn by Joseph\u2019s children. And what remains\u00a0</li>\n<li>should be in silver vessels. And ten mithqa\u0304ls for our lords. And for Dammu\u0304h, ten.</li>\n<li>And for the poor, twenty. And four for the \u2018Diadem.\u2019 For the Rabbi {read: The Rabbi, 6.}</li>\n<li>The Fellow, 3. Al-Qa\u1e63abi\u0304, two mithqa\u0304ls. Al-Qa\u1e6da\u0304\u02beif, two mithqa\u0304ls.</li>\n<li>The scribe of the Rayyis, three. And the table\u2014whatever the price.</li>\n<li>And a mann [...] wine. And two mari\u0304nas of oil,</li>\n<li>\u2018hot.\u2019 And a dinar\u2019s worth of hazel nuts. A dinar\u2019s worth of pistachios. A wayba</li>\n<li>of ushna\u0304n. Two waybas of garden beans</li>\n</ol>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
