@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d7fa9c5a00ce6383066d8a1d2ac46c15\"",
       "id": "https://geniza.princeton.edu/annotations/3b0700b0-9dd2-4676-964b-e6eb3b7f9b6b/",
       "type": "Annotation",
       "created": "2022-10-07T01:49:14.847101+00:00",
       "modified": "2022-10-07T01:49:14.847126+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1122/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/799e99c2-985d-4b14-8e2f-c1bf99c04df4/manifest/canvas/5328ff54-57f8-47c5-8a41-f5c0c1333d5c",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5406/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"31da3a99298af90fc21d2a7b36e00c77\"",
+      "id": "https://geniza.princeton.edu/annotations/ed424150-2687-40e6-a832-8ce728b62572/",
+      "type": "Annotation",
+      "created": "2025-02-20T00:28:26.862017+00:00",
+      "modified": "2025-02-20T00:28:26.862033+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/799e99c2-985d-4b14-8e2f-c1bf99c04df4/manifest/canvas/5328ff54-57f8-47c5-8a41-f5c0c1333d5c",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5406/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5406/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:230.01406860351562,752.2693481445312,2631.7901306152344,5186.653503417969",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/1/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>[A]\u00a0 Conventional opening of letter (lines 1\u20135).</p>\n<p>[B]\u00a0 Arrival of imports from India and jettisoning of freight when attacked by pirates (lines 5\u201315)</p>\n<ol>\n<li>\u00a0</li>\n<li>\n<p>\u00a0</p>\n</li>\n<li>\n<p>\u00a0</p>\n</li>\n<li>\n<p>\u00a0</p>\n</li>\n<li>\n<p>I, your servant, took notice\u00a0</p>\n</li>\n<li>\n<p>of what you\u2014may God preserve your well- being!\u2014wrote\u00a0</p>\n</li>\n<li>\n<p>concerning the shipment of 15 baha\u0304rs of \u2018standard\u2019 iron</p>\n</li>\n<li>\n<p>and seven bahars of belts (?) of \u2018eggs.\u2019 \u00a0This is to inform you that the sailors</p>\n</li>\n<li>\n<p>jettisoned some of the \u2018eggs\u2019 when the pirates (al-surra\u0304q) [approached]</p>\n</li>\n<li>\n<p>the gulf Fam al-Khawr (alt. tr.: on the mouth of the gulf ). But I, your servant, already distributed it (the loss)</p>\n</li>\n<li>\n<p>according to the freight of the ship, and I collected this for you.\u00a0</p>\n</li>\n<li>\n<p>And I, your servant, already sold for you the \u2018standard\u2019 iron, the \u2018eggs\u2019 and the cardamom,\u00a0</p>\n</li>\n<li>\n<p>which arrived with Sheikh Mahru\u0304z. All of this\u00a0</p>\n</li>\n<li>\n<p>is detailed in the copy of the account, accompanying this letter,\u00a0</p>\n</li>\n<li>\n<p>that you are reading, God willing.  </p>\n</li>\n</ol>\n<p>[C] Arrival of copper from {Aydha\u0304b in two small matiyya boats to be followed by other commodities in four ships (lines 15\u201320).}</p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
