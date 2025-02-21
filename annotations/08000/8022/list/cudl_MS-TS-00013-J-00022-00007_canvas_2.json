@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00022-00007%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8022%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"e1584989d5a9b87e36f1fdf1af9f5206\"",
+      "id": "https://geniza.princeton.edu/annotations/19e8541e-adff-4e5f-bf82-0c946d1ee959/",
+      "type": "Annotation",
+      "created": "2025-02-21T00:53:47.984701+00:00",
+      "modified": "2025-02-21T00:53:47.984715+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00022-00007/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8022/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1575.767578125,1342.991943359375,1882.701904296875,458.3743896484375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Abu Zikri</p>\n</li>\n<li>\n<p>Abu al-Faraj</p>\n</li>\n<li>\n<p>The New Street</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
