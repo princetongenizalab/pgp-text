@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00151-00134%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F18616%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"11e7f4ec656f2bf1a6478d28a1f44ace\"",
+      "id": "https://geniza.princeton.edu/annotations/a1ea7f48-a940-47cc-9721-032dcda4e797/",
+      "type": "Annotation",
+      "created": "2025-02-23T20:30:40.701044+00:00",
+      "modified": "2025-02-23T20:30:58.103983+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1161/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00151-00134/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18616/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:510.3949279785156,265.0305480957031,1999.7474060058594,1259.5802917480469",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u0644\u0649 (glyph)</li>\n<li>\u0627\u0634\u062a\u0647\u064a \u0645\u0646 \u062a\u0641\u0636\u0644 \u0627\u0644\u0645\u0648\u0644\u0649 \u0634\u0645\u0633 \u0627\u0644\u062f\u064a\u0646 \u0627\u062f\u0627\u0645 \u0627\u0644\u0644\u0647 [</li>\n<li>\u0627\u0644\u0649 \u0645\u062f\u0629 \u0634\u0647\u0631\u064a\u0646 \u0641\u0642\u062f \u062f\u0639\u062a \u0627\u0644\u0636\u0631\u0648\u0631\u0629 \u0627\u0644\u064a\u0647\u0627 \u0648\u0627[</li>\n<li>\u0645\u0627 \u062a\u062d\u0642\u0642\u062a \u0645\u0646 \u0643\u0631\u064a\u0645 \u0627\u062e\u0644\u0627\u0642\u0647 \u0648\u0645\u0646 \u0648\u0631\u0642\u0629(\u061f) \u0644\u0627 \u064a\u0633\u0627\u0644 [</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
