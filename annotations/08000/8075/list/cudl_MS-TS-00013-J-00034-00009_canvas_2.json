@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00034-00009%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8075%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"d51ca2a688870265c086691c098987bc\"",
+      "id": "https://geniza.princeton.edu/annotations/826ad974-1eae-45b4-beb8-e84aaac1bb95/",
+      "type": "Annotation",
+      "created": "2025-02-24T02:07:04.850163+00:00",
+      "modified": "2025-02-24T02:07:04.850178+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00034-00009/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8075/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1707.806884765625,4422.4951171875,2915.510498046875,2041.44384765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Now, my elder Abu Zikri, ask the advice of your mother together with</p>\n</li>\n<li>\n<p>the daughter of Khuraym and say (to them), have a new basket made</p>\n</li>\n<li>\n<p>and put the porcelain bowls in it. Then say again,</p>\n</li>\n<li>\n<p>what happened to the turban. Here is a turban</p>\n</li>\n<li>\n<p>waiting. It is already superfluous. By your life,</p>\n</li>\n<li>\n<p>I haven't deemed the much excessive in order that we would deem the little</p>\n</li>\n<li>\n<p>excessive.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"e8bf7e68c763c2f7b9b4a0528b436332\"",
+      "id": "https://geniza.princeton.edu/annotations/148bada7-3493-4e36-8683-2afadbc47e37/",
+      "type": "Annotation",
+      "created": "2025-02-24T02:07:40.433619+00:00",
+      "modified": "2025-02-24T02:07:40.433634+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00034-00009/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8075/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1830.9974365234375,1187.275390625,2686.7281494140625,610.0867919921875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Address",
+          "value": "<ol>\n<li>\n<p>May (this letter) arrive at Cairo the guarded, and handed to the son of R.</p>\n</li>\n<li>\n<p>Elljah, the elder Abu Zikri. And peace.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
