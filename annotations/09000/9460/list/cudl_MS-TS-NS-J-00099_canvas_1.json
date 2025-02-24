@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f134748455d9ef7ce5fbc8026cc2991f\"",
       "id": "https://geniza.princeton.edu/annotations/ebeedf4f-8aae-4787-8a25-bb7229116cfe/",
       "type": "Annotation",
       "created": "2022-10-07T00:43:03.865367+00:00",
       "modified": "2022-10-07T00:43:03.865389+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00099/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9460/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"833fb916b54553396edee420d155181d\"",
+      "id": "https://geniza.princeton.edu/annotations/2a76b85f-cd30-41c4-a9dd-2771c75701f3/",
+      "type": "Annotation",
+      "created": "2025-02-24T03:08:13.344350+00:00",
+      "modified": "2025-02-24T03:08:13.344367+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00099/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/9460/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/9460/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:248.31724548339844,285.4240417480469,1954.7320709228516,1247.3841857910156",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>My patron the elder Abu'l-Rabi', may</p>\n</li>\n<li>\n<p>God on high preserve you (forever). Collect from the bearer</p>\n</li>\n<li>\n<p>the charges for the rose marmalade. I am ill;</p>\n</li>\n<li>\n<p>forgive me - as God is my witness - I wrote it</p>\n</li>\n<li>\n<p>while I was lying down. Your slave</p>\n</li>\n<li>\n<p> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Solomon</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
