@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9457%2Fiiif%2Ftextblock%2F29557%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9457%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"7eed7e4200c874809d8860fb08060192\"",
+      "id": "https://geniza.princeton.edu/annotations/3de2a5e4-908c-479d-9db8-07061b5c9266/",
+      "type": "Annotation",
+      "created": "2025-02-24T03:19:01.814264+00:00",
+      "modified": "2025-02-24T03:19:01.814280+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/9457/iiif/textblock/29557/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9457/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:31.5,34,708,407",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Your servant Solomon son of R. Elijah, (may he come to a) g(ood) e(nd),</p>\n</li>\n<li>\n<p>swears in this presence: I have not been reading (teaching from)</p>\n</li>\n<li>\n<p>this codex for (the last) six months and</p>\n</li>\n<li>\n<p>I did not have it in the house. And the teacher Bu' Sa'i'd ....</p>\n</li>\n<li>\n<p>he has three codices.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
