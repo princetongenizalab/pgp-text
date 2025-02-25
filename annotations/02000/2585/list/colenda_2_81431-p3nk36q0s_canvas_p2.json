@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcolenda.library.upenn.edu%2Fphalt%2Fiiif%2F2%2F81431-p3nk36q0s%2Fcanvas%2Fp2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F2585%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"6bf78575e2c98379ac52df4108a63ae5\"",
+      "id": "https://geniza.princeton.edu/annotations/6d694ae8-3e82-496f-a8f3-0b1ac9138195/",
+      "type": "Annotation",
+      "created": "2025-02-25T04:18:15.271842+00:00",
+      "modified": "2025-02-25T04:18:15.271856+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://colenda.library.upenn.edu/phalt/iiif/2/81431-p3nk36q0s/canvas/p2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2585/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:458.89251708984375,1440.586181640625,2473.3630981445312,334.723876953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>You have been criticized in this regard. May your peace increase and not decrease. And peace.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
