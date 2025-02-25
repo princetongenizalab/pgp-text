@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"6af46f099c50fe25fa4c0e4204c4fd6a\"",
+      "id": "https://geniza.princeton.edu/annotations/3cc6839c-55d6-46ca-a12f-2257ea0d80a0/",
+      "type": "Annotation",
+      "created": "2025-02-25T01:54:59.902796+00:00",
+      "modified": "2025-02-25T01:54:59.902812+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-63/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6467/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:259.418212890625,172.13479614257812,2991.442138671875,2069.8160095214844",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, Address",
+          "value": "<ol>\n<li>\n<p>To the dignity of the honorable, great and holy master and teacher David the Kohen, the dear, wise and understanding H'a've'r, (may his) R(ock) p(reserve him),</p>\n</li>\n<li>\n<p>son of the dignity of our master and teacher Judah the H'a've'r, glory of the H'ave'rl'm, (may his) m(emory) b(e a blessing), from</p>\n</li>\n<li>\n<p>one who is grateful to him .... his slave Solomon, son of Rabbi Elijah, son of Rabbi Zekharia, (may his) s(oul) b(e) b(ound in the) b(undle of) t(he living).</p>\n</li>\n<li>\n<p>An unbleached turban, a silk dress, two new dresses</p>\n</li>\n<li>\n<p>Bananas, figs , grapes, watermelons, fish, cowpeas.</p>\n</li>\n<li>\n<p>I'll be darned if I'll get any of this this week.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3334d9974a246eee63c42c351ade9a13\"",
       "id": "https://geniza.princeton.edu/annotations/055502d8-e897-4a7f-8804-5aa6c96254cd/",
       "type": "Annotation",
       "created": "2022-10-07T01:06:01.173365+00:00",
       "modified": "2022-10-07T01:06:01.173387+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/743/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-63/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6467/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-63/2.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/6467/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/743/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
