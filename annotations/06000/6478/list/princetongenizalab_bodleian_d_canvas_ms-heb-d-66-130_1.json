@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f18105f61acf7fabadbaab77616c7fec\"",
       "id": "https://geniza.princeton.edu/annotations/5fb4164b-6246-48c2-9d59-37118a2fd73c/",
       "type": "Annotation",
       "created": "2023-05-07T22:49:54.830172+00:00",
@@ -33,6 +34,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"dc1d0cceba63f55a5bf835d7ffb3c9a9\"",
+      "id": "https://geniza.princeton.edu/annotations/1c0cb3ee-90b0-4cb6-9340-9f63efae9437/",
+      "type": "Annotation",
+      "created": "2025-02-25T02:31:57.705061+00:00",
+      "modified": "2025-02-25T02:31:57.705076+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/d/canvas/ms-heb-d-66-130/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6478/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:154.467529296875,210.4899139404297,2189.1514892578125,936.1620635986328",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>May the gracious and exalted patron R. Solomon, may his Rock preserve him</p>\n</li>\n<li>\n<p>and come to his aid, be so kind as to fulfill his promise in regard to the Targum of Kings.</p>\n</li>\n<li>\n<p>Should he not be able to do Kings, let it be the Targum of the Haftarahs.</p>\n</li>\n<li>\n<p>Many thanks. He should not neglect the vowelled one. There is great need</p>\n</li>\n<li>\n<p>for it . May he have much peace. The writing of his servant Solomon.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
