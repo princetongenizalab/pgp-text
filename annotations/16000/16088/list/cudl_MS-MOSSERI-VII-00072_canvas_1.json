@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-VII-00072%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16088%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"57d5a9ed0a110429ebe9e2366ed8e264\"",
+      "id": "https://geniza.princeton.edu/annotations/876860c3-c7f4-4f84-be97-674a4f4510fa/",
+      "type": "Annotation",
+      "created": "2025-02-26T20:08:05.804893+00:00",
+      "modified": "2025-02-26T20:08:05.804909+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-VII-00072/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16088/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:265.397705078125,449.3597717285156,2801.810302734375,3202.0689392089844",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "<ol>\n<li>\n<p>27 of the month of Elu'l Fust'a't'</p>\n</li>\n<li>\n<p>On Thursday</p>\n</li>\n<li>\n<p>There came to us</p>\n</li>\n<li>\n<p>H'usayn son of R. Moses</p>\n</li>\n<li>\n<p>and said to us, Hear ye! You are the court. I have said what I have to tell</p>\n</li>\n<li>\n<p>you and informed you that every debt owed me by</p>\n</li>\n<li>\n<p>others I will not give up; rather,</p>\n</li>\n<li>\n<p>I will collect it whenever I so desire, and you will help me</p>\n</li>\n<li>\n<p>in accordance with your authority as a court</p>\n</li>\n<li>\n<p>Yeh'iel son of R. Elia'qi'm the S'o'bi'</p>\n</li>\n<li>\n<p> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Elijah son of R. Zechariah (may his) s(oul) b(e) blound) 1(n the bundle o f ) t(he living).</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
