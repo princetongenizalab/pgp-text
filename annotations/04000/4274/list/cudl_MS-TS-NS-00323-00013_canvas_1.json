@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"521ad02ab3885caef190cd96bfb21ef3\"",
       "id": "https://geniza.princeton.edu/annotations/21679908-a2f8-4c9f-bd0f-ca4d0bb4c319/",
       "type": "Annotation",
       "created": "2022-10-07T00:36:00.027034+00:00",
       "modified": "2022-11-10T19:22:11.707196+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00323-00013/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4274/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,43 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"9bbafd1e28bd5d2f06ed6152b7306297\"",
+      "id": "https://geniza.princeton.edu/annotations/62fc679e-66f0-4a11-8a8b-eaa4f4d0ed2c/",
+      "type": "Annotation",
+      "created": "2025-03-17T04:20:34.876785+00:00",
+      "modified": "2025-03-17T04:20:34.876802+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1157/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00323-00013/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4274/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4274/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:260.056640625,208.9386749267578,2695.46728515625,4408.417770385742",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>. . .&nbsp;</li>\n<li>. . .</li>\n<li>I have already asked my lord that when he writes me a letter</li>\n<li>to write it only in Hebrew script. The motivation for this</li>\n<li>is strengthening your own interests with me, because I</li>\n<li>do not read Arabic, and when a letter arrives, I have to</li>\n<li>bring it to someone who can read it to me, and I then forget</li>\n<li>its contents later on, and I fear that there will be something in it</li>\n<li>. . .&nbsp;</li>\n<li>&nbsp;</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }
