@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00018-00006%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7895%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"33b6cc807d97f313efa9178de1605501\"",
+      "id": "https://geniza.princeton.edu/annotations/4074c9bc-372f-4844-be07-20792df5e7df/",
+      "type": "Annotation",
+      "created": "2025-03-23T19:36:03.895781+00:00",
+      "modified": "2025-03-23T19:36:03.895800+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/99/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00018-00006/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7895/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:307.1621398925781,373.2363586425781,2457.969940185547,742.2907409667969",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>To the hand of the distinguished and august elder Abu'l-Faraj, glory of the House of the Exilarch</p>\n</li>\n<li>\n<p>from Cairo, from the one who is indebted to him for his kindness, Solomon son of R. Elijah, Judge of Egypt.</p>\n</li>\n<li>\n<p> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0blessed be the one who will transmit this letter. Amen forever Selah, Amen forever Selah.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
