@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d007e1b275310e6d233bc123067aa121\"",
       "id": "https://geniza.princeton.edu/annotations/0d6842fa-46c1-4d91-9b04-6fd83f60fa7f/",
       "type": "Annotation",
       "created": "2023-03-01T04:21:19.391823+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"434ebc5f58230c3e26d7500c0737fe15\"",
+      "id": "https://geniza.princeton.edu/annotations/fd6f2860-133a-4d3b-aad1-50b90caaeb98/",
+      "type": "Annotation",
+      "created": "2025-03-25T00:28:23.532367+00:00",
+      "modified": "2025-03-25T00:28:23.532381+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00020-00006/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5954/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:542.0078125,499.7734375,3632.15625,520.890625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<p>\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05e8\u05d1\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d0 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05e9\u05dc\u05d5\u05de\u05d5; \u05de\u05d9\u05d5\u05e1\u05e3 \u05d1\u05df \u05e4\u05e8\u05d7 \u05e0\"\u05e0 \u05d1\u05df \u05d0\u05e1\u05de\u05e2\u05d9\u05dc.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
