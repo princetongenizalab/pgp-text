@@ -4,11 +4,48 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"2b8cea07ee75509b3a1cd8b841bd85f5\"",
+      "etag": "\"d18b4b06ebdfab1ab85fdeefd0d31006\"",
+      "id": "https://geniza.princeton.edu/annotations/c12e0bfb-34ba-47fd-9cf7-bf6989cfcd41/",
+      "type": "Annotation",
+      "created": "2025-04-14T14:19:17.392827+00:00",
+      "modified": "2025-04-14T14:19:17.392896+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/166/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00223/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7121/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Main",
+          "value": "<ol>\n<li>1 \u05e9\u05dc\u05d0 \u05d4\u05d5\u05d0 \u05de\u05e9\u05d7\u05d9\u05d8\u05ea \u05d4\u05e8\u05d1\u05e0\u05d9\u05dd \u05d0\u05d5 \u05d4\u05db\u05e8\u05d9\u05d7\u05d4 \u05e2\u05dc \u05d0\u05db\u05d9\u05dc(\u05ea )</li>\n<li>2 \u05e2\u05dc \u05e2\u05e6\u05de\u05d4 \u05e9\u05dc\u05d0 \u05ea\u05d7\u05dc\u05dc \u05e2\u05dc\u05d9\u05d5 \u05d0\u05ea \u05de\u05d5\u05e2\u05d3\u05d9\u05d5 \u05d5\u05e9\u05ea\u05e9\u05de( )</li>\n<li>3 \u05e7\u05d3\u05de\u05e0\u05d0 \u05d0\u05e0\u05df \u05d7\u05ea\u05d5\u05de\u05d9 \u05de\u05d8\u05d4 \u05d5\u05e7\u05e0\u05d9\u05e0\u05d0 \u05de\u05df \u05de\u05e8\u05d5\u05e8 ( )</li>\n<li>4 \u05e2\u05dc\u05d9 \u05d4\u05db\u05d4\u05df \u05d4\u05d7\u05d6\u05df \u05d1\u05d9\u05e8 \u05d9\u05d7\u05d6\u05e7\u05d0\u05dc \u05d4\u05db\u05d4\u05df \u05d4\u05d7\u05d1\u05e8 \u05d1\u05e1(\u05e0\u05d4\u05d3\u05e8\u05d9\u05df )</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2,
+      "textGranularity": "block"
+    },
+    {
+      "etag": "\"74d6275084497cf24ccd1b0ed230dc55\"",
       "id": "https://geniza.princeton.edu/annotations/42100936-6cd2-41bd-8c00-c10bbbc47b9d/",
       "type": "Annotation",
       "created": "2025-01-14T18:37:07.788697+00:00",
-      "modified": "2025-01-14T18:37:07.788710+00:00",
+      "modified": "2025-04-14T14:19:17.397605+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/166/",
       "target": {
         "source": {
@@ -37,7 +74,7 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2,
+      "schema:position": 3,
       "textGranularity": "block"
     }
   ]
