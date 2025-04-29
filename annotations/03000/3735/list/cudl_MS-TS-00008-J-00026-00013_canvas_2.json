@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"a86ff943b5156a611cd2afe291c48ed3\"",
       "id": "https://geniza.princeton.edu/annotations/add38505-f2b1-40ba-9a98-b7c522835dee/",
       "type": "Annotation",
       "created": "2023-03-03T21:48:53.134915+00:00",
@@ -38,6 +39,42 @@
       "schema:position": 1
     },
     {
+      "etag": "\"bd11e5f0c650b5062e79557f0426e267\"",
+      "id": "https://geniza.princeton.edu/annotations/680c2428-1584-4f5e-845a-cf635ad24750/",
+      "type": "Annotation",
+      "created": "2025-04-29T15:51:19.471980+00:00",
+      "modified": "2025-04-29T15:51:19.471994+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00026-00013/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3735/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:93.99182891845703,4227.7744140625,3453.701774597168,543.73681640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05d0\u05dd \u05d9\u05d2\u05d9\u05e2\u05d5 \u05de\u05db\u05ea\u05d1\u05d9\u05dd \u05de\u05d4\u05d0\u05e8\u05d5\u05df \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e4\u05e8\u05d2' \u05e0\u05e1\u05d9\u05dd .... \u05d3\u05e8\u05d9\u05e9\u05d5\u05ea \u05e9\u05dc\u05d5\u05dd. \u05de\u05e1\u05ea\u05e4\u05e7 \u05d0\u05e0\u05d9 \u05d1\u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05dc\u05d1\u05d3\u05d5 \u05d5\u05d1\u05d5 \u05d0\u05e0\u05d9 \u05d1\u05d5\u05d8\u05d7. </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"8fd4f43d832f60cce0421c62fb7271f1\"",
       "id": "https://geniza.princeton.edu/annotations/0b2237f1-fd22-4984-8996-1abe6378ad02/",
       "type": "Annotation",
       "created": "2022-10-07T01:25:49.153785+00:00",
@@ -73,6 +110,7 @@
       "schema:position": 2
     },
     {
+      "etag": "\"180de1419ee17a8f13624fbf034c0257\"",
       "id": "https://geniza.princeton.edu/annotations/6e973ead-9e87-40b1-95bc-589bf4de647e/",
       "type": "Annotation",
       "created": "2023-03-03T21:51:09.743688+00:00",
@@ -103,6 +141,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"d6880e773960e0197174d7db0286325e\"",
+      "id": "https://geniza.princeton.edu/annotations/655013ab-1531-4f3e-a487-d664dd656c53/",
+      "type": "Annotation",
+      "created": "2025-04-29T15:51:38.892022+00:00",
+      "modified": "2025-04-29T15:51:38.892039+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/13/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00026-00013/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3735/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:564.3576049804688,685.9574584960938,2645.3225708007812,1381.4463500976562",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<p>\u2026. \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d0 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd .... \u05de\u05e8\u05d7\u05de\u05d9\u05dd \u05d1\u05df \u05e2\u05de\u05e8\u05d0\u05df. </p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
