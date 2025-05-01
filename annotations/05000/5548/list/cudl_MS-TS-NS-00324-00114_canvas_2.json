@@ -72,11 +72,11 @@
       "schema:position": 1
     },
     {
-      "etag": "\"4f2e61835a0c450e1f13431fa3cdbb3e\"",
+      "etag": "\"bd202fa1d3ec087a9ad5a5bf187cdd52\"",
       "id": "https://geniza.princeton.edu/annotations/988ec70e-4b05-4968-8db2-3dfdac841430/",
       "type": "Annotation",
       "created": "2025-05-01T17:08:56.120061+00:00",
-      "modified": "2025-05-01T17:08:56.120077+00:00",
+      "modified": "2025-05-01T17:14:57.087097+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
@@ -95,7 +95,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "top margin",
+          "label": "[recto?], top margin",
           "value": "<ol>\n<li>Of the copper (\u1e63ufr):a table jug, a frying pan, a basin and ewer,</li>\n<li>three ta\u0304lims; twenty carpets; an iron lamp,</li>\n</ol>",
           "format": "text/html"
         }
@@ -105,6 +105,41 @@
         "translating"
       ],
       "schema:position": 2
+    },
+    {
+      "etag": "\"578a4b9f6ffb7f6432a769cf044443dd\"",
+      "id": "https://geniza.princeton.edu/annotations/66a69be8-82f3-4345-be59-7afa25945806/",
+      "type": "Annotation",
+      "created": "2025-05-01T17:14:46.744392+00:00",
+      "modified": "2025-05-01T17:15:07.147129+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00324-00114/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5548/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:368.3045349121094,6228.7451171875,2486.5218811035156,408.5",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "[recto?], margin",
+          "value": "<ol>\n<li>two strips of leather, [...] fara\u0304sila [...],</li>\n<li>a steel comb (?) for the coconuts, seven [...], a mi\u0304za\u0304r [...] six [...] with the na\u0304khuda\u0304 Abu \u02bel-Faraj.}</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
     }
   ]
 }
