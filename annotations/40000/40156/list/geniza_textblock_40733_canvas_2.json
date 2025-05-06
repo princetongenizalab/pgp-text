@@ -39,6 +39,41 @@
       "schema:position": 1
     },
     {
+      "etag": "\"9da002c051b724d494f2c59effb3d5e7\"",
+      "id": "https://geniza.princeton.edu/annotations/ee8de52a-c06f-4194-a112-f80779e0e46c/",
+      "type": "Annotation",
+      "created": "2025-05-06T20:30:28.587528+00:00",
+      "modified": "2025-05-06T20:30:28.587544+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40156/iiif/textblock/40733/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40156/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:303,48.70703125,254.48046875,111.29296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, right column",
+          "value": "<ol>\n<li>The Iksh\u012bl and vizier of the king and the Master of his Horses,</li>\n<li>governor of the fortress of Ibr\u012bm and the Land of Mar\u012bs, Ab\u016b al-Khayr\u00a0Uruw\u012b.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"7d095553d7c2e759ffd9ef8295905d9c\"",
       "id": "https://geniza.princeton.edu/annotations/035b8c0a-6780-4006-b776-e9085e5a9f67/",
       "type": "Annotation",
@@ -70,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"5fc2ef9d5d3bc6d174446daf725905be\"",
+      "id": "https://geniza.princeton.edu/annotations/22939a4a-6228-4003-9c3b-50c015dd532a/",
+      "type": "Annotation",
+      "created": "2025-05-06T20:30:55.254079+00:00",
+      "modified": "2025-05-06T20:30:55.254096+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40156/iiif/textblock/40733/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40156/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:32.72265625,56.6015625,248.859375,101.79296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, left column",
+          "value": "<ol>\n<li>The commander Na\u1e63r son of the commander</li>\n<li>Treasure of the Dynasty (Kanz al-Dawla).</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
