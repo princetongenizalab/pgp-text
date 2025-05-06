@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40157%2Fiiif%2Ftextblock%2F40734%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40157%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"a36cbbb606a67ca8724665239df18609\"",
+      "id": "https://geniza.princeton.edu/annotations/a1fec8eb-e5ab-48d5-894e-29e29d3457de/",
+      "type": "Annotation",
+      "created": "2025-05-06T20:45:51.763975+00:00",
+      "modified": "2025-05-06T20:45:51.763989+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40157/iiif/textblock/40734/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40157/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:355,74.8046875,229.2421875,129.1953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, right column",
+          "value": "<ol>\n<li>\u0644\u0644\u0627\u0643\u0634\u064a\u0644 \u0648\u0635\u0627\u062d\u0628 \u0627\u0644\u062e\u064a\u0644 \u0648\u0648\u0632\u064a\u0631 \u0627\u0644\u0645\u0644\u0643</li>\n<li>\u0627\u0631\u0648\u0649 \u0628\u0646 \u062e\u064a\u0627\u062e \u0627\u0644\u0646\u0627\u0626\u0628 \u0639\u0646\u0647 \u0628\u0642\u0644\u0639\u0629 \u0627\u0628\u0631\u064a\u0645</li>\n<li>\u0627\u062f\u0627\u0645 \u0627\u0644\u0644\u0647 \u0633?\u0645\u062a\u0647 \u0648\u0646\u0639\u0645\u062a\u0647</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b3cba43dcfb6198d56beab80be30bbba\"",
+      "id": "https://geniza.princeton.edu/annotations/a515e157-ea1f-4a00-8754-fbc1b914dae5/",
+      "type": "Annotation",
+      "created": "2025-05-06T20:47:35.673453+00:00",
+      "modified": "2025-05-06T20:47:55.442394+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40157/iiif/textblock/40734/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40157/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:46.828125,66.11328125,271.0390625,136.921875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, left column",
+          "value": "<ol>\n<li>\u0645\u0646 \u0627\u0644\u0627\u0645\u064a\u0631 \u0627\u0644\u0645\u062e\u0644\u0635 \u0627\u0644\u0645\u0646\u0635\u0648\u0631 [&nbsp; &nbsp; ]</li>\n<li>\u0646\u0635\u0631 \u0627\u0644\u0645\u0644\u0643 \u062a\u0627\u062c \u0627\u0644\u062f\u0648\u0644\u0629 \u0641\u062e\u0631<i>&nbsp;</i>[\u0627\u0644\u0639\u0631\u0628 &nbsp; &nbsp;]</li>\n<li>\u0643\u0646\u0632 \u0627\u0644\u062f\u0648\u0644\u0629 \u0648\u0639\u0645\u062f\u062a\u0647\u0627 \u0627\u062e\u0648 \u0627\u0644\u0628\u062d\u0631\u064a\u064a\u0646<i>&nbsp;</i>[\u062d\u0633\u0627\u0645]</li>\n<li>\u0627\u0645\u064a\u0631 \u0627\u0644\u0645\u0648\u0645\u0646\u064a\u0646 \u0627\u0628\u0648 \u0645\u0646\u0635\u0648\u0631<i>&nbsp;</i>[\u0645\u062a\u0648\u062c]</li>\n<li>\u0627\u0644\u0639\u0627\u0636\u0640[\u0640\u062f\u0649 \u0627\u0644\u062c\u064a\u0648\u0634\u0649]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
