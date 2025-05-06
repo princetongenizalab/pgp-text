@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40175%2Fiiif%2Ftextblock%2F40752%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40175%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"3136ae5a8b14d5141464968191560221\"",
+      "id": "https://geniza.princeton.edu/annotations/13122099-5838-4a85-8b68-2d89221b2cff/",
+      "type": "Annotation",
+      "created": "2025-05-06T18:21:08.313964+00:00",
+      "modified": "2025-05-06T18:21:08.313979+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40175/iiif/textblock/40752/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40175/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,14.083333015441895,456.29998779296875,138.60000133514404",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, main text",
+          "value": "<ol>\n<li>&nbsp;\u0648\u0645\u0647\u0645\u0627 \u0643\u0627\u0646 \u0644\u0644\u062d\u0636\u0631\u0629 \u0627\u0644\u0627\u062c\u0644\u064a\u0629 \u0645\u0646 \u0627\u0644\u062d\u0648\u0627\u0626\u062c \u0641\u0627\u0646\u0646\u064a \u0645\u0648\u0642\u0648\u0641 \u0628\u0631\u0633\u0645 \u0642\u0636\u0649&nbsp; \u062c\u0648\u0627\u0626\u0640&lt;\u0640\u062c\u0640&gt;\u0647\u0627</li>\n<li>\u0648\u0627\u0645\u062a\u062b\u0627\u0644 \u0627\u0645\u0631\u0647\u0627 \u0648\u0627\u0644\u0633\u0644\u0627\u0645 \u0648\u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647 \u0648\u062d\u062f\u0647 \u0648\u0646\u0639\u0645 \u0627\u0644\u0648\u0643\u064a\u0644</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"1fb43198311ceddd02a879b496898737\"",
+      "id": "https://geniza.princeton.edu/annotations/b7767dcd-c8c5-4c7a-bd07-51c6a8c01597/",
+      "type": "Annotation",
+      "created": "2025-05-06T18:22:53.421830+00:00",
+      "modified": "2025-05-06T18:22:53.421844+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40175/iiif/textblock/40752/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40175/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,169.18333435058594,453,61.600006103515625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, postscript",
+          "value": "<ol>\n<li>\u0648\u0642\u062f \u0648\u0642\u0641 \u0645\u062d\u0633\u0646 \u0628\u0631\u0633\u0645 \u062d\u0642 \u0627\u0644\u0639\u064a\u0646 \u0644\u0627\u0646 \u0643\u0627\u0646 \u0643\u062a\u0628 \u0627\u0644\u0643\u062a\u0627\u0628&nbsp;</li>\n<li>\u0641\u064a \u0648\u0642\u062a\u0647\u0627 \u0644\u0627 \u064a\u0642\u062f\u0631 \u0639\u0644\u0649 \u0633\u0648\u0642 \u0627\u0644\u0628\u0632\u0627\u0632\u064a\u0646 \u0641\u0627\u0633\u0644 \u062d\u0636\u0631\u062a\u0647 \u0628\u0633\u0637&nbsp;</li>\n<li>\u0627\u0644\u0639\u0630\u0631 \u0641\u064a \u0630\u0644\u0643 \u0648\u0631\u0633\u0648\u0644\u064a \u0641\u0647\u0648 \u064a\u0635\u0644\u0643 \u0628\u0639\u062f \u0643\u062a\u0627\u0628\u064a \u0647\u0630\u0627</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
