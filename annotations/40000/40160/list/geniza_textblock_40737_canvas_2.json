@@ -39,6 +39,41 @@
       "schema:position": 1
     },
     {
+      "etag": "\"13bf969007575d848df42c3541738e08\"",
+      "id": "https://geniza.princeton.edu/annotations/8caacb61-d679-4142-8d11-7bcb4ee1a4ae/",
+      "type": "Annotation",
+      "created": "2025-05-07T02:11:17.195065+00:00",
+      "modified": "2025-05-07T02:11:17.195078+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40160/iiif/textblock/40737/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40160/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:272.2109375,60.92578125,316.25,120.21875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, right column",
+          "value": "<ol>\n<li>The Iksh\u012bl, Master of the Horses, vizier of the king,</li>\n<li>Uruw\u012b ibn Khiy\u0101kh, deputy of the king.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"a1cac632251ce25797827db0a1d67732\"",
       "id": "https://geniza.princeton.edu/annotations/270e609f-66cf-4c8f-834b-0a4fb97bc6f0/",
       "type": "Annotation",
@@ -70,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"622dd04b6569a7a65c53b78763bbcc13\"",
+      "id": "https://geniza.princeton.edu/annotations/26da2605-6883-43da-9ee9-d5c6b624a7b4/",
+      "type": "Annotation",
+      "created": "2025-05-07T02:11:32.619656+00:00",
+      "modified": "2025-05-07T02:11:40.281126+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40160/iiif/textblock/40737/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40160/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:37.4296875,53.4609375,227.6015625,125.0703125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, left column",
+          "value": "<ol>\n<li>Ab\u016b al-Than\u0101\u02be \u1e24\u0101mid</li>\n<li>al-Kanz\u012b</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
