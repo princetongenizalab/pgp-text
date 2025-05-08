@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"3ad997b1a020a20fc96977216712bb4c\"",
       "id": "https://geniza.princeton.edu/annotations/bd373cf3-6fec-427d-9570-4aa0f5ebd804/",
       "type": "Annotation",
       "created": "2022-10-07T00:39:07.419302+00:00",
       "modified": "2022-10-07T00:39:07.419322+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1120/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00014-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"05c5817dfa1dd0df68f85d1dad561e3f\"",
+      "id": "https://geniza.princeton.edu/annotations/032b5120-a03f-4cce-bde8-71ff1b3338be/",
+      "type": "Annotation",
+      "created": "2025-05-08T15:48:52.232394+00:00",
+      "modified": "2025-05-08T15:48:52.232409+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00014-00002/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:645.2510986328125,596.2521362304688,2083.2835693359375,5364.455383300781",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>\u00a0</li>\n<li>[...] I, the servant of</li>\n<li>your excellency, inform you\u2014may God make your prosperity permanent!\u2014</li>\n<li>that when you departed from me {alt tr.: I departed from you}, I went to the house;</li>\n<li>and the hand mill and the durra crusher were in the house. I locked</li>\n<li>the house and departed and entrusted Sheikh \u1e24usayn with the care</li>\n<li>of the house, which he was prepared to do (lit., \u2018the man said only \u201cgood,\u2019\u201d).</li>\n<li>Qays, however, was angry and said: \u201cHe lost the house\u2019s</li>\n<li>furnishings and rent.\u201d In fact, I, your excellency\u2019s servant, inform you</li>\n<li>that Sheikh \u1e24usayn received payment of</li>\n<li>the entire rent and that you have not suffered any loss</li>\n<li>from the house. Therefore, when he reaches Aden and talks</li>\n<li>to you, my lord, about this matter, do not accept</li>\n<li>his words (as true) {alt. tr.: do not take notice of his words} nor be distressed or</li>\n<li>worried by them. If you, my lord, have any {alt. tr.: Whatever, you, my lord}</li>\n<li>need or require any service, honor your servant\u00a0</li>\n<li>with it. To you, my lord</li>\n<li>and master, and to my lord Pera\u1e25y\u0101\u2014may his Rock preserve him!\u2014the best greetings. And peace.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d85d606553dae18854414a43f09913a6\"",
+      "id": "https://geniza.princeton.edu/annotations/4f9bc328-79ef-40f8-805c-65e6d3dd5d88/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:39:07.433087+00:00",
+      "modified": "2022-10-07T00:39:07.433099+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1120/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00014-00002/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/249/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/4f9bc328-79ef-40f8-805c-65e6d3dd5d88/",
-      "type": "Annotation",
-      "created": "2022-10-07T00:39:07.433087+00:00",
-      "modified": "2022-10-07T00:39:07.433099+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,25 +104,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"be41998689580ec40e72287bac56c079\"",
+      "id": "https://geniza.princeton.edu/annotations/af5f4bc4-87b3-4da5-8c53-22c4801195ef/",
+      "type": "Annotation",
+      "created": "2025-05-08T15:49:11.487216+00:00",
+      "modified": "2025-05-08T15:49:11.487235+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00014-00002/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/5515/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:2381.32080078125,3044.1103515625,572.903076171875,2986.0400390625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto, right margin",
+          "value": "<p>Kindly do not cease writing to me, the servant of your excellency. May I never be deprived of you!</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 2
     }
