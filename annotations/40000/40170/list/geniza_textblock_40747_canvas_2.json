@@ -39,6 +39,41 @@
       "schema:position": 1
     },
     {
+      "etag": "\"425d5193d8ca0bca4c5221ee6fe47057\"",
+      "id": "https://geniza.princeton.edu/annotations/d0b5aa57-cd31-406a-8e5f-6420ce27d461/",
+      "type": "Annotation",
+      "created": "2025-05-16T21:43:56.022143+00:00",
+      "modified": "2025-05-16T21:43:56.022156+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40170/iiif/textblock/40747/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40170/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:246,22.116666793823242,240,112.00000190734863",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, right column",
+          "value": "<ol>\n<li>To the brother, Master of the Horses,</li>\n<li>the governor of Ibr\u012bm and the land of Nobadia,</li>\n<li>may God cause to endure his good health.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"f207d0fe76366018ad353f697ef2a90f\"",
       "id": "https://geniza.princeton.edu/annotations/13bdf4dc-5d84-417e-b2f2-bb9b26486c37/",
       "type": "Annotation",
@@ -70,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"e9315b5cd58de7b5f1aa2fd5ca6ce725\"",
+      "id": "https://geniza.princeton.edu/annotations/50e2213c-9f2d-4537-8977-cec5f1f03200/",
+      "type": "Annotation",
+      "created": "2025-05-16T21:44:27.342965+00:00",
+      "modified": "2025-05-16T21:44:27.342979+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40170/iiif/textblock/40747/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40170/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:19,26.116666793823242,210,109.00000190734863",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, left column",
+          "value": "<ol>\n<li>From the prosperous, auspicious and most gracious commander,</li>\n<li>Victor of the Religion, Sword of the Commander of the Faithful,</li>\n<li>Ab\u016b Man\u1e63\u016br Mu\u1e25ammad, son of the sincere commander Crescent</li>\n<li>of the Dynasty (Hil\u0101l al-Dawla), our elder Treasure of the Religion (Kanz al-D\u012bn).</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
