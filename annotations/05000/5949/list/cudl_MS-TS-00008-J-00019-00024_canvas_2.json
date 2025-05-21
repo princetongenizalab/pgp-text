@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"51a288dbdc2732b6b54b3b7876e564ec\"",
       "id": "https://geniza.princeton.edu/annotations/f6e97b81-671a-4f46-b1b7-5ab7928d9f0d/",
       "type": "Annotation",
       "created": "2023-03-31T19:09:32.596295+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"882396800e95094277a24b0eef504fef\"",
+      "id": "https://geniza.princeton.edu/annotations/3d1a0243-1b0a-470a-85cf-8e6cbdbcb193/",
+      "type": "Annotation",
+      "created": "2025-05-21T22:19:22.911406+00:00",
+      "modified": "2025-05-21T22:19:22.911420+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00024/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5949/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:680.9359130859375,396.58905029296875,3629.1641845703125,695.9015502929688",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d0 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05d2\u05d3\u05d5\u05dc\u05ea\u05d5 \u05d5\u05d0\u05ea \u05d7\u05e1\u05d3\u05d9\u05d5 \u05dc; \u05d4\u05d5\u05e8\u05d4 \u05dc\u05d5, \u05d6\u05db\u05e8\u05d9\u05d0 \u05d1\u05df \u05d9\u05e2\u05e7\u05d5\u05d1 \u05d0\u05dc\u05e9\u05d0\u05de\u05d4. </p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
