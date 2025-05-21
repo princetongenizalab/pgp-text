@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"c8ea451203e60bf75594f735c1916c7b\"",
+      "id": "https://geniza.princeton.edu/annotations/c80bf05f-21cc-41e4-98f8-0fbff5e1804f/",
+      "type": "Annotation",
+      "created": "2025-05-21T04:43:45.823194+00:00",
+      "modified": "2025-05-21T04:43:45.823207+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/137/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00374/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1739/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:865.7935180664062,482.97216796875,2507.4232788085938,2216.062255859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\n<p>Namer the bridegroom accepted responsibility for this marriage settlement</p>\n</li>\n<li>\n<p>for himself and his heirs after him, to be secured by</p>\n</li>\n<li>\n<p>the choicest of his possessions under heaven, indoors</p>\n</li>\n<li>\n<p>or out, whether landed or movable property, even down to</p>\n</li>\n<li>\n<p>the coat on his shoulders; it is not to have the effect of an asmakhta or</p>\n</li>\n<li>\n<p>a legal formality, but is subject to the full rigour of all the enactments</p>\n</li>\n<li>\n<p>of the rabbis. \u00a0 We have received from the bridegroom Namer ?assurances concerning every detail</p>\n</li>\n<li>\n<p>and matter of what is written and itemised on the other side</p>\n</li>\n<li>\n<p>of this document in due and appropriate form (?).</p>\n</li>\n<li>\n<p>Valid and effective. AQOLUTOS.</p>\n</li>\n<li>\n<p>[signed] Judah son of the late Nabon; Moses son of the late Leon;</p>\n</li>\n<li>\n<p>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Shelahia son of the late Joseph;</p>\n</li>\n<li>\n<p>Moses son of the late Rabbi Shabbetai.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"783d8ece66268b442568098e7c890667\"",
       "id": "https://geniza.princeton.edu/annotations/9a1cbfd7-afb3-4b9d-af72-85ddae5df99a/",
       "type": "Annotation",
       "created": "2022-10-07T00:50:29.821022+00:00",
       "modified": "2022-10-07T00:50:29.821036+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00374/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1739/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00374/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1739/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
