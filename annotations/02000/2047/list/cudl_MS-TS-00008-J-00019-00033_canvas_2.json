@@ -4,10 +4,96 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"fb7d7843201765e010566937ce72b173\"",
+      "id": "https://geniza.princeton.edu/annotations/496a33ff-bdd5-4e63-a637-705c9e5495a7/",
+      "type": "Annotation",
+      "created": "2025-05-29T13:16:16.900347+00:00",
+      "modified": "2025-05-29T13:16:16.900365+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/137/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00033/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2047/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2310.629638671875,223.14083862304688,1842.034912109375,510.6153259277344",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05d1\u05e7\u05e9 \u05dc\u05de\u05e8 \u05d3\u05d5\u05dc \u05d5\u05dc\u05de\u05d5\u05e9\u05db\u05d5</li>\n<li>\n<p>\u05d1\u05de\u05e6\u05e8\u05d9\u05dd</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"c0b413bd4edbda8c367267fd6836747f\"",
+      "id": "https://geniza.princeton.edu/annotations/0960e1b0-de78-4b25-b82a-deabd0b82a47/",
+      "type": "Annotation",
+      "created": "2025-05-29T13:18:14.946116+00:00",
+      "modified": "2025-05-29T13:18:14.946134+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/137/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00033/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2047/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2365.00390625,230.90939331054688,1917.206787109375,511.0260314941406",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>Ask for Mar Daul and Mosko</li>\n<li>\n<p>in Fustat</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"feb1080cb4540a53bd5ccb5df46300e6\"",
       "id": "https://geniza.princeton.edu/annotations/98e33de3-c204-4a74-8039-56689da3bf90/",
       "type": "Annotation",
       "created": "2022-10-07T00:47:34.372451+00:00",
       "modified": "2022-10-07T00:47:34.372465+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00033/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2047/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +103,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00019-00033/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2047/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
