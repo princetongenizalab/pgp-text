@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8248%2Fiiif%2Ftextblock%2F19949%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8248%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"f014535d2adbcc0a4d5b3d08c2df5172\"",
+      "id": "https://geniza.princeton.edu/annotations/ee36fd5d-6953-45b9-8313-ffb7c1b3862f/",
+      "type": "Annotation",
+      "created": "2025-06-03T17:52:40.371434+00:00",
+      "modified": "2025-06-03T17:52:40.371449+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1157/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/8248/iiif/textblock/19949/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8248/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:298.8125,51.91015625,399.703125,369.30859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u062f\u0631\u0647\u0645 \u0633\u0645\u0627\u0642 \u0637\u062d\u064a\u0646\u0629 \u062f\u0631\u0647\u0645 \u0648\u0646\u0635\u0641</li>\n<li>\u0631\u0637\u0644 \u0633\u064a\u0631\u062c \u0648\u0631\u0637\u0644 \u0632\u064a\u062a \u0627\u0631\u0628\u0639\u0629 \u0627\u0644\u0627 . . . [</li>\n<li>\u062e\u0628\u0632 \u0639\u0634\u0631\u0629 \u062b\u0644\u062b\u0629 \u0627\u0649\u0631\u0627\u0631 . . . . . . \u062f\u0631\u0647\u0645 . . . .&nbsp;</li>\n<li>\u0633\u0645\u0643 \u062f\u0631\u0647\u0645 . . . .&nbsp;</li>\n<li>\u0646\u0642\u0644 \u062f\u0631\u0647\u0645 \u0644\u0648\u0628\u064a\u0629 \u062f\u0631\u0647\u0645 \u0635\u062d\u0648\u0646 \u0627\u062b\u0646\u064a\u0646 \u0648\u0646\u0635\u0641 . . .&nbsp;</li>\n<li>\u0647\u0628\u0629 \u0644\u0627\u0628\u0648 \u0627\u0644\u0641\u0631\u062c \u062f\u0631\u0647\u0645\u064a\u0646</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
