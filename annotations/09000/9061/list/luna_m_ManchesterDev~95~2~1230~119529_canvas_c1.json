@@ -4,10 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"043d2d22f19e62271390318d8dc5cff8\"",
       "id": "https://geniza.princeton.edu/annotations/c1508348-dafa-4617-abad-b655ca72ea43/",
       "type": "Annotation",
       "created": "2022-10-07T00:49:26.785533+00:00",
-      "modified": "2023-05-25T00:55:35.697107+00:00",
+      "modified": "2025-06-05T14:47:36.232297+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -19,17 +20,52 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:93.4126968383789,40.17,5203.087303161621,1845.0681591796874",
+          "value": "xywh=pixel:3815.880126953125,40.17,1480.619873046875,1940.59220703125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso",
-          "value": "<p>[\u0627\ufe91]\u0648 \u0633\u0639\u064a\u062f \u0628\u0646\u0627\u0644\u0634\u064a\u062e \u0639\u0628\u062f\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0627\ufeb3\u0631\u0627\u0626\u064a\u0644\u064a</p>\n<p>[... \u062f\u0645\u064a\u0627\u0637]\ufef2 \u0627\u0644\u0627\u0633\u0631\u0627\u0626\u064a\u0644\u064a</p>",
+          "label": "Verso, address, right column - right side up (Arabic script)",
+          "value": "<ol>\n<li>[\u0627\ufe91]\u0648 \u0633\u0639\u064a\u062f \u0628\u0646\u0627\u0644\u0634\u064a\u062e</li>\n<li>[... \u062f\u0645\u064a\u0627\u0637]\ufef2 \u0627\u0644\u0627\u0633\u0631\u0627\u0626\u064a\u0644\u064a</li>\n</ol>",
           "format": "text/html",
           "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"f3b6187b23eae10e4bd95429efb6c6b8\"",
+      "id": "https://geniza.princeton.edu/annotations/8e1da29f-5595-4b64-aa95-fd1067b7d108/",
+      "type": "Annotation",
+      "created": "2025-06-05T14:47:29.884474+00:00",
+      "modified": "2025-06-05T14:47:36.272309+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~1230~119529/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9061/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:437.741943359375,667.5362548828125,2056.011962890625,1228.2667236328125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, left column - right side up (Arabic script)",
+          "value": "<p>\u0639\u0628\u062f\u0647 \u064a\u0648\u0633\u0641 \u0628\u0646 \u0627\u0628\u0631\u0627\u0647\u064a\u0645</p>",
+          "format": "text/html"
         }
       ],
       "motivation": [
@@ -39,10 +75,11 @@
       "schema:position": 2
     },
     {
+      "etag": "\"8b74abf5b0f63b668e5fe380ea23fa72\"",
       "id": "https://geniza.princeton.edu/annotations/438af7b7-77e9-420d-8e41-d1ae67664221/",
       "type": "Annotation",
       "created": "2023-05-25T00:55:25.935527+00:00",
-      "modified": "2023-05-25T00:55:25.935541+00:00",
+      "modified": "2025-06-05T14:47:43.281988+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -61,7 +98,7 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Margin",
+          "label": "Verso, margin",
           "value": "<p>[\u05e9]\u05dc\u05d5\u05dd \u05dc\u05da \u05de\u05db\u05dc [...]</p>",
           "format": "text/html"
         }
@@ -70,7 +107,7 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2
+      "schema:position": 3
     }
   ]
 }
