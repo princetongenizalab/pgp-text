@@ -9,7 +9,7 @@
       "type": "Annotation",
       "created": "2024-06-19T19:26:14.038383+00:00",
       "modified": "2024-06-19T19:26:14.038396+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/249/",
+      "dc:source": "https://geniza.princeton.edu/sources/1120/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00007-00018/canvas/2",
@@ -35,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"abbc69a658bca8795a4f375fec395063\"",
+      "id": "https://geniza.princeton.edu/annotations/633e88b4-8a7f-4aa1-8f7b-57374b337eb9/",
+      "type": "Annotation",
+      "created": "2025-06-05T14:14:50.926024+00:00",
+      "modified": "2025-06-05T14:14:50.926038+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/8/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00007-00018/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4737/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:198.10047912597656,1585.464111328125,1410.296371459961,833.0458984375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>To the Sheikh, the cantor,</li>\n<li>Mevass\u0113r\u2019s brother,</li>\n<li>known as Ibn Yij\u016b.</li>\n<li>From \u1e24ajj\u0101j.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
