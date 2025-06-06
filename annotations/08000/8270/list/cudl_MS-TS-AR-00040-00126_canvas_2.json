@@ -39,11 +39,11 @@
       "schema:position": 1
     },
     {
-      "etag": "\"7add64da0ff38f23ac00c14ad1e41b47\"",
-      "id": "https://geniza.princeton.edu/annotations/ae6ab8fb-4148-455f-a232-51662fc5448c/",
+      "etag": "\"1e4d5d11c59af362efb915b5a0259721\"",
+      "id": "https://geniza.princeton.edu/annotations/148b45f5-cb80-42fc-b479-698a4d356542/",
       "type": "Annotation",
-      "created": "2023-12-12T23:41:22.506421+00:00",
-      "modified": "2023-12-12T23:43:39.830448+00:00",
+      "created": "2025-06-06T10:39:51.071325+00:00",
+      "modified": "2025-06-06T10:39:56.904322+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/170/",
       "target": {
         "source": {
@@ -55,15 +55,15 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:189.58168029785156,4634.4052734375,2317.2024993896484,844.404296875",
+          "value": "xywh=pixel:142.6646270751953,620.4909057617188,2217.6095428466797,616.7316284179688",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso, address",
-          "value": "<ol>\n<li>\n<p>To the warehouse, to be delivered to the illustrious and</p>\n<p>excellent qadi</p>\n</li>\n<li>\n<p>\u1e62adr al-D\u012bn, who acts there as a notary, may God</p>\n<p>always give him success.</p>\n</li>\n</ol>",
+          "label": "Verso (Goitein doesn't translate \u2014 this translation by Marina Rustow)",
+          "value": "<ol>\n<li>for the next day. No one is arriving from our lord.</li>\n<li>I have already informed our lord of this. Peace.</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -109,11 +109,11 @@
       "schema:position": 2
     },
     {
-      "etag": "\"200731de6618528fc5534e438491380b\"",
+      "etag": "\"d533738010156e89035e59c4820be1f8\"",
       "id": "https://geniza.princeton.edu/annotations/715e79c5-2c67-4c50-960a-bb53f98e6748/",
       "type": "Annotation",
       "created": "2025-06-06T10:34:23.487704+00:00",
-      "modified": "2025-06-06T10:34:23.487723+00:00",
+      "modified": "2025-06-06T10:39:57.134783+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/170/",
       "target": {
         "source": {
@@ -133,7 +133,7 @@
         {
           "type": "TextualBody",
           "label": "Verso, crossed out",
-          "value": "<p>(The verso contains also the beginning of the draft of a petition</p>\n<p>in Arabic language and Hebrew characters of the dyers in Qalyiib.</p>\n<p>The words are crossed out, probably because the clerk realized that</p>\n<p>the sheet would not be sufficient for the text dictated to him.)</p>\n<p>The servants, the dyers in Qalyiib, kiss the ground and announce</p>\n<p>that they perish because of the high price of the wheat, the scarcity</p>\n<p>of work, the heavy license fee,7 and the rise of the exchange rate ...</p>\n<p>(On the same page there is also a calligraphic trial of the pen:</p>\n<p>\"Said the KhazarI.\" \"Said the scholar.\" This shows that in this little</p>\n<p>town there was a scribe who tried to copy the theological\u00a0<i>magnum</i></p>\n<p><i>opus\u00a0</i>of the Spanish Hebrew poet Judah ha-Levi. Learned scribes</p>\n<p>were often found in small towns, where life was less expensive</p>\n<p>than in the big cities. See\u00a0<i>Med. Soc.,\u00a0</i>11,\u00a0239.)</p>",
+          "value": "<ol>\n<li><del>The servants, the dyers in Qaly\u016bb, kiss the ground</del></li>\n<li><del>and announce that they perish because of the high price of the wheat, </del></li>\n<li><del>the scarcity of work, the heavy license fee, and the rise of </del></li>\n<li><del>the exchange rate ...</del></li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -142,6 +142,41 @@
         "translating"
       ],
       "schema:position": 2
+    },
+    {
+      "etag": "\"223031d267f46aba3702cb8b113cbb0b\"",
+      "id": "https://geniza.princeton.edu/annotations/ae6ab8fb-4148-455f-a232-51662fc5448c/",
+      "type": "Annotation",
+      "created": "2023-12-12T23:41:22.506421+00:00",
+      "modified": "2025-06-06T10:39:57.121110+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00040-00126/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8270/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:189.58168029785156,4634.4052734375,2317.2024993896484,844.404296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "<ol>\n<li>\n<p>To the warehouse, to be delivered to the illustrious and</p>\n<p>excellent qadi</p>\n</li>\n<li>\n<p>\u1e62adr al-D\u012bn, who acts there as a notary, may God</p>\n<p>always give him success.</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
     }
   ]
 }
