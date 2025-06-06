@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"85d344bee446dd1029bf27f57dd715ce\"",
       "id": "https://geniza.princeton.edu/annotations/2cdb4627-13c7-4199-84d8-d5a9dfd2184e/",
       "type": "Annotation",
       "created": "2023-01-26T22:06:37.510434+00:00",
@@ -38,6 +39,7 @@
       "schema:position": 1
     },
     {
+      "etag": "\"7add64da0ff38f23ac00c14ad1e41b47\"",
       "id": "https://geniza.princeton.edu/annotations/ae6ab8fb-4148-455f-a232-51662fc5448c/",
       "type": "Annotation",
       "created": "2023-12-12T23:41:22.506421+00:00",
@@ -72,6 +74,7 @@
       "schema:position": 1
     },
     {
+      "etag": "\"c0ec28c25966cc2db3e07f5ea6b48c61\"",
       "id": "https://geniza.princeton.edu/annotations/2c3f4660-9184-4bb3-b300-59ef16e62d75/",
       "type": "Annotation",
       "created": "2023-01-26T22:11:58.643011+00:00",
@@ -102,6 +105,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"200731de6618528fc5534e438491380b\"",
+      "id": "https://geniza.princeton.edu/annotations/715e79c5-2c67-4c50-960a-bb53f98e6748/",
+      "type": "Annotation",
+      "created": "2025-06-06T10:34:23.487704+00:00",
+      "modified": "2025-06-06T10:34:23.487723+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00040-00126/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8270/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:95.01874542236328,1198.0623779296875,2177.1685104370117,933.6624755859375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, crossed out",
+          "value": "<p>(The verso contains also the beginning of the draft of a petition</p>\n<p>in Arabic language and Hebrew characters of the dyers in Qalyiib.</p>\n<p>The words are crossed out, probably because the clerk realized that</p>\n<p>the sheet would not be sufficient for the text dictated to him.)</p>\n<p>The servants, the dyers in Qalyiib, kiss the ground and announce</p>\n<p>that they perish because of the high price of the wheat, the scarcity</p>\n<p>of work, the heavy license fee,7 and the rise of the exchange rate ...</p>\n<p>(On the same page there is also a calligraphic trial of the pen:</p>\n<p>\"Said the KhazarI.\" \"Said the scholar.\" This shows that in this little</p>\n<p>town there was a scribe who tried to copy the theological\u00a0<i>magnum</i></p>\n<p><i>opus\u00a0</i>of the Spanish Hebrew poet Judah ha-Levi. Learned scribes</p>\n<p>were often found in small towns, where life was less expensive</p>\n<p>than in the big cities. See\u00a0<i>Med. Soc.,\u00a0</i>11,\u00a0239.)</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
