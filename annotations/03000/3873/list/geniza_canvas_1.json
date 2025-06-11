@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"edd5775e67d5e9c5a93e8a84df0ec4b8\"",
       "id": "https://geniza.princeton.edu/annotations/c40919b2-b54b-4d1a-a6b0-35f865f7b7f8/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:50.904767+00:00",
@@ -38,10 +39,11 @@
       "schema:position": 1
     },
     {
+      "etag": "\"71b275ea8b20e8b942e21fa63a44174a\"",
       "id": "https://geniza.princeton.edu/annotations/77201db1-b95c-4d0b-b4be-23e0d95c5d94/",
       "type": "Annotation",
       "created": "2023-12-09T00:00:08.902400+00:00",
-      "modified": "2023-12-09T00:00:08.902412+00:00",
+      "modified": "2025-06-11T18:12:32.677435+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/170/",
       "target": {
         "source": {
@@ -60,7 +62,8 @@
       "body": [
         {
           "type": "TextualBody",
-          "value": "<p>. . . we suffered hardship and did not hear about the escape,1 for we came near\u00a0to the cafpital] QasantIna (Constantinople).\u00a0After we had cruised on the sea for eighteen days he3 attacked us\u00a0again. Then it became evident that they4 were on their way to one\u00a0of the coasts of the Muslims. So we returned to Crete.\u00a0We did not\u00a0cease to gulp our blood\u00a0until we arrived in Amalfi after more than\u00a0seventy days.\u00a0This was not enough: We came to a town whose\u00a0property had been confiscated\u00a0and we did not find anyone who\u00a0would buy any goods from us, be it pepper or olibanum (Iuban)\u00a0or anything else, not even one dirhem's worth. We put our goods\u00a0in warehouses and are now waiting for God's help. I do not worry\u00a0for my own things. I worry for you and your goods that I am unable\u00a0to sell. I really regret this very much.... </p>\n<p>\u00a0</p>\n<p>Please inform the elder Abu \u038a-Fadl b. Salman that I went to see Yuhanna (spelled yhri), I and the elder Abu Sahl, and gave him\u00a0the letter,\u00a0but he did not answer it. Until now I have been reminding\u00a0him, to find out what he would say. If I get something\u00a0from Yuhanna, I shall send it to him.</p>",
+          "label": "Recto",
+          "value": "<ol>\n<li>. . . we suffered hardship and did not hear about the escape, for we came near to the capital]</li>\n<li>Qa\u1e63ab \u1e6d\u012bna (Constantinople). After we had cruised on the sea for eighteen days he attacked us again. Then it became evident that they</li>\n<li>were on their way to one of the coasts of the Muslims. So we returned to Crete. We did not</li>\n<li>cease to gulp our blood until we arrived in Amalfi after more than seventy days.</li>\n<li>This was not enough: We came to a town whose property had been confiscated and we did not find</li>\n<li>anyone who would buy any goods from us, be it pepper or olibanum (Iuban) or anything else,</li>\n<li>not even one dirhem's worth. We put our goods in warehouses and are now waiting</li>\n<li>for God's help. I do not worry for my own things. I worry for you and</li>\n<li>your goods that I am unable to sell. I really regret this very much....</li>\n</ol>",
           "format": "text/html"
         }
       ],
@@ -71,6 +74,7 @@
       "schema:position": 1
     },
     {
+      "etag": "\"c82a7ba582264e13d35a4631b14891bc\"",
       "id": "https://geniza.princeton.edu/annotations/77a4e64f-e6c0-4231-b965-a293f9384b94/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:50.909170+00:00",
@@ -102,6 +106,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"524271b10f14c5a1f35c31d33a4d30da\"",
+      "id": "https://geniza.princeton.edu/annotations/8550eb01-85ac-4165-9ff0-fa0614b56c4b/",
+      "type": "Annotation",
+      "created": "2025-06-11T18:13:02.305663+00:00",
+      "modified": "2025-06-11T18:13:02.305678+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/170/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/3873/iiif/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3873/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:505.3999938964844,16.616666793823242,128.33334350585938,373.083345413208",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, margin",
+          "value": "<p>Please inform the elder Abu \u038a-Fadl b. Salman that I went to see Yuhanna (spelled yhri), I and the elder Abu Sahl, and gave him the letter, but he did not answer it. Until now I have been reminding him, to find out what he would say. If I get something from Yuhanna, I shall send it to him.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
