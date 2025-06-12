@@ -4,11 +4,11 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"06cd8f91b855f622b2a24d69e1ac8eb6\"",
-      "id": "https://geniza.princeton.edu/annotations/1a8a31bf-9ca3-4c53-b2dc-4a4a4d5286b9/",
+      "etag": "\"12d3b919262424861691cbf9af601868\"",
+      "id": "https://geniza.princeton.edu/annotations/4eb28789-1ab7-4c39-8b6b-85dd92edf984/",
       "type": "Annotation",
-      "created": "2025-06-12T14:38:54.829850+00:00",
-      "modified": "2025-06-12T14:38:54.829865+00:00",
+      "created": "2025-06-12T14:40:19.664027+00:00",
+      "modified": "2025-06-12T14:40:24.344252+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/1038/",
       "target": {
         "source": {
@@ -20,15 +20,15 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:455.0343322753906,7333.6875,4778.623870849609,722.25244140625",
+          "value": "xywh=pixel:495.73138427734375,878.0894165039062,4598.028381347656,1440.1869506835938",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
       "body": [
         {
           "type": "TextualBody",
-          "label": "Address",
-          "value": "<p>To the illustrious, liberal, and pious scholar, the accomplished rayyis, the chief over the leaders of the house of Levi, our master \u1e24alf\u014dn, son of his honor, Nethanel, may the All(merciful) pre(serve him).&nbsp;</p>\n<p>His favorite, who is proud of him and yearns after his presence, Joseph ha-Levi, son of Samuel Ibn al-Uht\u016bsh, m(ay he rest in) E(den). Peace.</p>\n<p>&nbsp;</p>",
+          "label": "Verso",
+          "value": "<p>the Pride of the Merchants,&nbsp; Abu l-Barak\u0101t b. \u1e24\u0101rith, my dear, special friend - may God elevate and protect him -. Please convey to him my excuse for not writing to him separately and including him in this letter.&nbsp;</p>\n<p>Accept also greetings from my brother M\u016bsa and your paternal aunt and all our brethren in&nbsp;</p>\n<p>the country, potter and philosopher, bragger and cantors, and the community at large in accordance with their esteem of your rank and their admiration for your lofty mind. May the welfare of my lord, master,and friend wax and increase.&nbsp;</p>\n<p>Amen. Selah.</p>\n<p>&nbsp;</p>",
           "format": "text/html"
         }
       ],
@@ -106,6 +106,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"7aab74d48ab1bb7519d19020e5e32cba\"",
+      "id": "https://geniza.princeton.edu/annotations/1a8a31bf-9ca3-4c53-b2dc-4a4a4d5286b9/",
+      "type": "Annotation",
+      "created": "2025-06-12T14:38:54.829850+00:00",
+      "modified": "2025-06-12T14:40:24.386202+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1038/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-ADD-03340/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9044/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:455.0343322753906,7333.6875,4778.623870849609,722.25244140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Address",
+          "value": "<p>To the illustrious, liberal, and pious scholar, the accomplished rayyis, the chief over the leaders of the house of Levi, our master \u1e24alf\u014dn, son of his honor, Nethanel, may the All(merciful) pre(serve him).&nbsp;</p>\n<p>His favorite, who is proud of him and yearns after his presence, Joseph ha-Levi, son of Samuel Ibn al-Uht\u016bsh, m(ay he rest in) E(den). Peace.</p>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
