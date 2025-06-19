@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40711%2Fiiif%2Ftextblock%2F41375%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40711%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"383aa03432a4f88d61833b0d200cd8fd\"",
+      "id": "https://geniza.princeton.edu/annotations/187301e6-67cc-4855-a62a-a7b5d3640db8/",
+      "type": "Annotation",
+      "created": "2025-06-19T16:34:46.718163+00:00",
+      "modified": "2025-06-19T16:34:46.718177+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40711/iiif/textblock/41375/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40711/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:148,69,328,176",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>Greetings to \u02beAb\u016b Ja\u02bffar and \u02bfAl\u012b. Greetings to all our neighbours. Greetings to everybody who asks after us.</li>\n<li>My brother-in-law sends you greetings.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
