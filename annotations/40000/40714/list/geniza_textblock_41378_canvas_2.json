@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40714%2Fiiif%2Ftextblock%2F41378%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40714%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"2c1419b3d36a1986c88aca295cc2697a\"",
+      "id": "https://geniza.princeton.edu/annotations/34a9871c-6bb6-486f-874e-c21fa96eb846/",
+      "type": "Annotation",
+      "created": "2025-06-19T18:04:16.173082+00:00",
+      "modified": "2025-06-19T18:04:16.173097+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40714/iiif/textblock/41378/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40714/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:432,69,137,304",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, right side",
+          "value": "<ol>\n<li>[ ]</li>\n<li>[ ]</li>\n<li>[ ] two grains</li>\n<li>[ ] the sack</li>\n<li>[ ]</li>\n<li>[ ] twenty-[ ] dirhams</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"be56292f3fb18a7a8e8ea97f78e844e8\"",
+      "id": "https://geniza.princeton.edu/annotations/6403c8b0-d362-4895-aaec-55bf3ea4bd8f/",
+      "type": "Annotation",
+      "created": "2025-06-19T18:04:43.226635+00:00",
+      "modified": "2025-06-19T18:04:43.226651+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40714/iiif/textblock/41378/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40714/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:238,53,164,202",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, middle",
+          "value": "<ol>\n<li>[ ]</li>\n<li>[ ] its delivery</li>\n<li>[ ] in coinage</li>\n<li>[ ] its debt</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
