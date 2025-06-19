@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40715%2Fiiif%2Ftextblock%2F41379%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40715%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"725e43b9def4116b7fbac7e272993075\"",
+      "id": "https://geniza.princeton.edu/annotations/75d7b158-376a-43df-84dd-076dc3aed945/",
+      "type": "Annotation",
+      "created": "2025-06-19T19:13:50.241124+00:00",
+      "modified": "2025-06-19T19:13:50.241140+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40715/iiif/textblock/41379/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40715/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:134,69,372,222",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>and for fourteen waybas of cartham seed: two thirds of a d\u012bn\u0101r</li>\n<li>and for twelve ra\u1e6dls and a half of bitumen: two thirds of a d\u012bn\u0101r</li>\n<li>and for a basket (the contents of which) are mentioned below</li>\n<li>The additional q\u012br\u0101\u1e6d is for the price of the army wool: two d\u012bn\u0101rs</li>\n<li>and a third of a d\u012bn\u0101r</li>\n<li>The details of its contents</li>\n<li>cardamon half [ ]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
