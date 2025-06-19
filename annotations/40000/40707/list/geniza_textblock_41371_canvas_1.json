@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40707%2Fiiif%2Ftextblock%2F41371%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40707%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"afb92b3e1327a03ff6ee39d812cacf85\"",
+      "id": "https://geniza.princeton.edu/annotations/5fcd021f-5d49-42ed-9887-68ce6da51b92/",
+      "type": "Annotation",
+      "created": "2025-06-19T16:24:07.677249+00:00",
+      "modified": "2025-06-19T16:24:07.677263+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40707/iiif/textblock/41371/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40707/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:124,44,374,308",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>Basmala (i.e., in the name of God, the Merciful and Compassionate).</li>\n<li>(This is) my letter to my brother and my lord, the dearest person to me, may God prolong his life and cause his strength, his elevation,</li>\n<li>his ascendance and his splendour to endure. I have great longing for him and I, therefore, ask God that we shall meet</li>\n<li>soon. As for other matters, O brother, what he needed has been conveyed from what remained from the price of the two baskets</li>\n<li>of cotton, which were with our brother Mufli\u1e25, namely thirty-two dirhams. If he has brought pure coins, then receive them and convey to me a share.</li>\n<li>If you cannot obtain pure coins, then send to me their value. But</li>\n<li>trust me and leave it to me. On another matter, when I arrive from my long journey, I shall set off again,</li>\n<li>and when I collect it at your place, if it is with you&mdash;you know what my view is about this.</li>\n<li>I am grateful only to God, the Exalted. It was a terrible year for me and a terrible journey.</li>\n<li>Best wishes to you and to our brother \u1e24usayn greetings and to our brother the freedman greetings.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
