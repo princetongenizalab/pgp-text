@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40707%2Fiiif%2Ftextblock%2F41371%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40707%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"39dfa0a313d9c5a3159cafc851e753e2\"",
+      "id": "https://geniza.princeton.edu/annotations/e9952ed1-48e2-403e-96cf-367bb0eb3683/",
+      "type": "Annotation",
+      "created": "2025-06-19T16:28:02.515298+00:00",
+      "modified": "2025-06-19T16:28:02.515318+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40707/iiif/textblock/41371/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40707/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:169,61,281,52",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<ol>\n<li>To the honourable lord and brother \u02beAb\u016b Finj\u0101n the merchant, the son of Fakka. From his brother \u02bfAl\u012b ibn Mu\u1e63\u02bfab</li>\n<li>From Ibr\u012bm to Tushka</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
