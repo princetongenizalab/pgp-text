@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40725%2Fiiif%2Ftextblock%2F41389%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40725%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"dcb674aeaf418a79e6f499f5ddaba6e0\"",
+      "id": "https://geniza.princeton.edu/annotations/89879b26-472c-4206-bfb9-482f248063e3/",
+      "type": "Annotation",
+      "created": "2025-06-26T22:21:05.537965+00:00",
+      "modified": "2025-06-26T22:21:05.537978+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40725/iiif/textblock/41389/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40725/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:145,38,386,318",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>In the name of God, the Merciful and Compassionate.</li>\n<li>Mariane ibn \u012as\u016by the Nubian and his wife Maryam ibnat Yu\u1e25annis the Nubian attended (court),</li>\n<li>there having passed between them a quarrel and dispute regarding payment and fulfilment (of obligations), and the undertaking by</li>\n<li>this Mariane ibn \u012as\u016b the Nubian to pay, to fulfill all</li>\n<li>that which he owes to her, and after she showed a document in her hand dated</li>\n<li>\u1e62afar of the year four-hundred and thirty-two (October 1040 AD), (certifying that the payment of) the amount of one d\u012bn\u0101r</li>\n<li>was postponed until the end of one year, the beginning of which is \u1e62afar, four-hundred and thirty-two (October 1040 AD)</li>\n<li>and that three d\u012bn\u0101rs were immediately payable, after she called witnesses</li>\n<li>to certify that she had received from him two d\u012bn\u0101rs of full weight and he had held back from her one</li>\n<li>d\u012bn\u0101r; and he reassured her that he would be cleared of it (i.e., its debt) in six months at the time</li>\n<li>that is written in this document, this being \u1e0e\u016b al-\u1e24ijja of the year four-hundred and thirty-two (August&ndash;September 1041 AD).</li>\n<li>That was witnessed and he (the witness) wrote his testimony in his hand on its date.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"94e7dcc2c260b4ddef9a6332c4017628\"",
+      "id": "https://geniza.princeton.edu/annotations/6f5782b2-0636-459a-a68e-723132a4db27/",
+      "type": "Annotation",
+      "created": "2025-06-26T22:22:05.896902+00:00",
+      "modified": "2025-06-26T22:22:05.896915+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40725/iiif/textblock/41389/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40725/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:114,315,446,60",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto, witness clauses",
+          "value": "<ol>\n<li>Mu\u1e25ammad ibn Jam\u0101\u02bfa witnessed the acknowledgement by the two acknowledgers of all that is named</li>\n<li>and described in this document, and it was written on his behalf, by his instruction and in his presence.</li>\n<li>\u02bfAbd al-Jal\u012bl ibn Hibat All\u0101h ibn Mak\u012bn witnessed</li>\n<li>all that is in this document and it was written on his behalf on its date.</li>\n<li>\u1e24aydara ibn Mu\u1e25ammad</li>\n<li>ibn Jam\u0101\u02bfa witnessed all that is in</li>\n<li>this document and it was written on his behalf.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
