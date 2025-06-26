@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40723%2Fiiif%2Ftextblock%2F41387%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40723%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5cf3c8f991769df05f633d64822c60c2\"",
+      "id": "https://geniza.princeton.edu/annotations/a63baf07-b503-4b8d-85b4-8c7abc26e97b/",
+      "type": "Annotation",
+      "created": "2025-06-26T22:07:59.522733+00:00",
+      "modified": "2025-06-26T22:07:59.522747+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40723/iiif/textblock/41387/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40723/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:114,37,410,291",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto",
+          "value": "<ol>\n<li>In the name of God, the Merciful and Compassionate.</li>\n<li>Jurayj ibn Yu\u1e25annis the Nubian acknowledged</li>\n<li>and called people to witness himself, (he being) healthy</li>\n<li>in mind and body and legally capable of conducting his affairs,</li>\n<li>willingly, not forced or coerced,</li>\n<li>this being when fourteen nights remained</li>\n<li>of Jum\u0101d\u0101 II in the year four-hundred and thirty,</li>\n<li>that he had divorced his wife, Maryam</li>\n<li>ibnat Yu\u1e25annis with one act of repudiation,</li>\n<li>by which she acquired from him possession of herself, and control of herself.</li>\n<li>The acknowledgement by the divorcer and the divorcee</li>\n<li>of all that was mentioned in it was witnessed, they being in soundness of mind</li>\n<li>and body, legally capable of conducting their affairs, willing,</li>\n<li>not forced or coerced. That was in Jum\u0101d\u0101.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
