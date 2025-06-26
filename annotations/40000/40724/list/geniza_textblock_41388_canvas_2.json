@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40724%2Fiiif%2Ftextblock%2F41388%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F40724%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"a1581d515acf12f5be0e5a73115b1862\"",
+      "id": "https://geniza.princeton.edu/annotations/6bc5ea30-eb59-4f68-86db-53228c740930/",
+      "type": "Annotation",
+      "created": "2025-06-26T22:18:28.255159+00:00",
+      "modified": "2025-06-26T22:18:28.255173+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1130/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/40724/iiif/textblock/41388/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/40724/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:140,59,353,233",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<ol>\n<li>In the name of God, the Merciful and Compassionate.</li>\n<li>This is what Mariane ibn \u012as\u016b the Nubian called me to witness for his wife Maryam ibnat Yu\u1e25annis.</li>\n<li>(He undertakes to give her) four measures of walnut oil, vinegar, salt, a straw mat, raw silk,</li>\n<li>firewood, combs, two sleeves, a head-cloth, an allowance of two waybas of wheat</li>\n<li>each month in the future. (This testimony was) in \u1e0e\u016b al-\u1e24ijja of the year four hundred and thirty-two.</li>\n<li>It was written by Hibat All\u0101h ibn Mak\u012bn on its date.</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
