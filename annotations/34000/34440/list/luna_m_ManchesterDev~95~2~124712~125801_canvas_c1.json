@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"409a93f6980eccb1a28eb86b924a7629\"",
       "id": "https://geniza.princeton.edu/annotations/6d999ad9-54a6-4820-bfc2-74107130071a/",
       "type": "Annotation",
       "created": "2022-10-15T23:16:52.485449+00:00",
       "modified": "2022-10-15T23:16:52.485464+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso",
-          "value": "<ol>\n<li>\u05e0\u05e6\u05e3</li>\n<li>\u05e7\u05dc\u05e7\u05d0\u05e1</li>\n<li>\u05d5\u05e0\u05e6\u05e3</li>\n<li>\u05d1\u05d9\u05e5</li>\n<li>\u05d5\u05e8\u05d1\u05e2</li>\n<li>\u05d1\u05e6\u05dc</li>\n<li>\u05d5\u05e8\u05d1\u05e2</li>\n<li>\u05e1\u05dc\u05e7</li>\n<li>\u05d5\u05db\u05d6\u05d1\u05e8\u05d4</li>\n</ol>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/881/",
       "target": {
         "source": {
           "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~124712~125801/canvas/c1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/34440/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/34440/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,10 +24,52 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/22/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05e0\u05e6\u05e3</li>\n<li>\u05e7\u05dc\u05e7\u05d0\u05e1</li>\n<li>\u05d5\u05e0\u05e6\u05e3</li>\n<li>\u05d1\u05d9\u05e5</li>\n<li>\u05d5\u05e8\u05d1\u05e2</li>\n<li>\u05d1\u05e6\u05dc</li>\n<li>\u05d5\u05e8\u05d1\u05e2</li>\n<li>\u05e1\u05dc\u05e7</li>\n<li>\u05d5\u05db\u05d6\u05d1\u05e8\u05d4</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"bbf78aa81afb5a2ed94a0539784ccb16\"",
+      "id": "https://geniza.princeton.edu/annotations/bdcac387-9a64-445a-b67d-43eb85b56a9c/",
+      "type": "Annotation",
+      "created": "2025-07-07T08:28:52.896172+00:00",
+      "modified": "2025-07-07T08:28:52.896185+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/29/",
+      "target": {
+        "source": {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/ManchesterDev~95~2~124712~125801/canvas/c1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/34440/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2588.812255859375,81.4236831665039,1208.4833984375,3501.806785583496",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>half</li>\n<li>taro</li>\n<li>and half</li>\n<li>egg</li>\n<li>and a quarter</li>\n<li>onion</li>\n<li>and a quarter</li>\n<li>chard</li>\n<li>and cilantro</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
