@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"82689095318cfdd17105e76d25985560\"",
       "id": "https://geniza.princeton.edu/annotations/6cc58205-9d7b-4c82-92e5-430e1db4fd59/",
       "type": "Annotation",
       "created": "2023-04-05T20:31:26.802468+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"42dfca3b0b5c1779e60ef5ad49813338\"",
+      "id": "https://geniza.princeton.edu/annotations/3997b1c4-1688-472a-b1b2-9eec9b218b5b/",
+      "type": "Annotation",
+      "created": "2025-07-10T00:52:02.789283+00:00",
+      "modified": "2025-07-10T00:52:02.789300+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-IA-00012-00002/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5747/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:278.015625,519.9921875,2409.46875,1369.484375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05dc\u05d0\u05d3\u05d5\u05e0\u05d9 \u05d5\u05e8\u05d1\u05d9 \u05d0\u05d1\u05d5 \u05d9\u05d7\u05d9\u05d0, \u05d9\u05d9\u05ea\u05df \u05dc\u05d5 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05e8\u05d9\u05db\u05d5\u05ea \u05d9\u05de\u05d9\u05dd \u05d5\u05d9\u05ea\u05de\u05d9\u05d3 \u05d0\u05ea \u05d7\u05e1\u05d3\u05d9\u05d5 \u05dc\u05d5, \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05df \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05e9\u05d5\u05de\u05e8\u05d5. \u05d0\u05d5\u05d4\u05d1\u05d5 .... </p>\n<p>(\u05db\u05db\u05ea\u05d1 \u05e2\u05e8\u05d1\u05d9, \u05db\u05d9\u05d5\"\u05d1, \u05d5\u05e2\u05d5\u05d3 :) \u05d0\u05d5\u05d4\u05d1\u05d5 \u05d9\u05d4\u05d5\u05d3\u05d4 \u05d1\u05df \u05e1\u05e7\u05dc \u05e0\"\u05e2. </p>\n<p>(\u05e9\u05de\u05d5 \u05e9\u05dc \u05de\u05d5\u05d1\u05d9\u05dc \u05d4\u05de\u05db\u05ea\u05d1:) \u05d0\u05dc\u05d7\u05e1\u05df \u05d1\u05df \u05e2\u05d1\u05d3 \u05d0\u05dc\u05e8\u05d7\u05de\u05df .... </p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
