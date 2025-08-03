@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"aa3ee31485d36a92782a4de565fa0b98\"",
       "id": "https://geniza.princeton.edu/annotations/25a62577-ec5d-4536-bfa6-2d1ab43cece4/",
       "type": "Annotation",
       "created": "2022-10-07T01:12:43.389824+00:00",
       "modified": "2022-10-07T01:12:43.389847+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f446bbfe-6790-413d-be4e-69ce7bb8b84e/manifest/canvas/9dc32817-a0a7-41ce-9498-d63c8bb61d0a",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2444/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -16,22 +32,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/f446bbfe-6790-413d-be4e-69ce7bb8b84e/manifest/canvas/9dc32817-a0a7-41ce-9498-d63c8bb61d0a",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2444/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -39,26 +39,18 @@
       "schema:position": 1
     },
     {
+      "etag": "\"9956af9cdbee4cd1705ea06789badd66\"",
       "id": "https://geniza.princeton.edu/annotations/d26873c1-6bf5-4270-9cd0-271a59621512/",
       "type": "Annotation",
       "created": "2022-10-07T01:12:43.397762+00:00",
-      "modified": "2022-10-07T01:12:43.397778+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "right margin, diagonal lines at 180 degrees to main text",
-          "value": "<p>. . \u05d1\u05d4\u05d3\u05d4 | \u05d1\u05dc\u05d3\u05d4 . . . . | \u05de\u05ea\u05e4\u05e6\u05dc\u05d0 \u05de\u05e9\u05db[\u05d5\u05e8\u05d0 | \u05d5\u05d0[. .] \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd |</p>\n<p>\u05ea\u05db\u05ea\u05e5 \u05d1[ | \u05d7\u05e6\u05e8\u05ea . . .\u05dc. . . | . .]. \u05d5\u05d7\u05de. . | \u05d5\u05d5\u05dc\u05d3\u05d4\u05d0 [ |</p>\n<p>\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd | . . .\u05e0\u05d9\u05d4\u05d0 | \u05e2\u05e0[ | \u05db\u05d0\u05e0\u05ea \u05dc\u05da .[ | \u05de]\u05e0\u05d4 | \u05ea\u05dd [ |</p>\n<p>\u05d1\u05e7\u05e6\u05d0\u05d4 [ | \u05d5\u05e9\u05dc\u05d5\u05de\u05da | \u05d9\u05d2\u05d3\u05dc</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2025-08-03T00:22:51.873466+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/f446bbfe-6790-413d-be4e-69ce7bb8b84e/manifest/canvas/9dc32817-a0a7-41ce-9498-d63c8bb61d0a",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2444/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2444/iiif/manifest/"
           }
         },
         "selector": {
@@ -67,7 +59,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - right margin",
+          "value": "<ol>\n<li>. . \u05d1\u05d4\u05d3\u05d4 . .</li>\n<li>\u05d1\u05dc\u05d3\u05d4 . . . .</li>\n<li>\u05de\u05ea\u05e4\u05e6\u05dc\u05d0 \u05de\u05e9\u05db[\u05d5\u05e8\u05d0]</li>\n<li>\u05d5\u05d0[\u05d9\u05e6\u05d0] \u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>\u05ea\u05db\u05ea\u05e5 \u05d1\u05d4</li>\n<li>\u05d7\u05e6\u05e8\u05ea\u05da \u05d5\u05d5\u05d0\u05dc\u05d3\u05ea[\u05da]</li>\n<li>[. .] . \u05d5\u05d7\u05de\u05d5\u05d4\u05d0</li>\n<li>\u05d5\u05d5\u05dc\u05d3\u05d4\u05d0 [\u05d0\u05ea\u05dd]</li>\n<li>\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>\u05d5\u05ea\u05d4\u05e0\u05d9\u05d4\u05d0</li>\n<li>\u05e2\u05e0\u05d9 [\u05d0\u05d9\u05e9] \u05de\u05d0</li>\n<li>\u05db\u05d0\u05e0\u05ea \u05dc\u05da \u05de\u05df</li>\n<li>\u05d7\u05d0\u05d2\u05d4</li>\n<li>\u05ea\u05db\u05dc[\u05d9\u05e0\u05d9 \u05d0\u05e1\u05e8]</li>\n<li>\u05d1\u05e7\u05e6\u05d0\u05d4</li>\n<li>\u05d5\u05e9\u05dc\u05d5\u05de\u05da</li>\n<li>\u05d9\u05d2\u05d3\u05dc</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
