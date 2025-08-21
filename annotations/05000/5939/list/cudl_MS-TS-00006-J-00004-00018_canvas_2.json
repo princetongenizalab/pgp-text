@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"445c00f7bd5d6e35c90db901e4b5fece\"",
       "id": "https://geniza.princeton.edu/annotations/ab65a88e-91cc-4323-972a-6ed975b9a0f6/",
       "type": "Annotation",
       "created": "2023-04-25T22:14:37.112966+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"f29a596a5e7854154ab1c2406e290e0b\"",
+      "id": "https://geniza.princeton.edu/annotations/c3cdccaf-f5c3-49da-8f0d-d1204ea3c80f/",
+      "type": "Annotation",
+      "created": "2025-08-21T21:33:17.933694+00:00",
+      "modified": "2025-08-21T21:33:17.933707+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00006-J-00004-00018/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5939/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,1163.9874267578125,2889.89990234375,933.1968994140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>\u05d4\u05d3\u05e8\u05ea \u05d0\u05d3\u05d5\u05e0\u05d9 \u05d4\u05d7\u05d1\u05e8 \u05d4\u05e0\u05db\u05d1\u05d3 \u05e0\u05d4\u05d5\u05e8\u05d0\u05d9 \u05d1\u05d9\"\u05e8 \u05e0\u05e1\u05d9\u05dd \u05e0\"\u05e2, \u05d9\u05e9\u05de\u05d5\u05e8 \u05d0\u05dc\u05d5\u05d4\u05d9\u05dd \u05d0\u05ea \u05d2\u05d3\u05d5\u05dc\u05ea\u05d5 \u05d4\u05de\u05d5\u05d3\u05d4 \u05dc\u05da \u05e2\u05dc \u05d7\u05e1\u05d3\u05d9\u05d5, \u05d0\u05dc\u05db\u05d1\u05d9\u05e8\u05d4. </p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
