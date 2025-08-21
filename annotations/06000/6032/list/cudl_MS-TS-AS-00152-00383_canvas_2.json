@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"bbbd2de49ea0714aa92998dbe806b5ad\"",
       "id": "https://geniza.princeton.edu/annotations/5eb75a19-2ab7-4ce7-b4c3-dac022c1354d/",
       "type": "Annotation",
       "created": "2023-04-27T20:44:49.898538+00:00",
@@ -38,6 +39,42 @@
       "schema:position": 1
     },
     {
+      "etag": "\"e7df111caaf3388f5a670402540a0280\"",
+      "id": "https://geniza.princeton.edu/annotations/6acc3c96-8e11-4275-99c8-ac343ff82557/",
+      "type": "Annotation",
+      "created": "2025-08-21T22:06:05.681539+00:00",
+      "modified": "2025-08-21T22:06:05.681554+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/20/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00152-00383/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6032/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:884.2957153320312,2082.095703125,2447.4887084960938,462.635009765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>.... \u05d0\u05d3\u05d5\u05e0\u05d9, \u05d4\u05de\u05e9\u05d0\u05d5\u05d9 \u05de\u05d0\u05dc\u05db\u05e1\u05e0\u05d3\u05e8\u05d9\u05d4 .... ; (\u05de\u05df \u05d4\u05de\u05e2\u05df :) .... (\u05d9\u05ea\u05de\u05d9\u05d3 \u05d5\u05db\u05d5') \u05d5\u05d0\u05ea \u05d0\u05d5\u05e9\u05e8\u05d5 ; \u05de\u05d0\u05ea \u05de\u05e0\u05e9\u05d4 \u05d1\u05df .... </p>\n<p>\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"41ff8e60249194578bb2984eb446d685\"",
       "id": "https://geniza.princeton.edu/annotations/ab96c088-940d-42c5-bcd3-755b2c0f626e/",
       "type": "Annotation",
       "created": "2023-04-27T20:45:27.945572+00:00",
