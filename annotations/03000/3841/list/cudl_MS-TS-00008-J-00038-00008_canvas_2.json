@@ -4,26 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"6ea5d3e12d1c21a5db50a24a9195f4d5\"",
       "id": "https://geniza.princeton.edu/annotations/a53f2341-d7b0-4efc-87e9-99196d80c2f4/",
       "type": "Annotation",
       "created": "2022-10-07T01:59:05.979139+00:00",
-      "modified": "2022-10-07T01:59:05.979151+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso. Address.",
-          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05db\u05ea\u05d0\u05d1\u05d9 \u05d9\u05dc\u05d0(!) \u05de\u05d5\u05dc\u05d9 \u05d0\u05e9\u05d9\u05da \u05de\u05df \u05d9\u05d4\u05d5\u05d3\u05d4 \u05d1\u05df \u05d9\u05e2\u05e7\u05d1</li>\n<li>\u05d0\u05d1\u05d5 \u05e2\u05de\u05e8\u05df \u05d1\u05e8 \u05e4. . . . . . .\u05df \u05d1. . \u05e1\u05dc\u05d0\u05dd \u05d5\u05d1\u05e8\u05d5\u05da</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "modified": "2025-09-04T00:14:21.935895+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00038-00008/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3841/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/3841/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,7 +24,15 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso - address",
+          "value": "<ol>\n<li>\u05d9\u05e6\u05dc \u05db\u05ea\u05d0\u05d1\u05d9 \u05d9\u05dc\u05d0 \u05de\u05d5\u05dc\u05d9 \u05d0\u05e9\u05d9\u05da&nbsp;</li>\n<li>\u05d0\u05d1\u05d5 \u05e2\u05de\u05e8\u05df \u05de\u05d5\u05e1\u05d9 \u05d4\u05d3\u05d9\u05d9\u05df(?) </li>\n<li>\u05de\u05df \u05d9\u05d4\u05d5\u05d3\u05d4 \u05d1\u05df \u05d9\u05e2\u05e7\u05d1</li>\n<li>\u05d1 . . \u05e1\u05dc\u05d0\u05dd \u05d5\u05d1\u05e8\u05d5\u05da</li>\n<li>. . . . . .</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
