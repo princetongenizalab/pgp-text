@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f1be0c1ddb0b8ab9f1aeb2d63d4b78fe\"",
       "id": "https://geniza.princeton.edu/annotations/ebe92efe-d190-4976-82c3-9ba1d53c2966/",
       "type": "Annotation",
       "created": "2024-02-18T23:46:32.618253+00:00",
@@ -38,6 +39,42 @@
       "schema:position": 1
     },
     {
+      "etag": "\"9b367418bf4e04489bd0883b9fcc4511\"",
+      "id": "https://geniza.princeton.edu/annotations/f30b5fc8-a0f3-4b75-9260-d76eeebf4d17/",
+      "type": "Annotation",
+      "created": "2025-09-08T01:39:41.879817+00:00",
+      "modified": "2025-09-08T01:39:41.879826+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00025-00001/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3372/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:519.2479858398438,619.7546997070312,4853.012268066406,796.4462280273438",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "\u05e2\u05f3\u05f3\u05d1:",
+          "value": "<p><span lang=\"he\">\u05dc\u05d0\u05d1\u05d5 \u05d1\u05e9\u05e8 \u05d9\u05e2\u05e7\u05d1 \u05d1\u05df \u05d9\u05d5\u05e1\u05e3 \u05d1\u05df \u05e2\u05d5\u05db\u05dc; \u05de\u05d0\u05ea \u05d9\u05d5\u05e1\u05e3 \u05d1\u05df \u05dc\u05d1\u05e8\u05d0\u05d8 \u05d0\u05dc\u05e4\u05d0\u05e1\u05d9.</span></p>\n<p><span lang=\"he\"></span></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"8a6bac8732d4619fd7fe83550751d360\"",
       "id": "https://geniza.princeton.edu/annotations/67932518-2def-4d2b-9b24-8fc00fe66fb1/",
       "type": "Annotation",
       "created": "2022-10-07T01:02:29.190690+00:00",
