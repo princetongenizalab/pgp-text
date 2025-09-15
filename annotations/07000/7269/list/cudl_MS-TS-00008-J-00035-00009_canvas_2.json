@@ -1,18 +1,18 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7269%2Fiiif%2Ftextblock%2F15666%2Fcanvas%2F3%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7269%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00035-00009%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7269%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"ea5b8102441ee6dc6f47c0427c440e96\"",
+      "etag": "\"45c33f7baf22a8367062b2610d1f3172\"",
       "id": "https://geniza.princeton.edu/annotations/70d6a4e5-168d-457c-85ed-c92cdc55a539/",
       "type": "Annotation",
       "created": "2025-01-14T18:37:16.027897+00:00",
-      "modified": "2025-01-14T18:37:16.027913+00:00",
+      "modified": "2025-09-15T19:29:40.706799+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/166/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/7269/iiif/textblock/15666/canvas/3/",
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00035-00009/canvas/2",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/7269/iiif/manifest/"
@@ -37,44 +37,7 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2,
-      "textGranularity": "block"
-    },
-    {
-      "etag": "\"61616ad9f0f860b39e6e337037cb2ba0\"",
-      "id": "https://geniza.princeton.edu/annotations/bf62f24c-c946-4fa6-832b-dc40849e3df3/",
-      "type": "Annotation",
-      "created": "2025-01-14T18:38:00.231921+00:00",
-      "modified": "2025-01-14T18:38:00.231938+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/166/",
-      "target": {
-        "source": {
-          "id": "https://geniza.princeton.edu/documents/7269/iiif/textblock/15666/canvas/3/",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/7269/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Main",
-          "value": "<ol>\n<li>1 ( )\u05e8\u05d0\u05ea\u05d4 \u05d1( )</li>\n<li>2 ( )\u05db\u05d3 \u05d5\u05d0\u05ea\u05e7\u05df \u05de\u05d0 \u05e1\u05d8\u05e8\u05d5\u05d4 \u05e8\u05d1\u05d5\u05ea\u05d9\u05e0\u05d5 \u05d6(\u05dc )</li>\n<li>3 ( )\u05e0\u05d0 \u05e2\u05dc \u05e9\u05d8\u05e8 \u05de\u05ea\u05e0\u05ea\u05d0</li>\n<li>4 ( )\u05db\u05d9 \u05d4\u05d9\u05db\u05d9 \u05d3\u05dc\u05d0 \u05ea\u05d9\u05d4\u05d5\u05d9</li>\n<li>5 ( ) \u05d4\u05e9\u05e8 \u05d4\u05d0\u05d3\u05d9\u05e8 \u05d4\u05de\u05d9\u05e7\u05d5\u05e8 \u05e8\u05d0\u05e9 \u05d4\u05e7\u05d4\u05dc\u05d5\u05ea</li>\n<li>6 ( ) \u05d2\u05d3\u05dc\u05ea \u05e7\u05d3\u05e9\u05ea \u05de\u05e8\u05e0\u05d0 \u05d5\u05e8\u05d1\u05e0\u05d0 \u05e0\u05ea\u05e0\u05d0\u05dc</li>\n<li>7 ( ) \u05d4\u05d9\u05e9\u05d9\u05d1\u05d4 \u05d3\u05e0\u05df \u05d9\u05e9\u05de\u05e8\u05d5 \u05e6\u05d5\u05e8\u05d5</li>\n<li>8 ( )\u05e8\u05d4 \u05d4\u05d9\u05e7\u05e8\u05d4 \u05e1\u05ea \u05d0\u05dc\u05de\u05dc\u05d0\u05d7 \u05d6\u05d5\u05d2\u05ea\u05d4</li>\n<li>9 ( ) \u05d5\u05d1\u05d0\u05e1\u05de\u05d4\u05d0 \u05d5\u05e9\u05db\u05e6\u05d4\u05d0 \u05d5\u05e0\u05e1\u05d1\u05d4\u05d0</li>\n<li>10 ( )\u05d0 \u05d5\u05e0\u05d6\u05dc\u05ea \u05e2\u05df \u05db\u05dc \u05e9\u05e2\u05d1\u05d5\u05d3 \u05dc\u05d4\u05d0</li>\n<li>11 ( ) \u05de\u05ea\u05e0\u05ea\u05d0 \u05d3\u05d0 \u05d5\u05d9\u05d4\u05d1\u05e0\u05d0</li>\n<li>12 ( )\u05d0\u05dc ( ) \u05de\u05df \u05d7\u05d3\u05e9</li>\n<li>13 ( )\u05e6\u05e8\u05d9\u05dd \u05d3\u05e2\u05dc \u05e0\u05d9\u05dc\u05d5\u05e1</li>\n<li>14 ( ) \u05d2\u05d9\u05d4\u05d8\u05d0 \u05d1\u05d3\u05e8\u05d2\u05d4:</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2,
+      "schema:position": 1,
       "textGranularity": "block"
     }
   ]
