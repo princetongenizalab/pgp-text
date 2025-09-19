@@ -144,6 +144,41 @@
       "schema:position": 1
     },
     {
+      "etag": "\"e6a6bd7a81929a9640fac46f1a4a9ecd\"",
+      "id": "https://geniza.princeton.edu/annotations/d1c54f97-42ed-4859-aa63-ef332df15410/",
+      "type": "Annotation",
+      "created": "2025-09-19T18:41:29.050192+00:00",
+      "modified": "2025-09-19T18:41:29.050201+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/311/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/9594/iiif/textblock/14317/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9594/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:316.0078125,28.984375,290.0625,114.40625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, right column",
+          "value": "\n<ol><li>\n<p>Wir haben von \u1e62ahd\u012b geliehen</p>\n</li>\n<li>\n<p>drei ein achtel</p>\n</li>\n<li>\n<p>von \u1e62ahd\u012b</p>\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
       "etag": "\"3900c8dc4706acbae577673d78262292\"",
       "id": "https://geniza.princeton.edu/annotations/1a8b5bc7-9eb1-448d-bbf4-72ff97066aca/",
       "type": "Annotation",
@@ -245,6 +280,41 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"006527e8a820cb629c5a23e7128fecb3\"",
+      "id": "https://geniza.princeton.edu/annotations/31e5f8c5-ba0f-4002-9762-35b20cb64bbc/",
+      "type": "Annotation",
+      "created": "2025-09-19T18:41:52.199036+00:00",
+      "modified": "2025-09-19T18:41:52.199046+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/311/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/9594/iiif/textblock/14317/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9594/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:16.5,30.4375,276.98828125,110.13671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, left column",
+          "value": "\n<ol><li>Wir haben von \u1e62ahd\u012b geliehen 3 </li>\n<li>ein achtel</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
