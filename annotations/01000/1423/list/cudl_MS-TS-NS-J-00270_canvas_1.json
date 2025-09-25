@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"968cc31f922f7f1e9c6e15cc32b96af2\"",
       "id": "https://geniza.princeton.edu/annotations/0b0a0f00-ea07-4bf6-b649-da2e2b867f48/",
       "type": "Annotation",
       "created": "2022-10-07T01:20:16.791551+00:00",
       "modified": "2022-12-23T03:44:15.191137+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00270/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1423/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,128.30000000000018,4459.98,6286.7",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +33,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00270/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1423/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:0,128.30000000000018,4459.98,6286.7",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -40,25 +40,53 @@
       "schema:position": 1
     },
     {
-      "id": "https://geniza.princeton.edu/annotations/5df0eded-ff45-4873-af66-dc4e611afb44/",
+      "etag": "\"e1574bea1be711c91bbba3db40715400\"",
+      "id": "https://geniza.princeton.edu/annotations/8def8e17-6f31-402c-a3a8-f0713fa9f6d3/",
       "type": "Annotation",
-      "created": "2022-12-23T03:45:56.769289+00:00",
-      "modified": "2022-12-23T03:45:56.769304+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Recto - right margin",
-          "value": "<ol>\n<li>\u05ea\u05d0\u05dc\u05d9\u05e3 \u05de\u05e2 \u05e6\u05d0\u05d7\u05d1 \u05d0\u05dc\u05d3\u05d9\u05df \u05d5\u05e9\u05dc\u05d5\u05de\u05da \u05d9\u05d2\u05d3\u05dc</li>\n</ol>",
-          "format": "text/html"
-        }
-      ],
+      "created": "2025-09-25T21:16:09.553489+00:00",
+      "modified": "2025-09-25T21:16:09.553498+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/25/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00270/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1423/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1423/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:249.0152587890625,520.8406982421875,3807.5262451171875,5680.0504150390625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Goitein",
+          "value": "<p>In (your) name, O Merci(ful).</p>\n<p>My lord, dear and noble brother, may God prolong your life, keep and preserve you and never deprive me of you.</p>\n<p>I had been living here in Ascalon in six thousand states of wellbeing, thanks to the beneficfence of God, the exalted, when Musallam b. Ab\u012b Sahl approached me. I went with him up to Nablus and bought for him his sister. A debt of 60 dinars remained on me, and he entreated me saying: \"I ask you by God, let me bring her up to Fustat. She might be able to obtain part of her ransom.\"</p>\n<p>Now he is gone and has disappeared, leaving me with a debt of 60 dinars. The Frank came to me, and I was looking for someone granting me a loan , but was not successful with anyone.</p>\n<p>Then I presented my boy as a collateral against a loan on interest, but no one was prepared to take him as a collateral. It seems, there has not remained here anyone who believes that one is permitted to do a good work.</p>\n<p>I ask you now to be so kind and to talk to Muaallam and to tell him not to keep me any longer in abeyance; he should send me either the money or the girl. Approach him from any possible avenue and bring him to the (Jewish) courts. [ ... ] you know that I do not possess either [ ... ] Kindest regards to you and to your sons [also. Please] take urgent action in this matter for [ . ] I wish to be on good terms with the creditor. And your wellbeing may increase.</p>\n<p>Address:\u00a0</p>\n<p>To Bilbays, to his honor, my dear brother, the elder Abu 'l-Bah\u0101\u00a0Ibn Ghan\u0101\u02beim</p>\n<p>From his brother, who kissses his handa, Ab\u016b Sa\u02bfd Ibn Ghan\u0101\u02beim</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"896e1b9de07146e9c95e30803a21301f\"",
+      "id": "https://geniza.princeton.edu/annotations/5df0eded-ff45-4873-af66-dc4e611afb44/",
+      "type": "Annotation",
+      "created": "2022-12-23T03:45:56.769289+00:00",
+      "modified": "2022-12-23T03:45:56.769304+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00270/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1423/iiif/manifest/"
           }
         },
         "selector": {
@@ -67,7 +95,14 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - right margin",
+          "value": "<ol>\n<li>\u05ea\u05d0\u05dc\u05d9\u05e3 \u05de\u05e2 \u05e6\u05d0\u05d7\u05d1 \u05d0\u05dc\u05d3\u05d9\u05df \u05d5\u05e9\u05dc\u05d5\u05de\u05da \u05d9\u05d2\u05d3\u05dc</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
