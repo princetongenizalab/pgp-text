@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F41036%2Fiiif%2Ftextblock%2F41756%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F41036%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"f6679fa232495437ceafdff9949f6ec6\"",
+      "id": "https://geniza.princeton.edu/annotations/49620746-c11a-4e58-96a8-3c2fb90d29dc/",
+      "type": "Annotation",
+      "created": "2025-10-06T17:10:06.764659+00:00",
+      "modified": "2025-10-06T17:10:06.764668+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1155/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/41036/iiif/textblock/41756/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/41036/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:10.546875,10.26953125,611.12109375,374.98828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Yevr.-Arab. I 328, folio 6r",
+          "value": "\n<ol><li>&nbsp;</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
