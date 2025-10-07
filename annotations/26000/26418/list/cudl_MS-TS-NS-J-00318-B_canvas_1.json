@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00318-B%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F26418%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"6a6a7a14fa0a9de3d83cecec8b378490\"",
+      "id": "https://geniza.princeton.edu/annotations/c186fb45-541c-4a8b-aab6-1c4d2a04c1cc/",
+      "type": "Annotation",
+      "created": "2025-01-14T18:38:12.370502+00:00",
+      "modified": "2025-10-07T02:28:11.844753+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/166/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00318-B/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/26418/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "\n<ol><li>1 [ ]\u05ea\u05e4\u05d0 \u05de\u05df \u05d3\u05dc\u05da \u05e4\u05e7 [ ]</li>\n<li>2 [ ]\u05d0 \u05dc\u05d4 \u05d5\u05de\u05e2 \u05d3\u05dc\u05da [ ]</li>\n<li>3 [ ]\u05d3\u05d5\u05e8 \u05d9\u05dc\u05ea\u05de\u05e1 \u05d1\u05d9\u05e2 \u05d3\u05d0[\u05e8 ]</li>\n<li>4 [ ]\u05e6\u05e3 \u05de\u05df \u05d3\u05dc\u05da \u05d5\u05de\u05d4 \u05db\u05d0[\u05df ]</li>\n<li>5 [ ]\u05d4 \u05d5\u05db\u05d0\u05df \u05d3\u05dc\u05da \u05d9\u05d5\u05dd \u05d0\u05dc[ ]</li>\n<li>6 [ ]\u05d8\u05e8\u05d5\u05ea \u05d1\u05e4\u05e1\u05d8\u05d0\u05d8 \u05de\u05e6\u05e8\u05d9\u05dd [ ]</li>\n<li>7 [ ]\u05db\u05d4\u05df \u05e8\u05d0\u05e9 \u05d9\u05e9\u05d9\u05d1\u05ea \u05d2\u05d0\u05d5\u05df \u05d9\u05e2\u05e7[\u05d1 ]</li></ol>\n",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1,
+      "textGranularity": "block"
+    }
+  ]
+}
