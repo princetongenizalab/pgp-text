@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"9c7435983127d5c5e826e16f3c891e91\"",
       "id": "https://geniza.princeton.edu/annotations/a78566a5-1b22-4175-9d8a-a6c70f7265dd/",
       "type": "Annotation",
       "created": "2022-10-07T01:16:09.864630+00:00",
       "modified": "2022-10-07T01:16:09.864650+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/e/canvas/ms-heb-e-98-60/1.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,44 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"dbf45fd366118d9d5cd3f9af69496313\"",
-      "id": "https://geniza.princeton.edu/annotations/95cfdb08-2c66-4a57-b8bd-c35d2a4fb405/",
-      "type": "Annotation",
-      "created": "2026-10-01T17:21:14.804013+00:00",
-      "modified": "2026-10-01T17:21:14.804020+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/e/canvas/ms-heb-e-98-60/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:158.36134338378906,480.6638488769531,3157.230697631836,4137.467987060547",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "recto",
-          "value": "\n<ol><li dir=\"ltr\">[... And it rea]ched, after payment of a debt and the redemption of</li>\n<li dir=\"ltr\">[...] sixty-two and one half din. and a string of beads</li>\n<li dir=\"ltr\">of [a]mber divided by balls of interlaced gold,\u00a0\u00a0</li>\n<li dir=\"ltr\">its middle interlaced gold, an estimate of its value being</li>\n<li dir=\"ltr\">thirty-[f]ive din., my inheritance in Al-Mu\u02bfizziya Cairo</li>\n<li dir=\"ltr\">at the Khal\u012bj. And when this had been confirmed, I sent</li>\n<li dir=\"ltr\">to Ashkelon and I produced a legal record verifying</li>\n<li dir=\"ltr\">what I had said concerning [t]he mar[r]iage, and [on] it are aff[ixed]</li>\n<li dir=\"ltr\">the signatures of the permanent \u1e25averim in [A]shkelon [...]</li>\n<li dir=\"ltr\">They are those who have been entrusted with renewing the marriage, writing the marriage contract,\u00a0\u00a0</li>\n<li dir=\"ltr\">[and t]he betrothal. I am hereby presenting it in the presence of</li>\n<li dir=\"ltr\">... and in your presence. And he presented us with a legal record</li>\n<li dir=\"ltr\">written in Ashkelon \\\\which contains a copy of the marriage contracts//. And this is its text, word\u00a0\u00a0</li>\n<li dir=\"ltr\">for word: That which took place in our presence, we the witnesses</li>\n<li dir=\"ltr\">who have signed our testimony below on this deed.</li>\n<li dir=\"ltr\">Thus occurred: (His) h(onor), g(reatness and) h(oliness) (our) master and l(ord) Shelah, the honored prince,\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

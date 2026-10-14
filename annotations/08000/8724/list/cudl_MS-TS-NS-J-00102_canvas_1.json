@@ -4,18 +4,24 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"28fc77ae1881bf34b58f43357467cb6b\"",
       "id": "https://geniza.princeton.edu/annotations/afc0c48b-e34a-4fc2-a8eb-ee615c01a2fd/",
       "type": "Annotation",
       "created": "2022-10-08T17:55:39.844906+00:00",
       "modified": "2022-10-08T17:55:39.844920+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/890/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05de\u05e2 . . . . \u05d0\u05df \u05d0\u05dc\u05d7\u05e6\u05e8\u05d4 \u05db\u05ea\u05d1 \u05dc\u05d0\u05d1\u05e0\u05ea\u05d4 \u05db\u05ea\u05d0\u05d1 \u05e6\u05d3\u05d0\u05e7</li>\n<li>\u05d1\u05d0\u05dc\u05d2\u05d5\u05d9\u05dd \u05d5\u05dc\u05dd \u05e0\u05e6\u05d3\u05e7\u05d4 \u05e4/\u05ea/\u05e8\u05d7\u05e7 \u05de\u05df \u05d4\u05db\u05d9\u05e2\u05d5\u05e8 \u05d5\u05de\u05df \u05d4\u05d3\u05d5\u05de\u05d4</li>\n<li>\u05dc\u05d5</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00102/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8724/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/8724/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -24,13 +30,7 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05de\u05e2 . . . . \u05d0\u05df \u05d0\u05dc\u05d7\u05e6\u05e8\u05d4 \u05db\u05ea\u05d1 \u05dc\u05d0\u05d1\u05e0\u05ea\u05d4 \u05db\u05ea\u05d0\u05d1 \u05e6\u05d3\u05d0\u05e7</li>\n<li>\u05d1\u05d0\u05dc\u05d2\u05d5\u05d9\u05dd \u05d5\u05dc\u05dd \u05e0\u05e6\u05d3\u05e7\u05d4 \u05e4/\u05ea/\u05e8\u05d7\u05e7 \u05de\u05df \u05d4\u05db\u05d9\u05e2\u05d5\u05e8 \u05d5\u05de\u05df \u05d4\u05d3\u05d5\u05de\u05d4</li>\n<li>\u05dc\u05d5</li>\n</ol>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

@@ -4,18 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"7d5427d292c762a948aa7f458d752a9e\"",
-      "id": "https://geniza.princeton.edu/annotations/b1017c62-a345-4f7c-8e9c-e7495c509d61/",
+      "id": "https://geniza.princeton.edu/annotations/394dfb1d-fcea-488d-a44b-8d5469b9626c/",
       "type": "Annotation",
-      "created": "2022-10-07T01:00:47.010255+00:00",
-      "modified": "2026-07-28T02:19:20.236077+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/4/",
+      "created": "2022-10-07T00:48:49.389390+00:00",
+      "modified": "2022-10-07T00:48:49.389405+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto margin:",
+          "value": "<ol>\n<li>\u05d9\u05e7\u05d1\u05dc\u05d5 \u05d9\u05d3\u05d9\u05d4 \u05d5\u05d9\u05db\u05d3\u05de\u05d5\u05d4 \u05d1\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>. . . \u05dc\u05d2\u05de[\u05d9]\u05e2 \u05de\u05df</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/324daec3-5ea9-4f37-be1d-02327272927d/manifest/canvas/b3d443ee-2e71-4576-8c50-aa9c0231c049",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/12047/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/12047/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -24,20 +32,12 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Recto margin:",
-          "value": "\n<ol><li>\u05d9\u05e7\u05d1\u05dc\u05d5 \u05d9\u05d3\u05d9\u05d4 \u05d5\u05d9\u05db\u05d3\u05de\u05d5\u05d4 \u05d1\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li>\n<li>. . . \u05dc\u05d2\u05de[\u05d9]\u05e2 \u05de\u05df</li></ol>\n",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/4/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 1
+      "schema:position": 2
     }
   ]
 }

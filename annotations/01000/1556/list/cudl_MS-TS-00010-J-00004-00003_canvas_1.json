@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"a70fbe7afbb4d7a725546d862e0d051b\"",
       "id": "https://geniza.princeton.edu/annotations/85ab0755-f2d7-40b9-aff8-46909436987c/",
       "type": "Annotation",
       "created": "2022-10-07T01:51:32.177756+00:00",
       "modified": "2022-10-07T01:51:32.177774+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00004-00003/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1556/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"3e1bfdaddae8f70ab2879cee44abf31c\"",
-      "id": "https://geniza.princeton.edu/annotations/278ff981-094a-4503-bafc-809d8010b137/",
-      "type": "Annotation",
-      "created": "2026-08-03T18:29:08.322281+00:00",
-      "modified": "2026-08-03T18:29:08.322287+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1263/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00004-00003/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1556/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1556/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:19.392560958862305,345.5699768066406,5175.628923416138,1909.2933044433594",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<p>There appeared before us, the high court [in Jerusalem] R. Joseph and R. Na\u1e25um, the sons of R. Yannai b. Na\u1e25um al-Barad\u0101n\u012b the \u1e25azan [cantor], and complained that their grandfather, R. Na\u1e25um al-Bar\u0101d\u0101n\u012b, sent goods from the Maghreb, [namely] kohl and books and the like to Egypt. He appointed R. Hillel b. Isaac to take delivery of the lot, to sell the goods and to take the books to Jerusalem. He took delivery of everything, sold the kohl, collected the proceeds, and went to Jerusalem with the books. Then R. Na\u1e25um \u1e25azan al-Barad\u0101n\u012b, our grandfather, made his son R. Yannai, our father, a gift by deed of the kohl and the books. Subsequently our grandfather R. Na\u1e25um \u1e25azan, our father R. Yannai, and our mother and sisters died, and the sole heirs of our father R. Yannai were we, Joseph and Na\u1e25um. Some time ago we commissioned R. Ma\u1e63l\u012ba\u1e25 b. Eliah the Sicilian to collect from R. Hillel b. Isaac the price of the goods and the books. R. Ma\u1e63l\u012ba\u1e25 went to Ramle and summoned R. Hillel b. Isaac to court. R. Hillel claimed that R. Na\u1e25um \u1e25azan, our grandfather, owed him a sum of money, and that he had indemnified himself out of the proceeds from the sale of the kohl and that there remained of the books . . . that R. Hillel would receive. . . .</p>\n<p></p>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

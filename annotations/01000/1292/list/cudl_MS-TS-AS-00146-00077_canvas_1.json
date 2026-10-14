@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"c43548b59e285c861deb6e543bced986\"",
       "id": "https://geniza.princeton.edu/annotations/6efa1d4f-1190-4f63-a5ad-238fbeb6c3f9/",
       "type": "Annotation",
       "created": "2022-10-07T02:05:45.064027+00:00",
       "modified": "2022-10-07T02:05:45.064044+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00077/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1292/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"300b2e1cfb9d874930d24bc241273af8\"",
-      "id": "https://geniza.princeton.edu/annotations/24ccfa66-3a36-41e5-bc2d-722494a9438c/",
-      "type": "Annotation",
-      "created": "2026-10-02T17:29:31.962817+00:00",
-      "modified": "2026-10-02T17:29:31.962826+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00077/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1292/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1292/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:359.228759765625,848.7163696289062,1673.2806396484375,1846.9098510742188",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">[...A.]M.</li>\n<li dir=\"ltr\">[...] I have said\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] her, in the manner\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] intentionally\u00a0\u00a0</li>\n<li dir=\"ltr\">\u2026</li>\n<li dir=\"ltr\">[...] and there remain as a debt\u00a0</li>\n<li dir=\"ltr\">[...] and a pair of bracelets\u00a0</li>\n<li dir=\"ltr\">[...] and a codex and [its?] accessories\u00a0\u00a0</li>\n<li dir=\"ltr\">[...]rings...\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

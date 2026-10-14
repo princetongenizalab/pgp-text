@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"9fe05d33a8f253da17806d05f116fcea\"",
       "id": "https://geniza.princeton.edu/annotations/02b27a08-3387-4c88-ac57-0c2f65e710aa/",
       "type": "Annotation",
       "created": "2022-11-06T22:19:59.157395+00:00",
       "modified": "2022-11-06T22:20:32.434640+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/135/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:3219.295654296875,230.01219177246094,1701.838134765625,2104.702896118164",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,6 +16,22 @@
           "format": "text/html"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3219.295654296875,230.01219177246094,1701.838134765625,2104.702896118164",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -39,61 +39,10 @@
       "schema:position": 1
     },
     {
-      "etag": "\"bfc8e49166b3fcd7120b820bfd551861\"",
-      "id": "https://geniza.princeton.edu/annotations/2d2f5751-214e-4a75-905d-3985245d80da/",
-      "type": "Annotation",
-      "created": "2026-07-27T16:54:48.830409+00:00",
-      "modified": "2026-07-27T16:56:12.890257+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/135/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:3279.087158203125,646.6351318359375,1510.590576171875,1423.0870361328125",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso upper margin",
-          "value": "\n<ol><li dir=\"ltr\">N\u0101si\u1e25 al-D\u012bn Is\u1e25aq</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"9561265ec182e2cf860749a7fdb4269f\"",
       "id": "https://geniza.princeton.edu/annotations/094e0c23-9fc4-4cfe-87f9-f3658a9eb344/",
       "type": "Annotation",
       "created": "2022-11-06T22:18:10.759129+00:00",
       "modified": "2022-11-06T22:20:21.531715+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/135/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:396.2037353515625,890.5972290039062,3860.0614013671875,11071.751403808594",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -102,44 +51,25 @@
           "format": "text/html"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "etag": "\"3a5625e3fc2987524d635b600d447f3d\"",
-      "id": "https://geniza.princeton.edu/annotations/1fe0d9d3-0f4a-4b1c-9e52-25f1d0b1b811/",
-      "type": "Annotation",
-      "created": "2026-07-27T16:50:50.197183+00:00",
-      "modified": "2026-07-27T16:54:51.107913+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/135/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:680.5863037109375,848.9176025390625,3615.0411376953125,11238.709350585938",
+          "value": "xywh=pixel:396.2037353515625,890.5972290039062,3860.0614013671875,11071.751403808594",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso",
-          "value": "<p></p>\n<ol><li dir=\"ltr\">The slave</li>\n<li dir=\"ltr\">\u02bfAbd al-B\u0101q\u012b ibn Ya\u1e25y\u0101 the Jew,</li>\n<li dir=\"ltr\">who lives in Mal\u012bj.</li>\n<li dir=\"ltr\">In the name of God, the merciful and compassionate.</li>\n<li dir=\"ltr\">May God, the exalted, perpetuate the rule of the exalted and lofty seat, the mighty lord aI-Malik al-N\u0101\u1e63ir,</li>\n<li dir=\"ltr\">uniter of the word of the faith, conqueror of the servants of the cross, Sal\u0101\u1e25 al-Duny\u0101 wa-al-D\u012bn,</li>\n<li dir=\"ltr\">sultan of Islam and the Muslims, reviver of the dynasty of the commander of the faithful, and cause his power to endure</li>\n<li dir=\"ltr\">and exalt his word. The slave kisses the ground and reports that he is a poor man</li>\n<li dir=\"ltr\">with a family and children, who makes his living among Muslims in Mal\u012bj in the province of al-Gharbiyya.</li>\n<li dir=\"ltr\">He pays the capitation tax for which he is liable, and there is no one with whom he has bad relations. </li>\n<li dir=\"ltr\">Recently he has been damaged and afflicted by tax officials.</li>\n<li dir=\"ltr\">They have summarily made him give up his livelihood, and forced him to work for them as a tax collector</li>\n<li dir=\"ltr\">and an informant. There has been no precedent for this for sixty years.</li>\n<li dir=\"ltr\">The justice of his lord should prevent his being caused damage and his being made to give up his livelihood. He asks</li>\n<li dir=\"ltr\">for the issuing of an exalted decree, may God increase its efficacy, to all the officials concerned with</li>\n<li dir=\"ltr\">the collection of the capitation tax in the province of al-Gharbiyya to release him, so that nothing will happen to him,</li>\n<li dir=\"ltr\">and to treat his case with justice and impartiality,</li>\n<li dir=\"ltr\">so that he may be able to live in his native town with his family and children. Let the exalted decree be deposited in his hand,</li>\n<li dir=\"ltr\">as a kindness and benefaction to him.</li>\n<li dir=\"ltr\">Praise be to God alone and his blessings be upon our lord Muhammad, his prophet, and save him.</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 2
     }

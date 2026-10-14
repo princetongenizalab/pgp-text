@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00030-00314%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F16773%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/ef64a8c3-4037-4349-8c3a-d77d1a350da5/",
+      "type": "Annotation",
+      "created": "2023-12-20T17:18:30.438815+00:00",
+      "modified": "2023-12-20T17:18:30.438829+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00030-00314/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/16773/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:178.72792053222656,250.21908569335938,6219.731552124023,4182.233062744141",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\n<p>&hellip; if God wills.</p>\n</li>\n<li>\n<p>My sufficiency is God. How excellent a keeper is he!</p>\n</li>\n<li>\n<p>The slave of our lord and master the 'im\u0101m al-Mustan\u1e63ir bi-All\u0101h, commander of the faithful, the blessings of God be upon him and upon</p>\n</li>\n<li>\n<p>his pure sons, the chosen 'im\u0101ms - and his servant \u1e24usayn ibn Mu\u1e25ammad</p>\n</li>\n<li>\n<p>The slave of our master, the blessings of God be upon him, has obeyed the exalted rescript that has been issued and has written &hellip;</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

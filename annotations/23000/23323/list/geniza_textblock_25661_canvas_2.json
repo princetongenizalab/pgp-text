@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Ftextblock%2F25661%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"cde7419fe154d803632dd3ede8ed04e5\"",
+      "id": "https://geniza.princeton.edu/annotations/734b58de-e189-4f77-a705-0fdacbb9a965/",
+      "type": "Annotation",
+      "created": "2024-09-12T00:24:48.967767+00:00",
+      "modified": "2024-09-12T00:27:53.832674+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/23323/iiif/textblock/25661/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:119,62,314,254",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p><span lang=\"en\">(folio 1, ln. 21-29)</span></p>\n<p><span lang=\"en\">ha veduto che i detti animali erano ridotti in cattivo stato, per averli mancato il nutrimento necessario, mentre li facevano menare dei lavori faticosi nei terreni di Ibrahim Bey</span></p>\n<p>(folio 2, ln. 3-26)</p>\n<p>Domanda: che per la parte dell'autorit&agrave; locale vengano condannati, non tanto i suddetti amministratori, quanto lo stesso Ibrahim Bey</p>\n<p>a pagare il prezzo delle due vacche, in lire sterline 120, perch&eacute; le hanno ridotte in pessimo stato </p>\n<p>a rifondere tutti i danni che ha risentito il sottoscritto per essersi guastata la seminagione dei suoi terreni e specialmente i cotoni, essendoli mancata l'acqua per loro colpa</p>\n<p>a darsi prima soddisfazione al sottoscritto per le ingiurie commesse al di lui carico e pagare tutte le spese</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0a17bfb68e7b2a9977c8623206be10d3\"",
+      "id": "https://geniza.princeton.edu/annotations/c329ab34-8feb-42e0-aff6-fedc4375e0bf/",
+      "type": "Annotation",
+      "created": "2024-09-12T00:31:13.065644+00:00",
+      "modified": "2024-09-12T00:31:13.065659+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/23323/iiif/textblock/25661/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:97,36,378,265",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>(folio 1, ln. 21-29)</p>\n<p>...[Dayyan's servant] saw the bad condition in which the cows were laying due to the lack of appropriate nourishment while they were performing heavy duties in Ibrahim Bey&rsquo;s lands...</p>\n<p>(folio 2, ln. 3-26)</p>\n<p>...He [Dayyan] asks: that the local authority will condemn Ibrahim Bey himself, more then the aforementioned administrators</p>\n<p>to pay the price of the two cows, 120 lire-sterling, since they have caused their awful condition</p>\n<p>to refund all the losses that the undersigned suffered since the planting of his lands, in particular the cotton fields, was damaged, because they caused there to be a shortage of water</p>\n<p>to give satisfaction to the undersigned for all misdeeds committed against him and to pay all the expenses...</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

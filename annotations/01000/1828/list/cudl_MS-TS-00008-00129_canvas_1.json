@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"a36cebd9b8f8a36d1e80091673db3056\"",
       "id": "https://geniza.princeton.edu/annotations/f5603669-80c3-445a-b1ff-b789304facdb/",
       "type": "Annotation",
       "created": "2022-10-07T01:18:34.886446+00:00",
       "modified": "2022-10-07T01:18:34.886461+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00129/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1828/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"42060a41bc03f1a770a40ea57fc6a8c1\"",
-      "id": "https://geniza.princeton.edu/annotations/26606031-cac4-4b4b-a856-e16df6b88de1/",
-      "type": "Annotation",
-      "created": "2026-09-30T15:43:02.082345+00:00",
-      "modified": "2026-09-30T15:43:02.082351+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00129/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1828/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1828/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:113.63348388671875,534.2229614257812,3058.9341430664062,3028.4806518554688",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">[In the name] of the Merciful.\u00a0\u00a0</li>\n<li dir=\"ltr\">[... in the m]onth of Kislev, 18 days therein, in the year [...]\u00a0</li>\n<li dir=\"ltr\">[...]41 A.M. in [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[. ..]h b. Solomon, who is from the city of Damascus and resi[des ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... ha-Ko]hen, the treasurer, b. Samuel b. Moses ha-Kohen [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] al-Qazz\u0101z with a mohar of 300 d[i]nars ...\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] he already paid to her [...] from it t[wo ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] for him 100 dinars \"u[pon] hi[s neck\"...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] her uncle ...\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

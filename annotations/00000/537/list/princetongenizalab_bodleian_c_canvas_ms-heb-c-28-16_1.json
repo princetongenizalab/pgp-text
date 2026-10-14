@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"7b5b94b9e50c1007d6a2805c302acea3\"",
       "id": "https://geniza.princeton.edu/annotations/d57a83a1-371e-420b-abfd-22ed30f08e89/",
       "type": "Annotation",
       "created": "2022-10-07T02:02:10.384770+00:00",
       "modified": "2022-10-07T02:02:10.384789+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-16/1.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -33,25 +17,13 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"f760cb0481645a2e1bbaae04294a1f5b\"",
-      "id": "https://geniza.princeton.edu/annotations/4872d862-a0c7-44dc-9a26-2815bab7298d/",
-      "type": "Annotation",
-      "created": "2022-10-07T02:02:10.389933+00:00",
-      "modified": "2022-10-07T02:02:10.389946+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-16/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -60,6 +32,18 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/4872d862-a0c7-44dc-9a26-2815bab7298d/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:02:10.389933+00:00",
+      "modified": "2022-10-07T02:02:10.389946+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -69,25 +53,13 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "etag": "\"bd51c2128e50a50e7f0d8e549272e1ce\"",
-      "id": "https://geniza.princeton.edu/annotations/74a828b3-bbb0-4c41-a752-773a8ea4e5c7/",
-      "type": "Annotation",
-      "created": "2022-10-07T02:02:10.394470+00:00",
-      "modified": "2022-10-07T02:02:10.394482+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
       "target": {
         "source": {
           "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-16/1.json",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -96,6 +68,18 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/74a828b3-bbb0-4c41-a752-773a8ea4e5c7/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:02:10.394470+00:00",
+      "modified": "2022-10-07T02:02:10.394482+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -105,6 +89,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-16/1.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/537/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

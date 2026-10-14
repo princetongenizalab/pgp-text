@@ -4,61 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"ce8855ccce61174b92f3d7a322420ce7\"",
-      "id": "https://geniza.princeton.edu/annotations/4027a5ce-c816-4d9b-95e7-137aa1c7988f/",
-      "type": "Annotation",
-      "created": "2026-09-23T14:45:25.258497+00:00",
-      "modified": "2026-09-23T14:45:25.258507+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/3d5a5629-3cf3-481b-901e-e30807b787db/manifest/canvas/6ccd2d10-19b2-49f5-80b9-e4611d3f448a",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/754/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:659.5589599609375,2445.362548828125,3217.8250732421875,3595.727294921875",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "recto",
-          "value": "\n<ol><li dir=\"ltr\">[...] A.M. , in Jerusalem, the [holy] city [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] our master and lord Samuel ha-Kohen, \u27e6Head\u27e7 Gaon [...]</li>\n<li dir=\"ltr\">[And I will ...] you, in the manner of Jewish men, who nourish and [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[And she accepted ... on the conditio]n that she will serve (\"stand before\") him, attend [him ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... Judah b. A]mram (whose) s(oul is at) r(est) [fixed] for Sutayt, the virgin, the bride [... and ... remain]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...]a strong, firm [d]ebt. And with this understanding [...]</li>\n<li dir=\"ltr\">[... tw]o witnesses on her words. And [this] girl [is of age ...]\u00a0</li>\n<li dir=\"ltr\">[...] two broad ... and a zayla\u02bf necklace\u2014twenty [...]</li>\n<li dir=\"ltr\">[...] and two mats and three cloa[ks ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...]\u2014ten dinars, a festive robe ...\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"7caf26bb26f518d851177d756e6ca255\"",
       "id": "https://geniza.princeton.edu/annotations/77f8d0f5-ab3d-4852-831f-3fdb5c1ac676/",
       "type": "Annotation",
       "created": "2022-10-07T01:16:02.880497+00:00",
       "modified": "2022-10-07T01:16:02.880512+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/3d5a5629-3cf3-481b-901e-e30807b787db/manifest/canvas/6ccd2d10-19b2-49f5-80b9-e4611d3f448a",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/754/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -68,6 +17,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/3d5a5629-3cf3-481b-901e-e30807b787db/manifest/canvas/6ccd2d10-19b2-49f5-80b9-e4611d3f448a",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/754/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

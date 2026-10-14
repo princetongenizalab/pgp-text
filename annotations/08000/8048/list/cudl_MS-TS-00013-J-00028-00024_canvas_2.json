@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"05fc388e0b2dd08266c23741e57d08b7\"",
       "id": "https://geniza.princeton.edu/annotations/a1885bfd-2b24-45aa-b1ce-fa98f4571e41/",
       "type": "Annotation",
       "created": "2022-11-26T20:58:27.591559+00:00",
       "modified": "2022-11-26T21:04:40.070730+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/2/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00028-00024/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:603.5369873046875,4916.22705078125,4224.8570556640625,1494.66162109375",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,6 +16,22 @@
           "format": "text/html"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00028-00024/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:603.5369873046875,4916.22705078125,4224.8570556640625,1494.66162109375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/2/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -39,61 +39,10 @@
       "schema:position": 1
     },
     {
-      "etag": "\"67a45770f5bc732e1b3f13fcd4c0566c\"",
-      "id": "https://geniza.princeton.edu/annotations/f3cac824-af8b-4f90-ac05-32e8871c215b/",
-      "type": "Annotation",
-      "created": "2026-04-19T18:25:32.083447+00:00",
-      "modified": "2026-04-19T18:25:32.083456+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1228/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00028-00024/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:1137.161865234375,4931.1650390625,3517.678466796875,1517.119140625",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso",
-          "value": "\n<ol><li>Do not spare any effort on behalf of this boy, in honor of our master Shaykh</li>\n<li>Ab\u016b al-Ri\u1e0d\u0101&mdash;may God perpetuate his glory. There is no need for me to press you further in this matter,</li>\n<li>for you know well the benevolence of our master Shaykh Ab\u016b al-Ri\u1e0d\u0101, and the rights owed to his father</li>\n<li>and to himself&mdash;especially [in light of] the father of this boy.</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"37a952bfdb937164c1286d237daab296\"",
       "id": "https://geniza.princeton.edu/annotations/d1cd053e-4c46-484a-aa79-ea68aea7ad40/",
       "type": "Annotation",
       "created": "2022-11-26T21:01:41.245702+00:00",
       "modified": "2022-11-26T21:09:04.191751+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/2/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00028-00024/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:752.2535400390625,379.1690368652344,3888.1673583984375,1328.3255920410156",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -102,44 +51,25 @@
           "format": "text/html"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "etag": "\"4ecb580c5970826d419b2cd73963af0c\"",
-      "id": "https://geniza.princeton.edu/annotations/ccf40b04-24f6-4b43-923b-12223835ba50/",
-      "type": "Annotation",
-      "created": "2026-04-19T18:28:33.480227+00:00",
-      "modified": "2026-04-21T16:54:07.016560+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1228/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00028-00024/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/8048/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:1098.6656494140625,346.6410217285156,3693.6546630859375,926.7339782714844",
+          "value": "xywh=pixel:752.2535400390625,379.1690368652344,3888.1673583984375,1328.3255920410156",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso address",
-          "value": "\n<ol><li>Al-Shaykh \u02beal-Ajal al-Muhazzib Ab\u012b l-Fut\u016b\u1e25 al-Muta\u1e6dabbib in the house....[</li>\n<li>in al-B\u0101\u1e6diliyya</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/2/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 2
     }

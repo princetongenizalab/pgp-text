@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"f333b23cc24f7a885006837359145ef2\"",
       "id": "https://geniza.princeton.edu/annotations/be425b64-ae9c-4518-8798-8925f87b351c/",
       "type": "Annotation",
       "created": "2022-10-07T01:11:22.381838+00:00",
       "modified": "2022-10-07T01:11:22.381862+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/747/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-J-00001-00031/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3926/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"77a46f21d684e4eae531fbf4dcf41417\"",
-      "id": "https://geniza.princeton.edu/annotations/7dee966c-e124-4dc4-90de-943c527a6fdd/",
-      "type": "Annotation",
-      "created": "2025-12-03T19:02:59.450109+00:00",
-      "modified": "2025-12-03T20:33:55.438880+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/29/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-J-00001-00031/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3926/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/3926/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:76.04583740234375,223.699462890625,2250.1311645507812,2993.96923828125",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>Account for the shroud:&nbsp;</li>\n<li>A tunic: 19 q\u012br\u0101\u1e6ds. A robe of Damietta (linen)</li>\n<li>and a robe of green silk: 2\u2154 and &frac14; dinars.&nbsp;</li>\n<li>A scarf: 10&frac12;&nbsp;q\u012br\u0101\u1e6ds. Trousers:</li>\n<li>9 dirhems. A turban:&nbsp;30 dirhems</li>\n<li>A cloak:&nbsp;1 dinar. The coffin: 1&frac12; dinars.</li>\n<li>Trestles: 9&frac12; dinars. Agarwood, camphor, and rosewater: 2. The</li>\n<li>sawyer: &frac12;. The tailor: 3 (dirhams). The journey through the desert: 3&frac12;.&nbsp;&nbsp;</li>\n<li>Judges and cantors: 24. Washer (of the body): 7. Someone to carry</li>\n<li>the trestles: 1&frac12;. Pallbearers: 10. Gravedigger: 15.</li>\n<li>Remaining in the hand of his wife: 5. Builders: 12. Watchman: 1.</li>\n<li>Someone to backfill (the grave): 1. Remainder: 2&frac12;.&nbsp;</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/747/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

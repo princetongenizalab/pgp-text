@@ -4,18 +4,25 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"280231bb293011afa00f28c3e943f0ee\"",
       "id": "https://geniza.princeton.edu/annotations/2860046a-df9d-4402-897f-cbe62315717f/",
       "type": "Annotation",
       "created": "2022-10-07T00:30:12.176799+00:00",
-      "modified": "2026-10-02T17:21:35.424400+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
+      "modified": "2022-10-07T00:30:12.176820+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>[...] \u05ea\u05d0\u05d1\u05ea \u05d1\u05e8 \u05e2\u05dc\u05d9 \u05d5\u05d0\u05de\u05e8 \u05de\u05d3\u05e2\u05ea\u05d9\u05d4 \u05d5\u05e8\u05e2[\u05d5\u05ea\u05d9\u05d4 ...]</li>\n<li>[...] \u05dc\u05de\u05d9\u05d4\u05d1 \u05dc\u05d4 \u05d1\u05de\u05d4\u05e8\u05d4 \u05d5\u05db\u05ea\u05d5\u05d1\u05ea\u05d4 \u05de\u05d0\u05ea\u05d9\u05df \u05d6[\u05d5\u05d6\u05d9\u05df ...]</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00070/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1290/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1290/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -24,51 +31,10 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>[...] \u05ea\u05d0\u05d1\u05ea \u05d1\u05e8 \u05e2\u05dc\u05d9 \u05d5\u05d0\u05de\u05e8 \u05de\u05d3\u05e2\u05ea\u05d9\u05d4 \u05d5\u05e8\u05e2[\u05d5\u05ea\u05d9\u05d4 ...]</li>\n<li>[...] \u05dc\u05de\u05d9\u05d4\u05d1 \u05dc\u05d4 \u05d1\u05de\u05d4\u05e8\u05d4 \u05d5\u05db\u05ea\u05d5\u05d1\u05ea\u05d4 \u05de\u05d0\u05ea\u05d9\u05df \u05d6[\u05d5\u05d6\u05d9\u05df ...]</li>\n<li>[...] \u05de\u05dc\u05d1\u05e9 \u05d9\u05ea\u05d4 \u05db\u05d4\u05dc[\u05db\u05ea ...]</li></ol>\n",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"0d791f71d8815f940e84bc56ac1d9a15\"",
-      "id": "https://geniza.princeton.edu/annotations/beaae565-2b40-4e2f-8ab3-3eb4de069f91/",
-      "type": "Annotation",
-      "created": "2026-10-02T17:23:00.399425+00:00",
-      "modified": "2026-10-02T17:23:00.399436+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00070/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1290/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:79.14895629882812,120.63097381591797,2309.666717529297,1046.023567199707",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">[... There came] Th\u0101bit b. Eli, and he said, intentionally and wi[llingly ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...]to give to her as her moha r and ketubb a two hundred z[uz ...]</li>\n<li dir=\"ltr\">[...] clothe her in the man[ner...] </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
       ],
       "schema:position": 1
     }

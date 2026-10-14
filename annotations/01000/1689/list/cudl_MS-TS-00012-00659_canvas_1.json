@@ -4,61 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"74e7334472278186372d2311454f349f\"",
-      "id": "https://geniza.princeton.edu/annotations/40116962-42af-40e8-8ffa-0f578d673755/",
-      "type": "Annotation",
-      "created": "2026-09-01T23:54:24.399439+00:00",
-      "modified": "2026-09-01T23:54:24.399451+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00659/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1689/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:829.4400024414062,1025.092041015625,1546.8458862304688,5698.603759765625",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "recto",
-          "value": "\n<ol><li>[... h]undred and eighty-eight</li>\n<li>[...]ny Metropolis</li>\n<li>[... \"I, Sahl b. David, d]esire, intentionally and of</li>\n<li>[my free will ... to take ... to be] my wife. And I will sustain&nbsp;</li>\n<li>[her ... in the manner of Jewish men, who ...] their [wives] faithfully. And I will give</li>\n<li>[you your mohar and ketubba ...as Moses/the sages instructed to give to the virgins, the daughters of Is]rae[l. And] I will cleanse you of any vow\"</li>\n<li>[...] And this Qurrat al-\u02bfAyn undert[ook]</li>\n<li>[...] to this [Sa]hl, the groom, b. David</li>\n<li>[in the manner of Jewish wives, who ...] honor and serve their husbands in purity</li>\n<li>[... He betrothed her] with twenty-eight dinars. Twenty</li>\n<li>[...] of the land of Israel, who give</li>\n<li>[... If this Sahl,] the [groom,] b. David hates this Qurrat al-\u02bfAyn</li>\n<li>[... he shall pay her] all that is written in this marriage contract.</li>\n<li>And if this Qurrat al-\u02bfAyn ... hates this Sahl,] the young man, the groom, b. David, a gratuitous hatred,</li>\n<li>[...] with her/him according to the law and the Torah.</li>\n<li>[\"... And I will not wrong you concerning a]ll of this.\" And they also stipulated between themselves</li>\n<li>[... \"If you, Qurrat al-\u02bfAyn daughter of Sim]\u1e25a go to your eternal home</li>\n<li>[before me, ... t]hey shall inherit your ketubba money</li>\n<li>[...If I, Sahl b. Davi]d, go to my eternal home before</li>\n<li>[you, female children ... married] to Jewish men. And you&nbsp;</li>\n<li>[shall dwell ... until] my heirs [choos]e to pay you all</li>\n<li>[that is written in your marriage contract ... And all that] I have [acquired] or that I shall acquire, whether real estate</li>\n<li>[or movables ... will be surety for] your ketu[bba mon]ey.\" And this marriage contract</li>\n<li>[is valid ... wherever it will be presented and read, whether according to the statutes of our esteemed and re]vered [sages] or according to the law (of the gentiles).</li>\n<li>[... They instructed the scribe to write, the witnesses to] testify, and the signatories to sign.</li>\n<li>...I...</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"8629bb3a66d6144b9c5c24825ca1a726\"",
       "id": "https://geniza.princeton.edu/annotations/bb91c2ba-3d2c-416d-b5c6-d5d2f3f0e5bb/",
       "type": "Annotation",
       "created": "2022-10-07T01:01:50.530870+00:00",
       "modified": "2022-10-07T01:01:50.530890+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00659/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1689/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -68,6 +17,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00659/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1689/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

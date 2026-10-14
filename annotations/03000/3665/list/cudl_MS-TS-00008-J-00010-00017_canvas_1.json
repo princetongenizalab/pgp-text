@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"96486bd36e18a6bde720fae25aa2296e\"",
       "id": "https://geniza.princeton.edu/annotations/ea17f9f3-d282-4064-aba5-96095e84a28d/",
       "type": "Annotation",
       "created": "2022-10-07T01:13:15.490013+00:00",
       "modified": "2022-10-07T01:13:15.490033+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/737/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00010-00017/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3665/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"0eb70d365823b5b3820606cd4db9babb\"",
-      "id": "https://geniza.princeton.edu/annotations/b0475362-518c-47ef-a690-809c5c5a7489/",
-      "type": "Annotation",
-      "created": "2024-01-09T21:21:49.533250+00:00",
-      "modified": "2024-01-09T21:21:49.533262+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1037/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00010-00017/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3665/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/3665/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
-          "type": "SvgSelector",
-          "value": "<svg><polygon points=\"284.9981689453125,446.3005065917969 1038.5672607421875,564.8760375976562 1068.6827392578125,616.0982666015625 1210.2188720703125,466.2365417480469 1634.8271484375,499.5391540527344 1643.1527099609375,574.4700317382812 1751.38623046875,474.56219482421875 2076.086669921875,474.56219482421875 2026.1328125,4670.69091796875 136.20965576171875,4545.80615234375\"></polygon></svg>"
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Recto",
-          "value": "<ol>\n<li>\n<p>Abual-Fad\u0323l, son of Ghazal the Alexandrian, came</p>\n</li>\n<li>\n<p>&nbsp;And obligated himself with a qinyan of his own free will</p>\n</li>\n<li>\n<p>And not under duress, (so) that he will pay his wife,</p>\n</li>\n<li>\n<p>Mother of his children, every month 20</p>\n</li>\n<li>\n<p>Dirhem, each week 5 dirhems and 2 portions</p>\n</li>\n<li>\n<p>Of wheat of high quality and the cost of their grinding. And already</p>\n</li>\n<li>\n<p>He obligated her to him with a qinyan so that she will pay</p>\n</li>\n<li>\n<p>From these 20 dirhems whatever he owes, such as</p>\n</li>\n<li>\n<p>For the poll tax, and the rent for the house and the expenses</p>\n</li>\n<li>\n<p>Of her household. And she will not request (of him) anything, as</p>\n</li>\n<li>\n<p>Long as he pays her this (sum) via the supervision of</p>\n</li>\n<li>\n<p>The court. And he will not demand of her (earnings from)</p>\n</li>\n<li>\n<p>Her handiwork or her spinning and not that which (even)</p>\n</li>\n<li>\n<p>Has the smallest value. And they both agreed to this</p>\n</li>\n<li>\n<p>Together. And we performed with him a complete qinyan</p>\n</li>\n<li>\n<p>With an implement fit for doing this. And this was</p>\n</li>\n<li>\n<p>On the first of the month of Tishrei 1133.</p>\n</li>\n<li>\n<p>Nathan the Cohen, son of Solomon the Cohen, may his soul rest in paradise.</p>\n</li>\n</ol>\n<p>&nbsp;</p>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/737/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

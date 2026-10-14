@@ -4,61 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"9bd8f6157876a5ede0a14943db4c4141\"",
-      "id": "https://geniza.princeton.edu/annotations/a6dbcdf0-6366-4558-bc78-abfb4053abdd/",
-      "type": "Annotation",
-      "created": "2026-08-03T21:01:43.096143+00:00",
-      "modified": "2026-08-03T21:01:43.096154+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1537/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00018/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:413.6322021484375,1393.694580078125,3751.8883056640625,322.113037109375",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso, address",
-          "value": "<p>To Fust\u0101t, to \u2018Azza l-\u2018Ibl\u0101niyya</p>\n<p>From her daughter, may she not be bereft of her.</p>",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"aa080c48fc0bee42321275d393953c4c\"",
       "id": "https://geniza.princeton.edu/annotations/f9cd79ab-ef39-4518-abe4-5c2826eb3419/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:02.721478+00:00",
       "modified": "2022-10-07T01:24:02.721491+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/762/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00018/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -68,6 +17,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00018/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

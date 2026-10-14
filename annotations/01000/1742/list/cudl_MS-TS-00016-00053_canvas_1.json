@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"17e666e8edfc793ae18d8bbba7505234\"",
       "id": "https://geniza.princeton.edu/annotations/21ff6f61-3d98-4dd3-ba6f-37f12410e05b/",
       "type": "Annotation",
       "created": "2022-10-07T00:35:23.821065+00:00",
       "modified": "2022-10-07T00:35:23.821084+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00053/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1742/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"d197c73099cbf97215a7dca149b0cce8\"",
-      "id": "https://geniza.princeton.edu/annotations/2f84c354-4b8b-4c0a-afe7-8be6df3d891b/",
-      "type": "Annotation",
-      "created": "2026-08-03T19:14:52.210887+00:00",
-      "modified": "2026-09-08T14:00:39.365732+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00053/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1742/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1742/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:272.89208984375,1330.2288818359375,5329.31884765625,7816.9302978515625",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>By Your name, our Creator. Groom and bride. May they build and prosper.</li>\n<li>On the second day of the week, which is the third day of the month of Nisan, of the year 4841</li>\n<li>A.M., in the city of \u1e62\u0101, which is located on the Nile, was written this</li>\n<li>marriage deed, before us, we the undersigned witnesses. De[clared]</li>\n<li>\u02bfAll\u016bn, the groom, b. Daniel [whose] s[oul is at] r[est] intentionally, voluntarily, and of his own choice,</li>\n<li>not coerced, not enticed, and not intoxicated, to marry \u02bfAz\u016bz, the bride, the divorc&eacute;e,</li>\n<li>daughter of Joseph [whose] s[oul is at] r[est], with the intention that he will nourish, provide for, clothe, and cover her, in the manner of</li>\n<li>Jewish men. And this \u02bfAz\u016bz, the bride, the divorc&eacute;e, daughter of Joseph [whose] s[oul is at] r[est] harkened to him [accepted his proposal]</li>\n<li>and consented, with her full will, to be married to him, with the intention that she will attend him</li>\n<li>and serve [&ldquo;stand before&rdquo;] him, in the manner of respectable wives, who esteem and attend their husbands</li>\n<li>in purity and cleanness. And after he gave her 100 zuz, which the sages fixed for her, they agreed,</li>\n<li>groom and bride, that the total mohar be twelve full, good dinars:</li>\n<li>two dinars the advanced payment&mdash;this bride has received them; and there remain incumbent upon the groom</li>\n<li>[t]&zwnj;en dinars, delayed, a [strong and firm de]bt. These are what [this bri]de</li>\n<li>brought in from the Merciful [and from the house of her fathers:] . . .&mdash;one dinar, two pillows&mdash;</li>\n<li>tw[o din.]. . . pillows&mdash;one dinar, a cover&mdash;one dinar.</li>\n<li>The total of what this bride brought in to her husband&rsquo;s house is five and one third dinars and the ten</li>\n<li>dinars, delayed. And this groom undertook the safekeeping of this dowry and the security</li>\n<li>of this marria[ge] deed and the stipulations of [the Torah] and the ketubba stipulations. And with this understan[ding, they agreed,]</li>\n<li>gr[oom] and bride, and they gave permission [to the witnesses] to testify. And we performed a qinyan with [ . . . for all]</li>\n<li>that is written and specified above [in] this marria[ge deed], af[ter it had been read to them [?] . . . ]</li>\n<li>Moses b. Japheth [whose] s[oul is at] r[est]. Is[aac] b. Yeshu\u02bfa</li>\n<li>Amram b. Joseph r[emembered] for [good]. Samuel b. . . .</li>\n<li>Bi[shr] ha-Levi b. \u1e24alf[on].</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

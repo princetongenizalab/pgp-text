@@ -4,60 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"e7648208916fd9d8f608c6f96ccc6478\"",
-      "id": "https://geniza.princeton.edu/annotations/1091ea7d-dba9-4102-9854-5695373aa7dd/",
-      "type": "Annotation",
-      "created": "2026-10-01T17:21:48.986187+00:00",
-      "modified": "2026-10-01T17:21:48.986201+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/e/canvas/ms-heb-e-98-60/2.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:294.84161376953125,384.2398376464844,3233.8812866210938,4236.688385009766",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">the esteemed, prince of the house of Israel [may the Rock of] Israel</li>\n<li dir=\"ltr\">[assist him], married Sitt al-Dal\u0101l, (who was) sing[le],</li>\n<li dir=\"ltr\">daughter of (our) master \u02bfUlla, who is known as the \"Trusted (official) of the S[tate].\"\u00a0</li>\n<li dir=\"ltr\">And he took her in complete qiddushin. And w[e] hereby</li>\n<li dir=\"ltr\">copy the text of her marriage contract, after [it] had been [verified]</li>\n<li dir=\"ltr\">in our presence as is proper. This is its text, letter</li>\n<li dir=\"ltr\">for letter, except the verses which are\u00a0\u00a0</li>\n<li dir=\"ltr\">above ... marriage contract. On the second day\u00a0</li>\n<li dir=\"ltr\">of the week, ten days in the month Sheva\u1e6d,\u00a0\u00a0</li>\n<li dir=\"ltr\">year four thousand, eight hundred\u00a0\u00a0</li>\n<li dir=\"ltr\">and sixty A.M.,\u00a0\u00a0</li>\n<li dir=\"ltr\">this marriage contract was written in the [ci]ty of\u00a0\u00a0</li>\n<li dir=\"ltr\">Ashkelon which is situated on the shore of the great sea.</li>\n<li dir=\"ltr\">\u2018I\u2014(his) h(onor), g(reatness and) h(oliness) (our) master and l(ord)\u2014Shelah\u2014may He who dwells on high\u00a0</li>\n<li dir=\"ltr\">bless him and grant him fame and praise on earth,</li>\n<li dir=\"ltr\">prince of the house of Israel, may the Rock of Israel assist him\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"0865d2502b5d4ef4a2c68584d2582d5b\"",
       "id": "https://geniza.princeton.edu/annotations/b0269f14-e203-427b-9b1f-7c3dba0da5e2/",
       "type": "Annotation",
       "created": "2022-10-07T01:16:09.878384+00:00",
       "modified": "2022-10-07T01:16:09.878402+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://princetongenizalab.github.io/iiif/bodleian/e/canvas/ms-heb-e-98-60/2.json",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -67,6 +17,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/e/canvas/ms-heb-e-98-60/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/615/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F20952%2Fiiif%2Ftextblock%2F19991%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F20952%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/c9ea5839-f678-44e2-93a5-baf006d19a64/",
+      "type": "Annotation",
+      "created": "2024-02-28T00:47:04.215180+00:00",
+      "modified": "2024-02-28T00:47:04.215193+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1040/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/20952/iiif/textblock/19991/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/20952/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:18.45920181274414,16.56253433227539,425.6814842224121,257.7995262145996",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (scribal practice)",
+          "value": "<ol>\n<li>\n<p>]\u0636\u0648[</p>\n</li>\n<li>\n<p>\u0631\u0633\u0647\u0627 \u0633\u0647\u0627 \u0646\u0635\u0631\u0647 \u0646\u0635\u0631\u0647</p>\n</li>\n<li>\n<p>\u0646\u0635\u0631\u0647 \u0627\u0644\u0644\u0647 \u0627\u0644\u0644\u0647 \u0648\u0627\u0638\u0641\u0631\u0647 \u0648\u0627\u062d\u0633\u0646 \u062d\u0633\u0646 \u0639\u0648\u0646\u0647</p>\n</li>\n<li>\n<p>\u0648\u062a\u0648\u0641\u064a\u0642\u0647 \u0633\u0644\u0627\u0645 \u0633\u0644\u0627\u0645 \u0639\u0644\u064a\u0643 \u0641\u0627\u0646</p>\n</li>\n<li>\n<p>\u0627\u0645\u064a\u0631 \u0627\u0644\u0645\u0648\u0645\u0646\u064a\u0646 \u064a\u062d\u0645\u062f \u0627\u0644\u064a\u0643 \u0627\u0644\u0644\u0647 \u0627\u0644\u0630\u064a</p>\n</li>\n<li>\n<p>\u0644\u0627 \u0627\u0644\u0647 \u0627\u0644\u0627 \u0647\u0648 \u0648\u064a\u0633\u0644\u0647 \u0627\u0646 \u064a\u0635\u0644\u064a \u064a\u0635\u0644\u064a \u0639\u0644\u0649</p>\n</li>\n<li>\n<p>\u062c\u062f \u062c\u062f \u062c\u062f\u0647 []\u0633\u0644\u0645 \u062a\u0633\u0644\u064a\u0645\u0627</p>\n</li>\n<li>\n<p>\u062a\u0633\u0644\u064a\u0645\u0627</p>\n</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

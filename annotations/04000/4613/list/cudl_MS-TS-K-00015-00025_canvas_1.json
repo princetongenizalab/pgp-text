@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"bb64f49a29e6b1ef8bf26155ef2ee831\"",
       "id": "https://geniza.princeton.edu/annotations/bc451a16-8e92-4d35-8e11-116fa63d4b2c/",
       "type": "Annotation",
       "created": "2022-10-07T02:05:11.279186+00:00",
       "modified": "2022-10-07T02:05:11.279203+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00025/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4613/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"8be29d04fae4a4a2f7abc09c94b2551a\"",
-      "id": "https://geniza.princeton.edu/annotations/f472386a-85aa-4e6f-b1d2-f54794e402a5/",
-      "type": "Annotation",
-      "created": "2026-06-24T16:04:08.277581+00:00",
-      "modified": "2026-06-24T16:04:08.277588+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00025/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4613/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/4613/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:201.58612060546875,340.4815979003906,2406.2288208007812,3106.9817810058594",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>(Week of) Torah portion \"Then (Jacob) went up (to him) (Gen. 44:18&ndash;47:31) 1553 (Dec. 1241)</li>\n<li>Collector of mezonot: the precious elder (our) ma(ster)</li>\n<li>Mu\u1e25arraz (may his) e(nd be) g(ood). Collected: 52 dirh(ems)</li>\n<li>Expended: Cost of a qin\u1e6d\u0101r of bread</li>\n<li>31 1/4 dir(hems). Balance:&nbsp;</li>\n<li>21 dirhem(s). Expended:</li>\n<li>for the Nasi [5] Nissim 3</li>\n<li>Yosef the supervisor 3 the elder Hiba the beadle</li>\n<li>3 the teacher //Netanel// 2 the Kohen 2 Munajj\u0101 3</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

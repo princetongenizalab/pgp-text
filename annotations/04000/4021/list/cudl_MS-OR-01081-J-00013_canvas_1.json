@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"da57774043756b0bdd53f37ab3d10ffe\"",
       "id": "https://geniza.princeton.edu/annotations/6478c4ef-7171-463e-a3f0-eae3d97ef5a5/",
       "type": "Annotation",
       "created": "2022-10-07T02:06:06.440214+00:00",
       "modified": "2022-10-07T02:06:06.440232+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/750/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00013/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4021/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,59 +16,13 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"55548b7e69e930d65e7ea2fbe663f8c6\"",
-      "id": "https://geniza.princeton.edu/annotations/cc05d50e-045a-463d-bfd9-70fb1df85de0/",
-      "type": "Annotation",
-      "created": "2026-08-04T19:11:35.870384+00:00",
-      "modified": "2026-08-04T19:11:35.870390+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1259/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00013/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4021/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:280.3830871582031,627.8929443359375,2417.991668701172,2880.6014404296875",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<p>This slave kisses the ground before his Master the Elder Ab\u016b Na\u1e63r\u2014may God Exalted preserve him, may He maintain his honored position, and make his happiness permanent.</p>\n<p>O Master, do not ask about my condition which is one of sickness, infirmity, want, and excessive fear because of the search out for me by the tax officer who is bearing down upon me. He is issuing warrants for my arrest and has been sending them to detectives who are on my trail. I am afraid that they will find my hiding place. If I fall into their hands, I shall surely die under the punishment or go to prison and die there.</p>\n<p>Now I seek refuge in God\u2014praised be He\u2014and in you. Protect me! My deliverance and salvation will come from God through your hand\u2014may God deliver you from all distress. You can accomplish this for me by asking Shams al-D\u012bn to write a letter to the authorities in al-Ma\u1e25alla that they should register us as missing, for everyone says that my only chance of salvation is in being registered as missing.</p>\n<p>Then, if God should ordain that some money will be found to pay my poll tax, let it be said that is for the fugitives, since it is not for myself alone, but for me and my sons, as I am held responsible for their poll tax as well.</p>\n<p>This calamity has struck me alone. I have submitted my case to God and to you. By the bread which y[ou feed me], and by the protection [you have given me] and by my upbringing, may I be bound to God\u2019s countenance. May you have provision from God Exalted. May He never afflict you with distress.</p>\n<p>I am in God\u2019s debt and in yours.</p>\n<p>Peace.</p>",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"b752806ed18925ba9c5c08da2b69c87a\"",
-      "id": "https://geniza.princeton.edu/annotations/d64f60b6-d860-4204-9e2a-7c9b4059a71d/",
-      "type": "Annotation",
-      "created": "2022-10-07T02:06:06.444408+00:00",
-      "modified": "2022-10-07T02:06:06.444422+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/750/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00013/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4021/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/4021/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -93,6 +31,18 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
+      "dc:source": "https://geniza.princeton.edu/sources/750/",
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "id": "https://geniza.princeton.edu/annotations/d64f60b6-d860-4204-9e2a-7c9b4059a71d/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:06:06.444408+00:00",
+      "modified": "2022-10-07T02:06:06.444422+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -102,6 +52,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01081-J-00013/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4021/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/750/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

@@ -4,18 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"2355a9959e93e6626d935dce122b502d\"",
       "id": "https://geniza.princeton.edu/annotations/e4d943ba-e904-4a1b-b816-64354e9d47cc/",
       "type": "Annotation",
       "created": "2022-10-07T00:52:18.840367+00:00",
-      "modified": "2026-08-15T19:23:37.421660+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "modified": "2022-10-07T00:52:18.840382+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso. Address.",
+          "value": "<ol>\n<li>\u05d7\u05e6\u05e8\u05d4 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05d9\u05df\u05de\u05df \u05de\u05d7\u05d1\u05d4 \u05e0\u05ea[\u05df</li>\n<li>\u05d0\u05e4\u05e8\u05d9\u05dd \u05d4\u05db\u05d4\u05df \u05d1\u05e8 \u05d9\u05d5\u05e1\u05e3 \u05e0\u05e2\u05d4\u05db\u05d4\u05df \u05d1\u05df \u05e9\u05dc\u05de\u05d4 [\u05dc\u05d0</li>\n<li>\u05d0\u05dc\u05d7\u05e8\u05d9\u05e8\u05d9 \u05d1\u05d3\u05de\u05d9\u05d0\u05d8\u05e2\u05d3\u05dd \u05de\u05d5\u05d3\u05ea\u05d4</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00017-00001/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2884/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/2884/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -24,15 +32,7 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Verso - address",
-          "value": "\n<ol><li>\u05d7\u05e6\u05e8\u05d4 \u05de\u05d5\u05dc\u05d0\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05d9\u05df</li>\n<li>\u05d0\u05e4\u05e8\u05d9\u05dd \u05d4\u05db\u05d4\u05df \u05d1\u05e8 \u05d9\u05d5\u05e1\u05e3 \u05e0\u05e2</li>\n<li>\u05d0\u05dc\u05d7\u05e8\u05d9\u05e8\u05d9 \u05d1\u05d3\u05de\u05d9\u05d0\u05d8</li>\n<li>\u05de\u05df \u05de\u05d7\u05d1\u05d4 \u05e0\u05ea[\u05df]</li>\n<li>\u05d4\u05db\u05d4\u05df \u05d1\u05df \u05e9\u05dc\u05de\u05d4 [\u05dc\u05d0]</li>\n<li>\u05e2\u05d3\u05dd \u05de\u05d5\u05d3\u05ea\u05d4</li></ol>\n",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

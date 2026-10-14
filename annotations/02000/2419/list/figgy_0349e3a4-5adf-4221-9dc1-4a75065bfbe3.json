@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"30ecaab257899c1e66170ce9a6a9ee34\"",
       "id": "https://geniza.princeton.edu/annotations/966178ba-a88f-4f6c-ae72-bf55c1d2ad75/",
       "type": "Annotation",
       "created": "2022-10-07T00:40:05.572680+00:00",
       "modified": "2022-10-07T00:40:05.572701+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/765/",
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/9b54bc18-a256-418f-9665-42627eda7dce/manifest/canvas/0349e3a4-5adf-4221-9dc1-4a75065bfbe3",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2419/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,6 +16,22 @@
           "TextInput": "rtl"
         }
       ],
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/9b54bc18-a256-418f-9665-42627eda7dce/manifest/canvas/0349e3a4-5adf-4221-9dc1-4a75065bfbe3",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2419/iiif/manifest/",
+            "type": "Manifest"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "dc:source": "https://geniza.princeton.edu/sources/765/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

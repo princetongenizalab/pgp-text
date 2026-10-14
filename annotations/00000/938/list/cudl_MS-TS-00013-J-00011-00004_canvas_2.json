@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"dd8b806d426ced9f6fcdde091c000b70\"",
       "id": "https://geniza.princeton.edu/annotations/d2ab37e3-bf9b-4b14-ba7c-76458de41f06/",
       "type": "Annotation",
       "created": "2022-10-07T01:07:13.355309+00:00",
       "modified": "2022-11-28T04:29:54.262287+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/24/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00011-00004/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/938/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -33,44 +17,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"297540f787779355c54058d43c85a218\"",
-      "id": "https://geniza.princeton.edu/annotations/47e09a78-82a0-4673-a6b3-7fd015b6c255/",
-      "type": "Annotation",
-      "created": "2026-08-03T15:59:03.832087+00:00",
-      "modified": "2026-08-03T15:59:03.832093+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1258/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00011-00004/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/938/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/938/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:485.0225830078125,750.142333984375,3533.3878173828125,703.724365234375",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "verso, address",
-          "value": "<p>May this letter arrive in happiness and joy to those honorable men of great holiness, my dear brothers Abu Sa\u2018id and Solomon.</p>\n<p>From me, your sister known as Maliha.</p>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/24/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

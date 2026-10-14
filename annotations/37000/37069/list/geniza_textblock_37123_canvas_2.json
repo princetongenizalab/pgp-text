@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F37069%2Fiiif%2Ftextblock%2F37123%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F37069%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "id": "https://geniza.princeton.edu/annotations/502c6dbc-8859-4f50-8775-73bd44396dfb/",
+      "type": "Annotation",
+      "created": "2023-12-17T17:45:40.105249+00:00",
+      "modified": "2023-12-17T17:45:40.105262+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1004/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/37069/iiif/textblock/37123/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/37069/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:36.230709075927734,204.85635375976562,267.47107315063477,167.25112915039062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>That if God wills</li>\n<li>Praise be to God, and his blessings be upon [our master Mu\u1e25ammad]</li>\n<li>[and peace. God is sufficient for us, and it is upon him that we rely.]</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

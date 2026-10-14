@@ -4,18 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"4e864e80690020585d58846ea364f65d\"",
       "id": "https://geniza.princeton.edu/annotations/350c095d-2f93-4356-aeca-1baff7b206e4/",
       "type": "Annotation",
       "created": "2022-10-07T01:26:18.387150+00:00",
-      "modified": "2026-10-02T17:24:39.669139+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
+      "modified": "2022-10-07T01:26:18.387167+00:00",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "A Scrap",
+          "value": "<ol>\n<li>[... \u05d5]\u05e2\u05dc \u05ea\u05e0\u05d9\u05d9 [...]\u05e7[...]</li>\n<li>[... \u05e8\u05d0]\u05e9 \u05d5\u05e2\u05d3 \u05e1\u05d5\u05e3 \u05d5\u05e2\u05dc \u05d4\u05d3\u05d0 [...]</li>\n<li>[... \u05dc\u05e9]\u05d4\u05d3\u05d9\u05d0 \u05d3\u05d9 \u05d9\u05e9\u05d4\u05d3\u05d5\u05df \u05d5\u05e7[\u05d9\u05d9\u05dd ...]</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00073/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1291/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1291/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
@@ -24,51 +32,10 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>[... \u05d5]\u05e2\u05dc \u05ea\u05e0\u05d9\u05d9 [...]\u05e7[...]</li>\n<li>[... \u05e8\u05d0]\u05e9 \u05d5\u05e2\u05d3 \u05e1\u05d5\u05e3 \u05d5\u05e2\u05dc \u05d4\u05d3\u05d0 [...]</li>\n<li>[... \u05dc\u05e9]\u05d4\u05d3\u05d9\u05d0 \u05d3\u05d9 \u05d9\u05e9\u05d4\u05d3\u05d5\u05df \u05d5\u05e7[\u05d9\u05d9\u05dd ...]</li>\n<li>[... \u05d0\u05ea]\u05e8 \u05d3\u05d9 \u05d9\u05d9\u05e4\u05d5\u05e7 \u05d5[\u05d9\u05ea\u05e7\u05e8\u05d9 ...]</li></ol>\n",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"51819326ceea15d3c4560fccce560a98\"",
-      "id": "https://geniza.princeton.edu/annotations/d9869f63-8dd3-464f-b2e4-8fc54ae2f463/",
-      "type": "Annotation",
-      "created": "2026-10-02T17:26:36.356144+00:00",
-      "modified": "2026-10-02T17:26:36.356154+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00073/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1291/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:142.90255737304688,182.2794952392578,1802.5510559082031,1491.5373992919922",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">[...] for stipulations [...]\u00a0</li>\n<li dir=\"ltr\">[... from beginning to end. And with this [understanding ...]</li>\n<li dir=\"ltr\">[... and] the [witnesses to testify. V[alid ...]\u00a0</li>\n<li dir=\"ltr\">[... plac]e where it will be produced and [read ...]</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
-      "motivation": [
-        "sc:supplementing",
-        "translating"
       ],
       "schema:position": 1
     }

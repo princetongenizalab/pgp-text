@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"ed2e3cccf5588f73e75e18752adbc0ea\"",
       "id": "https://geniza.princeton.edu/annotations/a28d2c9d-45bf-4bf4-9a95-052f94001a68/",
       "type": "Annotation",
       "created": "2022-10-07T02:12:52.025627+00:00",
       "modified": "2022-10-07T02:12:52.025645+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/f69835f7-f7b9-41d1-91ad-5102566e4996/manifest/canvas/fa2f8e75-fa49-400c-9991-6712177726ba",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"1332c26cacd7a2274e4fa6378151b73e\"",
-      "id": "https://geniza.princeton.edu/annotations/da2b377c-b02c-4069-94d5-ddb40a4c3566/",
-      "type": "Annotation",
-      "created": "2026-06-22T20:23:17.684092+00:00",
-      "modified": "2026-06-22T20:23:17.684103+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/f69835f7-f7b9-41d1-91ad-5102566e4996/manifest/canvas/fa2f8e75-fa49-400c-9991-6712177726ba",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:945.1235961914062,3558.528076171875,2725.3363647460938,1304.934814453125",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li>[in the syngago]gue of the Palestinians</li>\n<li>Umm Ibrahim, who lives</li>\n<li>in the house of teh arch of trees and plants and her mother</li>\n<li>[the wi]fe of Shabbat&nbsp;</li>\n<li>she [should be investigated]</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

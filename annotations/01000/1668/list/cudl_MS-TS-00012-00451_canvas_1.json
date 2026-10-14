@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"4008e02ace31c117b7643c45ccf02ac0\"",
       "id": "https://geniza.princeton.edu/annotations/b16c7138-9945-4031-8bfd-d248b3d8baf9/",
       "type": "Annotation",
       "created": "2022-10-07T00:59:36.220246+00:00",
       "modified": "2022-10-07T00:59:36.220267+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00451/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1668/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"a9f3f11c605a29833a3b39a03e198961\"",
-      "id": "https://geniza.princeton.edu/annotations/a62a2882-3dce-495c-bc8b-0b829736c44a/",
-      "type": "Annotation",
-      "created": "2026-09-17T15:09:42.819054+00:00",
-      "modified": "2026-09-17T15:09:42.819063+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00451/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1668/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1668/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:136.65615844726562,920.0090942382812,4731.292572021484,2573.2638549804688",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">By the name of our Cr[eator].\u00a0\u00a0</li>\n<li dir=\"ltr\">On the sixth of the week, in the month of Elul, thirteen days therein [... year four]\u00a0\u00a0</li>\n<li dir=\"ltr\">thousand, seven hundred, and ninety-four A.[M. ...]</li>\n<li dir=\"ltr\">[...] \"I, Japheth b. Abraham, declare intentionally, wil[lingly ... not]</li>\n<li dir=\"ltr\">[enti]ced, nor intoxicated, rather with full faculties and complete will to m[arry...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] and provide for, clothe, esteem and honor Na\u1e93ar dau[ghter of\u00a0 ...\" She accepted and agreed]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... t]o serve, attend, honor, and [esteem ... She became his wife]</li>\n<li dir=\"ltr\">[a]s he had desired and requested. They fixed [as the marriage payment ...]\u00a0</li>\n<li dir=\"ltr\">[...] dinars, and there remain incumbent up[on him a debt of ... She brought in from the house of her fathers]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] two skullcaps\u2014dina[rs ...]</li>\n<li dir=\"ltr\">[...] two ...\u2014di[nar ...]</li>\n<li dir=\"ltr\">...\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

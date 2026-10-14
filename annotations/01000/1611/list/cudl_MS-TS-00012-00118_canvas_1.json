@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"9237c4397c858dd8f1b93c0240667c53\"",
       "id": "https://geniza.princeton.edu/annotations/f93a344f-e3ad-4e3a-82b0-40f655981f0f/",
       "type": "Annotation",
       "created": "2022-10-07T01:32:40.629041+00:00",
       "modified": "2022-10-07T01:32:40.629068+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00118/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1611/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"67d5abb5e66e05c8535d02782037c870\"",
-      "id": "https://geniza.princeton.edu/annotations/0aeb2020-835a-4a1d-9f00-b1a5bc700bfa/",
-      "type": "Annotation",
-      "created": "2026-09-23T14:56:31.848426+00:00",
-      "modified": "2026-09-23T14:56:31.848433+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00118/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1611/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1611/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:155.6263427734375,452.8458251953125,5589.7760009765625,2890.6763916015625",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">\u2026</li>\n<li dir=\"ltr\">[... she will] serve, attend, honor, and esteem [h]im, in the manner\u00a0 [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] twenty-[fi]ve, according to the practice of the congregation, and the remainder he added for moha[r ... ]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... He will not be obligated for its payment unless he divorces willfully, without (her being guilty of) miscon[duct ...]\u00a0</li>\n<li dir=\"ltr\">[... from the hou]se of her fathers: a pair of golden rings crowned (with pearls) and six rings, three gold and three [silver ...]</li>\n<li dir=\"ltr\">[...] plain\u201430 din., two pearl beads in earrings\u201410 din., a silver\u201415\u00a0 din., a turn-table(?)\u2014[X] din. [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] a gilded white-grey [he]adband\u201410 din., a gilded white-grey headband\u20148 din., a coat made of different materials\u2014[...]</li>\n<li dir=\"ltr\">[...]\u20145 din., a bathrobe and a wrap\u20145 din., 2 \u02bfa\u1e63ab\u012b makht\u016bmas\u201436 (?) din., [...]</li>\n<li dir=\"ltr\">[...]\u2014din. [...]</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

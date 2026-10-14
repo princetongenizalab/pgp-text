@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"4ac40731a9c5ceff01120fa5b90827ba\"",
       "id": "https://geniza.princeton.edu/annotations/312afd24-7333-4101-a2da-123bf3ac54c8/",
       "type": "Annotation",
       "created": "2022-10-07T00:39:51.525775+00:00",
       "modified": "2022-10-07T00:39:51.525797+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00760/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1694/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"3b573e3b8b8397be270fed2e2ae43b12\"",
-      "id": "https://geniza.princeton.edu/annotations/75cece43-bd06-4f19-b129-5176934e83d3/",
-      "type": "Annotation",
-      "created": "2026-09-18T19:24:08.343382+00:00",
-      "modified": "2026-09-18T19:24:08.343392+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00760/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1694/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1694/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:139.74566650390625,1532.98876953125,3021.6994018554688,3845.51025390625",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">[... and pros]per. By the name of [our Creator]\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] A.M. , t[his] marriage contract was written [...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... Sut\u016bt] daughter of m(aster) \u1e62ab\u0101\u1e25 (may his) e(nd be) g(ood), and to give her as her mohar and ketubba t[wo] hundred [zuz ...]\u00a0</li>\n<li dir=\"ltr\">[...] their wives faithfully. Also she consented and undertook that she\u00a0 ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... ser]ve, attend, honor, and esteem their husbands in purity and clea[nness...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... to] receive the betrothal gift from the hands of Eleazar b. Joseph whose) s(oul is at) r(est). And ...\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] Sut\u016bt, the [v]irgin, the bride, daughter of m(aster) \u1e62ab\u0101\u1e25, (may his) e(nd be) g(ood), with a marriage gift of fi[ve ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">[... wi]th him, alive, and he fulfills her three needs, [she] has no [right\u00a0 \u2026]</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

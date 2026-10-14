@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"f0699b53f95db360a38a0ee03b6fcc7e\"",
       "id": "https://geniza.princeton.edu/annotations/72c3fb0f-d96c-4057-9c9e-7d3c39ef3366/",
       "type": "Annotation",
       "created": "2022-12-11T05:36:22.739330+00:00",
       "modified": "2022-12-11T23:23:51.224600+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/890/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00018-J-00003-00004/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8116/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=pixel:687.915283203125,1216.23486328125,3633.0178833007812,7597.30029296875",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,44 +16,25 @@
           "format": "text/html"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"cde571481388acb53bd3f86e51f5ff95\"",
-      "id": "https://geniza.princeton.edu/annotations/3e5e9299-cd17-4fb0-a1b3-9052f601286f/",
-      "type": "Annotation",
-      "created": "2026-03-10T18:43:41.299660+00:00",
-      "modified": "2026-03-10T18:43:41.299669+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1226/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00018-J-00003-00004/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/8116/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/8116/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:562.1632080078125,1588.572265625,3119.4322509765625,7003.7255859375",
+          "value": "xywh=pixel:687.915283203125,1216.23486328125,3633.0178833007812,7597.30029296875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Partial translation",
-          "value": "\n<ol><li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>... But in spite of the enormity of my grief&nbsp;and bereavement,</li>\n<li>your place in my heart is great...</li>\n<li>...</li>\n<li>...</li>\n<li>I have no relative other than you and you are in place of</li>\n<li>the child (my son)....</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>...</li>\n<li>I wanted to send you something which will help you</li>\n<li>along the way, but I did not happen upon a trustworthy man.</li>\n<li>And do not delay. Sell what is beneath you and what is</li>\n<li>above you; go into debt (take loans) and leave.</li>\n<li>And I will pay (your expenses) for you...</li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/890/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

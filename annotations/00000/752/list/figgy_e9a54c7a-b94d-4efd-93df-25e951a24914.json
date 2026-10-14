@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"92c413b66b20bd6d2e965737dca733de\"",
       "id": "https://geniza.princeton.edu/annotations/ccbb3104-8f83-421e-9187-f748e6267ece/",
       "type": "Annotation",
       "created": "2022-10-07T00:26:59.544952+00:00",
       "modified": "2022-10-07T00:26:59.544972+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/c6725a74-11c0-4ac0-848e-9d4513f9c775/manifest/canvas/e9a54c7a-b94d-4efd-93df-25e951a24914",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/752/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -33,44 +17,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"484f134ea96f0cec91a85edcfd7e43d9\"",
-      "id": "https://geniza.princeton.edu/annotations/409ca6b3-7420-4094-bfcc-db35c2cc0e04/",
-      "type": "Annotation",
-      "created": "2026-07-29T15:35:52.047444+00:00",
-      "modified": "2026-07-29T15:35:52.047453+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1510/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/c6725a74-11c0-4ac0-848e-9d4513f9c775/manifest/canvas/e9a54c7a-b94d-4efd-93df-25e951a24914",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/752/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/752/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:376.3314208984375,2799.421875,2171.3795166015625,3484.78662109375",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Translation by Brendan Goldman",
-          "value": "<p>[From:] The son of the exilarch.</p>\n<p>The news reached us\u2014our splendorous one, my dear h\u0323azan, R. Aaron, may God support you\u2014concerning what the person known as Ibn Sh\u0101\u2019\u016bl and his son did, undertaking ritual slaughter that went against established law. They transgressed time after time; even though they were exhorted and warned, these warnings did not concern them. So, we went forth and pronounced a \u1e25erem [ban] against anyone who speaks with them or does business with them or goes out to the bathhouse with them or gets within four cubits of them. It is necessary to promulgate this ban and to inform the Jewish community\u2014may God defend it\u2014to apply assiduously the excommunication according to the manner described, until [father and son] repent.</p>\n<p>Salvation.</p>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

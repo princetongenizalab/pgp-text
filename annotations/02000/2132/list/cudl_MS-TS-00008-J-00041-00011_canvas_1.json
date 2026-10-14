@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"b30e634a5370ade194c8978c7cef9e25\"",
       "id": "https://geniza.princeton.edu/annotations/649e8b98-4051-454c-a788-68c9fed76146/",
       "type": "Annotation",
       "created": "2022-10-07T01:38:55.946459+00:00",
       "modified": "2022-10-07T01:38:55.946477+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00041-00011/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2132/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,44 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"27ea394512b2fd53320f5b30d4dabd41\"",
-      "id": "https://geniza.princeton.edu/annotations/0b89bc15-f337-4459-8b4b-552e762c8239/",
-      "type": "Annotation",
-      "created": "2026-08-03T20:49:34.352134+00:00",
-      "modified": "2026-08-03T20:51:12.840631+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/1550/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00041-00011/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2132/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/2132/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:199.15969848632812,221.30661010742188,3887.632537841797,4267.321319580078",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "Translated by Dora Zsom",
-          "value": "<p>. . . not for renovations, but to buy mats for the synagogue on which the congregation can sit. The answer of the congregation to him was, \u201cHe who wants to sit on a mat collects the price of the mats from the congregation, according to the custom of all synagogues. And regarding those [monies] in the account of the kodesh [charitable trust]\u2014they will pay for the repair of the synagogue, as the majority of the congregation has agreed\u2014that is, fifty Jews, who share one opinion about repairing the synagogue.\u201d</p>\n<p>And the answer of the \u1e25azan [cantor] to the congregation was, \u201cIf you say that you will repair it with [those monies from the kodesh], I will set against you twenty [persons] who will oppose you in what you asked for.\u201d [He said this] to incite controversy among us. So, they went to their homes, the \u1e25azan and his brother, and some of the people from Hebron turned against us\u2014sixteen of them, the parnas [administrator of charitable funds] and his brothers. And when we ascertained this, we remained in our houses in order to avoid controversy and seek peace, and we remained in our houses for a while, and there were fifty of us.</p>\n<p>During the weeks that we remained in our houses, no one prayed in the synagogue, and no Torah scroll was opened there either on Monday or on Thursday [when the Torah was traditionally read]. Furthermore, the parnas said, \u201cAnyone who enters this town, either foreigner or local, his neck should be under my feet [i.e., must obey my ruling].\u201d And we were very much annoyed by that, but we did not respond to him at all, for we were seeking peace and wanted to avoid controversy.</p>\n<p>After that, the community gathered together at the house of the \u1e25azan, and they decided that if we were to go to the synagogue, they would come out and meet us and assault and fight us. But we remained in our houses until the dayan [judge] came\u2014that excellent person, appointed over us, may God preserve him\u2014and he asked us to go with him to the synagogue\u2014may God rebuild in the time of our great nagid, may his position be everlasting\u2014and we accepted his proposal, heeding it obediently, but we said to him, \u201cWe won\u2019t go with you unless the son of the parnas does not lead us, [standing] over our heads, in the Nishmat prayer [perhaps synecdoche for the prayers in general]. Because we only acquiesced so long as\u00a0</p>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }

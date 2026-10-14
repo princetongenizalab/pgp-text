@@ -4,26 +4,10 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"26bfdefe7218f8f17b0866a28feda0d4\"",
       "id": "https://geniza.princeton.edu/annotations/84f409c3-58d0-4c3c-83db-39ac14e1b74a/",
       "type": "Annotation",
       "created": "2022-10-07T01:48:01.786405+00:00",
       "modified": "2022-10-07T01:48:01.786424+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00480/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1671/iiif/manifest/"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
       "body": [
         {
           "type": "TextualBody",
@@ -32,43 +16,25 @@
           "TextInput": "rtl"
         }
       ],
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "etag": "\"82b1668ee1c960ced1f9236f2c3ec595\"",
-      "id": "https://geniza.princeton.edu/annotations/eebe950f-3d10-43ab-a63f-f95697614fdc/",
-      "type": "Annotation",
-      "created": "2026-09-30T16:05:08.684657+00:00",
-      "modified": "2026-09-30T16:05:08.684667+00:00",
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00012-00480/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1671/iiif/manifest/"
+            "id": "https://geniza.princeton.edu/documents/1671/iiif/manifest/",
+            "type": "Manifest"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:43.78361511230469,991.035888671875,4861.101638793945,2680.371826171875",
+          "value": "xywh=percent:1,1,98,98",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "\n<ol><li dir=\"ltr\">this bri[de ...]</li>\n<li dir=\"ltr\">b. Moses [her] agen[t, by the testimony of two witnesse]s, [who are]</li>\n<li dir=\"ltr\">Mevorakh ha-Kohen b. Joseph [and Eli ha-Levi b.] Aaron. [And with this understanding]\u00a0\u00a0</li>\n<li dir=\"ltr\">the two sides [consented; and they instructed the scribe to [write and the signatories]\u00a0\u00a0</li>\n<li dir=\"ltr\">to sign. And we performed a qinyan with Menahem b. Isaiah the kohen (may his) e(nd be) g(ood), with an implem[ent suitable]</li>\n<li dir=\"ltr\">for this. And we wrote and signed so that it be between them as a title of rights [and as proof]\u00a0\u00a0</li>\n<li dir=\"ltr\">Eli ha-Levi b. Aaron (whose) s(oul is at) r(est). Azhar ha-Levi Shabbat. Mevorakh ha-Kohen [b. Joseph]</li>\n<li dir=\"ltr\">Solomon ha Ko[hen ...]\u00a0\u00a0</li>\n<li dir=\"ltr\">ha-Levi \\b./ Isaac. \u00a0 \u00a0 Mans\u016br ha-Levi b. Solomon, w(itness).\u00a0</li>\n<li dir=\"ltr\">Khalaf b. Mans\u016br, w(itness). Mena\u1e25em[...]</li>\n<li dir=\"ltr\">Moses b. Amram, w(itness).\u00a0\u00a0</li>\n<li dir=\"ltr\">Abraham b. \u1e62edaqa (whose) s(oul is at) r(est).\u00a0 </li></ol>\n",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "motivation": [
         "sc:supplementing",
-        "translating"
+        "transcribing"
       ],
       "schema:position": 1
     }
