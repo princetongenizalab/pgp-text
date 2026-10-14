@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00017-00012%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F17201%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"637d06cdf4bf008229482c9988cea9b4\"",
+      "id": "https://geniza.princeton.edu/annotations/1adc052a-2ccc-49af-9c73-fef696661001/",
+      "type": "Annotation",
+      "created": "2026-07-07T14:23:34.460404+00:00",
+      "modified": "2026-07-07T14:23:34.460410+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00017-00012/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/17201/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:191.13108825683594,678.0429077148438,2094.099868774414,3417.7300415039062",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\n<ol><li>In the name of the Compassionate</li>\n<li><i>&ldquo;Behold, God is my salvation,&rdquo; et[c.]</i></li>\n<li>The most illustrious master the <i>c(antor)</i>, the e[lder] (<i>may) God b(e your succor),</i></li>\n<li>is hereby informed that we [. . .]</li>\n<li>since [the tim]e of the poll-tax payments [. . .]</li>\n<li>in you [. . .] with him [. . .]</li>\n<li>that the bearer of this has with him. [Sta]nd</li>\n<li>by [him and a]ssist him and release them</li>\n<li>to him [imm]ediately, and do not make it neccesary [for us]</li>\n<li>to reprove you. Appear with [him]</li>\n<li>at once, with the money in hand.</li>\n<li>Beware of being disobedient.</li>\n<li>May God the ex(alted) be [your succor]</li>\n<li>and may He watch over you. <i>And peace.</i></li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
