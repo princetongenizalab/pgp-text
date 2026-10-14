@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"05f8357b09ecc5d5cf3c83204267058e\"",
+      "id": "https://geniza.princeton.edu/annotations/fdf9adbd-cbb4-4db1-90bb-6cf7984b95bc/",
+      "type": "Annotation",
+      "created": "2026-06-25T15:28:03.720659+00:00",
+      "modified": "2026-06-25T15:28:03.720666+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00061/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4627/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:168.98675537109375,434.5767517089844,1402.7573852539062,4928.639556884766",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "\n<ol><li>\u20132. al-Sa\u02bf\u012bd 10 Ab\u016b \u02bfImr\u0101n the druggist 1</li>\n<li></li>\n<li>\u20134. Abu\u02bel-Majd the broker 1 al-Sad\u012bd 1/2</li>\n<li></li>\n<li>\u20136. Mak\u012bn ibn Munajja 1 Abu\u02bel-Fa\u1e0dl 1/2</li>\n<li></li>\n<li>\u20138. Abu\u02bel-\u02bfIzz the physician 1 1/4 and 1/6 Hiba the potion preparer/seller 1</li>\n<li></li>\n<li>\u201310. Ab\u016b Man\u1e63\u016br 1/2 the son of al-Sad\u012bd and his partner 2 1/2 and 1/4</li>\n<li></li>\n<li>\u201312. Ab\u016b Sa\u02bfd ibn al-[. . .] 2 1/2 and 1/4</li>\n<li></li>\n<li>S(econd, i.e., list of gifts)</li>\n<li>\u201315. al-Ra\u1e63uy the b(anker) 422 the dyer 1/2</li>\n<li></li>\n<li>\u201317. Hiba 1/2 Abu\u02bel-Khayr 1/2</li>\n<li></li>\n<li>\u201319. Abu\u02bel-\u02bfIzz 1 Mufa\u1e0d\u1e0dal 1/2 his brother 1/2</li>\n<li></li>\n<li>\u201321. Mu\u02bfammar 1/2 Abu\u02bel-\u02bfImr\u0101n 1</li>\n<li></li>\n<li>\u201323. Ab\u016b \u02bfImr\u0101n 1/2 Abu\u02bel-\u1e24asan 1/2</li>\n<li></li>\n<li>\u201325. Ab\u016b Sa\u02bfd 1/2 the store of al-Rash\u012bd 2 1/2 and 1/4</li>\n\n<p>Margin</p>\n\n<li>[figure not clear, perhaps a total]</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d13d3803543b8fd6ef6b672c787172a3\"",
       "id": "https://geniza.princeton.edu/annotations/e5c23401-b10d-436d-b03b-a776eb36ac74/",
       "type": "Annotation",
       "created": "2022-10-07T01:38:52.326378+00:00",
       "modified": "2022-10-07T01:38:52.326396+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00061/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4627/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00061/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4627/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/62/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
