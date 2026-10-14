@@ -1,13 +1,29 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F841%2Fiiif%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F841%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F841%2Fiiif%2Ftextblock%2F10394%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F841%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"99645e564571afcd178255dc5762cede\"",
       "id": "https://geniza.princeton.edu/annotations/2adb6e4b-da45-4d37-bddc-c8ae68b59d1c/",
       "type": "Annotation",
       "created": "2022-10-07T01:15:14.854454+00:00",
-      "modified": "2022-10-07T01:15:14.854469+00:00",
+      "modified": "2026-01-26T18:04:56.073815+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2d1f869a16a835f5d186cc212da2a24a\"",
+      "id": "https://geniza.princeton.edu/annotations/0caaa857-cc7c-45e5-ab52-fabd92d19f9b/",
+      "type": "Annotation",
+      "created": "2026-08-03T15:46:10.192241+00:00",
+      "modified": "2026-08-03T15:46:57.206078+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1513/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/841/iiif/canvas/2/",
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:31.6640625,0,281.734375,336.81640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>As of now, R. Nathan has not arrived from Damascus because he is traveling with R. Isaac, who told him, \u201cStay with me and I will give you a third of what I receive [from my sales].\u201d However, he did not mention this [to others]\u2014may God protect him. That is why I am writing on behalf of his wife two or three copies [of letters, to ascertain his whereabouts]. I await R. Nathan\u2019s arrival. I am doing everything possible in this matter. With regard to R. Isaac: he is healthy. No one doubts what you said\u2014may God protect you\u2014regarding your concern for his health. May God who has healed him be praised.</p>\n<p>Perhaps the defrayment that was with R. Maym\u016bn arrived for me\u2014if so, please inform me; similarly, my lord Abu\u0304 \u2019l-Fad\u0323l ibn Khalaf has a tab with me. But the greatest pleasure I could get would be to receive [confirmation] concerning your good health and other news, that you can tell me about, in the West, because I am here longing to hear news. I spend all day confined in the house. I read until the afternoon, and then I go out for an hour, observe, and then return for the Min\u1e25ah prayer. Your uncle, ibn Sa\u1e25la\u0304n, is with us in Jerusalem and is not well\u2014may God Almighty heal him. He said that the cost of living has impoverished him, and that he\u2019s found no one who will come visit him nor speak with him with respect, but the people may be forgiven, since there are those who may seek to do good things, but they [instead] get involved in things they did not desire. Sometimes, one of his relatives will go out to buy him what he needs. He lives in a house of Muslims. [No one] goes to visit him. If you have heard any news about the arrival of R. Isaac al-Andalu\u0304si\u0304\u2014may God protect him\u2014please write me. My well-being depends on you\u2014may God bring me news of your welfare. Also, please let me know if our master\u2014may he live forever\u2014has arrived in Egypt. May God make him very well. I am sending you, my master and sheikh, wishes for your best well-being. [I also wish] my master Abu\u0304 \u2019l-H\u0323asan and my master Abu\u0304 \u2018Ali\u0304\u2014may God protect them\u2014best well-being. The letter of Abu\u0304 \u2019l-Faraj\u2014may God guard him\u2014arrived from Tyre; he is in perfect health. The boy [Assad?]\u2014may God grant him well-being\u2014is with him. I am informing you of this, peace to you.</p>\n<p></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"aacb35d6ba9ba032f8ef727e7dce87c8\"",
+      "id": "https://geniza.princeton.edu/annotations/8fb6fe1c-0cc2-4012-b1c3-ab1a25348a56/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:15:14.863842+00:00",
+      "modified": "2026-01-26T18:04:56.076868+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 4
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/8fb6fe1c-0cc2-4012-b1c3-ab1a25348a56/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:15:14.863842+00:00",
-      "modified": "2022-10-07T01:15:14.863853+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +104,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"f3bcde6f2c53bfa440336133715c1682\"",
+      "id": "https://geniza.princeton.edu/annotations/ffd47aa0-3f15-404e-ad25-9fd927daa597/",
+      "type": "Annotation",
+      "created": "2026-08-03T15:46:30.162412+00:00",
+      "modified": "2026-08-03T15:46:46.677718+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1513/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/841/iiif/canvas/2/",
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:319.89453125,44.98828125,39.8359375,147.57421875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, right margin",
+          "value": "<p>The man who did business with me concerning the house of the sheikh Abu\u0304 \u2019l-\u2018Ala\u0304 died. These affairs happened with him, and he suffered for his action. Woe to us, how we have neglected our souls. May God inscribe you, my master, for a long life.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"f471b1924e52d9cfef5acf4d08450b59\"",
+      "id": "https://geniza.princeton.edu/annotations/97fe276f-1dbd-4e32-adde-2e4231b02fe0/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:15:14.871968+00:00",
+      "modified": "2026-01-26T18:04:56.079582+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,18 +166,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 5
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/97fe276f-1dbd-4e32-adde-2e4231b02fe0/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:15:14.871968+00:00",
-      "modified": "2022-10-07T01:15:14.871979+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -89,27 +175,46 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://geniza.princeton.edu/documents/841/iiif/canvas/2/",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 6
+      "schema:position": 3
+    },
+    {
+      "etag": "\"9d1b842a0f6c61259a5c2fadad8f71c8\"",
+      "id": "https://geniza.princeton.edu/annotations/4658d4da-4cec-4385-b1d2-032d7285bcf6/",
+      "type": "Annotation",
+      "created": "2026-08-03T15:47:15.109860+00:00",
+      "modified": "2026-08-03T15:47:15.109866+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1513/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/841/iiif/textblock/10394/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/841/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:34.671875,354.0546875,269.6875,35.83203125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Arabic address",
+          "value": "<p>To my master, the sheikh, Abu\u0304 Yah\u0323ya Nahray ibn Nissim.</p>\n<p>May God lengthen his remaining [days] and make permanent his peace and happiness.</p>\n<p>From Abu\u0304n ibn Tsedakah al-Maghribi\u0304, with his thanks.</p>\n<p>[Send to] Fust\u0101t, God Almighty willing.</p>\n<p>\u2018Amir ibn al-H\u0323usayn and his son; Ibra\u0304hi\u0304m ibn Naja.</p>\n<p>\u2018Umar ibn Yu\u0304suf and his son.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 3
     }
   ]
 }
