@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AR-00012-00017%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F20161%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"3a1bb6f8dc0ab90c5785a9032940b4d5\"",
+      "id": "https://geniza.princeton.edu/annotations/941c1a98-0ec1-4a5f-a8b6-030f32d14e8e/",
+      "type": "Annotation",
+      "created": "2026-07-22T15:21:00.427333+00:00",
+      "modified": "2026-07-22T15:21:00.427342+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00012-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/20161/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:260.3844909667969,963.2849731445312,4222.660430908203,1400.8156127929688",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>\u0639\u0628\u062f\u0647 \u062e\u0644\u0641 \u0628\u0646 \u0645\u0628\u0627\u0631\u0643</li>\n<li>\u0627\u0644\u062c\u0632\u0627\u0631[</li>\n<li>\u0628\u0633\u0645 \u0627\u0644\u0644\u0647 \u0627\u0644\u0631\u062d\u0645\u0646 \u0627\u0644\u0631\u062d\u064a\u0645</li>\n<li>\u0639\u0628\u062f \u0645\u0648\u0644\u0627\u064a] \u0627\u0644\u0634\u064a\u062e \u0627\u0644\u0627\u062c\u0644 \u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647 \u0648\u0627\u062f\u0627\u0645 \u062a\u0645\u0643\u0640[\u0640\u064a\u0646\u0647</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b73087a67caeb232d3eeac246fb74c9a\"",
+      "id": "https://geniza.princeton.edu/annotations/14e3e6cb-75fa-4f97-8a41-60b685c1121a/",
+      "type": "Annotation",
+      "created": "2026-07-22T15:21:36.567072+00:00",
+      "modified": "2026-07-22T15:21:36.567077+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1004/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00012-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/20161/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:178.13340759277344,1020.166259765625,4445.526748657227,1512.237060546875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>His slave, Khalaf b. Mub\u0101rak</li>\n<li>the butcher [</li>\n<li>In the name of God, the merciful and compassionate</li>\n<li>The slave of our master] the elder, the illustrious, may God elongate his sup[port</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
