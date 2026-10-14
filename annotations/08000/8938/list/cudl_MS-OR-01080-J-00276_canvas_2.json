@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e8d1da2826bdce75e8f8b34f393f23ae\"",
       "id": "https://geniza.princeton.edu/annotations/d045cd45-cc59-4eae-b75c-4c9358ce8f29/",
       "type": "Annotation",
       "created": "2023-07-12T00:24:43.942969+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d7192bf822905428bcdb289bcf5bbc7c\"",
+      "id": "https://geniza.princeton.edu/annotations/e236483e-41d8-49de-9be8-787154f97fb1/",
+      "type": "Annotation",
+      "created": "2026-08-12T16:00:44.263479+00:00",
+      "modified": "2026-08-12T16:00:44.263485+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/412/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00276/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8938/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:481.88037109375,1108.785400390625,3795.712890625,1490.60986328125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p></p>\n\n<ol><li dir=\"rtl\">\n\u0645\u0648\u0644\u0627\u0649 \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u0648 \u0627\u0644\u062d\u0633\u0646 \u0639\u0644\u064a [\u05d0\u05dc]\u05db\u05d4\u05df \u0628\u0646 \u064a\u062d\u064a\u0649 \u0627\u0644\u0641\u0631\u0646\u0627\u0633\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u0634\u0627\u0643\u0631 \u0641\u0636\u0644\u0647 \n</li>\n<li dir=\"rtl\">\n\u0627\u0637\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647 \u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u0648\u062a\u0627\u064a\u064a\u062f\u0647 \u0648\u0633\u0639\u0627\u062f\u062a\u0647 \u00a0 \u00a0  \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u0627\u0633\u062d\u0642 \u0628\u0646 \u0639\u0645\u0631\u0627\u0646\n</li>\n<li dir=\"rtl\">\n\u0648\u0643\u0628\u062a \u0627\u0639\u062f\u0627\u0647\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
       ],
       "schema:position": 1
     }
