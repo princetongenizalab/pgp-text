@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00002-00096%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F18940%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"0c68b12637e3e34975798d7a9b8ae743\"",
+      "id": "https://geniza.princeton.edu/annotations/d63db64d-6e10-4209-9954-0e055d357809/",
+      "type": "Annotation",
+      "created": "2026-07-27T16:53:25.396773+00:00",
+      "modified": "2026-10-13T20:11:00.143280+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:726.974365234375,1567.355224609375,1430.497802734375,3529.343994140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (verso of petition)",
+          "value": "<p></p>\n\n<ol><li dir=\"ltr\">If there has been a precedent for you to work as a tax-collector,</li>\n<li dir=\"ltr\">you have no excuse with regard to the service of the aforementioned people.</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"15a9aa61827820650ea13a86b35e6ca1\"",
+      "id": "https://geniza.princeton.edu/annotations/58d9cefb-c3be-468a-a318-b2ae4e354157/",
+      "type": "Annotation",
+      "created": "2026-07-27T16:55:50.764055+00:00",
+      "modified": "2026-10-13T20:10:10.530227+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/135/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00002-00096/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/18940/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:715.2489624023438,1766.6868896484375,1453.9487915039062,3025.1514892578125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto (verso of petition)",
+          "value": "<p></p>\n\n<ol><li dir=\"rtl\">\u0627\u0646 \u0643\u0646\u062a \u062c\u0631\u062a \u0639\u0627\u062f\u062a\u0643 \u0628\u0627\u0644\u062c\u0628\u0627\u064a\u0629</li>\n<li dir=\"rtl\">\u0641\u0644\u0627 \u0639\u0630\u0631 \u0644\u0643 \u0641\u0649 \u062e\u062f\u0645\u0629 \u0627\u0644\u0645\u0630\u0643\u0648\u0631\u064a\u0646</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
