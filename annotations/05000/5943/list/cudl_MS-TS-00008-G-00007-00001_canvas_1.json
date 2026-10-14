@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"e67dca504d106dc024c4a83b15f8e1bb\"",
       "id": "https://geniza.princeton.edu/annotations/5d5ceab1-bed9-421e-80ba-a8ace84f3295/",
       "type": "Annotation",
       "created": "2024-01-21T21:14:41.422786+00:00",
@@ -34,6 +35,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"e634a94d52e3aac6b0595ba3aecfa889\"",
+      "id": "https://geniza.princeton.edu/annotations/b4b22175-c3bb-4e81-9f44-d5cd64c14c6b/",
+      "type": "Annotation",
+      "created": "2026-08-07T15:27:41.558496+00:00",
+      "modified": "2026-08-07T15:29:12.150894+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1265/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-G-00007-00001/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/5943/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:388.7545471191406,645.7527465820312,3161.2962341308594,3604.7369995117188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>. . . that we and all Israel be [one] band [in all] months and all festivals. This custom has been followed by our fathers and by the yeshivot until now, which is the year 1147 of the Seleucid era, and the year 4595 from the Creation. Although as regards Mar\u1e25eshwan, Kislew and Tevet, their moon [will be] delayed, nevertheless\u2014since the moon of Nisan is to be born in the daytime of the third [day] of the week [Tuesday] at four hours\u2014if the [months of 835/6 CE] were intercalated and made full, then the beginning of Nisan would be set on the fifth [Thursday], whereas [the new moon] would be visible in the West before the beginning of the month, and [hence] this matter [the calendar] would be disrupted. And it is impossible to make [the months of 835/6 CE] regular, for then Pesa\u1e25 would occur on the fourth of the week [Wednesday], and [this would contravene] lo BaDU Pesa\u1e25. And why lo BaDU Pesa\u1e25 and lo GaHaZ \u2018Atzeret? Because lo ADU Rosh ha-Shanah. For if we make Pesa\u1e25 on the second of the week, the new year occurs on the fourth, and the Day of Atonement on Friday, and this is impossible because of the dead.\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
