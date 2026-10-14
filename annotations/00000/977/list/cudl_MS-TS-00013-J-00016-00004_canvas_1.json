@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"ead2a804950529aaea216ae73ce13a11\"",
       "id": "https://geniza.princeton.edu/annotations/4cb3579f-57b3-4eb1-981c-d258e7bc9ce3/",
       "type": "Annotation",
       "created": "2022-10-07T01:57:32.772435+00:00",
       "modified": "2022-10-07T01:57:32.772457+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,60 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"1a2873e630b648f6bd7fc9bdb0808908\"",
+      "id": "https://geniza.princeton.edu/annotations/2b6e949f-ca83-462d-9f46-d8b18156f50d/",
+      "type": "Annotation",
+      "created": "2026-08-03T17:36:09.607304+00:00",
+      "modified": "2026-08-03T17:36:09.607310+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1517/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:408.6069030761719,629.3510131835938,3999.580596923828,6241.280334472656",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translated by Moshe Yagur",
+          "value": "<p>My letter to you, my beloved brother and master, may God prolong your life and maintain your benefaction and shield you from evil\u2014from Jerusalem, may God build it, on the eve of Sukkot, after my return from Byzantium, may the Lord of Israel desolate it.</p>\n<p>God had mercy on me and rescued me after enormous troubles; if I were to start to recount them to you, two loads of paper would not suffice. I thank the Lord of Israel. I will give thanks You, for I am fearfully and wonderfully made; wonderful are Your works, and that my soul knows very well (Psalms 139:14); as it is said, You save the poor from him that is too strong for him (Psalms 35:10).</p>\n<p>God has taken me out of prison, out of Constantinople, and I said, while I was in Byzantium, \u201cIf God saves me, I will dwell in Jerusalem.\u201d And now, my brother, I intend to stay here this year. I came here with many difficulties. I have not remained in one place since leaving Constantinople, about twenty months ago. I was copying books and reducing my expenses so I would have something with which I could start my journey. I sold some of my clothes in Tyre [in southern Lebanon], and so I reached Jerusalem.</p>\n<p>I have already written a letter to my master, Ab\u016b Is\u1e25\u0101q Barh\u016bn, and asked him to lend me eight dinars, to send them to me and add them to the account between us. I would like you to put some pressure on him in this regard. I likewise ask you to [lend me five] or four dinars and buy a broad garment for me with them [ . . . ], but a heavy one, since Jerusalem is so cold! And buy me a long fur, about five handbreadths, so I can wear it in between the garments, and headgear made of soft leather, or a mantle, whatever is easier for you. And add it to my debt to you, to the account between us, which you know.</p>\n<p>Your letter reached me via Yeda\u2018aya from Narbonne, and before that there was another letter via my master Ab\u016b Sa\u2018\u012bd, may the Lord maintain his might\u2014but no more. And now, my lord, do not neglect what I have written to you about, since the cold is killing me. I have nothing, not even a nickel, for I had Byzantine clothes, and I sold them in Tyre, and I am in great distress. I say with Jeremiah: I am the man who has seen affliction, by the rod of His wrath (Lamentations 3:1), and Job said: My innards boil and rest not; days of affliction are come upon me (Job 30:27), and he said: The Lord has given, and the Lord has taken away; blessed be the name of the Lord (Job 1:21).</p>\n<p>But don\u2019t think that all that happened to me and all the troubles I have been through were for nothing. God will recompense me and make these an exoneration for my previous sins. My son, despise not the chastening of the Lord, neither spurn His correction. For whom the Lord loves He corrects, as a father the son in whom he delights (Proverbs 3:11\u201312).</p>\n<p>When Salam\u0101n ben Simon arrives, he will notify you of the situation and everything I have suffered. Do not delay anything I wrote to you about, God willing. And write to my master, Ab\u016b Is\u1e25\u0101q Barh\u016bn, concerning the dinars, for I have nothing. God will show me how to recompense both of you, God willing. I send you, your honor, the best of peace, and peace to my master Ab\u016b Is\u1e25\u0101q Barh\u016bn ibn \u1e62\u0101li\u1e25, and peace to my master Ab\u016b Ibrah\u012bm \u2018Ayy\u0101sh, and peace to all of our associates. I wrote in haste; forgive me for the lack of details.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"ac0f0018fb7d4ab2a017a41a4c400ed8\"",
+      "id": "https://geniza.princeton.edu/annotations/5924d51c-1cea-4ea9-81c1-16b7e26093da/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:57:32.782107+00:00",
+      "modified": "2022-10-07T01:57:32.782123+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +95,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 1
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/5924d51c-1cea-4ea9-81c1-16b7e26093da/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:57:32.782107+00:00",
-      "modified": "2022-10-07T01:57:32.782123+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +104,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"c610dd90309328879b4d6eca05539db0\"",
+      "id": "https://geniza.princeton.edu/annotations/ae9442e4-4f03-45c3-bc83-d25561a0bbca/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:57:32.787060+00:00",
+      "modified": "2022-10-07T01:57:32.787074+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,18 +131,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/ae9442e4-4f03-45c3-bc83-d25561a0bbca/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:57:32.787060+00:00",
-      "modified": "2022-10-07T01:57:32.787074+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -89,22 +140,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
