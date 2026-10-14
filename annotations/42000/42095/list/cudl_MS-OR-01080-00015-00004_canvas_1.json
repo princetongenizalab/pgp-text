@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-OR-01080-00015-00004%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42095%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"adf5ccfbaa07f735b215513d51645776\"",
+      "id": "https://geniza.princeton.edu/annotations/82fa36c7-28fa-4149-a8e8-5efd319a43e2/",
+      "type": "Annotation",
+      "created": "2026-08-14T14:14:11.394291+00:00",
+      "modified": "2026-09-20T17:10:24.732724+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1270/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-00015-00004/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42095/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:555.8778076171875,403.308349609375,2849.5794677734375,2051.3564453125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>present and future is the bestower of grace, love and mercy, and of all goodness, as the verse has it: The Lord is good to all, and His mercy is upon all His works (Psalms 145:9). And as it is said in Scripture:, The Lord is good to those who trust in Him, to the one who seeks Him (Lamentations 3:25). And as it is said in Scripture: The Lord is good, a haven on a day of distress (Nahum 1:7). May what we have eaten satisfy us and may what we have left over be blessed. May what we have drunk, and what we shall drink, bring us health. May you be blessed by my God, amen. May you be succored by my God, amen. May you all be blessed.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
