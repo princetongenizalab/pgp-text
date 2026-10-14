@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-00324-00117%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F25636%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"10c8752afdafde59f0dd1d9b9e087f24\"",
+      "id": "https://geniza.princeton.edu/annotations/fea2b5a7-b435-457d-a9ae-7508aa8bb0ef/",
+      "type": "Annotation",
+      "created": "2026-07-08T20:08:36.396949+00:00",
+      "modified": "2026-07-08T20:08:36.396956+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00324-00117/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/25636/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:587.4969482421875,177.52720642089844,2712.0640869140625,2191.5426177978516",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>\u0627\u0644\u0645\u0645\u0644\u0648\u0643 \u064a\u0642\u0628\u0644 \u0627\u0644\u0627\u0631\u0636 [\u0627\u0645\u0627\u0645 \u0627\u0644\u0645\u062c\u0644\u0633 \u0627\u0644\u0639\u0627\u0644\u064a...]</li>\n<li>\u0627\u0644\u062c\u064a\u0648\u0634\u064a \u0627\u0644\u0633\u064a\u0641\u064a \u0627\u0644\u0646\u0627\u0635\u0631\u064a \u0627\u0644\u0639\u0627\u062f\u0644\u064a \u0627\u0644\u0635\u0627\u0641\u064a \u0627\u0644\u0647\u0627\u062f\u064a</li>\n<li>\u0639\u0636\u062f \u0627\u0644\u0644\u0647 \u0628\u0647 \u0627\u0644\u062f\u064a\u0646 \u0648\u0627\u0645\u062a\u0639 \u0628\u0637\u0648\u0644 \u0628\u0642\u0627\u0647 \u0627\u0645\u064a\u0631 \u0627\u0644\u0645\u0624\u0645\u0646\u064a\u0646</li>\n<li>\u0648\u0627\u062f\u0627\u0645 \u0642\u062f\u0631\u062a\u0647 \u0648\u0627\u0639\u0644\u0649 \u0643\u0644\u0645\u062a\u0647 \u0648\u0646\u0635\u0631 \u062c\u064a\u0648\u0634\u0647 \u0648\u0627\u0644\u0648\u064a\u062a\u0647&nbsp;</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
