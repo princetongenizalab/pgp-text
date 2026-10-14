@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-MISC-00022-00310%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F23323%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"647853bc9733b31dd0892c73941a7cdc\"",
+      "id": "https://geniza.princeton.edu/annotations/c2814f11-b035-40f3-9cd1-91b4c0922661/",
+      "type": "Annotation",
+      "created": "2026-08-22T20:24:08.084567+00:00",
+      "modified": "2026-08-22T20:32:05.484293+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00022-00310/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:7843.96728515625,4205.7548828125,2672.56005859375,1245.439453125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (recto in Ferrario's edition)",
+          "value": "<p>(folio 1, ln. 19-26)</p>\n<p>essere entrati con forza nella casa di campagna del sottoscritto e preso dalla stalla le due vacche di sua propriet\u00e0 e tenute le vacche in sequestro</p>\n<p>(folio 1, ln. 32-40)</p>\n<p>quanto siano gravi le mancanze che commisero a carico di un suddito italiano e conoscendo in pari tempo le gravi conseguenze che derivar potevano da questo loro indebito operato</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2d6411167661fb211cf72fa2022410e5\"",
+      "id": "https://geniza.princeton.edu/annotations/b715cb36-0523-471c-89fd-e1201982ccb9/",
+      "type": "Annotation",
+      "created": "2026-08-22T20:33:22.294917+00:00",
+      "modified": "2026-08-22T20:33:22.294923+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1096/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-MISC-00022-00310/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/23323/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:7949.07763671875,4500.84912109375,2572.28271484375,3830.17529296875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (recto in Ferrario's edition)",
+          "value": "<p>(folio 1, ln. 19-26)</p>\n<p>...the fact that the aforementioned administrators [of Ibrahim Bey] entered by force the country house of the undersigned [Jacub Dayyan] and took from the stable the two cows in his property and sequestered them...</p>\n<p>(folio 1, ln. 32-40)</p>\n<p>...[the administrators of the Bey recognized] the seriousness of their actions against an Italian subject and knowing at the same time the serious consequences that could derive from their misdeeds...</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

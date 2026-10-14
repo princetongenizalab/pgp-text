@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30998%2Fiiif%2Ftextblock%2F938%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F30998%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"c645a036f58f7691e3dd89f0ecb202c3\"",
+      "id": "https://geniza.princeton.edu/annotations/ce63d2d3-13d4-436d-8a26-a62092ae0732/",
+      "type": "Annotation",
+      "created": "2026-04-01T18:41:10.070651+00:00",
+      "modified": "2026-04-01T18:41:10.070660+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1230/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/30998/iiif/textblock/938/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30998/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:10.543323516845703,10.788352012634277,76.65127182006836,32.333096504211426",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso: Address",
+          "value": "\n<ol><li>\u064a\u0635\u0644 \u0627\u0644\u0649 \u0645\u0635\u0631 \u064a\u0633\u0644\u0645 \u0644\u064a\u062f \u0633\u064a\u062f\u064a</li>\n<li>\u0645\u062d\u0645\u062f \u062d\u0633\u0646 \u0627\u0644\u0639\u0637\u0627\u0631 \u0628\u0627\u0627\u0644\u0628\u0646\u062f\u0642\u0627\u0646\u064a\u0629</li>\n<li>\u0641\u064a \u062e\u064a\u0631 \u0668\u0666\u0664\u0662</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d0a55268d2270094f423122969e8d2e1\"",
+      "id": "https://geniza.princeton.edu/annotations/f2faa1cc-772c-4215-93cc-bccf38eba2fb/",
+      "type": "Annotation",
+      "created": "2026-04-01T18:55:16.025613+00:00",
+      "modified": "2026-04-01T18:55:16.025621+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1230/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/30998/iiif/textblock/938/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/30998/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:15.727982521057129,16.70099449157715,88.4161901473999,29.588037490844727",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso: Address",
+          "value": "\n<ol><li>\n<p>May it arrive in Cairo and be delivered soundly to the hand of Sayyidi </p>\n</li>\n<li>\n<p>Muh\u0323ammad H\u0323asan al-\u02bfAt\u0323t\u0323a\u0304r in the Bunduqa\u0304niyya. </p>\n</li>\n<li>\n<p>8642 </p>\n</li></ol>\n\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

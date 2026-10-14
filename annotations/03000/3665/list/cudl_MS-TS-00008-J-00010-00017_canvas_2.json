@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00010-00017%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F3665%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"e804090e3c8536574c5d6538bfaf5a13\"",
+      "id": "https://geniza.princeton.edu/annotations/20a8c691-3650-4171-a2c9-1b8b44ef1d88/",
+      "type": "Annotation",
+      "created": "2024-01-09T21:22:21.097608+00:00",
+      "modified": "2024-01-09T21:22:21.097622+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1037/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00010-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3665/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg><polygon points=\"576.1085815429688,4121.1552734375 2214.059326171875,4151.82666015625 2231.21875,4437.47900390625 591.0160522460938,4526.796875\"></polygon></svg>"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>1. And the words of (she whose) name is Khayra were completed.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

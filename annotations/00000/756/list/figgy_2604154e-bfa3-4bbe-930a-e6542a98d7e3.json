@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"0467353487b686cfe052ad33b2b7b3fc\"",
       "id": "https://geniza.princeton.edu/annotations/0bf361da-874f-4c45-b7c1-4c5168436349/",
       "type": "Annotation",
       "created": "2022-10-07T00:46:13.953097+00:00",
       "modified": "2022-10-07T00:46:13.953117+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/219/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/ab58ed11-1072-46fe-b3e3-936b99800c59/manifest/canvas/2604154e-bfa3-4bbe-930a-e6542a98d7e3",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/756/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"667a31bfbadb5b545e849063513277e1\"",
+      "id": "https://geniza.princeton.edu/annotations/583fa26c-bbe0-415f-9a2c-c6a83a6e0007/",
+      "type": "Annotation",
+      "created": "2026-07-29T15:38:05.907245+00:00",
+      "modified": "2026-07-29T15:38:05.907251+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1511/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/ab58ed11-1072-46fe-b3e3-936b99800c59/manifest/canvas/2604154e-bfa3-4bbe-930a-e6542a98d7e3",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/756/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/756/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:1409.2540283203125,1152.0257568359375,2116.7198486328125,4616.2828369140625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/219/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translation by Dora Zsom",
+          "value": "<p>On Thursday the 18th of Iyar in the year 1386 according to the Era of Documents [1075], we came before the court and took an oath from Ephraim ibn Bash\u0101d\u2014who is in the Palestinian synagogue, and who has accepted upon himself in court to be in the synagogue night and day together with his boys and to take care of all of its matters, small and great, and [who has undertaken] the service of Israel and is in compliance with them, with the women and with men\u2014that he shall receive what the servant preceding him received, and that is [the following]: two settlements each year and the whole tax [i.e., the jizya]; and what comes after these is due to him by way of piety.</p>\n<p>And what he receives: Torah scrolls in their cases\u2014of these, three are copper holders\u2014eighteen scrolls altogether, some of which belong to [the synagogue of] Dammuh and [that of] the Iraqis and [that of the city of] Tatay. Of the codices, twenty-eight are bound\u2014these are detailed elsewhere. Of the candlesticks, fifty-one, big and small. Of the big mats, thirty-eight, and of the carpets and the . . .: twenty-five, and a pair of mats that cover the place of prayer, and a prayer shawl, and a pair of curtains for the gate of the sanctuary, and four coverings for the scrolls, and thirty copper candlesticks, and many chains that are not counted\u2014copper and iron\u2014and two codices for the orphans.</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

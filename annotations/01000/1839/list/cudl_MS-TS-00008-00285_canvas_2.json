@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f925053a831dd09911effa8d1693bc7a\"",
       "id": "https://geniza.princeton.edu/annotations/2d97b7f0-6bb7-4cd4-a049-91cc1495920f/",
       "type": "Annotation",
       "created": "2022-10-07T01:51:17.217728+00:00",
       "modified": "2022-10-07T01:51:17.217747+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>[...]\u05d3\u05d1[...]</li>\n<li>[...]\u05d2\u05dc\u05d9 \u05d5\u05db\u05e1\u05d9 [......]. .\u05e2. .[...]</li>\n<li>[...]\u05e7\u05d5\u05e9\u05d8 \u05d3\u05d0\u05d9\u05ea \u05dc\u05d4\u05d5\u05df \u05d5\u05de\u05e0\u05d9\u05d9\u05ea \u05d4\u05d3\u05d4 [\u05db\u05dc\u05ea\u05d4 ...]</li>\n<li>[...]\u05de\u05d9\u05de\u05d5\u05df \u05d4\u05e9\u05d5\u05dc\u05d7\u05e0\u05d9 \u05d5\u05e8\u05e6\u05ea \u05d1\u05d9\u05d4 \u05d5\u05e7\u05e0\u05d9\u05e0\u05d0 [...]</li>\n<li>[...]\u05e0\u05e0</li>\n<li>[...] \u05de\u05e9\u05d4 \u05d1\u05df \u05de\u05d9\u05de\u05d5\u05df \u05e0\u05e0 \u05de\u05e9[\u05d4...]</li>\n<li>[...\u05d4]\u05dc\u05d5\u05d9 \u05d4\u05d7\u05d1\u05e8 \u05d1\u05e1\u05e0\u05d4\u05d3\u05e8\u05d9\u05df \u05d2\u05d3[\u05d5\u05dc\u05d4 ...]</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00285/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1839/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/1839/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,10 +24,51 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/9/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>[...]\u05d3\u05d1[...]</li>\n<li>[...]\u05d2\u05dc\u05d9 \u05d5\u05db\u05e1\u05d9 [......]. .\u05e2. .[...]</li>\n<li>[...]\u05e7\u05d5\u05e9\u05d8 \u05d3\u05d0\u05d9\u05ea \u05dc\u05d4\u05d5\u05df \u05d5\u05de\u05e0\u05d9\u05d9\u05ea \u05d4\u05d3\u05d4 [\u05db\u05dc\u05ea\u05d4 ...]</li>\n<li>[...]\u05de\u05d9\u05de\u05d5\u05df \u05d4\u05e9\u05d5\u05dc\u05d7\u05e0\u05d9 \u05d5\u05e8\u05e6\u05ea \u05d1\u05d9\u05d4 \u05d5\u05e7\u05e0\u05d9\u05e0\u05d0 [...]</li>\n<li>[...]\u05e0\u05e0</li>\n<li>[...] \u05de\u05e9\u05d4 \u05d1\u05df \u05de\u05d9\u05de\u05d5\u05df \u05e0\u05e0 \u05de\u05e9[\u05d4...]</li>\n<li>[...\u05d4]\u05dc\u05d5\u05d9 \u05d4\u05d7\u05d1\u05e8 \u05d1\u05e1\u05e0\u05d4\u05d3\u05e8\u05d9\u05df \u05d2\u05d3[\u05d5\u05dc\u05d4 ...]</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"932376652365aaaee2c7a8a7ff0c2df5\"",
+      "id": "https://geniza.princeton.edu/annotations/14084589-97fd-4857-8434-498210a21365/",
+      "type": "Annotation",
+      "created": "2026-09-30T22:40:00.306102+00:00",
+      "modified": "2026-09-30T22:40:00.306107+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/9/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00285/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1839/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:210.87074279785156,327.711181640625,2327.1524505615234,2055.121826171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\n<ol><li dir=\"ltr\">...\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] exposed and concealed \u2026</li>\n<li dir=\"ltr\">[...] right that they have. And this [bride] appointed [...]</li>\n<li dir=\"ltr\">[...] Maym\u016bn, the banker. And she consented to him. And we performed a qinyan [... ]</li>\n<li dir=\"ltr\">[...] (whose) s(oul is at) r(est).\u00a0\u00a0</li>\n<li dir=\"ltr\">[...] Moses b. Maym\u016bn (whose) s(oul is at) r(est). Mose[s...]</li>\n<li dir=\"ltr\">[... ha-]Levi, fellow of the gr[eat] Sanhedrin [...]\u00a0 </li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }

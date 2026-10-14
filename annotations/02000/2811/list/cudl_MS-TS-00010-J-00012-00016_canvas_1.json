@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"1ada7facf476b04262888bb8ba4160cd\"",
       "id": "https://geniza.princeton.edu/annotations/965cce17-82c0-423d-9b74-1c900fd0bd89/",
       "type": "Annotation",
       "created": "2022-10-07T00:56:10.804865+00:00",
       "modified": "2022-10-07T00:56:10.804887+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00016/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2811/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"1b796b9b11b2f417f260d4c0b1599d90\"",
+      "id": "https://geniza.princeton.edu/annotations/9011ff03-a467-45ae-9aaa-ebb9ccf3713a/",
+      "type": "Annotation",
+      "created": "2026-08-03T20:59:27.259964+00:00",
+      "modified": "2026-08-03T20:59:27.259973+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1536/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00016/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2811/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2811/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:456.8722229003906,636.0975341796875,4196.148284912109,4828.7135009765625",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/106/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translated by Dora Zsom",
+          "value": "<p>There shall be peace for those who love Your Torah; they stumble not (Psalms 119:165).</p>\n\n\u00a0\n<p>There shall be peace, there shall be peace for near and far\u2014says the Lord\u2014and I shall heal him (Isaiah 57:19).</p>\n\n\u00a0\n\n<p>I inform you, my dear son\u2014may God reunite me with you soon in accordance with His wish, and so may it be His will\u2014I inform you that many letters would not suffice if I were to try to describe the anxiety, the loneliness, the solitude, and the worry that I have experienced on your account. My anxiety since your departure on Friday renews itself each moment, and there is no escape, for such is God\u2019s judgment, and at night [I have] disquieting dreams and insomnia.</p>\n<p>You need no instruction, but please do not prolong your absence, lest I lose my sight completely [before you return]. I implore you, do not neglect your soul, and do not drink wine, since you are ill, and I fear for you\u2014may God protect you from illness in a foreign land, and may He, in His mercy, grant a favorable outcome. I beseech you in the name of God, my son: if your affairs are in order, do not delay your return. If my visions while I sleep are troubling, how much more so if I should see them when awake?</p>\n<p>Bring with you, if God wills, a large bowl, linen cloth [?]\u200c, a good comb, and two spoons, and a dirham\u2019s worth of red ink [?] for Umm Ab\u016b \u2019l-Bah\u0101\u2019. Tah\u012br sends his regards.</p>\n<p>As for the scribe who writes these lines, the servant Ab\u016b Man\u1e63\u016br: God knows how much I miss you and how cheered I am by news of your health and well-being. May God preserve you always in health and well-being. So may it be His will, and may He look after His servant!</p>\n<p>You have favored us with many letters and concerned yourself with my complaints about my illness. God knows that the fever is still with me\u2014may God remove it in His mercy!</p>\n<p>I had hoped to be favored with news of the elder Ab\u016b \u2019l-Wa\u1e25sh Sib\u0101\u2018, may God remember him for every goodness, and of what happened in the matter of the letter. If he received an answer, inform me. And in the matter of the Bible codex, [inform me] if he is able to obtain it. And please write him a letter telling him to borrow the book of R. Ba\u1e25ya, if he can, until I can come there and copy it, so that he won\u2019t accuse me of delaying. By God, make an effort to obtain a letter from him concerning what is in his heart. If he sends it to you, you can forward it [to me] with your letter. Or, he can send it to S\u016bq al-\u2018A\u1e6d\u1e6d\u0101r\u012bn [the perfumers\u2019 market], to the shop of al-Kohen al-Siqill\u012b, or to al-S\u016bq al-Kabir [the great market], to the shop of Ab\u016b \u2019l-Faraj al-Shar\u0101b\u012b. I want to know his wish so that I can follow it to his satisfaction.</p>\n<p>May God, in His abundant grace, mercy, and power, bring about a reunion between you and her in the best of circumstances and the most elevated of hopes, and so may it be His will. May your peace increase perpetually, may your honor increase, and may your dignity never cease. Amen, forever, Selah. Sitt Ab\u016b \u2019l-Bah\u0101\u2019 and all of our acquaintances send their regards.</p>\n",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

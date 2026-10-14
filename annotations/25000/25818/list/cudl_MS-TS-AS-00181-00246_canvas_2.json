@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00181-00246%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F25818%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5db338cfe57248edc783fd8f79dccbde\"",
+      "id": "https://geniza.princeton.edu/annotations/c276d629-0fda-4da6-8d45-28cd225a0e9b/",
+      "type": "Annotation",
+      "created": "2026-09-27T06:45:02.896626+00:00",
+      "modified": "2026-09-27T06:45:02.896637+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1224/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00181-00246/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/25818/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:436.20654296875,228.68580627441406,4146.1220703125,1420.6124114990234",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso (address)",
+          "value": "<p></p>\n\n<ol><li dir=\"rtl\">\n\u0645\u0648\u0644\u0627\u064a \u0627\u0644\u0634\u064a\u062e \u0627\u0628\u0648 \u0627\u0644\u0641\u0631\u062d\u0629(!) \u0639\u0631\u0648\u0633 \u0628\u0646 \u064a\u0648\u0633\u0641\n</li>\n<li dir=\"rtl\">\n\u0627\u0644\u0627\u0633\u0631\u0627\u064a\u0644\u064a \u0627\u0644\u0627\u0631\u062c\u0648\u0627\u0646\u064a . . . . . .\n</li>\n<li dir=\"rtl\">\n\u0627\u062e\u0648\u0647 . . \u0633\u0628\u0627\u0639(\u061f\u061f) \u0628\u0646 . . . .\n</li>\n<li dir=\"rtl\">\n\u0627\u0644\u0627\u0631\u062c\u0648\u0627\u0646\u064a\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

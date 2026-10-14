@@ -4,10 +4,46 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"7502dfcf5c0bf21cd523ae0cfcd1329f\"",
+      "id": "https://geniza.princeton.edu/annotations/2bd4ef85-3b90-4541-9370-7639d8e8c5a4/",
+      "type": "Annotation",
+      "created": "2025-11-23T22:12:15.123202+00:00",
+      "modified": "2025-11-23T22:12:15.123209+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "target": {
+        "source": {
+          "id": "https://princetongenizalab.github.io/iiif/bodleian/c/canvas/ms-heb-c-28-51/2.json",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9087/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2444.306640625,4972.0244140625,2202.03076171875,815.32763671875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "\n<ol><li>(\u05d0\u05dc) \u05d4\u05d7\u05db\u05dd \u05d4\u05e0\u05d1\u05d5\u05df \u05de' \u05d5\u05e8\u05d1' \u05d7\u05dc\u05e4\u05d5\u05df \u05d1\u05df \u05db\u05d1\u05d5\u05d3</li>\n<li>\u05e8\u05d1\u05e0\u05d0 \u05e0\u05ea\u05d0\u05dc \u05d6\u05e6\"\u05dc. </li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"86c6295d5de26b7de7f071dec66f8999\"",
       "id": "https://geniza.princeton.edu/annotations/ee9b7ce1-a2f5-4115-9b58-8e7479e0df8c/",
       "type": "Annotation",
       "created": "2022-10-07T00:54:21.602028+00:00",
-      "modified": "2022-10-07T00:54:21.602041+00:00",
+      "modified": "2025-10-30T00:29:59.408999+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -26,8 +62,8 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso",
-          "value": "<ol>\n<li>\u05d4\u05d7\u05db\u05dd \u05d4\u05e0\u05d1\u05d5\u05df \u0307\u05de \u05d5\u05e8\u05d1 \u05d7\u05dc\u05e4\u05d5\u05df \u05d1\u05df \u05db\u05d1\u05d5\u05d3</li>\n<li>\u05e8\u05d1\u05e0\u05d0 \u05e0\u05ea\u05d0\u05dc \u05d6\u0305\u05e6\u05dc</li>\n</ol>",
+          "label": "verso",
+          "value": "\n<ol><li>\u05d4\u05d7\u05db\u05dd \u05d4\u05e0\u05d1\u05d5\u05df \u05de' \u05d5\u05e8\u05d1 \u05d7\u05dc\u05e4\u05d5\u05df \u05d1\u05df \u05db\u05d1\u05d5\u05d3</li>\n<li>\u05e8\u05d1\u05e0\u05d0 \u05e0\u05ea\u05d0\u05dc \u05d6\u05e6''\u05dc</li></ol>\n",
           "format": "text/html",
           "TextInput": "rtl"
         }

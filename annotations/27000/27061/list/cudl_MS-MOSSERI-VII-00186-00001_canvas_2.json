@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-MOSSERI-VII-00186-00001%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F27061%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9d3924e0a52063a26b83ada7e8783a94\"",
+      "id": "https://geniza.princeton.edu/annotations/f1447971-aaf7-430e-8850-5a7b057a40e7/",
+      "type": "Annotation",
+      "created": "2026-08-23T20:20:51.076165+00:00",
+      "modified": "2026-08-23T20:21:07.129890+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1157/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-MOSSERI-VII-00186-00001/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/27061/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1670.3770751953125,722.03076171875,1750.9754638671875,502.2471923828125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>\u05dc\u05d1\u05d4\u05e8\u05d3 \u05d0\u05d9\u05d1 \u05ea\u05e9\u05e6\u05d2</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

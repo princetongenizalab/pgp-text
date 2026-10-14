@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00015-00102%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8520%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"96fc02910a8ee1952f9a116efca13671\"",
+      "id": "https://geniza.princeton.edu/annotations/e48f5609-81b6-44b3-bc91-98b6ede77c4d/",
+      "type": "Annotation",
+      "created": "2026-06-22T20:18:00.629817+00:00",
+      "modified": "2026-06-22T20:18:00.629825+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00015-00102/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8520/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2607.5908203125,418.8076171875,2137.35546875,5866.66796875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "\n<ol><li>the sister of I\u1e63\u1e25aq the wife of Mus\u0101fir</li>\n<li>Umm Hil\u0101la the orphans of Sim\u1e25a 4</li>\n<li>b. Sim\u1e25a 2 the person with ophthalmia</li>\n<li>Shimon 3 a stricken man from Alexandria</li>\n<li>Ab\u016b Sa\u02bf\u012bd the teacher 3 Umm Ma\u02bf\u0101l\u012b</li>\n<li>b. [&hellip;] 3 the woman from Aleppo and her children</li>\n<li>The Rum cannot be counted</li>\n<li>the beadles of the synagogues the orphans in the house of the cantor</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

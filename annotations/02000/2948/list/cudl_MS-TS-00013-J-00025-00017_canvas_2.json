@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"ae139c1a52926d385ac18677b36c753e\"",
       "id": "https://geniza.princeton.edu/annotations/65f99bf8-afc1-44c1-a69d-29a0e877f823/",
       "type": "Annotation",
       "created": "2022-10-07T00:44:27.924608+00:00",
@@ -37,6 +38,42 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "etag": "\"37f212c5050b626318923e170b2a6615\"",
+      "id": "https://geniza.princeton.edu/annotations/ff9d6935-843a-4051-ac9b-101e25a6bca3/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:13:39.183533+00:00",
+      "modified": "2026-01-26T18:05:22.851721+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00025-00017/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2948/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "T-S 13J25.17, verso:",
+          "value": "<ol>\n<li>\u05ea\u05d7\u05d9(?) \u05d0\u05db\u05d3 \u05db\u05d8\u05d5\u05d8 \u05de\u05e7\u05d3\u05de\u05df \u05d0\u05dc\u05d1\u05dc\u05d3 \u05e4\u05d9 \u05de\u05e2\u05e9\u05e8(?) \u05d1\u05d0\u05d1\u05d8\u05d0\u05dc\u05d4</li>\n<li>\u05d2\u05d0\u05e8\u05d9\u05d4 \u05e4\u05d9 \u05d3\u05dc\u05da \u05e2\u05dc\u05d9 \u05d2\u05de\u05d9\u05dc \u05e2\u05d5\u05d0\u05d9\u05d3\u05d4\u05d0 \u05d5\u05e9\u05dc\u05dd</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
     }
   ]
 }

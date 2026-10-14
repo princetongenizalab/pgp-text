@@ -38,11 +38,46 @@
       "schema:position": 1
     },
     {
-      "etag": "\"b9cc88542e45e4b38494972244306593\"",
+      "etag": "\"dbd63e5a2a1b4752721e7ebdc1f7bfcf\"",
+      "id": "https://geniza.princeton.edu/annotations/28e1ef7a-d7dd-487a-b506-74cb96363ad7/",
+      "type": "Annotation",
+      "created": "2025-11-13T15:56:49.403602+00:00",
+      "modified": "2025-11-13T15:56:49.403612+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00018-00005/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9077/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:205.8560028076172,1516.029296875,4193.484329223633,813.462890625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "\n<ol><li>(\u05d0\u05dc) \u05d4\u05d7\u05db\u05dd \u05d4\u05de\u05e4\u05d5\u05d0\u05e8 \u05d4\u05e9\u05e8 \u05d4\u05d0\u05e6\u05d9\u05dc \u05de\u05e8' \u05d5\u05e8\u05d1' \u05d7\u05dc\u05e4\u05d5\u05df \u05d4\u05dc\u05d5\u05d9 \u05e0\u05d8' \u05e8\u05d7' \u05d1\u05df \u05db\u05d1\u05d5\u05d3 \u05de\u05e8' \u05d5\u05e8\u05d1'</li>\n<li>\u05e0\u05ea\u05e0\u05d0\u05dc \u05d4\u05dc\u05d5\u05d9 \u05e0\"\u05e2. </li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3c598e225137d5ebd76a48ea988d9181\"",
       "id": "https://geniza.princeton.edu/annotations/f17dab02-7711-42db-8b64-8fa2b994ef3c/",
       "type": "Annotation",
       "created": "2022-10-07T02:00:41.141131+00:00",
-      "modified": "2022-10-07T02:00:41.141144+00:00",
+      "modified": "2025-10-29T23:24:54.450809+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -61,8 +96,8 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso",
-          "value": "<ol>\n<li>\u05d0\u05dc\u05d7\u05db\u05dd \u05d0\u05dc\u0307\u05d2\u05dc\u05d9\u05dc \u05d0\u05dc\u05e8\u05d9\u05d9\u05e1 \u05d0\u05dc\u05d0\u05e6\u05d9\u05dc \u05de\u0307\u05e8 \u05d5\u05e8\u05d1 \u05d7\u05dc\u05e4\u05d5\u05df \u05d4\u05dc\u05d5\u05d9 \u05e0\u0307\u05d8 \u05e8\u0307\u05d7 \u05d1\u05df \u05db\u05d1\u05d5\u05d3 \u05de\u0307\u05e8 \u05d5\u05e8\u0307\u05d1</li>\n<li>\u05e0\u05ea\u05e0\u05d0\u05dc \u05d4\u05dc\u05d5\u05d9 \u0307\u05e0\u0307\u05e2</li>\n</ol>",
+          "label": "verso",
+          "value": "\n<ol><li>\u05d0\u05dc\u05d7\u05db\u05dd \u05d0\u05dc\u05d2'\u05dc\u05d9\u05dc \u05d0\u05dc\u05e8\u05d9\u05d9\u05e1 \u05d0\u05dc\u05d0\u05e6\u05d9\u05dc \u05de\u05e8' \u05d5\u05e8\u05d1 \u05d7\u05dc\u05e4\u05d5\u05df \u05d4\u05dc\u05d5\u05d9 \u05e0\u05d8' \u05e8\u05d7' \u05d1\u05df \u05db\u05d1\u05d5\u05d3 \u05de\u05e8' \u05d5\u05e8\u05d1'</li>\n<li>\u05e0\u05ea\u05e0\u05d0\u05dc \u05d4\u05dc\u05d5\u05d9 \u05e0''\u05e2</li></ol>\n",
           "format": "text/html",
           "TextInput": "rtl"
         }

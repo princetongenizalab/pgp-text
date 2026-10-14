@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F19633%2Fiiif%2Ftextblock%2F14421%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F19633%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"a1ae2b8fb1d3391a88647dc9bc72a623\"",
+      "id": "https://geniza.princeton.edu/annotations/ce41fcdc-664a-4e16-bd64-88ad57454948/",
+      "type": "Annotation",
+      "created": "2026-08-13T20:22:11.966151+00:00",
+      "modified": "2026-08-13T20:22:11.966160+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/947/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/19633/iiif/textblock/14421/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/19633/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:20.1953125,43.47265625,503.26171875,280.23046875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>On the second [day] of the week, to wit, the 18th day of the month Adar, the year one thousand and three hundred and sixty and five years according to the era to which we are accustomed [to reckon] in Fos\u1e6da\u1e6d of Egypt, which is situated upon the river Nile, I, Joseph, son of David, and whatever other name that I have, desire in freedom of my will, without compulsion, that I release and dismiss and free you, my wife, \u1e24aba\u2019, the daughter of Joseph, and whatever other name which you have, who was my wife, from [before this, and hereby] release you [so that you may have the right] and the control over yourself [to undertake to marry yourself to any man] whom you desire, and [no one may hinder you] in my name, from this day [and forever. And, behold, you] are free [to be married] to any man and this shall be to you from me a bill of divorce, and a document of release and a letter of dismissal, according to the law of Moses and Israel.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"367f89d4a129ad5a765e41a26e7df807\"",
       "id": "https://geniza.princeton.edu/annotations/3488b8d7-be8b-418c-96fa-92746bc0bb01/",
       "type": "Annotation",
       "created": "2022-10-07T01:24:02.717353+00:00",
       "modified": "2022-10-07T01:24:02.717370+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00018/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,25 +33,44 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"42993599d9ff149af533e4210b2da144\"",
+      "id": "https://geniza.princeton.edu/annotations/4bbe2476-8068-41a8-801a-82bbd5e50c90/",
+      "type": "Annotation",
+      "created": "2026-08-03T21:01:20.332699+00:00",
+      "modified": "2026-08-03T21:01:20.332706+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1537/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00012-00018/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2812/iiif/manifest/"
           }
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:353.3116455078125,1592.354248046875,3361.4371337890625,3748.419189453125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translated by Ren\u00e9e Levine Melammed",
+          "value": "<p>In Your name, O Merciful One.</p>\n<p>That which I wish to inform you, mother of mine, is that I arrived in al-Ma\u1e25alla, but my heart was still with you, may God [the exalted] grant you resilient good health. As for me, my yearning and loneliness from our separation is something I cannot describe well. Praise to God whose judgment is accepted. What I am informing you, mother of mine, is that from the time of my leaving you, my life has not been serene or untroubled from what saddens me and he [i.e., my husband] is demanding that I return to Aleppo. My spirit has become weary, and by God, [will you] make an effort to rescue me from that [this situation] in which I am [stuck]!</p>\n<p>[Either] by your going forth to me [you come] or appoint a proxy or send him . . . that is with you. I am in hell with him, and soon he/it will be . . . that you redeem me from the people from hell and let this be without [delay] . . . matter, and I cannot dry my tears . . . . I am informing you . . . before something [awful] will happen. Without help the size of a grain . . .</p>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
-        "transcribing"
+        "translating"
       ],
       "schema:position": 1
     }

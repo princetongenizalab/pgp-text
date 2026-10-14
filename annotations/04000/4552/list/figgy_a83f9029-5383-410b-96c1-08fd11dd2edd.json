@@ -4,10 +4,60 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"5f810f5607d2eba11602353736c5d597\"",
+      "id": "https://geniza.princeton.edu/annotations/6bb1bda7-c6dc-48a6-a5fb-dd18fc56daf0/",
+      "type": "Annotation",
+      "created": "2026-06-22T20:24:46.990686+00:00",
+      "modified": "2026-06-22T20:24:46.990692+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f69835f7-f7b9-41d1-91ad-5102566e4996/manifest/canvas/a83f9029-5383-410b-96c1-08fd11dd2edd",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1654.3629150390625,3259.5263671875,2246.6934814453125,1539.3291015625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\n<ol><li>[the wif]e of Barak\u0101t</li>\n<li>she should be investigated</li>\n<li>Avraham b. Barak\u0101t the [m]aker of spindles</li>\n<li>the wife of b. \u1e24unayn in the house of al-Ghazz\u0101l[?]</li>\n<li>Umm Nujaym</li>\n<li>the Alexa[ndrian]</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"3c6a8368338d17ea582b8c044c67041a\"",
       "id": "https://geniza.princeton.edu/annotations/f377a5cc-4439-45f4-ab0a-41c3a24b9686/",
       "type": "Annotation",
       "created": "2022-10-07T02:12:52.030618+00:00",
       "modified": "2022-10-07T02:12:52.030632+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/f69835f7-f7b9-41d1-91ad-5102566e4996/manifest/canvas/a83f9029-5383-410b-96c1-08fd11dd2edd",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +67,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://figgy.princeton.edu/concern/scanned_resources/f69835f7-f7b9-41d1-91ad-5102566e4996/manifest/canvas/a83f9029-5383-410b-96c1-08fd11dd2edd",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4552/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

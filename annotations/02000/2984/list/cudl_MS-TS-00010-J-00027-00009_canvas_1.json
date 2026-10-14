@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"afedff5438bcffb9f46b2d95ec81afa4\"",
       "id": "https://geniza.princeton.edu/annotations/64fb560a-7927-42d8-a02d-7779ebf18908/",
       "type": "Annotation",
       "created": "2022-10-07T00:37:00.313104+00:00",
       "modified": "2022-10-07T00:37:00.313123+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05dc\u05d0\u05d3\u05d9\u05e8\u05e0\u05d5 \u05d5\u05d0\u05d1\u05d9\u05e8\u05e0\u05d5 \u05d5\u05d2\u05d3\u05d5\u05dc\u05e0\u05d5 \u05d5\u05d7\u05e9\u05d5\u05d1\u05e0\u05d5 \u05d5\u05d7\u05e9\u05e7 \u05e0\u05e4\u05e9\u05d9\u05e0\u05d5 \u05d5\u05d1\u05d1\u05ea \u05d0\u05e9\u05d5\u05e0\u05d9\u05e0\u05d5 \u05d5\u05de\u05d7\u05de\u05d3 \u05e2\u05d9\u05e0\u05d9\u05e0\u05d5 \u05db\u05d2 \u05e7\u05d3</li>\n<li>\u05de\u05e8 \u05d5\u05e8 \u05e0\u05d7\u05de\u05d9\u05d4 \u05d4\u05e9\u05dc\u05d9\u05d7 \u05d4\u05de\u05e9\u05db\u05d9\u05dc \u05d4\u05de\u05e6\u05dc\u05d9\u05d7 \u05d4\u05d7\u05db\u05dd \u05d5\u05d4\u05e0\u05d1\u05d5\u05df \u05d4\u05de\u05e4\u05d5\u05dc\u05e4\u05dc \u05d1\u05de\u05e2\u05e9\u05d9\u05d5 \u05d4\u05d8\u05d5\u05d1\u05d9\u05dd [</li>\n<li>. . . . . . . . . . . . . . . \u05de . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/762/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00027-00009/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/2984/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/2984/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,7 +24,14 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/762/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05dc\u05d0\u05d3\u05d9\u05e8\u05e0\u05d5 \u05d5\u05d0\u05d1\u05d9\u05e8\u05e0\u05d5 \u05d5\u05d2\u05d3\u05d5\u05dc\u05e0\u05d5 \u05d5\u05d7\u05e9\u05d5\u05d1\u05e0\u05d5 \u05d5\u05d7\u05e9\u05e7 \u05e0\u05e4\u05e9\u05d9\u05e0\u05d5 \u05d5\u05d1\u05d1\u05ea \u05d0\u05e9\u05d5\u05e0\u05d9\u05e0\u05d5 \u05d5\u05de\u05d7\u05de\u05d3 \u05e2\u05d9\u05e0\u05d9\u05e0\u05d5 \u05db\u05d2 \u05e7\u05d3</li>\n<li>\u05de\u05e8 \u05d5\u05e8 \u05e0\u05d7\u05de\u05d9\u05d4 \u05d4\u05e9\u05dc\u05d9\u05d7 \u05d4\u05de\u05e9\u05db\u05d9\u05dc \u05d4\u05de\u05e6\u05dc\u05d9\u05d7 \u05d4\u05d7\u05db\u05dd \u05d5\u05d4\u05e0\u05d1\u05d5\u05df \u05d4\u05de\u05e4\u05d5\u05dc\u05e4\u05dc \u05d1\u05de\u05e2\u05e9\u05d9\u05d5 \u05d4\u05d8\u05d5\u05d1\u05d9\u05dd [</li>\n<li>. . . . . . . . . . . . . . . \u05de . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"

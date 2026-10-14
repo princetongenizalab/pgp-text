@@ -4,24 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"d8596800c7f1d4a953a1eb0441a8fa72\"",
       "id": "https://geniza.princeton.edu/annotations/74392493-1b3e-41e2-8384-56b16d2af947/",
       "type": "Annotation",
       "created": "2023-01-09T22:39:13.652726+00:00",
       "modified": "2023-01-09T22:39:13.652739+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05d0\u05dc\u05d9 \u05d0\u05d1\u05d9 \u05d0\u05dc\u05db\u05d9\u05e8 \u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4</li>\n<li>\u05de\u05d5\u05d4\u05d5\u05d1 \u05d1\u05df</li>\n<li>\u05de\u05df \u05e9\u05dc\u05de\u05d4 \u05d5\u05dc\u05d5[\u05d9</li>\n<li>\u05d0\u05dc\u05d1\u05d0\u05e2\u05dc\u05d1\u05db\u05d9\u05d9\u05df</li>\n</ol>",
-          "format": "text/html"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/953/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00038/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/7054/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/7054/iiif/manifest/"
           }
         },
         "selector": {
@@ -30,7 +24,13 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/953/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d0\u05dc\u05d9 \u05d0\u05d1\u05d9 \u05d0\u05dc\u05db\u05d9\u05e8 \u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4</li>\n<li>\u05de\u05d5\u05d4\u05d5\u05d1 \u05d1\u05df</li>\n<li>\u05de\u05df \u05e9\u05dc\u05de\u05d4 \u05d5\u05dc\u05d5[\u05d9</li>\n<li>\u05d0\u05dc\u05d1\u05d0\u05e2\u05dc\u05d1\u05db\u05d9\u05d9\u05df</li>\n</ol>",
+          "format": "text/html"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"

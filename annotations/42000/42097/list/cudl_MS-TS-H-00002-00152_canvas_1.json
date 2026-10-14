@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-H-00002-00152%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42097%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"fecdac68b9bcd86a3cd6b3c73e81f8ed\"",
+      "id": "https://geniza.princeton.edu/annotations/4d166437-bad0-49da-9d1b-82e09d738cf3/",
+      "type": "Annotation",
+      "created": "2026-08-14T14:25:21.104668+00:00",
+      "modified": "2026-08-14T14:27:48.184944+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1270/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-H-00002-00152/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42097/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:692.96142578125,130.53521728515625,2721.044677734375,2944.2567749023438",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto, left side",
+          "value": "<p>You, our Eternal God, are the essence of praise, and the universal sovereign. You are the one who performed miracles for our ancestors on these dates. You, our Eternal God, are the essence of praise and the universal sovereign. You have granted us a continuation of our lives and allowed us to reach this occasion.</p>\n<p>Having drunk the contents of the qiddush cup, he washes his hands and recites the benediction: You, our Eternal God, are the essence of praise and the universal sovereign. You have brought us holiness by your precepts and instructed us in the matter of hand-washing.</p>\n<p>If the seder is being held\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

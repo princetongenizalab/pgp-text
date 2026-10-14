@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"56518dcb87a502ee95c5d5b4b8224029\"",
       "id": "https://geniza.princeton.edu/annotations/05f2c0b6-66f2-4417-8679-a9e39971b165/",
       "type": "Annotation",
       "created": "2022-10-07T02:11:42.128623+00:00",
@@ -35,6 +36,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"5d9b757dd515fb9bb749df2699562b20\"",
+      "id": "https://geniza.princeton.edu/annotations/ab31c08a-a421-46dc-89aa-194ec433836e/",
+      "type": "Annotation",
+      "created": "2026-08-07T15:57:37.848805+00:00",
+      "modified": "2026-08-07T15:57:37.848813+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1267/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-OR-01080-J-00093/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4020/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:86.65333557128906,767.9948120117188,4141.509262084961,3479.6648559570312",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>Amram ibn Sa\u2018id ibn Musa appeared [before the court] and reported that he was working in the apothecary practice of Abu\u2019l-Faraj ibn Ma\u2018amar al-Sharabi and that there was a physician, Abu Ghalib, there who wrote out prescriptions for the apothecary. The aforementioned Amram ibn Sa\u2018id stated that he noticed a woman sitting rather frequently with this aforementioned doctor, Abu Ghalib, and thought her to be a Muslim woman since he saw her so often. After learning that she was a Jew, he inquired about her and found out that she was the daughter of Ibn al-Mashita. Some of the Muslims were seized with righteous zeal because of this and spied on her, suspecting her of having an affair with a Christian, the aforementioned doctor. This went on for about forty days, more or less. One day, she came to him and said \u201cI would like you to come and take a ride with me to a patient.\u201d And she stayed with him until he had finished work. Then he got up and rode with her, and they went away together. . . .</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }

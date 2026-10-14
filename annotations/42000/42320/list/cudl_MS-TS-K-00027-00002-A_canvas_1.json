@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-K-00027-00002-A%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42320%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"1510ef7f4b01135c7cfc06caea17875c\"",
+      "id": "https://geniza.princeton.edu/annotations/da475859-4f60-4bc5-a35b-1cb99e06d3ac/",
+      "type": "Annotation",
+      "created": "2026-09-23T00:54:30.536161+00:00",
+      "modified": "2026-09-23T00:54:30.536166+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1284/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-K-00027-00002-A/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42320/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3440.404296875,407.4076232910156,2635.3173828125,3655.0940856933594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>In the name of the Lord, God of Israel:</p>\n<p>When you see Jerusalem from afar, you should say, \u201cYour holy cities have become a wilderness. Zion is become a wilderness. Jerusalem a desolation. Our holy and our beautiful house, where our fathers praised You, is burned with fire, and all our pleasant things are laid waste (Isaiah 64:9\u201310).\u201d</p>\n<p>Then you should bow, and afterwards recite, \u201cWe have sinned with our fathers; we have done iniquitously; we have dealt wickedly (Psalms 106:6).\u201d</p>\n<p>When you reach the city gate, you should say, \u201cHer gates are sunk into the ground. He has destroyed and broken her bars. Her king and her princes are among the nations. Instruction is no more. Even her prophets find no vision from the Lord [see Lamentations 2:9].\u201d</p>\n<p>Next one recites, \u201cOpen, O gates, so that the righteous nation that keeps faith may enter (Isaiah 26:2). May it be Your will, Lord, our God, and God of our fathers, that You see the affliction of Your people Israel, who are scattered in all the lands, and the ruins of Jerusalem.\u201d</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

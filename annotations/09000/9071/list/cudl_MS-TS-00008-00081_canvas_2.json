@@ -4,10 +4,46 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"c60127e83e5c7991483588797f39e6b6\"",
+      "id": "https://geniza.princeton.edu/annotations/836fc450-e38f-4251-9b75-7beaf86b625d/",
+      "type": "Annotation",
+      "created": "2025-11-12T00:15:41.326310+00:00",
+      "modified": "2025-11-12T00:15:41.326317+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/141/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-00081/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9071/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:106.13973236083984,4002.386962890625,2282.91202545166,612.543701171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "\n<ol><li>\u05d5\u05d0\u05dd \u05d7\u05e1 \u05d5\u05e9\u05dc\u05d5\u05dd \u05d9\u05d4\u05d9\u05d4 \u05d4\u05e4\u05e1\u05d3 \u05d1\u05de\u05de\u05d5\u05df \u05d4\u05e9\u05d5\u05ea\u05e4\u05d5\u05ea \u05d4\u05d6\u05d0\u05ea [...]</li>\n<li>\u05db\u05de\u05d5 \u05db\u05dc \u05d4\u05e9\u05d5\u05ea\u05e4\u05d9\u05dd \u05d7\u05dc\u05e7\u05dd \u05d9\u05d4\u05d9\u05d4 \u05e9\u05d5\u05d5\u05d4 \u05d1\u05d5 [...]. </li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"02215e717f67a6a36c9f4ef479ee8b31\"",
       "id": "https://geniza.princeton.edu/annotations/655ce346-c780-4224-9a3e-24de90edb8cd/",
       "type": "Annotation",
       "created": "2022-10-07T01:27:06.620767+00:00",
-      "modified": "2022-10-07T01:27:06.620788+00:00",
+      "modified": "2025-12-15T21:48:39.438961+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/141/",
       "target": {
         "source": {
@@ -26,8 +62,8 @@
       "body": [
         {
           "type": "TextualBody",
-          "label": "Verso",
-          "value": "<ol>\n<li>\u05d5\u05d0\u05df \u05d5\u05d0\u05dc\u05e2\u05d9\u05d0\u05d3 \u05d7\u05d3\u064f\u0307\u05ea \u05db\u05e1\u05e8\u05d0\u05df \u05d1\u05de\u05d0\u05dc \u05d4\u05d3\u05d4 \u05d0\u05dc\u05e9\u05e8\u05db\u05d4 [...]</li>\n<li>\u05e4\u05de\u05ea\u05d9\u05dc \u05d2\u05de\u05d9\u05e2 \u05d0\u05dc\u05d0\u05e9\u05e8\u05d0\u05da \u05de\u05df \u05e7\u05e1\u05de\u05ea\u05d4\u05dd \u05ea\u05e1\u05d0\u05d5\u05d9\u05d4 \u05e1\u05b4[...]</li>\n</ol>",
+          "label": "verso",
+          "value": "\n<ol><li>\u05d5\u05d0\u05df \u05d5\u05d0\u05dc\u05e2\u05d9\u05d0\u05d3 \u05d7\u05d3\u05ea' \u05db\u05e1\u05e8\u05d0\u05df \u05d1\u05de\u05d0\u05dc \u05d4\u05d3\u05d4 \u05d0\u05dc\u05e9\u05e8\u05db\u05d4 [...]</li>\n<li>\u05e4\u05de\u05ea\u05d9\u05dc \u05d2\u05de\u05d9\u05e2 \u05d0\u05dc\u05d0\u05e9\u05e8\u05d0\u05da \u05de\u05df //\u05e7\u05e1\u05de\u05ea\u05d4\u05dd\\\\ \u05ea\u05e1\u05d0\u05d5\u05d9\u05d4 \u05e1[...]</li></ol>\n",
           "format": "text/html",
           "TextInput": "rtl"
         }

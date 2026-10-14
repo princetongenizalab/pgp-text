@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"91844301437cf6392da5fcb627a1ff78\"",
       "id": "https://geniza.princeton.edu/annotations/84d6a6b9-6800-4d97-b56b-eeb85530a3c5/",
       "type": "Annotation",
       "created": "2022-10-07T02:00:24.943606+00:00",
@@ -34,6 +35,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2a4b7ee3675a2d07e76c8501cf1ee91d\"",
+      "id": "https://geniza.princeton.edu/annotations/635b5930-1e0e-4451-b435-5384b1094cd2/",
+      "type": "Annotation",
+      "created": "2026-06-24T15:03:10.244720+00:00",
+      "modified": "2026-06-24T15:04:18.653878+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00006-J-00001-00012/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4579/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:1307.2301025390625,410.1029357910156,1548.6859130859375,1764.9388122558594",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\n<ol><li>Dispensed from the revenues of Mu\u1e25arram</li>\n<li>\"the Beloved\" 3</li>\n<li>b. al-Ma\u1e6dar\u012b 1 1/2</li>\n<li>the teacher from Mal\u012bj 1 1/2</li>\n<li>\u02bfAbd All\u0101h who (lives) in the (synagogue of the) Iraqis 2</li>\n<li>Abu'l-\u1e24asan ibn Abu'l-Rukub 1 1/2</li>\n<li>Ab\u016b Sa\u02bfd the cantor, son of the female teacher 3</li>\n<li>R. Shemarya the teacher 3</li>\n<li>[Ab\u016b] Na\u1e63r of Mal\u012bj, through \"the Chosen\" 3</li>\n<li>[...] the blind man 2</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }

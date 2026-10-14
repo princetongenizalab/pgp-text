@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"2543c3e0baab0134dd45c9a6fb4595be\"",
+      "id": "https://geniza.princeton.edu/annotations/f05afb06-aede-4014-b010-cd75c594054a/",
+      "type": "Annotation",
+      "created": "2026-08-03T19:09:01.780330+00:00",
+      "modified": "2026-08-03T19:09:01.780338+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1527/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00261/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1725/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:356.2185974121094,6285.9208984375,4515.215972900391,1262.11181640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso",
+          "value": "<p>To our elder and our noted one, the honorable, holy, our master and teacher Solomon the doctor, son of the master R. Eli\u2014his rest be in the garden of Eden\u2014the respected elder. The Rock keep him, and may he be protected from all harm. A great deliverance!</p>\n<p></p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"21514574e5cc6940bdec800f836b6f30\"",
       "id": "https://geniza.princeton.edu/annotations/f1e0e11d-e550-4b61-bc73-e4410c6b97c1/",
       "type": "Annotation",
       "created": "2022-10-07T01:28:26.110338+00:00",
       "modified": "2022-10-07T01:28:26.110352+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00261/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1725/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00016-00261/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/1725/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/3/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

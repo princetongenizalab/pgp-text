@@ -4,10 +4,96 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"857184c3957c7f144da70bf9926dabce\"",
+      "id": "https://geniza.princeton.edu/annotations/1b776b4d-94ff-4062-8c65-f76686c2cd28/",
+      "type": "Annotation",
+      "created": "2026-08-03T17:36:39.317737+00:00",
+      "modified": "2026-08-03T17:36:39.317743+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1517/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:325.600341796875,822.1529541015625,4151.337158203125,548.4786376953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, Judaeo-Arabic",
+          "value": "<p>To my master and brother Ab\u016b Ya\u1e25ya Nahray ben Nissim ben Nahray.</p>\n<p>May God prolong his life and maintain his assistance and benefaction.</p>\n<p>From Israel ben Nathan ben Nahray, his cousin.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"0a02d526fddfaa95dc437a848ebe14a1\"",
+      "id": "https://geniza.princeton.edu/annotations/59d77e8c-b74e-4ca7-8aae-8eb016cacc37/",
+      "type": "Annotation",
+      "created": "2026-08-03T17:36:58.616331+00:00",
+      "modified": "2026-08-03T17:36:58.616337+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1517/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:466.9574890136719,1461.0850830078125,3962.116241455078,838.5111083984375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address, Arabic",
+          "value": "<p>Naj\u0101 ibn al-\u1e24usayn al-An\u1e63\u0101r\u012b. Mu\u1e25ammad ibn Naj\u0101.</p>\n<p>To my master and brother Ab\u016b Ya\u1e25ya Nahray ben Nissim ben Nahray the Maghrib\u012b.</p>\n<p>May God prolong his life and maintain his might and assistance and happiness and benefaction.</p>\n<p>From Israel ibn Sahl\u016bn the Maghrib\u012b.</p>\n<p>To Fust\u0101t, if God wills it.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"4ed0d4c9ce0ade883f63d22a37e33e08\"",
       "id": "https://geniza.princeton.edu/annotations/d94baeaa-5d20-4a6d-84b4-8a820bd52df5/",
       "type": "Annotation",
       "created": "2022-10-07T01:57:32.791131+00:00",
       "modified": "2022-10-07T01:57:32.791144+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +103,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 4
+    },
+    {
+      "etag": "\"fe28b685501733a54fde3646b14d2f52\"",
+      "id": "https://geniza.princeton.edu/annotations/cb55bfcd-cca8-4c89-8a6c-aac374a7b004/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:57:32.795473+00:00",
+      "modified": "2022-10-07T01:57:32.795484+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +130,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 4
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/cb55bfcd-cca8-4c89-8a6c-aac374a7b004/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:57:32.795473+00:00",
-      "modified": "2022-10-07T01:57:32.795484+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +139,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 5
+    },
+    {
+      "etag": "\"1c889f7c416b65ecaf95a714f4ca416b\"",
+      "id": "https://geniza.princeton.edu/annotations/4899128a-042d-43a3-a967-f3803f9ebf37/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:57:32.799427+00:00",
+      "modified": "2022-10-07T01:57:32.799438+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,18 +166,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 5
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/4899128a-042d-43a3-a967-f3803f9ebf37/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:57:32.799427+00:00",
-      "modified": "2022-10-07T01:57:32.799438+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -89,13 +175,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 6
+    },
+    {
+      "etag": "\"e50a9f5ba101917926e18ea878cc5e11\"",
+      "id": "https://geniza.princeton.edu/annotations/5fee3b53-47ad-464f-b54f-f304e29d965b/",
+      "type": "Annotation",
+      "created": "2022-10-07T01:57:32.803634+00:00",
+      "modified": "2022-10-07T01:57:32.803647+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/"
           }
         },
         "selector": {
@@ -104,18 +202,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 6
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/5fee3b53-47ad-464f-b54f-f304e29d965b/",
-      "type": "Annotation",
-      "created": "2022-10-07T01:57:32.803634+00:00",
-      "modified": "2022-10-07T01:57:32.803647+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -125,22 +211,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00016-00004/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/977/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

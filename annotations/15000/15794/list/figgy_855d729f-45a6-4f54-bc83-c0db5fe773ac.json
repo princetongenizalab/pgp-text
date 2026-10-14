@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Ffiggy.princeton.edu%2Fconcern%2Fscanned_resources%2F85d24616-0d54-4eb6-8782-350836158ae2%2Fmanifest%2Fcanvas%2F855d729f-45a6-4f54-bc83-c0db5fe773ac&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F15794%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"9da804e06ae11906fd613eff421b315d\"",
+      "id": "https://geniza.princeton.edu/annotations/59c614d5-19eb-4230-874f-0211bf7111d6/",
+      "type": "Annotation",
+      "created": "2026-10-13T20:02:57.781000+00:00",
+      "modified": "2026-10-13T20:02:57.781010+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1257/",
+      "target": {
+        "source": {
+          "id": "https://figgy.princeton.edu/concern/scanned_resources/85d24616-0d54-4eb6-8782-350836158ae2/manifest/canvas/855d729f-45a6-4f54-bc83-c0db5fe773ac",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/15794/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:729.3035278320312,1434.052490234375,2865.8773803710938,4216.360107421875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translated by Elkan N. Adler",
+          "value": "<p>This is the Egyptian bill of divorce for the Karaites.</p>\n<p>This is the Bill of Divorce which N. M. the son of N. M. has written</p>\n<p>for N. M. the daughter of N. M. who was my {betrothed/ wife} heretofore.</p>\n<p>On the . . . day of the week which is the . . . day of the month . . . of the year 1347, according to the computation of the Greeks in the land of Egypt in the city of Fust\u0101t, which is situated on the River Pishon.</p>\n<p>Came N. M. before the Elders and said unto them, being of sound mind and none compelling him, \u201cI make known unto you that I have divorced N. M. the daughter of N. M. who was hitherto my {betrothed/wife}. And now I have {abandoned her/sent her away} from my house and caused her to go forth from my premises. And I give unto her this her book\u2014her bill of divorce. And I have no longer over her dominion nor power for she is not my wife and I am not her husband and behold I say before you: Thou N. M. daughter of N. M. thy name and thy designation, thou that wast before my {betrothed/wife} now art thou divorced by me and sent away from me, and removed from my control and from my premises.\u201d</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}

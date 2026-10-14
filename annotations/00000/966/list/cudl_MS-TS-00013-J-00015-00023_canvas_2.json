@@ -4,10 +4,61 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"7eff4b10dcb2d05cd9c7055de2439c4a\"",
+      "id": "https://geniza.princeton.edu/annotations/a5ec8244-881a-47d2-a371-51b592896956/",
+      "type": "Annotation",
+      "created": "2026-08-03T17:34:08.659349+00:00",
+      "modified": "2026-08-03T17:34:08.659360+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1516/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00023/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/966/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:634.104736328125,1267.5804443359375,4309.476318359375,1571.8101806640625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "verso, address",
+          "value": "<p>To the glory of my master, the glory of our lord, the head, the \u201cfourth,\u201d Ab\u016b \u2019l-Fa\u1e0dl Evyatar ibn Elijah, the head of the academy. To Fust\u0101t, may God build it.</p>\n<p>Send my best greetings to my master Tsedakah ibn Mukht\u0101r, and notify him that . . . nothing of what he had promised us.</p>\n<p>Counsels of steadfast faithfulness. Counsels of steadfast faithfulness.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"b454cf030f5a6c0e1cc922c98a003334\"",
       "id": "https://geniza.princeton.edu/annotations/2ca14d5e-a83d-4619-a110-970a4438f905/",
       "type": "Annotation",
       "created": "2022-10-07T00:43:45.054860+00:00",
       "modified": "2022-10-07T00:43:45.054876+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00023/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/966/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +68,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00015-00023/canvas/2",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/966/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/16/",
       "motivation": [
         "sc:supplementing",
         "transcribing"

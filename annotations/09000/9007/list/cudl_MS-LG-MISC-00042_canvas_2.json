@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-LG-MISC-00042%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F9007%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"cc8327a7c9ba1fb69a3a7f8417697520\"",
+      "id": "https://geniza.princeton.edu/annotations/3335415a-283f-4395-a167-0b01247ee0c6/",
+      "type": "Annotation",
+      "created": "2026-08-13T13:36:49.769279+00:00",
+      "modified": "2026-09-20T17:52:48.984079+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1260/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-LG-MISC-00042/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/9007/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2222.144287109375,254.0537567138672,1935.120849609375,2572.145217895508",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<p>We performed an act of acquisition with him regarding everything imposed upon him with an implement fit for doing so, nullifying all secret dispositions and conditions. And we have written and signed it so that it will be as a title of rights and as proof. All this took place on Friday eve, 2nd of Kislev, year 1431 of the Era of Documents. Strong and valid. Everything is strong, firm and valid.</p>\n<p>Abraham ben Shemaiah, Member of the Academy, son of Shemaiah Gaon\u2014may he rest in Eden.</p>\n<p>[Isaac] son of Samuel the Spaniard\u2014the memory of the righteous be blessed, may he live in the world to come.</p>\n<p>Halfon son of Manasse ha-Levi</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
