@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00013-J-00009-00002%2Fcanvas%2F4&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F1234%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"5c49a3d6c879ad54cd61803c8c1b5448\"",
+      "id": "https://geniza.princeton.edu/annotations/39e26add-8bab-4ad2-962a-d96ab71091b3/",
+      "type": "Annotation",
+      "created": "2026-05-06T12:00:40.858848+00:00",
+      "modified": "2026-05-06T12:00:40.858857+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/3/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00009-00002/canvas/4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1234/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:355.0039978027344,969.8671875,4044.4017639160156,880.3599853515625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "\n<ol><li>\u05dc\u05d9\u05e7\u05e8 \u05e4\u05d0\u05e8 \u05d7\u05d1\u05e8\u05e0\u05d5 \u05d5\u05d0\u05d4\u05d5\u05d1\u05d9\u05e0\u05d5 \u05db\u05d1 \u05d2\u05d3 \u05e7\u05d3 \u05d1\u05e8\u05d1\u05d9 \u05e9\u05de\u05e8\u05d9\u05d4 \u05d4\u05de\u05dc\u05de\u05d3 \u05e0\u05d5\u05d7\u05d5 \u05e2\u05d3\u05df</li>\n<li>\u05de\u05e8\u05e0\u05d0 \u05d5\u05e8\u05d1 \u05d0\u05e4\u05e8\u05d9\u05dd \u05d4\u05d7\u05d1\u05e8 \u05d9\u05e9\u05de\u05e8\u05d5 \u05e6\u05d5\u05e8\u05e0\u05d5 \u05d9\u05e9\u05e2 \u05e8\u05d1</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"9def208819be5720d5a11fc5a926235a\"",
+      "id": "https://geniza.princeton.edu/annotations/db87b053-683c-4d1a-8469-004926bf29e6/",
+      "type": "Annotation",
+      "created": "2026-05-06T14:43:33.199776+00:00",
+      "modified": "2026-05-06T14:43:33.199784+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/22/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00009-00002/canvas/4",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1234/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:211.4634246826172,853.9335327148438,4286.196731567383,1142.8264770507812",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "\n<ol><li>To the precious glory, our companion and our beloved, (his) h(onor), g(reatness, and) h(oliness), son of Rabbi Shemarya the teacher, may he rest in Eden,\n<p></p>\n</li>\n<li>\n<p>our master and teacher Efrayim the \u1e24aver, may our Rock preserve him. Great salvation.</p>\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
