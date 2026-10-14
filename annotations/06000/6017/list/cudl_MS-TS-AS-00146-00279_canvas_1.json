@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"f5c832b3fbc6a61a0a3aea81eb2a291b\"",
       "id": "https://geniza.princeton.edu/annotations/cff6a688-b974-4b42-924d-3e3a408b889b/",
       "type": "Annotation",
       "created": "2024-01-31T18:17:43.364755+00:00",
@@ -34,6 +35,41 @@
       "motivation": [
         "sc:supplementing",
         "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"bce007d0f7c4c16f8cb187ea3973751d\"",
+      "id": "https://geniza.princeton.edu/annotations/bc5d884a-c3aa-4d80-bca9-f24a26a91a4e/",
+      "type": "Annotation",
+      "created": "2026-05-19T19:10:04.248343+00:00",
+      "modified": "2026-05-19T19:10:04.248351+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/11/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00146-00279/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/6017/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:184.787353515625,548.98291015625,3850.767578125,2060.255126953125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto - address",
+          "value": "\n<ol><li>\u064a\u0648\u0635\u0644 \u0628\u0645\u0635\u0631 \u0628\u0627\u0644\u0645\u0627\u0631\u0633\u062a\u0627\u0646 \u0627\u0644 . \u0648 . . \u0627\u0644\u064a \u0627\u0644\u0649 . . . . . . . . . . . .&nbsp;</li>\n<li>\u0627\u0644\u0645\u062a\u0637\u0628\u0628 \u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647 \u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u0648\u062a\u0627\u064a\u064a\u062f\u0647 \u0648\u0633\u0639\u0627\u062f\u062a\u0647 \u0648\u0633\u0627\u0645\u062a\u0647 \\\\\u0648\u0646\u0639\u0645\u062a\u0647//</li>\n<li>\u0645\u0646 \u0631\u0627\u0633 [\u0627\u0644\u0645\u062b\u064a\u0628\u0629]</li>\n<li>\u0627\u0645\u0627\u0646\u062c \u0645\u0648[\u062f\u0627\u0629]</li>\n<li>\u0644\u064a\u0648\u0635\u0644 \u0627\u0644\u0649 \u0645\u0631\u0646(\u061f) \u0627\u0641\u0631\u0627\u064a\u0645 \u0628\u0646 \u0635\u062f\u0642\u0629 \u0627\u0644\u0645\u0639\u0644\u0645 \u0627\u0637\u0627\u0644 \u0627\u0644\u0644\u0647 \u0628\u0642\u0627\u0647</li>\n<li>\u0648\u0627\u062f\u0627\u0645 \u0639\u0632\u0647 \u0648\u062a\u0627\u064a\u064a\u062f\u0647 \u0648\u0633\u0644\u0627\u0645\u062a\u0647 \u0648\u0646\u0639\u0645\u062a\u0647&nbsp;</li>\n<li>\u0645\u0646 [. . .]</li>\n<li>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
       ],
       "schema:position": 1
     }
