@@ -1,17 +1,18 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Ftextblock%2F3211%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4495%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"1fd2139e58f1d86cfaf26ce78f7d2b8d\"",
       "id": "https://geniza.princeton.edu/annotations/f3aa282d-23fc-4e90-978b-88e5a9e581ef/",
       "type": "Annotation",
       "created": "2022-10-07T00:33:56.499450+00:00",
-      "modified": "2022-10-07T00:33:56.499471+00:00",
+      "modified": "2026-01-26T18:05:48.794916+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -39,14 +40,50 @@
       "schema:position": 1
     },
     {
+      "etag": "\"130c8f39395db8177e0bb161172f8ed5\"",
+      "id": "https://geniza.princeton.edu/annotations/43738c81-fecf-4918-b6bb-67e6a8ce2f9b/",
+      "type": "Annotation",
+      "created": "2026-08-05T14:36:29.256292+00:00",
+      "modified": "2026-08-05T14:46:12.739534+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1549/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:0,63,368.98828125,271.765625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Translated by Brendan G. Goldman.",
+          "value": "<p>My letter, my lord and master\u2014may God lengthen your remaining [days] and make permanent your strength\u2014from Jerusalem, may God rebuild it. [I am] at peace, thank God\u2014gratitude to God for His goodness. God almighty knows how your news has weighed down my heart, and I regret that you lost what you had. However, God almighty rewards and compensates, so do not carry a burden with you; instead, turn your intention to returning to Jerusalem, the blessed. For the Holy One does not cause loss.</p>\n<p>You know, my lord, what Barzillai said [to King David, declining to accompany him to Jerusalem, pleading old age]: Let your servant [turn back, that I may die in my own town] (2 Samuel 19:38). Nor is profit a product of endeavor, as you know, in the words of the saint [here, King Solomon], peace be upon him: The race is not [to the] swift (Ecclesiastes 9:11). All in all, there is nothing to say to you except what you\u2014may God protect you\u2014already know.</p>\n<p>Today, something happened to me with Th\u0101bit\u2014a thing that would take a while to explain, but [suffice it to say that in the end] I collected five dinars [from him], among them two good dinars, and the remainder Sicilian quarter dinars\u2014old, new, and fragmented. If I happened to have someone with me at this time with whom I could send [the dinars], I would send them [to you]. But it is not an [amount appropriate for] writing a suftaja [order of payment]. I intend to pay al-Araja\u0304ni\u0304, and to deduct it from [the amount collected in dinars], and I will [then] take out a suftaja in that [amount] if I receive your letter directing me to do so. Al-Araja\u0304ni\u0304 says that he has formed a trade partnership with R. Abraham ben Isaac the Scholar (al-talmid). With regard to what you told me about [R. Abraham] and his situation: if he [were to] come to Jerusalem, I would fetch him and make him pay you the dinars [you are owed], and I would collect them from him; however, he is away [ . . . ]. Therefore, I asked someone to write to my lord the \u1e25aver [fellow; an honorific], R. Eli, that he might help in retrieving your money. I also asked our lord Ab[u\u0304] Is\u0323\u1e25aq Ibra\u0304hi\u0304m, \u201cthe joy of the academy,\u201d may God preserve him, [to do the same].</p>\n<p>So now we wait [to see] what happens and what he will tell me. I also wrote to our lord Abu\u0304 Is\u0323\u1e25\u0101q Bar\u1e25u\u0304n ibn R. Moses the \u1e25aver of blessed memory\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"ef3660fdff79a42f77defdd8d6ebb481\"",
       "id": "https://geniza.princeton.edu/annotations/ec5df3c0-bf82-4ae4-b0aa-f3f53d771f03/",
       "type": "Annotation",
       "created": "2023-12-09T16:14:26.855027+00:00",
-      "modified": "2023-12-09T19:11:00.361101+00:00",
+      "modified": "2026-01-26T18:05:48.884903+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/172/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -70,17 +107,53 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 1
+      "schema:position": 2
     },
     {
+      "etag": "\"1b8d715ccd7868f6d5ab283140fd6c29\"",
+      "id": "https://geniza.princeton.edu/annotations/7682ca69-fe02-4e12-8cea-ce237842a539/",
+      "type": "Annotation",
+      "created": "2026-08-05T14:46:01.656709+00:00",
+      "modified": "2026-08-05T14:46:19.903287+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1549/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:376.70703125,80.70703125,54.98046875,267.2421875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "recto, right margin",
+          "value": "<p>and he worries for you\u2014may God almighty help you. I attached to this</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"66257f155c2a82593d0b4d3a1ef79682\"",
       "id": "https://geniza.princeton.edu/annotations/90f5536d-617b-40a5-9c1b-6ab2ce6a5ef3/",
       "type": "Annotation",
       "created": "2023-12-09T17:50:54.363449+00:00",
-      "modified": "2023-12-09T19:08:54.452390+00:00",
+      "modified": "2026-01-26T18:05:48.887020+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/29/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -104,17 +177,18 @@
         "sc:supplementing",
         "translating"
       ],
-      "schema:position": 1
+      "schema:position": 3
     },
     {
+      "etag": "\"3050fae8f34a487ad444d236261fd6b5\"",
       "id": "https://geniza.princeton.edu/annotations/e4b4b6dd-af1c-4a23-9472-3101dd1b78f8/",
       "type": "Annotation",
       "created": "2022-10-07T00:33:56.513427+00:00",
-      "modified": "2022-10-07T00:33:56.513441+00:00",
+      "modified": "2026-01-26T18:05:48.889496+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -139,17 +213,18 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2
+      "schema:position": 4
     },
     {
+      "etag": "\"94361511624e8d1584547a8b2b57ffbb\"",
       "id": "https://geniza.princeton.edu/annotations/271d2607-553b-4afc-9323-b6bb6be46e46/",
       "type": "Annotation",
       "created": "2022-10-07T01:25:36.631868+00:00",
-      "modified": "2023-12-09T16:15:33.111019+00:00",
+      "modified": "2026-01-26T18:05:48.891341+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/172/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -174,17 +249,18 @@
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 2
+      "schema:position": 5
     },
     {
+      "etag": "\"d7d462874eb6d3a0cbab2d152baab6d7\"",
       "id": "https://geniza.princeton.edu/annotations/6a6daef6-ef44-42e2-bfa2-3db1ec400558/",
       "type": "Annotation",
       "created": "2023-12-09T19:10:00.084978+00:00",
-      "modified": "2023-12-09T19:10:00.084991+00:00",
+      "modified": "2026-01-26T18:05:48.894712+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/29/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/4495/iiif/canvas/1/",
+          "id": "https://geniza.princeton.edu/documents/4495/iiif/textblock/3211/canvas/1/",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/4495/iiif/manifest/"
@@ -208,7 +284,7 @@
         "sc:supplementing",
         "translating"
       ],
-      "schema:position": 2
+      "schema:position": 6
     }
   ]
 }
