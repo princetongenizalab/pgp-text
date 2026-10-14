@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"88bf4eb17b67b1b708f73fd04f507e02\"",
       "id": "https://geniza.princeton.edu/annotations/4add93bd-0acd-47b0-a20b-9f9b98c9670a/",
       "type": "Annotation",
       "created": "2022-10-07T02:00:59.313358+00:00",
       "modified": "2022-10-07T02:00:59.313376+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00076/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,22 +33,6 @@
           "TextInput": "rtl"
         }
       ],
-      "target": {
-        "source": {
-          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00076/canvas/1",
-          "type": "Canvas",
-          "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/",
-            "type": "Manifest"
-          }
-        },
-        "selector": {
-          "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
-          "conformsTo": "http://www.w3.org/TR/media-frags/"
-        }
-      },
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "motivation": [
         "sc:supplementing",
         "transcribing"
@@ -40,26 +40,53 @@
       "schema:position": 1
     },
     {
-      "id": "https://geniza.princeton.edu/annotations/30c47fd2-2b53-494d-8171-71f6f172f617/",
+      "etag": "\"37ee09b9b34cc5475a5e6642feeda2a3\"",
+      "id": "https://geniza.princeton.edu/annotations/1e81ce3f-9600-41a1-8f79-1643835be28b/",
       "type": "Annotation",
-      "created": "2022-10-07T02:00:59.318698+00:00",
-      "modified": "2022-10-07T02:00:59.318712+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "label": "left hand page",
-          "value": "<ol>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05e4\u05db\u05e8 \u05db\u05d4\u05df \u05d1\u05df \u05d0\u05dc\u05de\u05db\u05d9\u05df \u05e6\u05d9\u05e8\u05e4\u05d9 \u05d1</li>\n<li>\u05d0\u05dc\u05e8\u05e9\u05c1\u05d9\u05d3 \u05dc\u05d5\u05d9 \u05e2\u05d5\u05d0\u05d3 \u05d2</li>\n<li>\u05dc\u05d5\u05d9 \u05d1\u05d5 \u05d0\u05dc\u05d1\u05d4\u05d0 \u05e1\u05db\u05e8\u05d9 \u05d2</li>\n<li>\u05d9\u05d5\u05e1\u05e3 \u05d8\u05d1\u05d0\u05da \u05d0\u05dc\u05e1\u05db\u05e8 \u05d1</li>\n<li>\u05d0\u05e1\u05d3 \u05d1\u05df \u05d0\u05dc\u05e0\u05d7\u05d0\u05e1 [.] .</li>\n<li>\u05d0\u05d1\u05df \u05d0\u05dc\u05e8\u05d1\u05d0\u05d8 .... \u05d0</li>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05d1\u05e7\u05d0 \u05d1\u05df \u05e0\u05e2\u05de\u05d0\u05df \u05d1\u05d5 \u05d0\u05dc\u05e4\u05e6\u05dc</li>\n</ol>\n<p>\u05d5\u05e9\u05e8\u05d9\u05db\u05d4</p>\n<ol>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05de\u05d2\u05d3 \u05d1\u05df \u05d0\u05dc\u05e2..\u05e0 \u05d4</li>\n<li>\u05d1\u05d5 [\u05de\u05e0]\u05e6\u05d5\u05e8 \u05d1\u05df \u05d0\u05dc\u05e0\u05e9\u05c1\u05d0\u05d3\u05e8\u05d9 \u05d0</li>\n<li>\u05d5\u05d0]\u05db\u05d9\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e2\u05dc\u05d0 \u05d0</li>\n<li>\u05d5\u05d0\u05db\u05d9\u05d4 \u05d0\u05dc\u05e6\u05d2\u05d9\u05e8 \u05d0</li>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05e2\u05dc\u05d0 \u05d1\u05df \u05d3\u05e0\u05d9\u05d0\u05dc \u05d0</li>\n<li>\u05d1\u05d9\u05d0\u05df \u05dc\u05d5\u05d9 \u05d1\u05df \u05d0\u05dc..[..] \u05d0</li>\n<li>\u05d9\u05d5\u05e1[\u05e3 \u05e7]\u05d6\u05d0\u05d6 \u05d0</li>\n<li>\u05de\u05e2\u05d0\u05e0\u05d9 \u05e0\u05e7\u05d0\u05d3 \u05d1</li>\n<li>\u05e1\u05d0\u05dc\u05dd \u05d1\u05df ...\u05dc \u05e7\u05d6\u05d0\u05d6 \u05d0</li>\n<li>\u05d9\u05d5\u05e1\u05e3 \u05d7\u05e8\u05d9[\u05e8\u05d9.......]\u05d6 \u05d0</li>\n<li>.................] \u05d1</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "created": "2026-06-24T18:10:14.832670+00:00",
+      "modified": "2026-06-24T18:10:43.875604+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00076/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:2076.66650390625,373.2421875,1820.261962890625,3499.72900390625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "right side",
+          "value": "\n<ol><li>Still owed by the people.</li>\n<li>Arrears of [Abu]\u02bel-Ri\u1e0d\u0101 \u02bfAl\u012b al-As[\u02bfa]d 1/8</li>\n<li>&ndash;4. b. al-Na\u1e25\u1e25\u0101l arrears 5 Bu\u02bel-Khayr b. Mun[ajj]\u0101 [. . .]</li>\n<li></li>\n<li>&ndash;6. al-As\u02bfad the physician 1 b. al-Siqill\u012b Q\u02beYRY9 5</li>\n<li></li>\n<li>&ndash;8. Hiba b. D\u0101\u02be\u016bd and his brother 2 Bu\u02bel-Fakhr [. . .]\u0101n\u012b 1</li>\n<li></li>\n<li>&ndash;10. Ibrah\u012bm the money assayer 2 Tam\u012bm b. M[\u016bs\u0101] 1/2</li>\n<li></li>\n<li>&ndash;12. Sulaym\u0101n b. al-\u1e62an\u012b\u02bfa 1/2 B\u016b Khalaf the silk weaver 1</li>\n<li></li>\n<li>&ndash;14. Bay\u0101n b. al-Kohen R. \u1e6cuvia 1/2 Mufa\u1e0d\u1e0dal the gold/silversmith 1</li>\n<li></li>\n<li>&ndash;16. b. N\u0101j\u012b Bu\u02bel-Khayr 1/2 Bu\u02bel-Faraj the purveyor 1</li>\n<li></li>\n<li>&ndash;18. Na\u1e25um the seller 1/2 (or 1)12 [B]u\u02bel-\u1e24asan the physician 1</li>\n<li></li>\n<li>&ndash;20. Ab\u016b \u02bfImr\u0101n the son of the brother of the judge (may his) m(emory be) b(lessed) 1</li>\n<li></li>\n<li>&ndash;22. Hiba the saffron miller 1 \u1e24as\u016bn the saff[ron] miller 1/2 (or 1)</li>\n<li></li>\n<li>Ma\u1e25\u0101sin the brother of MN[. . .]</li>\n<li>LY[. . .]</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"4ed573f2fb5a620e2500a2d58c3e1492\"",
+      "id": "https://geniza.princeton.edu/annotations/30c47fd2-2b53-494d-8171-71f6f172f617/",
+      "type": "Annotation",
+      "created": "2022-10-07T02:00:59.318698+00:00",
+      "modified": "2026-06-24T18:19:20.698238+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00076/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,10 +95,53 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "left hand page",
+          "value": "\n<ol><li>\u05d1\u05d5 \u05d0\u05dc\u05e4\u05db\u05e8 \u05db\u05d4\u05df \u05d1\u05df \u05d0\u05dc\u05de\u05db\u05d9\u05df \u05e6\u05d9\u05e8\u05e4\u05d9 \u05d1</li>\n<li>\u05d0\u05dc\u05e8\u05e9\u05c1\u05d9\u05d3 \u05dc\u05d5\u05d9 \u05e2\u05d5\u05d0\u05d3 \u05d2</li>\n<li>\u05dc\u05d5\u05d9 \u05d1\u05d5 \u05d0\u05dc\u05d1\u05d4\u05d0 \u05e1\u05db\u05e8\u05d9 \u05d2</li>\n<li>\u05d9\u05d5\u05e1\u05e3 \u05d8\u05d1\u05d0\u05da \u05d0\u05dc\u05e1\u05db\u05e8 \u05d1</li>\n<li>\u05d0\u05e1\u05d3 \u05d1\u05df \u05d0\u05dc\u05e0\u05d7\u05d0\u05e1 [.] .</li>\n<li>\u05d0\u05d1\u05df \u05d0\u05dc\u05e8\u05d1\u05d0\u05d8 .... \u05d0</li>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05d1\u05e7\u05d0 \u05d1\u05df \u05e0\u05e2\u05de\u05d0\u05df \u05d1\u05d5 \u05d0\u05dc\u05e4\u05e6\u05dc \u05d5\u05e9\u05e8\u05d9\u05db\u05d4</li>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05de\u05d2\u05d3 \u05d1\u05df \u05d0\u05dc\u05e2..\u05e0 \u05d4</li>\n<li>\u05d1\u05d5 [\u05de\u05e0]\u05e6\u05d5\u05e8 \u05d1\u05df \u05d0\u05dc\u05e0\u05e9\u05c1\u05d0\u05d3\u05e8\u05d9 \u05d0</li>\n<li>\u05d5\u05d0]\u05db\u05d9\u05d4 \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e2\u05dc\u05d0 \u05d0</li>\n<li>\u05d5\u05d0\u05db\u05d9\u05d4 \u05d0\u05dc\u05e6\u05d2\u05d9\u05e8 \u05d0</li>\n<li>\u05d1\u05d5 \u05d0\u05dc\u05e2\u05dc\u05d0 \u05d1\u05df \u05d3\u05e0\u05d9\u05d0\u05dc \u05d0</li>\n<li>\u05d1\u05d9\u05d0\u05df \u05dc\u05d5\u05d9 \u05d1\u05df \u05d0\u05dc..[..] \u05d0</li>\n<li>\u05d9\u05d5\u05e1[\u05e3 \u05e7]\u05d6\u05d0\u05d6 \u05d0</li>\n<li>\u05de\u05e2\u05d0\u05e0\u05d9 \u05e0\u05e7\u05d0\u05d3 \u05d1</li>\n<li>\u05e1\u05d0\u05dc\u05dd \u05d1\u05df ...\u05dc \u05e7\u05d6\u05d0\u05d6 \u05d0</li>\n<li>\u05d9\u05d5\u05e1\u05e3 \u05d7\u05e8\u05d9[\u05e8\u05d9.......]\u05d6 \u05d0</li>\n<li>.................] \u05d1</li></ol>\n",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"5191165aca8c2436318399e04a67759c\"",
+      "id": "https://geniza.princeton.edu/annotations/cb18db96-b99d-41d3-905a-90773b29fecd/",
+      "type": "Annotation",
+      "created": "2026-06-24T18:13:38.978519+00:00",
+      "modified": "2026-06-24T18:18:24.638129+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00076/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4680/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:272.69879150390625,279.1258239746094,1728.5912475585938,3621.6090393066406",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "left side",
+          "value": "\n<ol><li>Bu\u02bel-Fakhr the Kohen b. al-Mak\u012bn the banker 2</li>\n<li>al-Rash\u012bd Levi the lute player 3</li>\n<li>Levi b. al-Bah\u0101 the maker/seller of sugar 3</li>\n<li>Yosef the sugar cook 2</li>\n<li>Asad b. al-Na\u1e25\u1e25\u0101s [. . .]</li>\n<li>Ibn al-Rib\u0101\u1e6d [. . .] 1</li>\n<li>Bu\u02bel-Baq\u0101 b. Na\u02bfaman\u00a0 \u00a0 Bu\u02bel-Fadl and his partner</li>\n<li>Bu\u02bel-Majd b. al-[. . .] 5</li>\n<li>B\u016b [Man]\u1e63\u016br b. al-Nush\u0101dir\u012b (son of the dealer in sal ammoniac) 1</li>\n<li>[and] his brother Abu\u02bfl-\u02bfAl\u0101\u02be\u00a01</li>\n<li>and his younger brother 1</li>\n<li>Bu\u02bel-\u02bfAl\u0101\u02be b. Dani\u02beel 1</li>\n<li>Bay\u0101n Levi b. al-[. . .] 1</li>\n<li>Yose[f the s]ilk weaver 1</li>\n<li>Ma\u02bf\u0101n\u012b the money assayer 2</li>\n<li>S\u0101lim b. [. . .]l the silk weaver 1</li>\n<li>Yosef the silk [worker. . .]z 1</li>\n<li>[. . .]</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 2
     }
