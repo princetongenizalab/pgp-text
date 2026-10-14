@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00008-J-00013-00014%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F35231%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"7b5f6b431b1da47ae550b4c081144d0f\"",
+      "id": "https://geniza.princeton.edu/annotations/755374e2-29ea-4618-8f16-9e7272abd345/",
+      "type": "Annotation",
+      "created": "2026-06-30T14:18:34.355886+00:00",
+      "modified": "2026-06-30T14:19:30.594366+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/190/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00008-J-00013-00014/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/35231/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:545.6359252929688,470.1446228027344,2461.5203247070312,1707.4403381347656",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\n<ol><li>-2. son of the midwife one wayba&nbsp; &nbsp; &nbsp; Menashshe b. al-Daj\u0101j\u012b (son of the chicken seller) 3 waybas&nbsp; &nbsp; &nbsp; Yosef the baker/seller of bagels (al-kaki) 1 1/2 waybas</li>\n<li></li>\n<li>&ndash;4. Mena\u1e25em b. al-Muzaghlil one wayba&nbsp; &nbsp; &nbsp; F\u0101\u1e0dil b. al-\u02bfAf\u012bf one wayba&nbsp; &nbsp; &nbsp; Fa\u1e0dl b. \u1e24ad\u012bd 1/2 irdabb</li>\n<li></li>\n<li>&ndash;6. Ab\u016b Na\u1e63r b. al-F\u0101\u1e0dil one [i]rdabb&nbsp; &nbsp; &nbsp; Abu\u02bel-Ri\u1e0d\u0101 the doctor one wayba</li>\n<li></li>\n<li>&ndash;8. David b. [. . .]n 1/2 irdabb</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
