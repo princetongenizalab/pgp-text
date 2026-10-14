@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-AS-00176-00322%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F37300%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"b5d51ee26e65e3bc0cf4fb0d56425de2\"",
+      "id": "https://geniza.princeton.edu/annotations/444f0140-4f53-419b-b3d8-66255332ecd2/",
+      "type": "Annotation",
+      "created": "2026-07-31T19:14:17.621012+00:00",
+      "modified": "2026-07-31T19:14:17.621023+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/959/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00176-00322/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/37300/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:241.3073272705078,182.20909118652344,1774.8723602294922,2272.4747467041016",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "\n<ol><li>\n\u062a\u0648]\u0642\u064a\u0639 \u0627\u0644\u0627\u0645\u0631 \u0645\u0637.. \u0628\u0627\u0646 \u0627\u0644\u062d\u062f\u064a\u062b \u0641\u064a\u0647\u0645\n</li>\n<li>\n\u062c\u0631\u0649 \u0628\u0647 \u0639\u0627\u062f\u062a\u0647 \u0648\u062d\u0645\u0644\u0647\u0645\n</li>\n<li>\n\u2026..\u0648\u0627\u0637\u0641\u0627\u0644\u0647\u0645\n</li>\n<li>\n]\u0627\u0644\u0649 \u0643\u0627\u0641\u0629 \u0627\u0644\u062e\u0644\u0642\n</li>\n<li>\n]\u0648\u0644\u0645\u0648\u0644\u0627\u0646\u0627\n</li>\n<li>\n[\u0635\u0644\u0648\u0627\u062a \u0627\u0644\u0644\u0647 \u0639\u0644\u064a\u0647 \u0639\u0644\u0648 \u0627\u0644\u0631\u0627\u064a \u0641\u064a \u0630\u0644\u0643 \u0627\u0646 \u0634\u0627 \u0627\u0644\u0644\u0647]\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
