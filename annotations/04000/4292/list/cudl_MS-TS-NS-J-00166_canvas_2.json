@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00166%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F4292%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"199ac9525242a1057478eec73aed99ac\"",
+      "id": "https://geniza.princeton.edu/annotations/50849f0e-550b-4b58-be74-0f0fd59615ec/",
+      "type": "Annotation",
+      "created": "2026-08-20T15:15:14.931145+00:00",
+      "modified": "2026-08-20T15:15:14.931153+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/758/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00166/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/4292/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:242.8466033935547,1678.91455078125,2178.2263946533203,617.278076171875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>\u05d5\u05e2\u05dc\u05d9 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05e1\u05e8\u05d5\u05e8 \u05d0\u05dc\u05e1\u05dc\u05dd \u05d5\u05e2\u05dc\u05d9 \u05e1\u05d1\u05d0\u05e2</li>\n<li>\u05d5\u05d5\u05dc\u05d3\u05d9\u05d4 \u05d0\u05dc\u05e1\u05dc\u05dd \u05d5\u05de\u05df \u05ea\u05db\u05e6\u05d4(!) \u05e2\u05e0\u05d0\u05d9\u05ea\u05d4 \u05d0\u05dc\u05e1\u05dc\u05dd</li>\n<li>\u05d5\u05d2\u05d5\u05d0\u05d1 \u05d0\u05dc\u05db\u05ea\u05d0\u05d1 \u05e1\u05e8\u05e2\u05d4 \u05d5\u05dc\u05d5\u05df(?) \u05ea\u05d5\u05e4\u05e8 \u05e8\u05e1\u05d5\u05dc \u05e7 . .</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
