@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"2af93d06230984a838a3a5019c1c93ee\"",
       "id": "https://geniza.princeton.edu/annotations/f30cc68e-538e-4816-a5dc-be437b87c540/",
       "type": "Annotation",
       "created": "2022-10-07T00:55:32.263988+00:00",
@@ -34,6 +35,40 @@
       "motivation": [
         "sc:supplementing",
         "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"beedfdc9e9923d80082aee45218c7e89\"",
+      "id": "https://geniza.princeton.edu/annotations/982141ef-2095-4432-a990-3c5f5b00c508/",
+      "type": "Annotation",
+      "created": "2026-08-03T17:59:04.275606+00:00",
+      "modified": "2026-08-03T17:59:34.181459+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1262/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00013-00013/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1090/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:707.7385864257812,448.509765625,3187.4386596679688,6491.5986328125",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>This testimony should be read in both synagogues</p>\n<p>Commemorative testimony\u2003\u2003Testimony of commemoration</p>\n<p>In the name of God</p>\n<p>The chief judge, Joseph al-Sijilm\u0101s\u012b, while in Jerusalem, saw in his dream himself walking in the old cemetery in Ramla and meeting three persons standing with three Torah scrolls on which there were black cloths. He passed over them and went on. Then he returned to them, greeted them and said: \u201cWho are you?\u201d They told him: \u201cWe are Moses, Aaron and Samuel.\u201d He prostrated in front of them and bowed because indeed he was full of fright and horror. They told him: \u201cArise and go down to Ramla and tell them to announce a verdict that within twelve days they should return to God, otherwise, awful disasters will befall them.\u201d He woke up, dressed and went to pray at the gate of Judah. His father joined him and they prayed together. When they finished their prayer, Joseph told his father about the dream he had. His father told him: \u201cThis is exactly the dream I had\u201d and he swore about it. They both went to Solomon ben Judah, the Head of the Jerusalem Yeshiva and told him about the dream. He told them: \u201cFor three consecutive nights I have seen this same dream.\u201d The chief judge, Joseph al-Sijilm\u0101s\u012b, went to Ramla and stayed at the synagogue of the Palestinians. He summoned the public and told them about the dream and ordered them to fast on the second day of the week and on the fifth day of the week. He sent Bishr, the cantor, to the synagogue of our colleagues, the Qaraites, and he told them about the dream. Then, this event, from which God has saved them, happened in Ramla. Let us hope that God will grant us a good ending. He will do it by his grace and his benevolence.</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
       ],
       "schema:position": 1
     }
