@@ -4,6 +4,7 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"7654d6c9cd8ffbf59d70f1af4b3de423\"",
       "id": "https://geniza.princeton.edu/annotations/500da7b0-9342-4aa8-b3c7-f0b8cf64ff9d/",
       "type": "Annotation",
       "created": "2022-10-07T01:50:40.946134+00:00",
@@ -38,10 +39,11 @@
       "schema:position": 1
     },
     {
+      "etag": "\"da8f163764eb781d4b944b5aaf758dec\"",
       "id": "https://geniza.princeton.edu/annotations/9fb4e214-8aad-48fb-af4e-b20940dc421b/",
       "type": "Annotation",
       "created": "2023-07-17T23:44:35.209995+00:00",
-      "modified": "2023-07-17T23:44:35.210011+00:00",
+      "modified": "2026-07-13T19:05:19.243298+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/32/",
       "target": {
         "source": {
@@ -61,7 +63,41 @@
         {
           "type": "TextualBody",
           "label": "Recto",
-          "value": "<p>This is to inform you my lord, the elder, may God make your honored position permanent, that Abu \u02bel-\u1e24asan, after his transfer to my school, showed great zeal for study. His great misfortune was that Abu \u02bel-\u1e24asan b. Wuhayb broke his board with the knowledge of the other boys. And peace.&nbsp;</p>\n<p>&nbsp;</p>",
+          "value": "\n<ol><li>This is to inform you my lord, the elder,</li>\n<li>may God make your honored position permanent,</li>\n<li>that Abu \u02bel-\u1e24asan, after his</li>\n<li>transfer to my school,</li>\n<li>showed great zeal for study.</li>\n<li>His great misfortune was that Abu \u02bel-\u1e24asan b.</li>\n<li>Wuhayb broke his board</li>\n<li>with the knowledge of the other boys. And peace.&nbsp;&nbsp;</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"2a216f2f953ef7c9bb594fca3ee458ef\"",
+      "id": "https://geniza.princeton.edu/annotations/fb8051ee-4173-49a7-b659-8f2cb59eef37/",
+      "type": "Annotation",
+      "created": "2026-08-03T18:13:13.773099+00:00",
+      "modified": "2026-08-03T18:13:13.773106+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1260/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AR-00053-00065/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/1273/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:531.4267578125,312.1107177734375,2456.169189453125,2819.9156494140625",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<p>I would like to inform my lord the sheikh\u2014God [Allah] preserve his strength!\u2014that Abu \u2019l-\u1e24asan, no sooner had he been given over [to my care] than his eye was on his schoolwork. But I have to inform [my lord] what happened to him: [another child called] Abu \u2019l-\u1e24asan ibn Wuhayb rose up and broke his writing-board with the full knowledge of the other boys. Greetings.</p>\n<p></p>",
           "format": "text/html"
         }
       ],
