@@ -4,10 +4,26 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"33452dd37a4383503e26626462abd94b\"",
       "id": "https://geniza.princeton.edu/annotations/a2ae1c18-3b7b-4951-934b-fbbf8e0bdb0f/",
       "type": "Annotation",
       "created": "2022-10-07T00:49:48.997930+00:00",
       "modified": "2022-10-07T00:49:48.997944+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/64/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00024-00014/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/3361/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=percent:1,1,98,98",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
       "body": [
         {
           "type": "TextualBody",
@@ -17,13 +33,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    },
+    {
+      "etag": "\"af0cdb5593b26cea51c92c295a1e249b\"",
+      "id": "https://geniza.princeton.edu/annotations/0e778d2a-c9aa-4969-8ae7-ed8da8a1e5a5/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:49:49.010827+00:00",
+      "modified": "2022-10-07T00:49:49.010840+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/64/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00024-00014/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3361/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/3361/iiif/manifest/"
           }
         },
         "selector": {
@@ -32,18 +60,6 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/64/",
-      "motivation": [
-        "sc:supplementing",
-        "transcribing"
-      ],
-      "schema:position": 2
-    },
-    {
-      "id": "https://geniza.princeton.edu/annotations/0e778d2a-c9aa-4969-8ae7-ed8da8a1e5a5/",
-      "type": "Annotation",
-      "created": "2022-10-07T00:49:49.010827+00:00",
-      "modified": "2022-10-07T00:49:49.010840+00:00",
       "body": [
         {
           "type": "TextualBody",
@@ -53,13 +69,25 @@
           "TextInput": "rtl"
         }
       ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
+    },
+    {
+      "etag": "\"c18d27675d255028e2d448f2b0c4efa6\"",
+      "id": "https://geniza.princeton.edu/annotations/293f841a-a327-4f18-a93b-05e9bc5f5f39/",
+      "type": "Annotation",
+      "created": "2022-10-07T00:49:49.023628+00:00",
+      "modified": "2026-01-26T18:05:27.199008+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/64/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00013-J-00024-00014/canvas/2",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/3361/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/3361/iiif/manifest/"
           }
         },
         "selector": {
@@ -68,12 +96,20 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/64/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "<ol>\n<li>\u05dc\u05e4\u05e0\u05d9 \u05d2\u05d6\u05e8 \u05d4\u05d3\u05d9\u05df: \u05db\u05dc\u05d5\u05de\u05e8, \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05d5\u05ea. \u05d9\u05d9\u05ea\u05db\u05df \u05e9\u05d4\u05db\u05d5\u05ea\u05d1 \u05d4\u05d5\u05d0 \u05d0\u05d3\u05dd \u05d7\u05d5\u05dc\u05d4 \u05d0\u05d5 \u05d1\u05d0 \u05d1\u05d9\u05de\u05d9\u05dd.</li>\n</ol>\n<ol>\n<li>'\u05d1\u05e8\u05d9\u05ea': \u05d4\u05db\u05d5\u05d5\u05e0\u05d4 \u05dc\u05d1\u05e8\u05d9\u05ea \u05e9\u05dc \u05d9\u05d3\u05d9\u05d3\u05d5\u05ea, \u05e9\u05d4\u05d9\u05d9\u05ea\u05d4 \u05db\u05e8\u05d5\u05ea\u05d4 \u05d1\u05d9\u05df \u05d9\u05d3\u05d5\u05ea\u05d5\u05df \u05dc\u05d1\u05d9\u05df \u05db\u05d5\u05ea\u05d1 \u05d4\u05de\u05db\u05ea\u05d1, \u05d4\u05d7\u05d5\u05e9\u05e9 \u05e9\u05d9\u05d3\u05d5\u05ea\u05d5\u05df \u05de\u05ea\u05e0\u05db\u05e8 \u05dc\u05d4. \u05d4\u05db\u05d9\u05e0\u05d5\u05d9 '\u05d9\u05d3\u05d5\u05ea\u05d5\u05df' \u05e9\u05d1\u05d5 \u05de\u05ea\u05e7\u05e8\u05d0 \u05d4\u05e0\u05de\u05e2\u05df \u05de\u05e2\u05dc\u05d4 \u05d0\u05ea \u05d4\u05d4\u05e9\u05e2\u05e8\u05d4, \u05e9\u05d0\u05d5\u05dc\u05d9 \u05d6\u05d5\u05d4\u05d9 \u05d7\u05d1\u05d5\u05e8\u05d4 \u05e1\u05d2\u05d5\u05e8\u05d4 \u05e9\u05dc \u05d7\u05d6\u05e0\u05d9\u05dd \u05e9\u05e4\u05d9\u05ea\u05d7\u05d4 \u05e0\u05d5\u05de\u05e0\u05e7\u05dc\u05d8\u05d5\u05e8\u05d4 \u05de\u05e9\u05dc\u05d4. \u05e8\u05d0\u05d5 \u05dc\u05d4\u05dc\u05df, \u05d4\u05e2\u05e8\u05d4 \u05dc\u05e9\u05d5\u05e8\u05d4 26.</li>\n</ol>\n<ol>\n<li>\u05de\u05e4\u05e6'\u05dc: \u05d0\u05d5\u05dc\u05d9 \u05d6\u05d4\u05d5 \u05de\u05e4\u05e6'\u05dc \u05d4\u05db\u05d4\u05df, \u05e9\u05e0\u05d6\u05db\u05e8 \u05dc\u05e2\u05d9\u05dc \u05d1\u05e9\u05d5\u05e8\u05d4 2 \u05db\u05de\u05d9 \u05e9\u05de\u05d0\u05e8\u05d7 \u05d7\u05d1\u05d5\u05e8\u05d4 \u05d2\u05d3\u05d5\u05dc\u05d4 \u05e9\u05dc \u05d7\u05d6\u05e0\u05d9\u05dd \u05d5\u05e4\u05e8\u05e0\u05e1\u05d9\u05dd.</li>\n<li>\u05d9\u05d3\u05d5\u05ea\u05d5\u05df: \u05e8\u05d0\u05d5 \u05ea\u05d4\u05dc\u05d9\u05dd \u05dc\u05d8, \u05d0: '\u05dc\u05de\u05e0\u05e6\u05d7 \u05dc\u05d9\u05d3\u05d5\u05ea\u05d5\u05df \u05de\u05d6\u05de\u05d5\u05e8 \u05dc\u05d3\u05d5\u05d3\u05d9'. \u05d6\u05d4\u05d5 \u05db\u05d9\u05e0\u05d5\u05d9 \u05e9\u05d1\u05d7\u05e8 \u05dc\u05e2\u05e6\u05de\u05d5 \u05d4\u05e0\u05de\u05e2\u05df \u05e9\u05d4\u05d9\u05d4 \u05d7\u05d6\u05df \u05d5\u05d7\u05d5\u05d1\u05d1 \u05e9\u05d9\u05e8\u05d4, \u05db\u05de\u05e9\u05ea\u05de\u05e2 \u05de\u05e9\u05d5\u05e8\u05d5\u05ea 24-21 \u05dc\u05e2\u05d9\u05dc.</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
       ],
-      "schema:position": 3
+      "schema:position": 4
     }
   ]
 }

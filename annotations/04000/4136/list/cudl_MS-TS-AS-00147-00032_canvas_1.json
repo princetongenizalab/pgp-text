@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"76c12302d243641baf38ab00e22dfd87\"",
       "id": "https://geniza.princeton.edu/annotations/92079b39-d725-4188-9f7a-6b84b47da9ac/",
       "type": "Annotation",
       "created": "2022-10-07T00:50:26.314171+00:00",
       "modified": "2022-10-07T00:50:26.314190+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05d0\u05dc\u05de\u05d5\u05dc\u05d0 \u05e8 \u05e9\u05de\u05d7\u05d4 \u05e9\u05de \u05e6\u05d5 \u05d9\u05d3\u05e4\u05e2</li>\n<li>\u05dc\u05d7\u05d0\u05de\u05dc\u05d4\u05d0 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05d1\u05e2\u05d3 \u05d0\u05dc\u05e9\u05d3\u05d4</li>\n<li>\u05e1\u05e8\u05e2\u05d4 \u05e1\u05e8\u05e2\u05d4 \u05dc\u05d0\u05e0\u05e0\u05d9 \u05de\u05e1\u05ea[\u05e2\u05d2\u05dc</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/745/",
       "target": {
         "source": {
           "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-AS-00147-00032/canvas/1",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4136/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4136/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,7 +24,14 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/745/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05d0\u05dc\u05de\u05d5\u05dc\u05d0 \u05e8 \u05e9\u05de\u05d7\u05d4 \u05e9\u05de \u05e6\u05d5 \u05d9\u05d3\u05e4\u05e2</li>\n<li>\u05dc\u05d7\u05d0\u05de\u05dc\u05d4\u05d0 \u05d0\u05dc\u05e4\u05e8\u05d2 \u05d1\u05e2\u05d3 \u05d0\u05dc\u05e9\u05d3\u05d4</li>\n<li>\u05e1\u05e8\u05e2\u05d4 \u05e1\u05e8\u05e2\u05d4 \u05dc\u05d0\u05e0\u05e0\u05d9 \u05de\u05e1\u05ea[\u05e2\u05d2\u05dc</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"

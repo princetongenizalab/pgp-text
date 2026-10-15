@@ -4,25 +4,18 @@
   "@type": "sc:AnnotationList",
   "resources": [
     {
+      "etag": "\"cf11f085554b7d0293c95b44a2278820\"",
       "id": "https://geniza.princeton.edu/annotations/19e5a126-5546-4fd3-ade1-005b2483a6b0/",
       "type": "Annotation",
       "created": "2022-10-07T00:51:45.878771+00:00",
       "modified": "2022-10-07T00:51:45.878791+00:00",
-      "body": [
-        {
-          "type": "TextualBody",
-          "value": "<ol>\n<li>\u05e1\u05d1\u05d0\u05e2 \u05d1\u05df \u05d7\u05e1\u05df \u05d6\u05d5\u05d2 [[\u05d1\u05df \u05d0\u05da..]]</li>\n</ol>\n<p>\u05d1\u05e0\u05ea \u05d0\u05db\u05ea\u05d4</p>\n<ol>\n<li>\u05d0\u05de\u05e8\u05d0\u05d4 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05d9\u05df</li>\n</ol>",
-          "format": "text/html",
-          "TextInput": "rtl"
-        }
-      ],
+      "dc:source": "https://geniza.princeton.edu/sources/62/",
       "target": {
         "source": {
           "id": "https://figgy.princeton.edu/concern/scanned_resources/0a394edc-245f-4b63-9ebe-3e78836640e6/manifest/canvas/88f85505-caf6-49e7-8532-8a1cb059d995",
           "type": "Canvas",
           "partOf": {
-            "id": "https://geniza.princeton.edu/documents/4556/iiif/manifest/",
-            "type": "Manifest"
+            "id": "https://geniza.princeton.edu/documents/4556/iiif/manifest/"
           }
         },
         "selector": {
@@ -31,7 +24,14 @@
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
-      "dc:source": "https://geniza.princeton.edu/sources/62/",
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "<ol>\n<li>\u05e1\u05d1\u05d0\u05e2 \u05d1\u05df \u05d7\u05e1\u05df \u05d6\u05d5\u05d2 [[\u05d1\u05df \u05d0\u05da..]]</li>\n</ol>\n<p>\u05d1\u05e0\u05ea \u05d0\u05db\u05ea\u05d4</p>\n<ol>\n<li>\u05d0\u05de\u05e8\u05d0\u05d4 \u05d0\u05dc\u05e9\u05d9\u05da \u05d0\u05d1\u05d5 \u05d0\u05dc\u05d7\u05e1\u05d9\u05df</li>\n</ol>",
+          "format": "text/html",
+          "TextInput": "rtl"
+        }
+      ],
       "motivation": [
         "sc:supplementing",
         "transcribing"
