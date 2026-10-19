@@ -1,0 +1,77 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-J-00173%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F8742%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"c556e46020f2809efe51f2f5047a914b\"",
+      "id": "https://geniza.princeton.edu/annotations/e7d06ddc-f42e-4409-9ff3-a20f314daa2e/",
+      "type": "Annotation",
+      "created": "2026-10-19T11:46:40.259097+00:00",
+      "modified": "2026-10-19T11:46:40.259109+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1555/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00173/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8742/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:3102.74560546875,306.3222961425781,2831.72119140625,3663.312713623047",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, right",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    },
+    {
+      "etag": "\"d783f6759bde66044435ea30eabe98e9\"",
+      "id": "https://geniza.princeton.edu/annotations/b7091bad-c3a9-4879-91fd-53b6b5414a19/",
+      "type": "Annotation",
+      "created": "2026-10-19T11:46:47.254244+00:00",
+      "modified": "2026-10-19T11:46:47.254256+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1555/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-J-00173/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/8742/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:210.19769287109375,269.43658447265625,2824.5296020507812,3675.2084350585938",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto, left",
+          "value": "",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 2
+    }
+  ]
+}
