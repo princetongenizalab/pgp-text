@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-00010-J-00027-00008%2Fcanvas%2F2&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F7930%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"79e0b325639653ead9949f2b86743f2f\"",
+      "id": "https://geniza.princeton.edu/annotations/5b9cc5f7-e8d8-4b55-ba7e-7beebc6cc614/",
+      "type": "Annotation",
+      "created": "2026-11-02T18:28:10.499089+00:00",
+      "modified": "2026-11-02T18:28:23.760922+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1258/",
+      "target": {
+        "source": {
+          "id": "https://cudl.lib.cam.ac.uk/iiif/MS-TS-00010-J-00027-00008/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/7930/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:797.8792114257812,1106.0860595703125,4311.748718261719,406.9412841796875",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso address (two columns)",
+          "value": "<p>\u2026ryah, the honorable R. Bir\u2026shalom / Eliah vrzyds\u2026/ [Ger]shom the younger, son of R. Is[rael] May this letter be brought to the honorable man of holiness our teacher and master, Judah, head of the community and prince of the treasured nation / \u2026 son of the honorable man of holiness, our teacher and master, Sa\u2018adyah (may his soul be bound in the bond of life) \u05e2\u05e9\u05db\u05e9\u05e6\u05d1\u05e9</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
