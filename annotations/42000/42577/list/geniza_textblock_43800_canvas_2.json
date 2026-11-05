@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42577%2Fiiif%2Ftextblock%2F43800%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42577%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"24cb9f05f84b3714d7e21da0b2bf3cea\"",
+      "id": "https://geniza.princeton.edu/annotations/67c32a14-380b-42f6-b8b3-453d0667da5f/",
+      "type": "Annotation",
+      "created": "2026-11-05T15:00:13.752934+00:00",
+      "modified": "2026-11-05T15:00:13.752945+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1221/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/42577/iiif/textblock/43800/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42577/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:161.09727478027344,42.12357711791992,384.10865783691406,339.9467353820801",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Yevr.-Arab. I 328, folio 48v",
+          "value": "\n<ol><li>[......................................................................................]</li>\n<li>[......................................................................................]</li>\n<li>[......................................................................................]</li>\n<li>[......................................................................................]</li>\n<li>[......................................................................................]</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
