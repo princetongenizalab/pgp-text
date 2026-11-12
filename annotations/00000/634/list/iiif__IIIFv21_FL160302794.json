@@ -39,11 +39,11 @@
       "schema:position": 1
     },
     {
-      "etag": "\"fc1059ab8cfca36c4c82a5b8a6dbc1d7\"",
+      "etag": "\"fd334dc75926d23e92d5b9eec045f399\"",
       "id": "https://geniza.princeton.edu/annotations/e31b5740-d6c3-4937-b40c-ecd5b035d31b/",
       "type": "Annotation",
       "created": "2026-11-12T14:13:42.336303+00:00",
-      "modified": "2026-11-12T14:13:42.336312+00:00",
+      "modified": "2026-11-12T14:16:36.725264+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/16/",
       "target": {
         "source": {
@@ -55,7 +55,7 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=pixel:4148.6552734375,2188.13232421875,208.154296875,2272.9189453125",
+          "value": "xywh=pixel:4148.6552734375,1844.005615234375,191.16064453125,2617.045654296875",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
@@ -63,7 +63,7 @@
         {
           "type": "TextualBody",
           "label": "Verso, right margin",
-          "value": "\n<ol><li>\u05d5\u05e1\u05dc\u05de\u05d5\u05d4 \u05dc\u05dc\u05d7\u05db\u05dd \u05dc\u05d0\u05e0\u05d4</li></ol>\n",
+          "value": "\n\n<ol><li>\u05d5\u05d0\u05db\u05d9 \u05d5\u05d2\u05de\u05d9\u05e2</li>\n<li>\u05d0\u05e6\u05d7\u05d0\u05d1\u05e0\u05d0 \u05d9\u05db\u05e6\u05d5\u05da</li>\n<li>\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd</li></ol>\n\n\n<p>[[\u05d9\u05e7\u05e8\u05d0\u05da \u05d1\u05d0\u05dc\u05e1\u05dc\u05d0\u05dd]]</p>",
           "format": "text/html"
         }
       ],
@@ -72,6 +72,41 @@
         "transcribing"
       ],
       "schema:position": 2
+    },
+    {
+      "etag": "\"c4b5b41f9a63643941f01673d8cc4a39\"",
+      "id": "https://geniza.princeton.edu/annotations/cefada55-7507-4deb-a641-5f3e3847b801/",
+      "type": "Annotation",
+      "created": "2026-11-12T14:17:22.975802+00:00",
+      "modified": "2026-11-12T14:17:22.975808+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/16/",
+      "target": {
+        "source": {
+          "id": "https://iiif.nli.org.il/IIIFv21/FL160302794",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/634/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:351.2319641113281,5437.193359375,4014.122039794922,844.34912109375",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso, address",
+          "value": "\n<ol><li>\u05dc\u05e1\u05d9\u05d3\u05d9 \u05d5\u05e8\u05d9\u05e1\u05d9 \u05d0\u05d1\u05d9 \u05e1\u05e2\u05d9\u05d3 \u05de\u05db\u05dc\u05d5\u05e3 \u05d1\u05df \u05e2\u05d6\u05e8\u05d9\u05d4 \u05e0\u05e0 \u05de\u05df \u05d0\u05e1\u05d7\u05e7 \u05d1\u05df \u05d3\u05d0\u05d5\u05d3 \u05e0\u05e0 \u05d1\u05df \u05e1\u05d2\u05de\u05d0\u05e8</li>\n\n\n<li>\u05d1\u05df \u05de\u05d7\u05d0\u05db\u05dd(?) \u05e0\u05e0</li>\n<li>\u05d0\u05d8\u05d0\u05dc \u05d0\u05dc\u05dc\u05d4 \u05d1\u05e7\u05d0\u05d4 \u05d5\u05d0\u05d3\u05d0\u05dd \u05e1\u05dc\u05d0\u05de\u05ea\u05d4 \u05d5\u05e1\u05e2\u05d0\u05d3\u05ea\u05d4 \u05d9\u05e6\u05dc \u05d0\u05dc\u05d9 \u05d0\u05dc\u05e7\u05d3\u05e1 \u05d9\u05d1\u05e0\u05d4 \u05d1\u05de\u05d4\u05e8\u05d4</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 3
     }
   ]
 }
