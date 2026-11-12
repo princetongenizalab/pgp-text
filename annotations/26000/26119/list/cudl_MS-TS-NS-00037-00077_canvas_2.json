@@ -37,6 +37,41 @@
         "transcribing"
       ],
       "schema:position": 1
+    },
+    {
+      "etag": "\"bda1ff1cc8b0b1695d30e0e88c70e1dd\"",
+      "id": "https://geniza.princeton.edu/annotations/bc9723e1-b6ec-423c-8f9f-d8b5bb7b6f79/",
+      "type": "Annotation",
+      "created": "2026-11-12T10:35:09.099276+00:00",
+      "modified": "2026-11-12T10:35:09.099286+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1228/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00037-00077/canvas/2",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/26119/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:320.46771240234375,193.49566650390625,1831.4172973632812,1124.7848510742188",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Verso",
+          "value": "\n<ol><li>This letter should reach the presence of</li>\n<li>\nthe eminent shaykh [\n</li>\n<li>\nal-\u02bfAf\u1e63\u012b,\n</li>\n<li>\nfrom Fez to Mi\u1e63r,\n</li>\n<li>\nfrom one who is grateful to him and acknowledges [his favor].\n</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "translating"
+      ],
+      "schema:position": 1
     }
   ]
 }
