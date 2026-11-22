@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42618%2Fiiif%2Ftextblock%2F43847%2Fcanvas%2F1%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42618%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"0ad5b2dd992dea84beb5a0be76e06119\"",
+      "id": "https://geniza.princeton.edu/annotations/64dbb4cf-5749-404a-a86e-047fd172f7a0/",
+      "type": "Annotation",
+      "created": "2026-11-22T19:48:39.622615+00:00",
+      "modified": "2026-11-22T19:48:39.622623+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1221/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/42618/iiif/textblock/43847/canvas/1/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42618/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:179.64488220214844,58.95238494873047,471.35511779785156,318.04761505126953",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Yevr.-Arab. I 328, unnumbered folio (Document #153)",
+          "value": "<p>[.............................................................................................]</p>\n\n<ol><li>....\u05df \u05d5...\u05df [......................................................................</li>\n<li>\u05d1\u05d0\u05e0\u05d4 \u05e8\u05d0\u05e6\u05d9 \u05d5\u05e7\u05d0\u05d1\u05dc \u05e2\u05dc\u05d9\u05d4 \u05d2\u05de\u05d9\u05e2 \u05de\u05d0 \u05e0\u05e5 \u05d5\u05e9\u05e8\u05d7 \u05d0\u05e2\u05f3 ...[...........</li>\n<li>...............] \u05d0\u05dc.... \u05d0\u05dc.... ..\u05e6\u05e8 \u05de\u05df \u05d9\u05e6'\u05e2 \u05db\u05d8\u05d4 \u05e4\u05d9\u05d4 \u05d1\u05ea\u05d0\u05e8\u05d9\u05da</li></ol>\n\n<p>[.............................................................................................]</p>\n<p>[unnumbered folio - page torn]\u00a0</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
