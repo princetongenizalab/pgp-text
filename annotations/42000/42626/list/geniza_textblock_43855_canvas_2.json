@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42626%2Fiiif%2Ftextblock%2F43855%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42626%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"2733e842f048ee8765cc02f114829865\"",
+      "id": "https://geniza.princeton.edu/annotations/59c6d8ec-e12b-4e0a-b1e1-5389882ade20/",
+      "type": "Annotation",
+      "created": "2026-11-23T22:14:15.937484+00:00",
+      "modified": "2026-11-23T22:14:52.135729+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1221/",
+      "target": {
+        "source": {
+          "id": "https://geniza.princeton.edu/documents/42626/iiif/textblock/43855/canvas/2/",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42626/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:124.75141906738281,48.554656982421875,399.2485809326172,300.4453430175781",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Yevr.-Arab. I 328, folio 54r",
+          "value": "\n<ol><li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li>\n<li>[........................................................................................]</li></ol>\n\n<p>transcription in-progress</p>",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
