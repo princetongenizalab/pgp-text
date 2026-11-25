@@ -1,0 +1,42 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=http%3A%2F%2Fcudl.lib.cam.ac.uk%2Fiiif%2FMS-TS-NS-00086-00105%2Fcanvas%2F1&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F42698%2Fiiif%2Fmanifest%2F",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "etag": "\"efdc6f9a27da42ec8b2d311d57cafc57\"",
+      "id": "https://geniza.princeton.edu/annotations/5d564b27-3f27-49e3-9590-8c78fb8af81c/",
+      "type": "Annotation",
+      "created": "2026-11-25T18:25:48.235587+00:00",
+      "modified": "2026-11-25T18:25:48.235597+00:00",
+      "dc:source": "https://geniza.princeton.edu/sources/1221/",
+      "target": {
+        "source": {
+          "id": "http://cudl.lib.cam.ac.uk/iiif/MS-TS-NS-00086-00105/canvas/1",
+          "type": "Canvas",
+          "partOf": {
+            "id": "https://geniza.princeton.edu/documents/42698/iiif/manifest/"
+          }
+        },
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=pixel:223.74012756347656,442.9164123535156,1543.1680755615234,1253.0821228027344",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
+        }
+      },
+      "body": [
+        {
+          "type": "TextualBody",
+          "label": "Recto",
+          "value": "\n<ol><li>\u05de\u05d5\u05e9\u05d4&nbsp; &nbsp;\u05ea\u05e8\u05d9\u05d1\u05e1</li>\n<li>&nbsp; &nbsp; &nbsp; \u05e8\u05d8\u05dc</li>\n<li>&nbsp; &nbsp; &nbsp; \u0642\u062f\u0631(?)</li>\n<li>&nbsp; &nbsp; &nbsp; &nbsp;\u0663</li>\n<li>\u05e4\u05e7\u05d8 \u05ea\u05dc\u05d0\u05ea\u05d4</li>\n<li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\u05db\u05d5\u05dc\u05dc</li>\n<li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \u05de\u05e6\u05e8\u05d9\u05d9\u05dd&nbsp;</li></ol>\n",
+          "format": "text/html"
+        }
+      ],
+      "motivation": [
+        "sc:supplementing",
+        "transcribing"
+      ],
+      "schema:position": 1
+    }
+  ]
+}
