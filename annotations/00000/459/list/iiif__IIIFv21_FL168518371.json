@@ -1,18 +1,18 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F459%2Fiiif%2Ftextblock%2F1149%2Fcanvas%2F2%2F&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F459%2Fiiif%2Fmanifest%2F",
+  "@id": "https://geniza.princeton.edu/annotations/search/?uri=https%3A%2F%2Fiiif.nli.org.il%2FIIIFv21%2FFL168518371&manifest=https%3A%2F%2Fgeniza.princeton.edu%2Fdocuments%2F459%2Fiiif%2Fmanifest%2F",
   "@type": "sc:AnnotationList",
   "resources": [
     {
-      "etag": "\"cc1c6073d2fc6d4b6f066fe56f0912e5\"",
-      "id": "https://geniza.princeton.edu/annotations/bd8e87f5-b823-41cc-8711-31ef13c4e2eb/",
+      "etag": "\"4991fd31d54876046a1ce5e587f8172c\"",
+      "id": "https://geniza.princeton.edu/annotations/d1ceb9aa-1d06-410e-89d3-8ce889df0745/",
       "type": "Annotation",
-      "created": "2022-10-07T01:45:45.541611+00:00",
-      "modified": "2026-01-26T18:04:48.002123+00:00",
+      "created": "2026-11-28T16:24:29.739968+00:00",
+      "modified": "2026-11-28T16:24:29.739978+00:00",
       "dc:source": "https://geniza.princeton.edu/sources/753/",
       "target": {
         "source": {
-          "id": "https://geniza.princeton.edu/documents/459/iiif/textblock/1149/canvas/2/",
+          "id": "https://iiif.nli.org.il/IIIFv21/FL168518371",
           "type": "Canvas",
           "partOf": {
             "id": "https://geniza.princeton.edu/documents/459/iiif/manifest/"
@@ -20,17 +20,16 @@
         },
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=percent:1,1,98,98",
+          "value": "xywh=pixel:443.24102783203125,279.35516357421875,4230.124206542969,620.212158203125",
           "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       },
       "body": [
         {
           "type": "TextualBody",
-          "label": "verso",
+          "label": "Verso",
           "value": "<p>\u05e4\u05ea\u05d0\u05d5\u05d9 \u05d0\u05dc\u05d9 \u05e1\u05d9\u05d9\u05d3 \u05e2\u05e6\u05e8\u05d4 \u05d5\u05de\u05e2\u05d5\u05dc\u05d1 \u05e4\u05d9 \u05d2\u05d9\u05dc\u05d4 \u05e1\u05d9\u05d9\u05d3 \u05d0\u05dc\u05d0\u05de\u05d4 \u05d0\u05dc\u05e0\u05d2\u05d9\u05d3 \u05d9\u05e8\u05d5\u05dd \u05d4\u05d5\u05d3\u05d5</p>",
-          "format": "text/html",
-          "TextInput": "rtl"
+          "format": "text/html"
         }
       ],
       "motivation": [
